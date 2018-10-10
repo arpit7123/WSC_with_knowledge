@@ -1,5 +1,8 @@
 
 import json
+from allennlp.predictors.predictor import Predictor
+
+predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/decomposable-attention-elmo-2018.02.19.tar.gz")
 
 def get_ques_with_ans(word, qa_pairs):
     list_of_qas = []
@@ -79,10 +82,12 @@ def main():
     
     ws_qas_with_pronoun_in_ans = get_ques_with_ans(ws_pronoun,ws_qa_pairs)
     
-    print(dict_of_similar_ques)
-    print(dict_of_sim_ans)
-    print(ws_qas_with_pronoun_in_ans)
+#    print(dict_of_similar_ques)
+#    print(dict_of_sim_ans)
+#    print(ws_qas_with_pronoun_in_ans)
 
+    choice1_conf = 0
+    choice2_conf = 0
     for (ques,ans) in ws_qas_with_pronoun_in_ans:
         k_ques_list = dict_of_similar_ques[ques]
         k_ans_list = dict_of_sim_ans[ans]
@@ -103,9 +108,17 @@ def main():
         
         for k_ans in k_ans_list:
             print("Compare 1: ",k_ans," with ",new_ans1) 
+            comp1_score = predictor.predict(hypothesis=k_ans,premise=new_ans1)
             print("Compare 2: ",k_ans," with ",new_ans2)
+            comp2_score = predictor.predict(hypothesis=k_ans,premise=new_ans2)
+            
+            if comp1_score > comp2_score:
+                choice1_conf += 1
+            else:
+                choice2_conf += 1
    
-        
+    print("Choice 1: ",ws_choice1," Score: ",choice1_conf)
+    print("Choice 2: ",ws_choice2," Score: ",choice2_conf)    
         
 #    print(wsc_qa_pairs[0]["ques"])
 
