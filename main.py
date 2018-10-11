@@ -2,7 +2,7 @@
 import json
 from allennlp.predictors.predictor import Predictor
 
-predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/decomposable-attention-elmo-2018.02.19.tar.gz")
+predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
 
 def get_ques_with_ans(word, qa_pairs):
     list_of_qas = []
@@ -86,39 +86,63 @@ def main():
 #    print(dict_of_sim_ans)
 #    print(ws_qas_with_pronoun_in_ans)
 
-    choice1_conf = 0
+    list_of_avg_ent_scores_for_choice1 = []
+    list_of_avg_ent_scores_for_choice2 = []
     choice2_conf = 0
     for (ques,ans) in ws_qas_with_pronoun_in_ans:
         k_ques_list = dict_of_similar_ques[ques]
         k_ans_list = dict_of_sim_ans[ans]
-        
-        new_ans1 = ""
-        new_ans2 = ""
+        print(dict_of_sim_ans)
+                
         ans_tokens = ans.split(" ")
-        for ans_token in ans_tokens:
-            if ans_token==ws_pronoun:
-                new_ans1 += " " + ws_choice1
-                new_ans2 += " " + ws_choice2
-            else:
-                new_ans1 += " " + ans_token
-                new_ans2 += " " + ans_token
         
-        new_ans1 = new_ans1.strip()
-        new_ans2 = new_ans2.strip()
+        anss_wrt_choice1 = []
+        choice1s_in_know = dict_of_sim_ans[ws_choice1]
+        for know_choice in choice1s_in_know:
+            new_ans = ""
+            for ans_token in ans_tokens:
+                if ans_token==ws_pronoun:
+                    new_ans += " " + know_choice
+                else:
+                    new_ans += " " + ans_token
+            anss_wrt_choice1.append(new_ans.strip())
         
+        anss_wrt_choice2 = []
+        choice2s_in_know = dict_of_sim_ans[ws_choice2]
+        for know_choice in choice2s_in_know:
+            new_ans = ""
+            for ans_token in ans_tokens:
+                if ans_token==ws_pronoun:
+                    new_ans += " " + know_choice
+                else:
+                    new_ans += " " + ans_token
+            anss_wrt_choice2.append(new_ans.strip())
+        
+        choice1_ent_scores = []
+        choice2_ent_scores = []    
         for k_ans in k_ans_list:
-            print("Compare 1: ",k_ans," with ",new_ans1) 
-            comp1_score = predictor.predict(hypothesis=k_ans,premise=new_ans1)
-            print("Compare 2: ",k_ans," with ",new_ans2)
-            comp2_score = predictor.predict(hypothesis=k_ans,premise=new_ans2)
+            for ans_wrt_choice1 in anss_wrt_choice1:
+                print("Compare 1: ",k_ans," with ",ans_wrt_choice1) 
+                comp1_score = predictor.predict(hypothesis=k_ans,premise=ans_wrt_choice1)
+                comp1_ent_score = comp1_score["label_probs"][0]
+                choice1_ent_scores.append(comp1_ent_score)
+#                print("Entailment Score: ",comp1_ent_score)
+            for ans_wrt_choice2 in anss_wrt_choice2:
+                print("Compare 2: ",k_ans," with ",ans_wrt_choice2)
+                comp2_score = predictor.predict(hypothesis=k_ans,premise=ans_wrt_choice2)
+                comp2_ent_score = comp2_score["label_probs"][0]
+                choice2_ent_scores.append(comp2_ent_score)
+#            print("Entailment Score: ",comp1_ent_score)
             
-            if comp1_score > comp2_score:
-                choice1_conf += 1
-            else:
-                choice2_conf += 1
-   
-    print("Choice 1: ",ws_choice1," Score: ",choice1_conf)
-    print("Choice 2: ",ws_choice2," Score: ",choice2_conf)    
+        avg_ent_score_choice1 = sum(choice1_ent_scores) / float(len(choice1_ent_scores))
+        list_of_avg_ent_scores_for_choice1.append(avg_ent_score_choice1)
+        avg_ent_score_choice2 = sum(choice2_ent_scores) / float(len(choice2_ent_scores))
+        list_of_avg_ent_scores_for_choice2.append(avg_ent_score_choice2)
+    
+    avg_choice1_score = sum(list_of_avg_ent_scores_for_choice1) / float(len(list_of_avg_ent_scores_for_choice1))
+    avg_choice2_score = sum(list_of_avg_ent_scores_for_choice2) / float(len(list_of_avg_ent_scores_for_choice2))
+    print("Choice 1: ",ws_choice1,"Average Scores: ",list_of_avg_ent_scores_for_choice1,"Avg Score: ",avg_choice1_score)
+    print("Choice 2: ",ws_choice2,"Average Scores: ",list_of_avg_ent_scores_for_choice2,"Avg Score: ",avg_choice2_score)    
         
 #    print(wsc_qa_pairs[0]["ques"])
 
