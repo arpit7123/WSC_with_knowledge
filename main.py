@@ -32,9 +32,33 @@ def same_type(ques1, ques2):
     if ques1==ques2:
         return True
     else:
-        for ques_type_list in ques_type_lists:
-            if (ques1 in ques_type_list) and (ques2 in ques_type_list):
-                return True
+        if ques1[-1]=="?":
+            ques1_without_qm = ques1[0:-1]
+        else:
+            ques1_without_qm = ques1
+
+        if ques2[-1]=="?":
+            ques2_without_qm = ques2[0:-1]
+        else:
+            ques2_without_qm = ques2
+
+        ques1_tokens = ques1_without_qm.split(" ")
+        ques2_tokens = ques2_without_qm.split(" ")
+        tokens_matched = 0
+        for i in range(0,len(ques1_tokens)):
+            if ques1_tokens[i]==ques2_tokens[i]:
+                tokens_matched += 1
+            elif ques1_tokens[i]=="someone" and ques2_tokens[i]=="something":
+                tokens_matched += 1
+            elif ques1_tokens[i]=="something" and ques2_tokens[i]=="someone":
+                tokens_matched += 1
+        sim_score = tokens_matched/float(len(ques1_tokens))
+        
+        if sim_score > 0.8:
+            return True
+        #for ques_type_list in ques_type_lists:
+        #    if (ques1 in ques_type_list) and (ques2 in ques_type_list):
+        #        return True
     return False
 
 def get_words_similarity(word1,word2):
@@ -236,7 +260,7 @@ if __name__=="__main__":
 #    prob["know_sent"] = "We ate crabs because seafood is tasty."
     
     qasrl_output_dict = {}
-    qasrl_ws_sent_file = "qa_srl_ws_sents_out.json"
+    qasrl_ws_sent_file = "winograd_output.json"#"qa_srl_ws_sents_out.json"
     f = open(qasrl_ws_sent_file,"r")
     for line in f:
         json_obj = json.loads(line.rstrip())
@@ -245,28 +269,39 @@ if __name__=="__main__":
         sentence = " ".join(tokens)
         qasrl_output_dict[sentence] = json_obj
 
-    qasrl_know_sent_file = "qa_srl_know_sents_out.json"
+#    qasrl_know_sent_file = "qa_srl_know_sents_out.json"
+    qasrl_know_sent_file = "know_sents_and_qasrl_out.txt"
     f = open(qasrl_know_sent_file,"r")
     for line in f:
-        json_obj = json.loads(line.rstrip())
-        tokens = json_obj["words"]
-        sentence = " ".join(tokens)
+        sent_and_qasrl = line.rstrip().split("$$$$")
+        json_obj = json.loads(sent_and_qasrl[1])
+#        tokens = json_obj["words"]
+#        sentence = " ".join(tokens)
+        sentence = sent_and_qasrl[0]
         qasrl_output_dict[sentence] = json_obj
    
 #    print("QASRL_DICT= ", qasrl_output_dict)
      
+    know_not_parsed = 0
+    wssent_not_parsed = 0
     for i in range(0,len(probs)):
         prob = probs[i]
-        ws_sent_qasrl_pairs = qasrl_output_dict[prob["ws_sent"]]
-        know_sent_qasrl_pairs = qasrl_output_dict[prob["know_sent"]]
-        pronoun = prob["pronoun"]
+        if prob["ws_sent"] in qasrl_output_dict:
+            ws_sent_qasrl_pairs = qasrl_output_dict[prob["ws_sent"]]
+            if "know_sent" in prob and prob["know_sent"] in qasrl_output_dict:
+                know_sent_qasrl_pairs = qasrl_output_dict[prob["know_sent"]]
+                pronoun = prob["pronoun"]
         
-#        print("HERE")
-#        print(ws_sent_qasrl_pairs)
-        ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs,pronoun)
-        know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs,None)
-        print(ws_sent_qa_pairs)
-        print(know_sent_qa_pairs)
+                #ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs,pronoun)
+                #know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs,None)
+                #print(ws_sent_qa_pairs)
+                #print(know_sent_qa_pairs)
 
-        main(prob,ws_sent_qa_pairs,know_sent_qa_pairs)
-
+                #main(prob,ws_sent_qa_pairs,know_sent_qa_pairs)
+            else:
+                know_not_parsed+=1
+        else:
+            wssent_not_parsed+=1
+    
+    print(know_not_parsed)
+    print(wssent_not_parsed)

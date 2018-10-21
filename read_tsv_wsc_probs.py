@@ -63,6 +63,6 @@ if  __name__=="__main__":
             if "know_sent" in prob:
                 count+=1
         print(count)
-    
+   
     
     
