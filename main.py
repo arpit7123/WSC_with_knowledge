@@ -1,8 +1,13 @@
 
 import json
+from nltk.corpus import wordnet as wn
+from nltk.stem import WordNetLemmatizer
 from allennlp.predictors.predictor import Predictor
 
 predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
+wn_lemmatizer = WordNetLemmatizer()
+
+ques_type_lists = [["What V?"],["What was V?"]]
 
 def get_ques_with_ans(word, qa_pairs):
     list_of_qas = []
@@ -23,14 +28,38 @@ def generate_qa_dict(qa_pairs):
         ques_ans_dict[qa_pair["ques"]] = qa_pair["ans"]
     return ques_ans_dict
 
+def same_type(ques1, ques2):
+    if ques1==ques2:
+        return True
+    else:
+        for ques_type_list in ques_type_lists:
+            if (ques1 in ques_type_list) and (ques2 in ques_type_list):
+                return True
+    return False
+
+def get_words_similarity(word1,word2):
+    return wn.synsets(word1)[0].path_similarity(wn.synsets(word2)[0])
+
 def is_similar(ws_qa_pair,know_qa_pair):
     ws_ques = ws_qa_pair["ques"]
     ws_verb = ws_qa_pair["verb"]
     know_ques = know_qa_pair["ques"]
     know_verb = know_qa_pair["verb"]
     
-    if ws_ques==know_ques:
-        return 1.0
+#    print(ws_qa_pair,know_qa_pair)
+    if same_type(ws_ques,know_ques):
+        if ws_verb==know_verb:
+            return 1.0
+        else:
+#            print(ws_verb, know_verb)
+            verb_sim = get_words_similarity(ws_verb,know_verb)
+            if verb_sim is not None:
+                if verb_sim > 0.7:
+                    return 1.0
+                else:
+                    return 0.0
+            else:
+                return 0.0
     else:
         return 0.0
 '''   
@@ -61,25 +90,30 @@ def get_similar_ques(ws_qa_pairs, know_qa_pairs):
     return dict_of_similar_ques,dict_of_similar_ans
         
 
-def main():
-    ws_sent = "The fish ate the worm because it was tasty."
-    ws_pronoun = "it"
-    ws_ans = "worm"
-    ws_choice1 = "fish"
-    ws_choice2 = "worm"
-    know_sent = "We ate crabs because seafood is tasty."
+def main(problem,ws_qa_pairs,know_qa_pairs):
+    ws_sent = problem["ws_sent"]
+    ws_pronoun = problem["pronoun"]
+    ws_ans = problem["ans"]
+    ws_choice1 = problem["choice1"]
+    ws_choice2 = problem["choice2"]
+    know_sent = problem["know_sent"]
     
-    ws_qa_pairs_json = "[{\"ques\":\"What ate something\",\"ans\":\"fish\", \"verb\":\"eat\"},{\"ques\":\"What was eaten\",\"ans\":\"worm\", \"verb\":\"eat\"},{\"ques\":\"Why ate\",\"ans\":\"it was tasty\", \"verb\":\"eat\"}]"
-    know_qa_pairs_json = "[{\"ques\":\"What ate something\",\"ans\":\"we\", \"verb\":\"eat\"},{\"ques\":\"What was eaten\",\"ans\":\"crabs\", \"verb\":\"eat\"},{\"ques\":\"Why ate\",\"ans\":\"seafood is tasty\", \"verb\":\"eat\"}]"
+    #ws_qa_pairs = json.loads(ws_qa_pairs_json)
+    #know_qa_pairs = json.loads(know_qa_pairs_json)
     
-    ws_qa_pairs = json.loads(ws_qa_pairs_json)
-    know_qa_pairs = json.loads(know_qa_pairs_json)
-    
+    #print(ws_qa_pairs)
+    #print(know_qa_pairs)
     dict_of_similar_ques,dict_of_sim_ans = get_similar_ques(ws_qa_pairs,know_qa_pairs)
     
+    #print(dict_of_similar_ques)
+    #print(dict_of_sim_ans)
+
     ws_qa_dict = generate_qa_dict(ws_qa_pairs)
     know_qa_dict = generate_qa_dict(know_qa_pairs)
     
+    #print(ws_qa_dict)
+    #print(know_qa_dict)
+
     ws_qas_with_pronoun_in_ans = get_ques_with_ans(ws_pronoun,ws_qa_pairs)
     
 #    print(dict_of_similar_ques)
@@ -92,7 +126,7 @@ def main():
     for (ques,ans) in ws_qas_with_pronoun_in_ans:
         k_ques_list = dict_of_similar_ques[ques]
         k_ans_list = dict_of_sim_ans[ans]
-        print(dict_of_sim_ans)
+        #print(dict_of_sim_ans)
                 
         ans_tokens = ans.split(" ")
         
@@ -146,6 +180,93 @@ def main():
         
 #    print(wsc_qa_pairs[0]["ques"])
 
+def process_qasrl_output(qasrl_output, pronoun):
+    qa_pairs_array = []
+    json_obj = qasrl_output
+    sent_tokens = json_obj["words"]
+    verbs_objs = json_obj["verbs"]
+    for verbs_obj in verbs_objs:
+        verb = verbs_obj["verb"]
+        qa_pairs = verbs_obj["qa_pairs"]
+        for qa_pair in qa_pairs:
+            ques = qa_pair["question"]
+            
+            new_ques_tokens = []
+            ques_last_char = ques[-1]
+            if ques_last_char=="?":
+                ques = ques[0:-1] + " ?"
+            ques_tokens = ques.split(" ")
+            for ques_token in ques_tokens:
+                if ques_token==verb or ques_token==wn_lemmatizer.lemmatize(verb,pos='v'):
+                    new_ques_tokens.append("V")
+                else:
+                    new_ques_tokens.append(ques_token)
+            new_ques = " ".join(new_ques_tokens)
+            answers = qa_pair["spans"]
+            ans_is_pronoun = False
+            if pronoun is not None:
+                for ans in answers:
+                    ans_text = ans["text"]
+                    if ans_text==pronoun:
+                        ans_is_pronoun = True
+                        break
+            if ans_is_pronoun:
+                qa_pair = {'ques':new_ques, 'ans':pronoun, 'verb':verb}#wn_lemmatizer.lemmatize(verb, pos='v')}
+                qa_pairs_array.append(qa_pair)
+            else:
+                for ans in answers:
+                    qa_pair = {'ques':new_ques, 'ans':ans["text"], 'verb':verb}#wn_lemmatizer.lemmatize(verb, pos='v')}
+                    qa_pairs_array.append(qa_pair)
+
+    return qa_pairs_array
+
+
 
 if __name__=="__main__":
-    main()
+    all_probs_file = "wsc_problems_file.json"
+    f = open(all_probs_file,"r")
+    all_probs = f.read()    
+    probs = json.loads(all_probs)
+#    prob = {}
+#    prob["ws_sent"] = "The fish ate the worm because it was tasty."
+#    prob["pronoun"] = "they"
+#    prob["ans"] = "worm"
+#    prob["choice1"] = "fish"
+#    prob["choice2"] = "worm"
+#    prob["know_sent"] = "We ate crabs because seafood is tasty."
+    
+    qasrl_output_dict = {}
+    qasrl_ws_sent_file = "qa_srl_ws_sents_out.json"
+    f = open(qasrl_ws_sent_file,"r")
+    for line in f:
+        json_obj = json.loads(line.rstrip())
+#        print(json_obj)
+        tokens = json_obj["words"]
+        sentence = " ".join(tokens)
+        qasrl_output_dict[sentence] = json_obj
+
+    qasrl_know_sent_file = "qa_srl_know_sents_out.json"
+    f = open(qasrl_know_sent_file,"r")
+    for line in f:
+        json_obj = json.loads(line.rstrip())
+        tokens = json_obj["words"]
+        sentence = " ".join(tokens)
+        qasrl_output_dict[sentence] = json_obj
+   
+#    print("QASRL_DICT= ", qasrl_output_dict)
+     
+    for i in range(0,len(probs)):
+        prob = probs[i]
+        ws_sent_qasrl_pairs = qasrl_output_dict[prob["ws_sent"]]
+        know_sent_qasrl_pairs = qasrl_output_dict[prob["know_sent"]]
+        pronoun = prob["pronoun"]
+        
+#        print("HERE")
+#        print(ws_sent_qasrl_pairs)
+        ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs,pronoun)
+        know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs,None)
+        print(ws_sent_qa_pairs)
+        print(know_sent_qa_pairs)
+
+        main(prob,ws_sent_qa_pairs,know_sent_qa_pairs)
+

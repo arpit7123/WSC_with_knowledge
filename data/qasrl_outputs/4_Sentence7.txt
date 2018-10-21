@@ -1,0 +1,1 @@
+{"words": ["The", "chemical", "structure", "of", "the", "buried", "sediment", "and", "plants", "changes", "."], "verbs": [{"verb": "buried", "qa_pairs": [{"question": "What is buried?", "spans": [{"start": 6, "end": 6, "text": "sediment"}, {"start": 6, "end": 8, "text": "sediment and plants"}]}], "index": 5}]}

@@ -1,0 +1,25 @@
+observedAt("die","what V ?","plants",1).
+observedAt("happen","what V ?","more chemical changes",0).
+observedAt("happen","what V ?","chemical changes",0).
+observedAt("bury","what is V ?","material",0).
+observedAt("become","what V something ?","the buried material",0).
+observedAt("become","what V something ?","buried material",0).
+observedAt("become","what does something V ?","oil",0).
+observedAt("bury","what is V ?","they",2).
+observedAt("bury","where is something V ?","in sediment",2).
+observedAt("bury","what is something V in ?","sediment",2).
+observedAt("bury","what is V ?","bacteria",3).
+observedAt("bury","where is something V ?","in the sediment",3).
+observedAt("bury","what is something V in ?","the sediment",3).
+observedAt("pile","what V ?","large amounts of sediment",4).
+observedAt("pile","how does something V ?","gradually",4).
+observedAt("pile","where does something V ?","on top of the original sediment",4).
+observedAt("pile","what does something V on ?","top of the original sediment",4).
+observedAt("build","what V up ?","pressure",5).
+observedAt("bury","what is V ?","sediment",7).
+observedAt("bury","what is V ?","sediment and plants",7).
+observedAt("be","what V somewhere ?","the sediment and plants",8).
+observedAt("be","where does something V ?","at least one mile underground",8).
+observedAt("bury","what is V ?","area",9).
+observedAt("be","what V something ?","the buried area",9).
+observedAt("be","what does something V ?","extremely hot",9).
