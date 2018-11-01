@@ -2,9 +2,9 @@ import re
 import json
 from nltk.corpus import wordnet as wn
 from nltk.stem import WordNetLemmatizer
-#from allennlp.predictors.predictor import Predictor
+from allennlp.predictors.predictor import Predictor
 
-#predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
+predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
 wn_lemmatizer = WordNetLemmatizer()
 
 #ques_type_lists = [["What V?"],["What was V?"],["Who V someone something ?","Who V to do something ?"]]
@@ -12,6 +12,11 @@ wn_lemmatizer = WordNetLemmatizer()
 all_ques = set()
 aux_verbs_list = ["does","was","am","is","did","are","were","have","has","had","be"]
 sim_verbs_lists = [["rushed","zoomed"],["upset","frustrated"],["made","gotten"],["fell","fall"],["protect","guard"],["beat","defeated"],["appeared","emerged"],["stop","prevent"],["conveys","showing"],["respond","answer"],["offered","gave"],["passed","gave"],["lifting","carried"],["ached","hurting"],["pass","gave"]]
+
+i_pronouns = ["i","me","mine","myself","my"]
+he_pronouns = ["he","his","him","himself"]
+she_pronouns = ["she","her","herself"]
+you_pronouns = ["you","yourself","your"]
 
 def populate_ques_type_list():
     global ques_type_lists
@@ -193,9 +198,9 @@ def get_similar_ques(ws_qa_pairs, know_qa_pairs):
             dict_of_similar_ans[(ws_qa_pair["ans"],ws_qa_pair["verb"])] = ans_set
         
     return dict_of_similar_ques,dict_of_similar_ans
-        
 
 def main(problem,ws_qa_pairs,know_qa_pairs):
+    
     #print(ws_qa_pairs)
     #print(know_qa_pairs)
 
@@ -263,21 +268,252 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
             if ws_choice2.lower() in ans1_tokens or ws_choice2 in ans1_tokens:
                 choice2_set_of_sim_ans = choice2_set_of_sim_ans | dict_of_sim_ans[(ans1,verb1)]
     
-    # There are 8 possibilities based on the questions/answers found in the knowledge sentence corresponding to the questions/answers wrt answer choice 1, answer choice2 and the concerned pronoun in the WSC sentence.
+    # There are 8 possibilities based on the questions/answers found in the knowledge sentence corresponding to the questions/answers wrt answer choice 1 (q1), answer choice2 (q2) and the concerned pronoun (q3) in the WSC sentence.
+    # If q1=F, q2=F, q3=F
+    # Something will be done in case any such problem found
+
+    choice1_ent_scores = [0.0]
+    choice1_contr_scores = [0.0]
+    choice2_ent_scores = [0.0]
+    choice2_contr_scores = [0.0]
+    for (ques,ans,verb) in ws_qas_with_pronoun_in_ans:
+        k_ques_list = dict_of_similar_ques[(ques,verb)]
+        if (ans,verb) in dict_of_sim_ans.keys():
+            k_ans_list = dict_of_sim_ans[(ans,verb)]
+        elif (ans.lower(),verb) in dict_of_sim_ans.keys():
+            k_ans_list = dict_of_sim_ans[(ans.lower(),verb)]
+        else:
+            k_ans_list = []
+
+        if len(k_ans_list)==0:
+            # If q1=F, q2=F, q3=F
+            if len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)==0:
+                print("Type: q1=F, q2=F, q3=F")
+                print("NOT doing anything")
+
+            # If q1=F, q2=F, q3=F
+            if len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)>0:
+                print("Type: q1=T, q2=T, q3=F")
+                print("NOT doing anything")
+                '''
+                for (ch1_know_ans,verb1) in choice1_set_of_sim_ans:
+                    print("COMPARE: ",ans," --WITH-- ",ch1_know_ans)
+                    score = predictor.predict(hypothesis=ans,premise=ch1_know_ans)
+                    ent_score = score["label_probs"][0]
+                    cntr_score = score["label_probs"][1]
+                    choice1_ent_scores.append(ent_score)
+                    choice1_contr_scores.append(cntr_score)
+
+                for (ch2_know_ans,verb1) in choice2_set_of_sim_ans:
+                    print("COMPARE: ",ans," --WITH-- ",ch2_know_ans)
+                    score = predictor.predict(hypothesis=ans,premise=ch2_know_ans)
+                    ent_score = score["label_probs"][0]
+                    cntr_score = score["label_probs"][1]
+                    choice2_ent_scores.append(ent_score)
+                    choice2_contr_scores.append(cntr_score)
+                '''
+            elif len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)>0:
+                print("Type: q1=F, q2=T, q3=F")
+                #replace each occurrence of the concerned pronoun with answer choice 2 in WS sentence and 
+                sent_tokens = ws_sent.split(" ")
+                sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
+                new_sent = " ".join(sent_tokens)
+                
+                know_sent_tokens = know_sent.split(" ")
+                know_sent_tokens = [i_pronouns[0] if token.lower() in i_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [he_pronouns[0] if token.lower() in he_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [she_pronouns[0] if token.lower() in she_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
+
+                for (choice2_sim_ans,choice2_sim_verb) in choice2_set_of_sim_ans:
+                    know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]                 
+                    know_sent = " ".join(know_sent_tokens)
+                    print("COMPARE: ",new_sent," --WITH-- ",know_sent)
+                    score = predictor.predict(hypothesis=new_sent,premise=know_sent)
+                    ent_score = score["label_probs"][0]
+                    cntr_score = score["label_probs"][1]
+                    choice2_ent_scores.append(ent_score)
+                    choice2_contr_scores.append(cntr_score)
+
+            elif len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)==0:
+                print("Type: q1=T, q2=F, q3=F")
+                #replace each occurrence of the concerned pronoun with answer choice 1 in WS sentence and 
+                sent_tokens = ws_sent.split(" ")
+                sent_tokens = [ws_choice1 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
+                new_sent = " ".join(sent_tokens)
+
+                know_sent_tokens = know_sent.split(" ")
+                know_sent_tokens = [i_pronouns[0] if token.lower() in i_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [he_pronouns[0] if token.lower() in he_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [she_pronouns[0] if token.lower() in she_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
+                
+                for (choice1_sim_ans,choice1_sim_verb) in choice1_set_of_sim_ans:
+                    know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
+                    know_sent = " ".join(know_sent_tokens)
+                    print("COMPARE: ",new_sent," --WITH-- ",know_sent)
+                    score = predictor.predict(hypothesis=new_sent,premise=know_sent)
+                    ent_score = score["label_probs"][0]
+                    cntr_score = score["label_probs"][1]
+                    choice1_ent_scores.append(ent_score)
+                    choice1_contr_scores.append(cntr_score)
+
+        else:
+            #print("q3=T")
+            if len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)>0:
+                print("Type: q1=F, q2=T, q3=T")
+                #replace each occurrence of the concerned pronoun with answer choice 2 in WS sentence and 
+                sent_tokens = ws_sent.split(" ")
+                sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
+                new_sent = " ".join(sent_tokens)
+
+                know_sent_tokens = know_sent.split(" ")
+                know_sent_tokens = [i_pronouns[0] if token.lower() in i_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [he_pronouns[0] if token.lower() in he_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [she_pronouns[0] if token.lower() in she_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
+                
+                for (choice2_sim_ans,choice2_sim_verb) in choice2_set_of_sim_ans:
+                    know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
+                    know_sent = " ".join(know_sent_tokens)
+                    print("COMPARE: ",new_sent," --WITH-- ",know_sent)
+                    score = predictor.predict(hypothesis=new_sent,premise=know_sent)
+                    ent_score = score["label_probs"][0]
+                    cntr_score = score["label_probs"][1]
+                    choice2_ent_scores.append(ent_score)
+                    choice2_contr_scores.append(cntr_score)
+
+            elif len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)==0:
+                print("Type: q1=T, q2=F, q3=T")
+                #replace each occurrence of the concerned pronoun with answer choice 1 in WS sentence and 
+                sent_tokens = ws_sent.split(" ")
+                sent_tokens = [ws_choice1 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
+                new_sent = " ".join(sent_tokens)
+                
+                know_sent_tokens = know_sent.split(" ")
+                know_sent_tokens = [i_pronouns[0] if token.lower() in i_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [he_pronouns[0] if token.lower() in he_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [she_pronouns[0] if token.lower() in she_pronouns else token for token in know_sent_tokens]
+                know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
+                
+                for (choice1_sim_ans,choice1_sim_verb) in choice1_set_of_sim_ans:
+                    know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
+                    know_sent = " ".join(know_sent_tokens)
+                    print("COMPARE: ",new_sent," --WITH-- ",know_sent)
+                    score = predictor.predict(hypothesis=new_sent,premise=know_sent)
+                    ent_score = score["label_probs"][0]
+                    cntr_score = score["label_probs"][1]
+                    choice1_ent_scores.append(ent_score)
+                    choice1_contr_scores.append(cntr_score)
+
+            elif len(choice1_set_of_sim_ans)>0 and len(choice2_set_of_sim_ans)>0:
+                ans_tokens = ans.split(" ")
+                anss_wrt_choice1 = []
+                for (know_choice,verb2) in choice1_set_of_sim_ans:
+                    new_ans = ""
+                    for ans_token in ans_tokens:
+                        if ans_token==ws_pronoun:
+                            new_ans += " " + know_choice
+                        else:
+                            new_ans += " " + ans_token
+                    anss_wrt_choice1.append(new_ans.strip())
+
+                anss_wrt_choice2 = []
+                for (know_choice,verb2) in choice2_set_of_sim_ans:
+                    if know_choice == "":
+                        continue
+                    new_ans = ""
+                    for ans_token in ans_tokens:
+                        if ans_token==ws_pronoun:
+                            new_ans += " " + know_choice
+                        else:
+                            new_ans += " " + ans_token
+                    anss_wrt_choice2.append(new_ans.strip())
+
+
+                choice1_ent_scores = []
+                choice2_ent_scores = []
+        #        print("K ANSWERS",k_ans_list)
+                for (k_ans,k_verb) in k_ans_list:
+                    if k_ans=="":
+                        continue
+                    for ans_wrt_choice1 in anss_wrt_choice1:
+                        #choice1_comps.append("Compare: "+k_ans+" WITH "+ans_wrt_choice1)
+                        print("Compare 1: ",k_ans," WITH ",ans_wrt_choice1)
+                        score = predictor.predict(hypothesis=k_ans,premise=ans_wrt_choice1)
+                        ent_score = score["label_probs"][0]
+                        cntr_score = score["label_probs"][1]
+                        choice1_ent_scores.append(ent_score)
+                        choice1_contr_scores.append(cntr_score)
+                    for ans_wrt_choice2 in anss_wrt_choice2:
+                        #choice2_comps.append("Compare: "+k_ans+" WITH "+ans_wrt_choice2)
+                        print("Compare 2: ",k_ans," WITH ",ans_wrt_choice2)
+                        score = predictor.predict(hypothesis=k_ans,premise=ans_wrt_choice2)
+                        ent_score = score["label_probs"][0]
+                        cntr_score = score["label_probs"][1]
+                        choice2_ent_scores.append(ent_score)
+                        choice2_contr_scores.append(cntr_score)
+
+    #print("CHOICE1 SCORES: ",choice1_ent_scores)
+    #print("CHOICE2 SCORES: ",choice2_ent_scores)
+    choice1_max_ent = max(choice1_ent_scores)
+    choice2_max_ent = max(choice2_ent_scores)
+    choice1_max_contr = 0.0#max(choice1_contr_scores)
+    choice2_max_contr = 0.0#max(choice2_contr_scores)
+        
+    if (choice1_max_ent-choice1_max_contr) > (choice2_max_ent-choice2_max_contr):
+        if ans_is_choice1:
+            choice1_count+=1
     
+    if (choice1_max_ent-choice1_max_contr) < (choice2_max_ent-choice2_max_contr):
+        if not ans_is_choice1:
+            choice2_count+=1
+
     
+    #if len(choice1_ent_scores) == 0 and len(choice2_ent_scores) != 0:
+    #    if not ans_is_choice1:
+    #        choice2_count+=1
+    #    print("Answer is choice2")
+
+    #if len(choice1_ent_scores) != 0 and len(choice2_ent_scores) == 0:
+    #    if ans_is_choice1:
+    #        choice1_count+=1
+    #    print("Answer is choice1")
+
+    if len(choice1_ent_scores)==0  and len(choice2_ent_scores)==0:
+        for (ques,ans,verb) in ws_qas_with_pronoun_in_ans:
+            #print(ans)
+            if (ans,verb) in dict_of_sim_ans.keys():
+                know_ans = dict_of_sim_ans[(ans,verb)]
+            else:
+                know_ans = []
+            for (k_a,k_v) in know_ans:
+                for (a,v) in dict_of_sim_ans.keys():
+                    aas = dict_of_sim_ans[(a,v)]
+                    for (a1,v1) in aas:
+                        if a1==k_a and ans!=a:
+                            if a.lower()==ws_choice1.lower():
+                                choice1_count += 1
+                            elif a.lower()==ws_choice2.lower():
+                                choice2_count += 1
+
+        #        avg_ent_score_choice1 = sum(choice1_ent_scores) / (float(len(choice1_ent_scores))+1)
+        #        list_of_avg_ent_scores_for_choice1.append(avg_ent_score_choice1)
+        #        avg_ent_score_choice2 = sum(choice2_ent_scores) / (float(len(choice2_ent_scores))+1)
+        #        list_of_avg_ent_scores_for_choice2.append(avg_ent_score_choice2)
+
+
+#***************************************************************************************************************************************************
+            
+    '''
+    # If q1=F, q2=F, q3=T
+    # If q1=T, q2=T, q3=T
+
     list_of_avg_ent_scores_for_choice1 = []
     list_of_avg_ent_scores_for_choice2 = []
     choice1_comps = []
     choice2_comps = []
     for (ques,ans,verb) in ws_qas_with_pronoun_in_ans:
-        #if ans.strip() == ws_pronoun:
-#            print("THIS ISSUE FACED")
-        #    continue
-        #if one_word_pronoun_ans_exists:
-        #    if ans!=ws_pronoun and ans.lower()!=ws_pronoun:
-        #        continue
-
         #print(ques,ans,verb)
         k_ques_list = dict_of_similar_ques[(ques,verb)] 
         if (ans,verb) in dict_of_sim_ans.keys():
@@ -388,6 +624,7 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
 #        list_of_avg_ent_scores_for_choice1.append(avg_ent_score_choice1)
 #        avg_ent_score_choice2 = sum(choice2_ent_scores) / (float(len(choice2_ent_scores))+1)
 #        list_of_avg_ent_scores_for_choice2.append(avg_ent_score_choice2)
+
     if len(choice1_comps)==0 and len(choice2_comps)!=0:
         if not ans_is_choice1:
             choice2_count+=1
@@ -418,6 +655,7 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                                 choice1_count += 1
                             elif a.lower()==ws_choice2.lower():
                                 choice2_count += 1
+    '''
     result = "unknown"
     if ans_is_choice1:
         if choice1_count > choice2_count:
@@ -435,8 +673,8 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
 #    print("Choice 2: ",ws_choice2,"Average Scores: ",list_of_avg_ent_scores_for_choice2,"Avg Score: ",avg_choice2_score)    
         
 #    print(wsc_qa_pairs[0]["ques"])
-    print("ANS CHOICE IS 1: ",ans_is_choice1)
-    print("RESULT: ",result)
+    #print("ANS CHOICE IS 1: ",ans_is_choice1)
+    #print("RESULT: ",result)
     return result
 
 def process_qasrl_output(qasrl_output, pronoun):
