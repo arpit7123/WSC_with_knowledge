@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="WSExample.xsl"?>
+
+<collection>
+
+
+<schema>
+<text>
+<txt1>
+The city councilmen refused the demonstrators a permit because</txt1>
+<pron> they </pron>
+<txt2> feared violence. 
+</txt2>
+</text>
+<quote>
+<quote1></quote1>
+<pron>they </pron>
+<quote2>feared violence</quote2>
+</quote>
+<answers>
+<answer>The city councilmen </answer>
+<answer>The demonstrators </answer>
+</answers>
+<correctAnswer> A  </correctAnswer>
+<source> (Winograd 1972) </source>
+</schema>
+
+</collection>

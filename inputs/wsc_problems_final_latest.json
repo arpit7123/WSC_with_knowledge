@@ -1,0 +1,407 @@
+[{'ans': 'John',
+  'choice1': 'John',
+  'choice2': 'Billy',
+  'know_sent': 'He wanted to see who Jesus was, but because he was short he '
+               'could not see over the crowd.\n',
+  'know_url': 'NA',
+  'pronoun': 'he',
+  'search_query': 'NA',
+  'ws_sent': 'John could not see the stage with Billy in front of him because '
+             'he is so short .'},
+ {'ans': 'Ray',
+  'choice1': 'Tom',
+  'choice2': 'Ray',
+  'know_sent': 'She releases the ball when her hand reaches the bottom of the '
+               'path.\n',
+  'know_url': 'NA',
+  'pronoun': 'he',
+  'search_query': 'NA',
+  'ws_sent': 'Tom threw his schoolbag down to Ray after he reached the bottom '
+             'of the stairs .'},
+ {'ans': "Sam's drawing",
+  'choice1': "Sam's drawing",
+  'choice2': "Tina's",
+  'know_sent': 'When hanging a picture above a piece of furniture that is 32, '
+               'there should be approx. 3-8 from the top of your furniture '
+               'piece and the bottom of your picture\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': "Sam's drawing was hung just above Tina's and it did look much "
+             'better with another one below it .'},
+ {'ans': "Tina's",
+  'choice1': "Sam's drawing",
+  'choice2': "Tina's",
+  'know_sent': 'Yes, hanging art over a door or window is perfectly '
+               'acceptable. As a matter of fact, I love it.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': "Sam's drawing was hung just above Tina's and it did look much "
+             'better with another one above it .'},
+ {'ans': 'The police',
+  'choice1': 'The firemen',
+  'choice2': 'The police',
+  'know_sent': 'My teachers know that I arrive late sometimes. They do not '
+               'punish me because they know I live far away, he said.\n',
+  'know_url': 'NA',
+  'pronoun': 'they',
+  'search_query': 'NA',
+  'ws_sent': 'The firemen arrived before the police because they were coming '
+             'from so far away .'},
+ {'ans': 'The bag of flour',
+  'choice1': 'The sack of potatoes',
+  'choice2': 'The bag of flour',
+  'know_sent': 'A stack is a limited access data structure - elements can be '
+               'added and removed from the stack only at the top. push adds an '
+               'item to the top of the stack, pop removes the item from the '
+               'top. A helpful analogy is to think of a stack of books; you '
+               'can remove only the top book, also you can add a new book on '
+               'the top.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'The sack of potatoes had been placed below the bag of flour , so '
+             'it had to be moved first .'},
+ {'ans': 'The concert',
+  'choice1': 'The concert',
+  'choice2': 'The rain',
+  'know_sent': 'Then in middle of June, I started coughing and it continued '
+               'for 3 weeks\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'In the middle of the outdoor concert , the rain started falling '
+             ', but it continued until 10 .'},
+ {'ans': 'Mary',
+  'choice1': 'Ann',
+  'choice2': 'Mary',
+  'know_sent': 'The Crowd And Yhuu Should Hav Asked For Her Number I Doubt She '
+               'Would Have Forgotten Yhur Name Or Who Yhuu Are In That Little '
+               'Time.\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'Ann asked Mary what time the library closes , but she had '
+             'forgotten .'},
+ {'ans': 'The shelf',
+  'choice1': 'The pot',
+  'choice2': 'The shelf',
+  'know_sent': "I couldn't put a top on it because it was SO ridiculously "
+               'tall\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'I could not put the pot on the shelf because it was too high .'},
+ {'ans': 'The map',
+  'choice1': 'The map',
+  'choice2': 'The building',
+  'know_sent': 'Google corrects its map after it shows a Senate office '
+               'building\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'I am sure that my map will show this building ; it is very good '
+             '.'},
+ {'ans': 'The building',
+  'choice1': 'The map',
+  'choice2': 'The building',
+  'know_sent': "there is a famous description of a 'paradise'. It is shown by "
+               'a paradisiacal situation on earth.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'I am sure that my map will show this building ; it is very '
+             'famous .'},
+ {'ans': 'daughter',
+  'choice1': 'Alice',
+  'choice2': 'daughter',
+  'know_sent': 'She saw Carmen yelling at the kids, acting strangely.\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'Alice tried frantically to stop her daughter from barking at the '
+             'party , leaving us to wonder why she was behaving so strangely '
+             '.'},
+ {'ans': 'The roof',
+  'choice1': 'The tree',
+  'choice2': 'The roof',
+  'know_sent': 'iPhone owners had their software crashed and they need to dial '
+               'a helpline to fix it.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'In the storm , the tree fell down and crashed through the roof '
+             'of my house . Now , I have to get it repaired .'},
+ {'ans': 'The lake',
+  'choice1': 'The path',
+  'choice2': 'The lake',
+  'know_sent': 'Because crowds of panicking people blocked the road to the '
+               'guesthouse, we tried an alternative road.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'The path to the lake was blocked , so we could not reach it  .'},
+ {'ans': 'The ocean beach',
+  'choice1': 'The lake',
+  'choice2': 'The ocean beach',
+  'know_sent': 'you can effectively see or seen when driving at night. It also '
+               'makes your vehicle unsafe for driving in the dark.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'We went to the lake , because a shark had been seen at the ocean '
+             'beach , so it was a dangerous place to swim .'},
+ {'ans': 'Mary',
+  'choice1': 'Mary',
+  'choice2': 'daughter',
+  'know_sent': 'We loved using swaddle blankets because it helped our children '
+               'sleep better because they were tucked in\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'Mary tucked her daughter Anne into bed , so that she could work '
+             '.'},
+ {'ans': 'His eyes',
+  'choice1': 'His eyes',
+  'choice2': 'His hands',
+  'know_sent': 'you can either do a Surprise Blow to prevent the blowee from '
+               'defensively closing their eye just before you do the deed, or '
+               'you can do the real surgical technique, where you get them to '
+               'lie down, hold their eye\n',
+  'know_url': 'NA',
+  'pronoun': 'them',
+  'search_query': 'NA',
+  'ws_sent': 'Fred covered his eyes with his hands , because the wind was '
+             'blowing sand around . He opened them when the wind stopped .'},
+ {'ans': 'His hands',
+  'choice1': 'His eyes',
+  'choice2': 'His hands',
+  'know_sent': 'the turret could be lifted or lowered according to the '
+               'needs.\n',
+  'know_url': 'NA',
+  'pronoun': 'them',
+  'search_query': 'NA',
+  'ws_sent': 'Fred covered his eyes with his hands , because the wind was '
+             'blowing sand around . He lowered them when the wind stopped .'},
+ {'ans': 'The stars',
+  'choice1': 'The journalists',
+  'choice2': 'The stars',
+  'know_sent': 'it would last relatively longer, even if the cooperation has '
+               'been received\n',
+  'know_url': 'NA',
+  'pronoun': 'They',
+  'search_query': 'NA',
+  'ws_sent': 'The journalists interviewed the stars of the new movie . They '
+             'were very cooperative , so the interview lasted for a long time '
+             '.'},
+ {'ans': 'The opponents',
+  'choice1': 'The sponsors',
+  'choice2': 'The opponents',
+  'know_sent': 'a large burgundy room that was full of paintings by French '
+               'artists. The majority of them were dark with minimal elements '
+               'of bright light in the work.\n',
+  'know_url': 'NA',
+  'pronoun': 'They',
+  'search_query': 'NA',
+  'ws_sent': 'When the sponsors of the bill got to the town hall , they were '
+             'surprised to find that the room was full of opponents . They '
+             'were very much in the majority .'},
+ {'ans': 'The pen',
+  'choice1': 'The pen',
+  'choice2': 'The coffee',
+  'know_sent': 'Hot coffee is stirred with a spoon, the spoon gets hot\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'I could not find a spoon , so I tried using a pen to stir my '
+             'coffee . But that turned out to be a bad idea , because it got '
+             'full of coffee .'},
+ {'ans': 'The coffee',
+  'choice1': 'The pen',
+  'choice2': 'The coffee',
+  'know_sent': 'Stir Fry with Lemon Sauce recipe is full of amazing flavor\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'I could not find a spoon , so I tried using a pen to stir my '
+             'coffee . But that turned out to be a bad idea , because it got '
+             'full of ink .'},
+ {'ans': 'Steve',
+  'choice1': 'Steve',
+  'choice2': 'Fred',
+  'know_sent': 'Authors Influencing Others to Follow\n',
+  'know_url': 'NA',
+  'pronoun': 'him',
+  'search_query': 'NA',
+  'ws_sent': "Steve follows Fred's example in everything . He influences him "
+             'hugely .'},
+ {'ans': 'The sweater',
+  'choice1': 'The sweater',
+  'choice2': 'The jacket',
+  'know_sent': 'You can take an outfit that would look frumpy with a long '
+               'cardigan, swap it for a boyfriend blazer, and instantly look '
+               'effortlessly cool\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'Grace was happy to trade me her sweater for my jacket . She '
+             'thinks it looks dowdy on her .'},
+ {'ans': 'The jacket',
+  'choice1': 'The sweater',
+  'choice2': 'The jacket',
+  'know_sent': 'Good friend traded his 13 GTI for 18 R. Wheels/front end looks '
+               'better in person.\n',
+  'know_url': 'NA',
+  'pronoun': 'it',
+  'search_query': 'NA',
+  'ws_sent': 'Grace was happy to trade me her sweater for my jacket . She '
+             'thinks it looks great on her .'},
+ {'ans': 'Bill',
+  'choice1': 'John',
+  'choice2': 'Bill',
+  'know_sent': 'A primary caregiver is the person who takes primary '
+               'responsibility for someone.\n',
+  'know_url': 'NA',
+  'pronoun': 'him',
+  'search_query': 'NA',
+  'ws_sent': 'John hired himself out to Bill to take care of him  .'},
+ {'ans': 'John',
+  'choice1': 'John',
+  'choice2': 'Bill',
+  'know_sent': 'I promised the local draft board to go right into the army, so '
+               'I graduated and went right in.\n',
+  'know_url': 'NA',
+  'pronoun': 'he',
+  'search_query': 'NA',
+  'ws_sent': 'John promised Bill to leave , so an hour later he left .'},
+ {'ans': 'Bill',
+  'choice1': 'John',
+  'choice2': 'Bill',
+  'know_sent': 'They ordered him to pay up so he did\n',
+  'know_url': 'NA',
+  'pronoun': 'he',
+  'search_query': 'NA',
+  'ws_sent': 'John ordered Bill to leave , so an hour later he left .'},
+ {'ans': 'Emma',
+  'choice1': 'Emma',
+  'choice2': "Emma's mother",
+  'know_sent': 'Emma is motherless and has been educated by Miss Taylor, her '
+               'governess of 16 years\n',
+  'know_url': 'NA',
+  'pronoun': 'her',
+  'search_query': 'NA',
+  'ws_sent': "Emma's mother had died long ago , and her education had been "
+             'managed by an excellent woman as governess .'},
+ {'ans': 'Dan',
+  'choice1': 'Dan',
+  'choice2': 'Bill',
+  'know_sent': 'Not calling dibs before your siblings so you got stuck in the '
+               "rear-facing seats of your parent's station wagon.\n",
+  'know_url': 'NA',
+  'pronoun': 'his',
+  'search_query': 'NA',
+  'ws_sent': 'Dan took the rear seat while Bill claimed the front because his '
+             'Dibs was slow .'},
+ {'ans': 'Bill',
+  'choice1': 'Dan',
+  'choice2': 'Bill',
+  'know_sent': "We've told you which cars to call front-seat dibs to avoid "
+               'being stuck in the backseat with leg cramps and neck spasms. '
+               'It only seems appropriate to fill you in on which cars allow '
+               'you to relax and enjoy a comfortable ride in the backseat and '
+               'let the friend who called shotgun play road-trip navigator '
+               'while you chill out and enjoy the scenery.\n',
+  'know_url': 'NA',
+  'pronoun': 'his',
+  'search_query': 'NA',
+  'ws_sent': 'Dan took the rear seat while Bill claimed the front because his '
+             'Dibs was quicker .'},
+ {'ans': 'Andrea',
+  'choice1': 'Andrea',
+  'choice2': 'Susan',
+  'know_sent': 'I was looking down from an airplane window and seeing this '
+               'huge landscape and these geological features, and [wondering '
+               'about] the landscape I was flying over\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'As Andrea in the crop duster passed over Susan , she could see '
+             'the landing strip .'},
+ {'ans': 'Susan',
+  'choice1': 'Andrea',
+  'choice2': 'Susan',
+  'know_sent': 'Hurricane Rosa could dump 2 to 3 inches of rain on Phoenix. '
+               'Phoenix could see rain from Hurricane Rosa.\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'As Andrea in the crop duster passed over Susan , she could see '
+             'the landing gear .'},
+ {'ans': 'Bill',
+  'choice1': 'Bill',
+  'choice2': 'John',
+  'know_sent': 'On the first day of class, my student gave me an apple\n',
+  'know_url': 'NA',
+  'pronoun': 'his',
+  'search_query': 'NA',
+  'ws_sent': 'Bill passed the gameboy to John because his turn was over .'},
+ {'ans': 'Tommy',
+  'choice1': 'Tommy',
+  'choice2': 'Timmy',
+  'know_sent': 'Mikey gave her the most sympathetic look he could muster then '
+               'pushed her hair back.\n',
+  'know_url': 'NA',
+  'pronoun': 'him',
+  'search_query': 'NA',
+  'ws_sent': 'When Tommy dropped his ice cream , Timmy giggled , so father '
+             'gave him a sympathetic look .'},
+ {'ans': 'Timmy',
+  'choice1': 'Tommy',
+  'choice2': 'Timmy',
+  'know_sent': 'So when I heard her laughing, I was very angry and I mocked '
+               'her laugh.\n',
+  'know_url': 'NA',
+  'pronoun': 'him',
+  'search_query': 'NA',
+  'ws_sent': 'When Tommy dropped his ice cream , Timmy giggled , so father '
+             'gave him a stern look .'},
+ {'ans': 'Eric',
+  'choice1': 'George',
+  'choice2': 'Eric',
+  'know_sent': 'US beverage maker Coca-Cola is giving free tickets to those '
+               'willing to view the ultimate football prize\n',
+  'know_url': 'NA',
+  'pronoun': 'he',
+  'search_query': 'NA',
+  'ws_sent': 'George got free tickets to the play , but he gave them to Eric , '
+             'because he was particularly eager to see it .'},
+ {'ans': 'George',
+  'choice1': 'George',
+  'choice2': 'Eric',
+  'know_sent': 'Eighteenth-century leaders were extremely anxious to show '
+               'their disinterest; a number of them gave away their fortune  '
+               'and bankrupted themselves.\n',
+  'know_url': 'NA',
+  'pronoun': 'he',
+  'search_query': 'NA',
+  'ws_sent': 'George got free tickets to the play , but he gave them to Eric , '
+             'because he was not particularly eager to see it .'},
+ {'ans': 'Emma',
+  'choice1': 'Emma',
+  'choice2': 'Janie',
+  'know_sent': 'he does not pass the ball even though a teammate is open\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'Emma did not pass the ball to Janie although she saw that she '
+             'was open .'},
+ {'ans': 'Janie',
+  'choice1': 'Emma',
+  'choice2': 'Janie',
+  'know_sent': "Dion Waiters is wide open but LeBron James won't pass the "
+               'ball.\n',
+  'know_url': 'NA',
+  'pronoun': 'she',
+  'search_query': 'NA',
+  'ws_sent': 'Emma did not pass the ball to Janie although she was open .'}]

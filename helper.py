@@ -1,5 +1,7 @@
 import re
 import json
+import ast
+from pprint import pprint 
 
 def process1(text):
     text = text.replace("."," .")
@@ -37,7 +39,7 @@ def process1(text):
     re.sub('\s+', ' ', text).strip()
     return text
 
-if __name__=="__main__":
+if __name__=="__main1__":
     all_probs_file = "wsc_problems_file.json"
     f = open(all_probs_file,"r")
     all_probs = f.read()
@@ -77,4 +79,31 @@ if __name__=="__main__":
         json.dump(all_probs, outfile)
 
 
+if __name__=="__main__":
+    all_probs_file = "./inputs/wsc_problems_final.json"
+    f = open(all_probs_file,"r")
+    all_probs = f.read()
+    probs = ast.literal_eval(all_probs)        
+    
+    all_probs_dict = {}
+    for prob in probs:
+        all_probs_dict[prob["ws_sent"]] = prob
 
+    
+    all_probs_final = []
+    tsv_file = "./inputs/newer_wsc_probs.tsv"
+    f = open(tsv_file,'r')
+    for line in f:
+        sents = line.split("\t")
+        ws_sent = sents[0]
+        know_sent = sents[1]
+        if ws_sent in all_probs_dict.keys():
+            prob = all_probs_dict[ws_sent]
+            prob["know_sent"] = know_sent
+            all_probs_final.append(prob)
+
+    with open('./inputs/wsc_problems_final_latest.json', 'wt') as out:
+        pprint(all_probs_final, stream=out)
+
+
+    
