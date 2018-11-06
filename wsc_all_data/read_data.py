@@ -5,10 +5,42 @@ from pprint import pprint
 import ast
 import json
 
-#[{"ws_sent": "The city councilmen refused the demonstrators a permit because they feared violence .", "pronoun": "they", "ans": "The city councilmen", "choice1": "The city councilmen", "choice2": "The demonstrators", "know_sent": "He also refused to give his full name because he feared for his safety .", "search_query": "Bing:[refused]&&[because]&&[feared]", "know_url": "http://www.calvaryroadbaptist.church/sermons/00-05/sermon__fear_god.htm"}]
+def process1(text):
+    #text = text.replace("."," .")
+    #text = text.replace(","," ,")
+    #text = text.replace(";"," ;")
+    #text = text.replace("\"Dibs!\"","Dibs")
+    #text = text.replace("\"Check\"","\" Check \"")
+    #text = text.replace("20 ,000","20,000")
+    #text = text.replace("couldn't","could n't")
+    #text = text.replace("didn't","did n't")
+    #text = text.replace("doesn't","does n't")
+    #text = text.replace("wasn't","was n't")
+    #text = text.replace("can't","ca n't")
+    #text = text.replace("don't","do n't")
+    #text = text.replace("hadn't","had n't")
+    #text = text.replace("won't","wo n't")
+    #text = text.replace("wouldn't","would n't")
+    text = text.replace("Sam's","Sam 's")
+    text = text.replace("Tina's","Tina 's")
+    text = text.replace("Ann's","Ann 's")
+    text = text.replace("Joe's","Joe 's")
+    text = text.replace("Charlie's","Charlie 's")
+    text = text.replace("Cooper's","Cooper 's")
+    text = text.replace("Yakutsk's","Yakutsk 's")
+    text = text.replace("he's","he 's")
+    text = text.replace("Fred's","Fred 's")
+    text = text.replace("Goodman's","Goodman 's")
+    text = text.replace("Emma's","Emma 's")
+    text = text.replace("Susan's","Susan 's")
+    text = text.replace("Pam's","Pam 's")
+    text = text.replace("Mark's","Mark 's")
+    text = text.replace("Amy's","Amy 's")
+    text = text.replace("Paul's","Paul 's")
+    text = text.replace("I'm","I 'm")
+    re.sub( '\s+', ' ', text ).strip()
+    return text
 
-
-#valid_pos_tags_list = ["JJ","JJR","JJS","NN","NNS","NNPS","RB","RBR","RBS","VB","VBD","VBG","VBN","VBP","VBZ"] 
 
 def process(text):
     if text[-1]!=".":
@@ -49,7 +81,7 @@ def process(text):
     return text
 
 
-def main(xml_file_path):
+def read_wscxml_file(xml_file_path):
     list_of_wsc_probs = []
     
     all_comparisons = set()
@@ -100,62 +132,85 @@ def main(xml_file_path):
         list_of_wsc_probs.append(prob)
 
     return list_of_wsc_probs            
-            
 
+def update_wsc_probs_json(tsv_probs_file, wsc_probs_file, output_wsc_probs_file):
+    wsc_probs_dict = {}
+    f1 = open(tsv_probs_file,'r')
+    for line in f1:
+        parts = line.split("\t")
+        ws_sent = parts[0]
+        know_sent = parts[1]
+        know_url = parts[2]
+        search_query = parts[3]
+        tmp_dict = {}
+        tmp_dict["ws_sent"] = ws_sent
+        tmp_dict["know_sent"] = know_sent
+        tmp_dict["know_url"] = know_url
+        tmp_dict["search_query"] = search_query
+        wsc_probs_dict[ws_sent] = tmp_dict
+
+    f2 = open(wsc_probs_file,'r')
+    all_probs_data = f2.read()
+    all_wsc_probs = ast.literal_eval(all_probs_data)
+    for wsc_prob in all_wsc_probs:
+        if wsc_prob["ws_sent"] in wsc_probs_dict.keys():
+            tmp_dict = wsc_probs_dict[wsc_prob["ws_sent"]]
+            wsc_prob["know_sent"] = tmp_dict["know_sent"]
+            wsc_prob["know_url"] = tmp_dict["know_url"]
+            wsc_prob["search_query"] = tmp_dict["search_query"]
+
+    with open(output_wsc_probs_file, 'wt') as out:
+        pprint(all_wsc_probs, stream=out)
+
+def combine_sent_qasrl(sents_file,qasrl_file,sent_and_qasrl_file):
+    sents = []
+    f1 = open(sents_file,'r')
+    for line in f1:
+        sents.append(line)
+    
+    qasrls = []
+    f2 = open(qasrl_file,'r')
+    for line in f2:
+        qasrls.append(line)
+
+    with open(sent_and_qasrl_file, 'a') as the_file:
+        for i in range(0,len(sents)):
+            the_file.write(sents[i].rstrip()+"$$$$"+qa_srls[i].rstrip()+"\n")
+
+def check_probs_without_know_sent(wsc_probs_file):
+    f2 = open(wsc_probs_file,'r')
+    all_probs_data = f2.read()
+    all_wsc_probs = ast.literal_eval(all_probs_data)
+    count=0
+    for wsc_prob in all_wsc_probs:
+        if wsc_prob["know_sent"]=="NA":
+            count += 1
+    print(count)
 
 if __name__=="__main__":
     #xml_data_file_path = "./WSCollection.xml"
-    #wsc_data = main(xml_data_file_path)
+    #wsc_data = read_wscxml_file(xml_data_file_path)
     #with open('wsc_problems.json', 'wt') as out:
     #    pprint(wsc_data, stream=out)
 
-#    all_sents_old = set()
-    #count = 0
-    #total = 0
-    sent_prob_dict = {}
-    with open('../inputs/wsc_problems_final.json','r') as f1:
-        wsc_probs = f1.read()
-        wsc_probs_list = ast.literal_eval(wsc_probs)#json.loads(wsc_probs)
-        for item in wsc_probs_list:
-            #total+=1
-            know_sent = item["know_sent"]
-            if know_sent == "NA":
-                print(item["ws_sent"])
-                #count+=1
-            #sent = item["ws_sent"]
-            #sent_prob_dict[sent] = item
+    #tsv_probs_file = "newer_wsc_probs_1.tsv"
+    #wsc_probs_json_file = "../inputs/wsc_problems_final.json"
+    output_wsc_probs_file = "wsc_problems_final.json"
+    #update_wsc_probs_json(tsv_probs_file, wsc_probs_json_file, output_wsc_probs_file)
     
-    #print("COUNT: ",count)
-    #print("TOTAL: ",total)
-    '''
-    all_probs =[]
-    with open('wsc_problems_processed.json','r') as f:
-        data = f.read()
-        data_list = ast.literal_eval(data)
-        for item in data_list:
-            if item["ws_sent"] in sent_prob_dict.keys():
-                new_item = sent_prob_dict[item["ws_sent"]]
-                if "know_sent" not in new_item.keys():
-                    new_item["know_sent"] = "NA"
-                if "know_url" not in new_item.keys():
-                    new_item["know_url"] = "NA"
-                if "search_query" not in new_item.keys():
-                    new_item["search_query"] = "NA"
-
-                all_probs.append(new_item)
-            else:
-                item["know_sent"] = "NA"
-                item["know_url"] = "NA"
-                item["search_query"] = "NA"
-                all_probs.append(item)
-        with open('wsc_problems_final.json', 'wt') as out:
-            pprint(all_probs, stream=out)
-
-            
-    #for sent in all_sents_new:
-    #    if sent not in all_sents_old:
-    #        print(sent)
+    check_probs_without_know_sent(output_wsc_probs_file)
     
     '''
+    know_sents_file = ""
+    know_qasrl_file = ""
+    know_sents_and_qasrl_file = ""
+    combine_sent_qasrl(know_sents_file,know_qasrl_file,know_sents_and_qasrl_file)
+
+    ws_sents_file = ""
+    ws_qasrl_file = ""
+    ws_sents_and_qasrl_file = ""
+    combine_sent_qasrl(ws_sents_file,ws_qasrl_file,ws_sents_and_qasrl_file)
+    '''
+
 
 
