@@ -28,9 +28,9 @@
   'search_query': 'Bing: "large"&&"not fit in"',
   'ws_sent': 'The trophy does not fit into the brown suitcase because it is '
              'too large .'},
- {'ans': 'the suitcase',
+ {'ans': 'the brown suitcase',
   'choice1': 'the trophy',
-  'choice2': 'the suitcase',
+  'choice2': 'the brown suitcase',
   'know_sent': 'PSU Will Not Fit into Case (too small)',
   'know_url': 'http://www.tomshardware.com/forum/343118-28-case-small',
   'pronoun': 'it',

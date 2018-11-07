@@ -6,8 +6,8 @@ from nltk.stem import WordNetLemmatizer
 from allennlp.predictors.predictor import Predictor
 from allennlp.models.archival import load_archive
 
-use_predictor = False
-verbose_output = False
+use_predictor = True
+verbose_output = True
 
 class PretrainedModel:
     """
@@ -705,15 +705,14 @@ def process_qasrl_output(qasrl_output, pronoun):
 if __name__=="__main__":
     populate_ques_type_list()
     
-    #all_probs_file = "test_inputs/test_problems_file.json"
-    all_probs_file = "inputs/wsc_problems_final.json"
+    all_probs_file = "inputs/test_problems_file.json"
+    #all_probs_file = "inputs/wsc_problems_final.json"
     f = open(all_probs_file,"r")
     all_probs = f.read()    
     probs = ast.literal_eval(all_probs)#json.loads(all_probs)
     
     qasrl_output_dict = {}
     qasrl_ws_sent_file = "inputs/ws_sents_and_qasrl_out.txt"
-    #qasrl_ws_sent_file = "ws_sents_and_qasrl_out.txt"
     f = open(qasrl_ws_sent_file,"r")
     for line in f:
         sent_and_qasrl = line.rstrip().strip().split("$$$$")
@@ -722,7 +721,6 @@ if __name__=="__main__":
         qasrl_output_dict[sentence] = json_obj
 
     qasrl_know_sent_file = "inputs/know_sents_and_qasrl_out.txt"
-    #qasrl_know_sent_file = "know_sents_and_qasrl_out.txt"
     f = open(qasrl_know_sent_file,"r")
     for line in f:
         line = line.strip()

@@ -1,1 +1,10 @@
-[{"ws_sent": "The lawyer asked the witness a question , but he was reluctant to repeat it .", "pronoun": "he", "ans": "the lawyer", "choice1": "the lawyer", "choice2": "the witness", "know_sent": "Someone once asked me a strange question . But I am reluctant to repeat it \u2014 at the risk of", "search_query": "NA", "know_url": "NA"}]
+[ {'ans': 'the brown suitcase',
+  'choice1': 'the trophy',
+  'choice2': 'the brown suitcase',
+  'know_sent': 'PSU Will Not Fit into Case (too small)',
+  'know_url': 'http://www.tomshardware.com/forum/343118-28-case-small',
+  'pronoun': 'it',
+  'search_query': 'Google: " * small * not fit into *"',
+  'ws_sent': 'The trophy does not fit into the brown suitcase because it is '
+             'too small .'}
+]
