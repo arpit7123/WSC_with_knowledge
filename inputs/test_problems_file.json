@@ -1,10 +1,10 @@
-[ {'ans': 'the brown suitcase',
-  'choice1': 'the trophy',
-  'choice2': 'the brown suitcase',
-  'know_sent': 'PSU Will Not Fit into Case (too small)',
-  'know_url': 'http://www.tomshardware.com/forum/343118-28-case-small',
-  'pronoun': 'it',
-  'search_query': 'Google: " * small * not fit into *"',
-  'ws_sent': 'The trophy does not fit into the brown suitcase because it is '
-             'too small .'}
-]
+[ {'ans': 'Shatov',
+  'choice1': 'Kirilov',
+  'choice2': 'Shatov',
+  'know_sent': "The remnants have been ceded to London's Deliveroo , a pretty "
+               'popular and conventional restaurant meal delivery service .',
+  'know_url': 'https://www.forbes.com/sites/clarkwolf/2017/05/08/david-changs-delivery-service-maple-closes-up-shop/#7113c59f7414',
+  'pronoun': 'he',
+  'search_query': 'Google: " * ceded to * popular * "',
+  'ws_sent': 'Kirilov ceded the presidency to Shatov because he was more '
+             'popular .'}]

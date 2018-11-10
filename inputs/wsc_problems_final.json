@@ -80,8 +80,7 @@
  {'ans': 'the lawyer',
   'choice1': 'the lawyer',
   'choice2': 'the witness',
-  'know_sent': 'Someone once asked me a strange question . But I am reluctant '
-               'to repeat it — at the risk of',
+  'know_sent': 'Williams was reluctant to repeat what she had said to the official',
   'know_url': 'NA',
   'pronoun': 'he',
   'search_query': 'NA',
@@ -144,13 +143,13 @@
   'pronoun': 'he',
   'search_query': 'NA',
   'ws_sent': 'The man could not lift his son because he was so weak .'},
- {'ans': 'The son',
+ {'ans': 'his son',
   'choice1': 'The man',
-  'choice2': 'The son',
-  'know_sent': 'Could God create a rock so heavy He could not lift it?',
-  'know_url': 'https://www.gotquestions.org/God-rock-heavy-lift.html',
+  'choice2': 'his son',
+  'know_sent': 'Many people came to her to carry her away to bury her, and they could not lift her because she was so heavy.',
+  'know_url': 'NA',
   'pronoun': 'he',
-  'search_query': 'Google: ".*heavy.*not lift.*"',
+  'search_query': 'NA',
   'ws_sent': 'The man could not lift his son because he was so heavy .'},
  {'ans': 'The large ball',
   'choice1': 'The large ball',
@@ -374,10 +373,7 @@
  {'ans': 'Pete',
   'choice1': 'Pete',
   'choice2': 'Martin',
-  'know_sent': 'Aaron envies Ryan because Ryan is a successful author , while '
-               'he has not yet had his novel published , and resents his '
-               'brother because Ryan would rather spend money on a first class '
-               'airline ticket than help him pay for the funeral expenses .',
+  'know_sent': 'Azin is a successful lawyer but sometimes envies her older brother.',
   'know_url': 'http://www.rhymezone.com/r/rhyme.cgi?loc=ol_ue&typeofrhyme=wke&Word=envies',
   'pronoun': 'he',
   'search_query': 'Google: ".*envies.*because.*successful.*"',
@@ -425,12 +421,10 @@
  {'ans': 'the cup',
   'choice1': 'the bottle',
   'choice2': 'the cup',
-  'know_sent': 'If you poured water into a toilet until it was mostly full , '
-               'but not completely full , and then you flushed the toilet , '
-               'what would happen?',
-  'know_url': 'https://www.quora.com/If-you-poured-water-into-a-toilet-until-it-was-mostly-full-but-not-completely-full-and-then-you-flushed-the-toilet-what-would-happen',
+  'know_sent': 'gallons of facts poured into them until they were full to the brim.',
+  'know_url': 'NA',
   'pronoun': 'it',
-  'search_query': 'Google: ".*poured.*into.*until.*full.*"',
+  'search_query': 'NA',
   'ws_sent': 'I poured water from the bottle into the cup until it was full .'},
  {'ans': 'Susan',
   'choice1': 'Susan',
@@ -485,10 +479,10 @@
  {'ans': 'Ann',
   'choice1': 'Susan',
   'choice2': 'Ann',
-  'know_sent': 'You knew about this pain , because we told you .',
-  'know_url': 'NA',
+  'know_sent': 'It\'s true I knew about her research because she told me.',
+  'know_url': 'https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=elementary&episode=s06e10',
   'pronoun': 'she',
-  'search_query': 'NA',
+  'search_query': '" * knew about her * because * told *"',
   'ws_sent': "Susan knew that Ann's son had been in a car accident , because "
              'she told her about it .'},
  {'ans': 'Joe',
@@ -676,12 +670,10 @@
  {'ans': 'Ann',
   'choice1': 'Ann',
   'choice2': 'Mary',
-  'know_sent': 'I asked an invoice for the stay because I forgot to ask when I '
-               'check out and since then (2 weeks now) , nobody answers my '
-               'emails .',
-  'know_url': 'https://www.booking.com/reviews/gb/hotel/britannia-manchester/review/c3c4892f910d87bf.html',
+  'know_sent': 'I asked her because I forgot.',
+  'know_url': 'https://the-higher-truth.tumblr.com/',
   'pronoun': 'she',
-  'search_query': 'Google: ".*asked.*because.*forgot.*"',
+  'search_query': '" * asked * because * forgot * "',
   'ws_sent': 'Ann asked Mary what time the library closes , because she had '
              'forgotten .'},
  {'ans': 'Mary',
@@ -708,8 +700,7 @@
  {'ans': 'The backpack',
   'choice1': 'The water bottle',
   'choice2': 'The backpack',
-  'know_sent': 'Since the oil has been taken out of it ,it is lighter by '
-               'weight and will have',
+  'know_sent': 'The focus motor has been taken out of the bodies to make them lighter and obviously cheaper.',
   'know_url': 'NA',
   'pronoun': 'it',
   'search_query': 'NA',
@@ -787,11 +778,10 @@
  {'ans': 'Charlie',
   'choice1': 'Bob',
   'choice2': 'Charlie',
-  'know_sent': 'Be thankful for the things you get , and the ones you already '
-               'have .',
-  'know_url': 'https://theowlflight.org/1996/extras/10-things-to-be-thankful-for-over-the-holidays/',
+  'know_sent': 'Paul also paid for that ungrateful sob and con artist Gary.',
+  'know_url': 'NA',
   'pronoun': 'He',
-  'search_query': 'Google: " * thankful for * things you get*  "',
+  'search_query': 'NA',
   'ws_sent': "Bob paid for Charlie's college education , but now Charlie acts "
              'as though it never happened . He is very ungrateful .'},
  {'ans': 'Bob',
@@ -1049,9 +1039,9 @@
   'search_query': 'Google: " * stab * and * arrested * "',
   'ws_sent': 'The customer walked into the bank and stabbed one of the tellers '
              '. He was immediately taken to the police station .'},
- {'ans': 'The teller',
+ {'ans': 'one of the tellers',
   'choice1': 'The customer',
-  'choice2': 'The teller',
+  'choice2': 'one of the tellers',
   'know_sent': 'Brown , of the 300 block of West 95th Street , was stabbed in '
                'his stomach and taken to Advocate Christ Medical Center where '
                'he died .',
@@ -1549,11 +1539,11 @@
  {'ans': 'The chickens',
   'choice1': 'The foxes',
   'choice2': 'The chickens',
-  'know_sent': "When you're being attacked , you have a right to protect "
-               'yourself',
-  'know_url': 'https://www.enca.com/media/video/malema-when-youre-being-attacked-you-have-a-right-to-protect-yourself',
+  'know_sent': 'The Angels Of Death have attacked The Homebrew Cafe. '
+               'The players have to protect the Cafe by killing all of the Angels Of Death members.',
+  'know_url': 'https://gtaforums.com/topic/465343-gta-blood-on-the-hillside/',
   'pronoun': 'them',
-  'search_query': 'Google: " * attacked * have to protect * "',
+  'search_query': '" * attacked * have to protect * "',
   'ws_sent': 'The foxes are getting in at night and attacking the chickens . I '
              'shall have to guard them  .'},
  {'ans': 'The foxes',
@@ -1568,13 +1558,12 @@
  {'ans': 'The chickens',
   'choice1': 'The foxes',
   'choice2': 'The chickens',
-  'know_sent': 'You are so right , I never heard the German Shepherd that '
-               'attacked and bit me . Since then I am so afraid to walk '
-               'anywhere I might encounter a dog off leash or on those stupid '
-               'leases .',
-  'know_url': 'https://notesfromadogwalker.com/2012/01/04/off-leash-dogs/',
+  'know_sent': 'Ms Dews, who lives in Saltburn-by-the-Sea, said Max was nervous '
+               'of other dogs after being attacked during a walk but she said '
+               'he’d never shown any signs of aggression.',
+  'know_url': 'NA',
   'pronoun': 'They',
-  'search_query': 'Google: " attacked * then * afraid * "',
+  'search_query': 'NA',
   'ws_sent': 'The foxes are getting in at night and attacking the chickens . '
              'They have gotten very nervous .'},
  {'ans': 'His eyes',
@@ -1777,11 +1766,10 @@
  {'ans': 'The fish',
   'choice1': 'The scientists',
   'choice2': 'The fish',
-  'know_sent': "Mehdi Benatia's November 2015 payslip emerged online after "
-               'police found it',
-  'know_url': 'https://lockerdome.com/geniusfootball/mehdi-benatia-s-november-2015-payslip-emerged-online-after-police-found-it-bild',
+  'know_sent': 'The manuscript that surfaced in Verona was found before Gutenberg\'s useful invention',
+  'know_url': 'NA',
   'pronoun': 'They',
-  'search_query': 'Google: " * emerged * found * "',
+  'search_query': 'NA',
   'ws_sent': 'The scientists are studying three species of fish that have '
              'recently been found living in the Indian Ocean . They appeared '
              'two years ago .'},
@@ -1819,11 +1807,11 @@
  {'ans': 'The gang members',
   'choice1': 'The police',
   'choice2': 'The gang members',
-  'know_sent': 'He was arrested for drug trafficking because he planned to '
-               'sell the drugs',
-  'know_url': 'http://www.phnompenhpost.com/national/drug-mule-14-arrested',
+  'know_sent': 'Police have arrested a man they say was running a drug-dealing '
+               'operation and found to be in possession of a stolen firearm.',
+  'know_url': 'NA',
   'pronoun': 'They',
-  'search_query': 'Google: ".*arrested.*because.*sell drugs.*"',
+  'search_query': 'NA',
   'ws_sent': 'The police arrested all of the gang members . They were trying '
              'to run the drug trade in the neighborhood .'},
  {'ans': 'The cake',
@@ -1972,17 +1960,16 @@
  {'ans': 'Fred',
   'choice1': 'Steve',
   'choice2': 'Fred',
-  'know_sent': 'I follow you because I admire your spirit of openness and '
-               'acceptance .',
-  'know_url': 'https://www.facebook.com/FrankSomervilleKTVU/posts/10209868631251184',
+  'know_sent': 'I have followed and admired Amanda Krauss and her blog for awhile.',
+  'know_url': 'NA',
   'pronoun': 'him',
-  'search_query': 'Google: ".*follow.*because.*admire.*"',
+  'search_query': 'NA',
   'ws_sent': "Steve follows Fred's example in everything . He admires him "
              'hugely .'},
  {'ans': 'Steve',
   'choice1': 'Steve',
   'choice2': 'Fred',
-  'know_sent': 'Authors Influencing Others to Follow\n',
+  'know_sent': 'We sacrifice and obey the order because we are influenced by our internal sense of guilt.',
   'know_url': 'NA',
   'pronoun': 'him',
   'search_query': 'NA',
@@ -1991,9 +1978,7 @@
  {'ans': 'The table',
   'choice1': 'The table',
   'choice2': 'The doorway',
-  'know_sent': 'The ball does not fit through a hole in the plate , because '
-               'the diameter of the ball is slightly larger than the diameter '
-               'of the hole .',
+  'know_sent': 'It will not easily fit into the forward position because it is too wide.',
   'know_url': 'NA',
   'pronoun': 'it',
   'search_query': 'Google: ".* fit through.*because.*.*"',
@@ -2002,9 +1987,7 @@
  {'ans': 'The doorway',
   'choice1': 'The table',
   'choice2': 'The doorway',
-  'know_sent': 'If it turns out your sofa will not fit through the door '
-               'because the width of your furniture piece is wider than that '
-               'of the door',
+  'know_sent': 'you have let go of a lot of stuff that will not fit through the small, narrow gate',
   'know_url': 'https://www.removalreviews.co.uk/move/furniture-will-not-fit-through-door',
   'pronoun': 'it',
   'search_query': 'Google: ".*fit through.*because.*.*"',
@@ -2111,20 +2094,18 @@
  {'ans': 'Jane',
   'choice1': 'Jane',
   'choice2': 'Susan',
-  'know_sent': 'You called for him and knocked on his door , but , as you did '
-               'not get a reply',
-  'know_url': 'http://maridiaraba.tumblr.com/post/161292572886/dirty',
+  'know_sent': 'I knocked on the doors but did not get a response',
+  'know_url': 'https://www.oxygen.com/a-wedding-and-a-murder/crime-time/newlywed-couple-kidnapped-murdered-by-family',
   'pronoun': 'she',
-  'search_query': 'Google: " * knocked on * but * did not get * "',
+  'search_query': '" * knocked * but * not get a * "',
   'ws_sent': "Jane knocked on Susan's door but she did not get an answer ."},
  {'ans': 'Susan',
   'choice1': 'Jane',
   'choice2': 'Susan',
-  'know_sent': 'Bridget clearly heard the knock on her bedroom door , but she '
-               'did not respond right away .',
-  'know_url': 'http://www.gaiaonline.com/forum/organization-military-roleplay/the-reign-a-super-hero-and-super-villain-rp-not-accepting/t.74247945_16/',
+  'know_sent': 'I knocked on her door but she did not answer but the door was not locked so I walked in.',
+  'know_url': 'NA',
   'pronoun': 'she',
-  'search_query': 'Google: " * knock * but * not respond * "',
+  'search_query': 'NA',
   'ws_sent': "Jane knocked on Susan's door but she did not answer ."},
  {'ans': 'Joe',
   'choice1': 'Joe',
@@ -2140,12 +2121,10 @@
  {'ans': 'the detective',
   'choice1': 'Joe',
   'choice2': 'the detective',
-  'know_sent': 'Heartbreak as #Zimbabwe government refuses to pay new black '
-               'tobacco farmers after they delivered US$400 million tobacco '
-               'harvest delivery .',
-  'know_url': 'https://zimbabwe-today.com/heartbreak-zimbabwe-government-refuses-pay-new-black-tobacco-farmers-delivered-us400-million-tobacco-harvest-delivery/',
+  'know_sent': 'You paid them to deliver your package by a certain date.',
+  'know_url': 'NA',
   'pronoun': 'he',
-  'search_query': 'Google: " * pay * after * delivered * "',
+  'search_query': 'NA',
   'ws_sent': 'Joe paid the detective after he delivered the final report on '
              'the case .'},
  {'ans': 'Beth',
@@ -2279,12 +2258,10 @@
  {'ans': 'John',
   'choice1': 'Bill',
   'choice2': 'John',
-  'know_sent': 'Some kid gave me half his subway sandwich because I looked '
-               'hungry here at the mall food court . He probably jizzed in it '
-               '.',
-  'know_url': 'https://www.yelp.com/biz_photos/burger-king-los-angeles-6?select=QX53GjFbnoVi83wU7xcj0g',
+  'know_sent': 'I Was Hungry and You Gave Me Food',
+  'know_url': 'NA',
   'pronoun': 'he',
-  'search_query': 'Google: " * gave * because * hungry * "',
+  'search_query': 'NA',
   'ws_sent': 'Bill passed the half-empty plate to John because he was hungry '
              '.'},
  {'ans': 'Bill',
@@ -2559,12 +2536,10 @@
  {'ans': 'Joan',
   'choice1': 'Jane',
   'choice2': 'Joan',
-  'know_sent': 'Some kid gave me half his subway sandwich because I looked '
-               'hungry here at the mall food court . He probably jizzed in it '
-               '.',
-  'know_url': 'https://www.yelp.com/biz_photos/burger-king-los-angeles-6?select=QX53GjFbnoVi83wU7xcj0g',
+  'know_sent': 'I Was Hungry and You Gave Me Food',
+  'know_url': 'NA',
   'pronoun': 'she',
-  'search_query': 'Google: " * gave * because * hungry * "',
+  'search_query': 'NA',
   'ws_sent': 'Jane gave Joan candy because she was hungry .'},
  {'ans': 'lemons',
   'choice1': 'lemons',
@@ -2664,18 +2639,18 @@
   'pronoun': 'it',
   'search_query': 'Google: "*drop*heavy*on*broke*"',
   'ws_sent': 'I put the heavy book on the table and it broke .'},
- {'ans': 'The trainer',
+ {'ans': 'Madonna',
   'choice1': 'Madonna',
-  'choice2': 'The trainer',
-  'know_sent': 'He fired her simply because he hated her .',
+  'choice2': 'her trainer',
+  'know_sent': 'As he could not stand ethical behavior, he fired me.',
   'know_url': 'NA',
-  'pronoun': 'her',
-  'search_query': 'Google: " * fired * because * hated * "',
+  'pronoun': 'she',
+  'search_query': 'NA',
   'ws_sent': 'Madonna fired her trainer because she could not stand her '
              'boyfriend .'},
  {'ans': 'Madonna',
   'choice1': 'Madonna',
-  'choice2': 'The trainer',
+  'choice2': 'her trainer',
   'know_sent': 'I thought you fired me because I slept with your ex-wife .',
   'know_url': 'http://context.reverso.net/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4/%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/because+I+slept+with',
   'pronoun': 'her',
@@ -2691,9 +2666,9 @@
   'search_query': 'Google: "*fired*because*slept*"',
   'ws_sent': 'Madonna fired her trainer because she slept with her boyfriend '
              '.'},
- {'ans': 'The trainer',
+ {'ans': 'her trainer',
   'choice1': 'Madonna',
-  'choice2': 'The trainer',
+  'choice2': 'her trainer',
   'know_sent': 'He fired her simply because he hated her .',
   'know_url': 'NA',
   'pronoun': 'her',
@@ -2759,7 +2734,7 @@
   'search_query': '" * goethe * inspired by * shakespeare * "\n',
   'ws_sent': 'This book introduced Shakespeare to Goethe ; it was a fine '
              'selection of his writing .'},
- {'ans': '',
+ {'ans': 'Alice',
   'choice1': 'Alice',
   'choice2': 'Jade',
   'know_sent': 'I looked at the code and so far I spotted only one abuser of '
@@ -2769,7 +2744,7 @@
   'search_query': '" * looked * so * spotted * "\n',
   'ws_sent': 'Alice looked for her friend Jade in the crowd . Since she always '
              'has good luck , Alice spotted her quickly .'},
- {'ans': '',
+ {'ans': 'Jade',
   'choice1': 'Alice',
   'choice2': 'Jade',
   'know_sent': 'The reason your grandmother in law always wears bright colours '
@@ -2779,7 +2754,7 @@
   'search_query': '" * always wears * so * spotted * "\n',
   'ws_sent': 'Alice looked for her friend Jade in the crowd . Since she always '
              'wears a red turban , Alice spotted her quickly .'},
- {'ans': '',
+ {'ans': 'Ethan',
   'choice1': 'Ethan',
   'choice2': 'Luke',
   'know_sent': 'The player selected to be it then chases the others, '
@@ -2789,7 +2764,7 @@
   'pronoun': 'he',
   'search_query': 'tag game\n',
   'ws_sent': 'During a game of tag , Ethan chased Luke because he was it .'},
- {'ans': '',
+ {'ans': 'Luke',
   'choice1': 'Ethan',
   'choice2': 'Luke',
   'know_sent': 'The player selected to be it then chases the others, '
@@ -2799,7 +2774,7 @@
   'pronoun': 'he',
   'search_query': 'tag game\n',
   'ws_sent': 'During a game of tag , Ethan ran from Luke because he was it .'},
- {'ans': '',
+ {'ans': 'the judges',
   'choice1': 'the judges',
   'choice2': 'the chatbots',
   'know_sent': "I can not figure this one out, and I know it's because of "
@@ -2809,7 +2784,7 @@
   'search_query': '" * not figure out * because * stupid * "\n',
   'ws_sent': 'At the Loebner competition the judges could not figure out which '
              'respondents were the chatbots because they were so stupid .'},
- {'ans': '',
+ {'ans': 'the chatbots',
   'choice1': 'the judges',
   'choice2': 'the chatbots',
   'know_sent': 'The best chatbots have advanced conversational capabilities '
@@ -2820,7 +2795,7 @@
   'search_query': '" * chatbots * advanced * "',
   'ws_sent': 'At the Loebner competition the judges could not figure out which '
              'respondents were the chatbots because they were so advanced .'},
- {'ans': '',
+ {'ans': 'GrWQWu8JyC',
   'choice1': 'GrWQWu8JyC',
   'choice2': 'willow-towered Canopy Huntertropic wrestles',
   'know_sent': "Maybe you changed the default password, it's easy to forget if "
@@ -2830,7 +2805,7 @@
   'search_query': '" * changed * password * easy to forget * "\n',
   'ws_sent': 'The user changed his password from GrWQWu8JyC to willow-towered '
              'Canopy Huntertropic wrestles as it was easy to forget .'},
- {'ans': '',
+ {'ans': 'willow-towered Canopy Huntertropic wrestles',
   'choice1': 'GrWQWu8JyC',
   'choice2': 'willow-towered Canopy Huntertropic wrestles',
   'know_sent': 'By now, you have registered as a student, changed your '
