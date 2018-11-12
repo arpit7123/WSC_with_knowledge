@@ -184,8 +184,7 @@
  {'ans': 'Billy',
   'choice1': 'John',
   'choice2': 'Billy',
-  'know_sent': 'tyra was standing in front of jimin and he couldn’t see '
-               'because she is so tall',
+  'know_sent': 'tyra was standing in front of jimin and he couldn\'t see because she is so tall ',
   'know_url': 'NA',
   'pronoun': 'he',
   'search_query': 'NA',
@@ -933,10 +932,10 @@
  {'ans': 'Jim',
   'choice1': 'Jim',
   'choice2': 'the guy',
-  'know_sent': 'Aggressive director yells fired.',
-  'know_url': 'https://www.bigstockphoto.com/image-124630451/stock-vector-dismissed-red-angry-bos-points-to-door-aggressive-director-yells-fired-unhappy-head-beats-fist-on',
+  'know_sent': 'I would throw things and yell when I was unhappy.',
+  'know_url': 'https://www.monarchshores.com/blog-infinite-scroll/page/76',
   'pronoun': 'he',
-  'search_query': '" * yells * unhappy *"\n',
+  'search_query': '"*yell* was unhappy * "',
   'ws_sent': 'I saw Jim yelling at some guy in a military uniform with a huge '
              'red beard . I do not know why he was , but he looked very '
              'unhappy .'},
@@ -1207,10 +1206,10 @@
  {'ans': 'The chair',
   'choice1': 'The chair',
   'choice2': 'The piano',
-  'know_sent': 'One day my chair was broken so I played in VR standing up',
-  'know_url': 'https://www.reddit.com/r/EliteDangerous/comments/53ynwo/the_asp_explorer_cockpit_in_vr_is_better_than/',
+  'know_sent': 'My chair was broken so I had to stand for a play session with my new Oculus Rift on and it was amazing.',
+  'know_url': 'https://forums.frontier.co.uk/showthread.php/254121-Suggestion-Standing-Cockpit-Toggle',
   'pronoun': 'it',
-  'search_query': '" * chair broken * standing * "\n',
+  'search_query': '"*chair was broken* stand *"',
   'ws_sent': 'Sam pulled up a chair to the piano , but it was broken , so he '
              'had to stand instead .'},
  {'ans': 'The piano',
@@ -1529,21 +1528,19 @@
  {'ans': 'The foxes',
   'choice1': 'The foxes',
   'choice2': 'The chickens',
-  'know_sent': 'Terrorists are attacking your cell , you have to kill them and '
-               'complete the objectives',
-  'know_url': 'NA',
+  'know_sent': 'Sigar attacked me, so I killed him.',
+  'know_url': 'https://www.reddit.com/r/skyrim/comments/16fam9/sigar_attacked_me_so_i_killed_him_about_an_ingame/',
   'pronoun': 'them',
-  'search_query': 'NA',
+  'search_query': '"*attacked*so*killed*"',
   'ws_sent': 'The foxes are getting in at night and attacking the chickens . I '
              'shall have to kill them  .'},
  {'ans': 'The chickens',
   'choice1': 'The foxes',
   'choice2': 'The chickens',
-  'know_sent': 'The Angels Of Death have attacked The Homebrew Cafe. '
-               'The players have to protect the Cafe by killing all of the Angels Of Death members.',
-  'know_url': 'https://gtaforums.com/topic/465343-gta-blood-on-the-hillside/',
+  'know_sent': 'His driver was attacked and was protected by Rambler players Roy Boles, Moore.',
+  'know_url': 'http://lemac2.tripod.com/index-203.html',
   'pronoun': 'them',
-  'search_query': '" * attacked * have to protect * "',
+  'search_query': '"*was attacked*was protected*"',
   'ws_sent': 'The foxes are getting in at night and attacking the chickens . I '
              'shall have to guard them  .'},
  {'ans': 'The foxes',
@@ -1763,9 +1760,9 @@
   'ws_sent': 'The scientists are studying three species of fish that have '
              'recently been found living in the Indian Ocean . They began two '
              'years ago .'},
- {'ans': 'The fish',
+ {'ans': 'three species of fish',
   'choice1': 'The scientists',
-  'choice2': 'The fish',
+  'choice2': 'three species of fish',
   'know_sent': 'The manuscript that surfaced in Verona was found before Gutenberg\'s useful invention',
   'know_url': 'NA',
   'pronoun': 'They',
@@ -1796,17 +1793,17 @@
              '.'},
  {'ans': 'The police',
   'choice1': 'The police',
-  'choice2': 'The gang members',
-  'know_sent': '14 Terror Suspects Arrested Across Country To Prevent '
-               'Paris-Style Attack',
-  'know_url': 'http://www.ndtv.com/cheat-sheet/4-terror-suspects-arrested-in-hyderabad-1268741',
+  'choice2': 'all of the gang members',
+  'know_sent': 'The woman said she was unsure if she wanted to press charges, '
+               'but officers arrested Sanderson to prevent any further violence.',
+  'know_url': 'http://www.timesrecordnews.com/story/news/crime/2017/07/13/police-woman-grabs-hold-situation-stop-assault/475850001/',
   'pronoun': 'They',
-  'search_query': 'Google: ".*arrested.*to prevent.*"',
+  'search_query': '"*arrested*to prevent*"',
   'ws_sent': 'The police arrested all of the gang members . They were trying '
              'to stop the drug trade in the neighborhood .'},
- {'ans': 'The gang members',
+ {'ans': 'all of the gang members',
   'choice1': 'The police',
-  'choice2': 'The gang members',
+  'choice2': 'all of the gang members',
   'know_sent': 'Police have arrested a man they say was running a drug-dealing '
                'operation and found to be in possession of a stolen firearm.',
   'know_url': 'NA',
@@ -2648,12 +2645,12 @@
   'search_query': 'NA',
   'ws_sent': 'Madonna fired her trainer because she could not stand her '
              'boyfriend .'},
- {'ans': 'Madonna',
+ {'ans': 'her trainer',
   'choice1': 'Madonna',
   'choice2': 'her trainer',
   'know_sent': 'I thought you fired me because I slept with your ex-wife .',
   'know_url': 'http://context.reverso.net/%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4/%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/because+I+slept+with',
-  'pronoun': 'her',
+  'pronoun': 'she',
   'search_query': 'Google: "*fired*because*slept*"',
   'ws_sent': 'Madonna fired her trainer because she slept with her boyfriend '
              '.'},

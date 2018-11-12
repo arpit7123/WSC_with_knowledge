@@ -6,7 +6,7 @@ from nltk.stem import WordNetLemmatizer
 from allennlp.predictors.predictor import Predictor
 from allennlp.models.archival import load_archive
 
-use_predictor = True
+use_predictor = False
 verbose_output = True
 
 class PretrainedModel:
@@ -34,7 +34,7 @@ wn_lemmatizer = WordNetLemmatizer()
 
 all_ques = set()
 aux_verbs_list = ["does","was","am","is","did","are","were","have","has","had","be"]
-sim_verbs_lists = [["rush","zoom"],["upset","frustrate"],["make","get"],["protect","guard"],["beat","defeat"],["appear","emerge","surface"],["stop","prevent"],["convey","show"],["respond","answer"],["offer","give","pass"],["lift","carry"],["ache","hurt"],["beat","defeat"],["release","throw"],["say","ask"],["follow","obey"]]
+sim_verbs_lists = [["rush","zoom"],["upset","frustrate"],["make","get"],["protect","guard"],["beat","defeat"],["appear","emerge","surface"],["stop","prevent"],["convey","show"],["respond","answer"],["offer","give","pass"],["lift","carry"],["ache","hurt"],["beat","defeat"],["release","throw"],["say","ask"],["follow","obey"],["love","like"]]
 #sim_verbs_lists = [["rushed","zoomed"],["upset","frustrated"],["made","gotten"],["fell","fall"],["protect","guard"],["beat","defeated"],["appeared","emerged","surfaced"],["stop","prevent"],["conveys","showing"],["respond","answer"],["offered","gave","pass","passed","give"],["lifting","carried"],["ached","hurting"],["beat","defeated"],["releases","threw"],["said","asked"],["follows","obey"]]
 
 i_pronouns = ["i","me","mine","myself","my"]
@@ -43,7 +43,7 @@ she_pronouns = ["she","her","herself"]
 you_pronouns = ["you","yourself","your"]
 
 list_of_sim_words = [("we","us")]
-list_of_dissim_words = [("there","i"),("them","you")]
+list_of_dissim_words = [("there","i"),("them","you"),("i","it")]
 
 def are_same(phrase1,phrase2):
     if phrase1==phrase2:
@@ -268,9 +268,12 @@ def get_max(ent_contr_scores):
         if ent!=1.0 and sec_max_ent < ent:
             sec_max_ent = ent
             sec_max_contr = contr
-        if abs(ent-contr) > dist_bw_ent_and_contr:
-            (max_ent,max_contr) = (ent,contr)
-            dist_bw_ent_and_contr = abs(ent-contr)
+        if ent > max_ent:
+            max_ent = ent
+            max_contr = contr
+        #if abs(ent-contr) > dist_bw_ent_and_contr:
+        #    (max_ent,max_contr) = (ent,contr)
+        #    dist_bw_ent_and_contr = abs(ent-contr)
     return (max_ent,max_contr,sec_max_ent,sec_max_contr)
 
 def words_are_similar(word1,word2):
@@ -554,6 +557,10 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                     for ans_wrt_choice2 in anss_wrt_choice2:
                         ent_comparisons_for_choice2.add(("TTT",k_ans,ans_wrt_choice2))
 
+    ttt_bucket_ch1 = []
+    ttf_bucket_ch1 = []
+    tff_bucket_ch1 = []
+    fff_bucket_ch1 = []
     for (t,h,p) in ent_comparisons_for_choice1:
         if are_same(h.lower(),p.lower()):
             ent_score = 1.0
@@ -570,12 +577,25 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 ent_score = 0.0
                 cntr_score = 0.0                   
 
+        if type=="TTT":
+            ttt_bucket_ch1.append((ent_score,cntr_score))
+        elif type=="TFT" or type=="FTT" or type=="TTF":
+            ttf_bucket_ch1.append((ent_score,cntr_score))
+        elif type=="FFT" or type=="FTF" or type=="TFF":
+            tff_bucket_ch1.append((ent_score,cntr_score))
+        else:
+            fff_bucket_ch1.append((ent_score,cntr_score))
+
         if verbose_output:
             print("TYPE: ",t,"; COMPARE 1: ",h," --WITH-- ",p)
             print("SCORES: ",(ent_score,cntr_score))
  
         choice1_ent_contr_scores.append((ent_score,cntr_score))
 
+    ttt_bucket_ch2 = []
+    ttf_bucket_ch2 = []
+    tff_bucket_ch2 = []
+    fff_bucket_ch2 = []
     for (t,h,p) in ent_comparisons_for_choice2:
         if are_same(h.lower(),p.lower()):
             ent_score = 1.0
@@ -592,12 +612,23 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 ent_score = 0.0
                 cntr_score = 0.0
 
+        if type=="TTT":
+            ttt_bucket_ch2.append((ent_score,cntr_score))
+        elif type=="TFT" or type=="FTT" or type=="TTF":
+            ttf_bucket_ch2.append((ent_score,cntr_score))
+        elif type=="FFT" or type=="FTF" or type=="TFF":
+            tff_bucket_ch2.append((ent_score,cntr_score))
+        else:
+            fff_bucket_ch2.append((ent_score,cntr_score))
+
         if verbose_output:
             print("TYPE: ",t,"; COMPARE 2: ",h," --WITH-- ",p)
             print("SCORES: ",(ent_score,cntr_score))
 
         choice2_ent_contr_scores.append((ent_score,cntr_score))
-
+    
+    #print("SCORES----: ",choice1_ent_contr_scores)
+    #print("SCORES----: ",choice2_ent_contr_scores)
     (choice1_max_ent,choice1_max_contr,choice1_sec_max_ent,choice1_sec_max_contr) = get_max(choice1_ent_contr_scores)
     if verbose_output:
         print("CHOICE1 MAX SCORE: ",(choice1_max_ent,choice1_max_contr))
@@ -709,8 +740,8 @@ def process_qasrl_output(qasrl_output, pronoun):
 if __name__=="__main__":
     populate_ques_type_list()
     
-    #all_probs_file = "inputs/test_problems_file.json"
-    all_probs_file = "inputs/wsc_problems_final.json"
+    all_probs_file = "inputs/test_problems_file.json"
+    #all_probs_file = "inputs/wsc_problems_final.json"
     f = open(all_probs_file,"r")
     all_probs = f.read()    
     probs = ast.literal_eval(all_probs)#json.loads(all_probs)
