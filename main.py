@@ -6,7 +6,7 @@ from nltk.stem import WordNetLemmatizer
 from allennlp.predictors.predictor import Predictor
 from allennlp.models.archival import load_archive
 
-use_predictor = False
+use_predictor = True 
 verbose_output = True
 
 class PretrainedModel:
@@ -25,9 +25,9 @@ class PretrainedModel:
 
 
 if use_predictor:
-    model = PretrainedModel('./esim-elmo-2018.05.17.tar.gz','textual-entailment')
-    predictor = model.predictor()
-    #predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
+    #model = PretrainedModel('./esim-elmo-2018.05.17.tar.gz','textual-entailment')
+    #predictor = model.predictor()
+    predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
 wn_lemmatizer = WordNetLemmatizer()
 
 #ques_type_lists = [["What V?"],["What was V?"],["Who V someone something ?","Who V to do something ?"]]
@@ -289,6 +289,36 @@ def words_are_similar(word1,word2):
         elif word1 in you_pronouns and word2 in you_pronouns:
             return True
     return False
+
+def get_conf(bucket_ch1,bucket_ch2):
+    choice1_conf = 0.0
+    choice2_conf = 0.0
+    if len(bucket_ch1) > 0:
+        if len(bucket_ch2) > 0:
+            (ch1_ent,ch1_contr,ch1_sec_ent,ch1_sec_ent) = get_max(bucket_ch1)
+            (ch2_ent,ch2_contr,ch2_sec_ent,ch2_sec_ent) = get_max(bucket_ch2)
+            if verbose_output:
+                print("MAX SCORES FOR CHOICE1: ",(ch1_ent,ch1_contr,ch1_sec_ent,ch1_sec_ent))
+                print("MAX SCORES FOR CHOICE2: ",(ch2_ent,ch2_contr,ch2_sec_ent,ch2_sec_ent))
+            if ch1_ent > ch2_ent:
+                choice1_conf += 1.0
+            elif ch1_ent < ch2_ent:
+                choice2_conf += 1.0
+            else:
+                if ch1_sec_ent > ch2_sec_ent:
+                    choice1_conf += 1
+                else:
+                    choice2_conf += 1
+    
+        else:
+            choice1_conf += 1.0
+    else:
+        if len(bucket_ch2) > 0:
+            (ch2_ent,ch2_contr,ch2_sec_ent,ch2_sec_ent) = get_max(bucket_ch2)
+            if verbose_output:
+                print("MAX SCORES FOR CHOICE2: ",(ch2_ent,ch2_contr,ch2_sec_ent,ch2_sec_ent))
+            choice2_conf += 1.0
+    return choice1_conf,choice2_conf
 
 def main(problem,ws_qa_pairs,know_qa_pairs):
     #print(ws_qa_pairs)
@@ -577,11 +607,11 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 ent_score = 0.0
                 cntr_score = 0.0                   
 
-        if type=="TTT":
+        if t=="TTT":
             ttt_bucket_ch1.append((ent_score,cntr_score))
-        elif type=="TFT" or type=="FTT" or type=="TTF":
+        elif t=="TFT" or t=="FTT" or t=="TTF":
             ttf_bucket_ch1.append((ent_score,cntr_score))
-        elif type=="FFT" or type=="FTF" or type=="TFF":
+        elif t=="FFT" or t=="FTF" or t=="TFF":
             tff_bucket_ch1.append((ent_score,cntr_score))
         else:
             fff_bucket_ch1.append((ent_score,cntr_score))
@@ -612,11 +642,11 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                 ent_score = 0.0
                 cntr_score = 0.0
 
-        if type=="TTT":
+        if t=="TTT":
             ttt_bucket_ch2.append((ent_score,cntr_score))
-        elif type=="TFT" or type=="FTT" or type=="TTF":
+        elif t=="TFT" or t=="FTT" or t=="TTF":
             ttf_bucket_ch2.append((ent_score,cntr_score))
-        elif type=="FFT" or type=="FTF" or type=="TFF":
+        elif t=="FFT" or t=="FTF" or t=="TFF":
             tff_bucket_ch2.append((ent_score,cntr_score))
         else:
             fff_bucket_ch2.append((ent_score,cntr_score))
@@ -629,27 +659,32 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
     
     #print("SCORES----: ",choice1_ent_contr_scores)
     #print("SCORES----: ",choice2_ent_contr_scores)
-    (choice1_max_ent,choice1_max_contr,choice1_sec_max_ent,choice1_sec_max_contr) = get_max(choice1_ent_contr_scores)
-    if verbose_output:
-        print("CHOICE1 MAX SCORE: ",(choice1_max_ent,choice1_max_contr))
-        print("CHOICE1 SECOND MAX SCORE: ",(choice1_sec_max_ent,choice1_sec_max_contr))
+    #(choice1_max_ent,choice1_max_contr,choice1_sec_max_ent,choice1_sec_max_contr) = get_max(choice1_ent_contr_scores)
+    #if verbose_output:
+    #    print("CHOICE1 MAX SCORE: ",(choice1_max_ent,choice1_max_contr))
+    #    print("CHOICE1 SECOND MAX SCORE: ",(choice1_sec_max_ent,choice1_sec_max_contr))
 
-    (choice2_max_ent,choice2_max_contr,choice2_sec_max_ent,choice2_sec_max_contr) = get_max(choice2_ent_contr_scores)
-    if verbose_output:
-        print("CHOICE2 MAX SCORE: (",choice2_max_ent,",",choice2_max_contr,")")
-        print("CHOICE2 SECOND MAX SCORE: ",(choice2_sec_max_ent,choice2_sec_max_contr))
-    '''
-    if (choice1_max_ent,choice1_max_contr) == (0.0,0.0):
-        if choice2_max_ent > choice2_max_contr:
-            choice2_count += 1
-        else:
-            choice1_count += 1
-    elif (choice2_max_ent,choice2_max_contr) == (0.0,0.0):
-        if choice1_max_ent > choice1_max_contr:
-            choice1_count += 1
-        else:
-            choice2_count += 1
-    el
+    #(choice2_max_ent,choice2_max_contr,choice2_sec_max_ent,choice2_sec_max_contr) = get_max(choice2_ent_contr_scores)
+    #if verbose_output:
+    #    print("CHOICE2 MAX SCORE: (",choice2_max_ent,",",choice2_max_contr,")")
+    #    print("CHOICE2 SECOND MAX SCORE: ",(choice2_sec_max_ent,choice2_sec_max_contr))
+
+    print("FOR TTT BUCKET: ")
+    choice1_conf,choice2_conf = get_conf(ttt_bucket_ch1,ttt_bucket_ch2)
+    #print("HIII: ",(ttt_bucket_ch1,ttt_bucket_ch2))
+    #print("HELLO",choice1_conf,choice2_conf)
+    if choice1_conf==choice2_conf:
+        print("FOR TTF BUCKET: ")
+        choice1_conf,choice2_conf = get_conf(ttf_bucket_ch1,ttf_bucket_ch2)
+
+    if choice1_conf==choice2_conf:
+        print("FOR TFF BUCKET: ")
+        choice1_conf,choice2_conf = get_conf(tff_bucket_ch1,tff_bucket_ch2)
+
+    if choice1_conf==choice2_conf:
+        print("FOR FFF BUCKET: ")
+        choice1_conf,choice2_conf = get_conf(fff_bucket_ch1,fff_bucket_ch2)
+
     '''
     if choice1_max_ent==1.0 and choice2_max_ent==1.0:
         if choice1_sec_max_ent > choice2_sec_max_ent:
@@ -680,7 +715,6 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
                                     choice1_count += 1
                                 elif a.lower()==ws_choice2.lower():
                                     choice2_count += 1
-
     result = "unknown"
     if ans_is_choice1:
         if choice1_count > choice2_count:
@@ -692,7 +726,20 @@ def main(problem,ws_qa_pairs,know_qa_pairs):
             result = "correct"
         elif choice1_count > choice2_count:
             result = "incorrect"
-    
+    '''
+
+    result = "unknown"
+    if ans_is_choice1:
+        if choice1_conf > choice2_conf:
+            result = "correct"
+        elif choice2_conf > choice1_conf:
+            result = "incorrect"
+    else:
+        if choice2_conf > choice1_conf:
+            result = "correct"
+        elif choice1_conf > choice2_conf:
+            result = "incorrect"
+ 
     if verbose_output:
         print("RESULT: ",result)
     return result
@@ -740,14 +787,16 @@ def process_qasrl_output(qasrl_output, pronoun):
 if __name__=="__main__":
     populate_ques_type_list()
     
-    all_probs_file = "inputs/test_problems_file.json"
+    #all_probs_file = "inputs/test_problems_file.json"
     #all_probs_file = "inputs/wsc_problems_final.json"
+    all_probs_file = "inputs/group24/wsc_problems_final.json" 
     f = open(all_probs_file,"r")
     all_probs = f.read()    
     probs = ast.literal_eval(all_probs)#json.loads(all_probs)
     
     qasrl_output_dict = {}
-    qasrl_ws_sent_file = "inputs/ws_sents_and_qasrl_out.txt"
+    #qasrl_ws_sent_file = "inputs/ws_sents_and_qasrl_out.txt"
+    qasrl_ws_sent_file = "inputs/group24/ws_sents_and_qasrl_out.txt"
     f = open(qasrl_ws_sent_file,"r")
     for line in f:
         sent_and_qasrl = line.rstrip().strip().split("$$$$")
@@ -755,7 +804,8 @@ if __name__=="__main__":
         sentence = sent_and_qasrl[0].strip()
         qasrl_output_dict[sentence] = json_obj
 
-    qasrl_know_sent_file = "inputs/know_sents_and_qasrl_out.txt"
+    #qasrl_know_sent_file = "inputs/know_sents_and_qasrl_out.txt"
+    qasrl_know_sent_file = "inputs/group24/know_sents_and_qasrl_out.txt"
     f = open(qasrl_know_sent_file,"r")
     for line in f:
         line = line.strip()
@@ -773,6 +823,7 @@ if __name__=="__main__":
     for i in range(0,len(probs)):
         prob = probs[i]
         ws_sent = prob["ws_sent"]
+        ws_sent = ws_sent.strip()
         if ws_sent in qasrl_output_dict.keys():
             ws_sent_qasrl_pairs = qasrl_output_dict[ws_sent]
             if "know_sent" in prob:
@@ -780,6 +831,7 @@ if __name__=="__main__":
                 know_s = know_s.rstrip()
                 know_s = know_s.strip()
                 if know_s in qasrl_output_dict.keys():
+                    
                     know_sent_qasrl_pairs = qasrl_output_dict[know_s]
                     pronoun = prob["pronoun"]
         
@@ -796,13 +848,14 @@ if __name__=="__main__":
                         unknown += 1
                     if verbose_output:
                         print("************************************************************")
+                    
                 else:
-                    if know_s=="NA":
-                        print("NA: ",ws_sent)
-                    else:
-                        print("NOT NA: ",ws_sent)
-                    #if know_s!="NA":
-                    #    print("KNOW SENT NOT FOUND: ",know_s)
+                    #if know_s=="NA":
+                    #    print("NA: ",ws_sent)
+                    #else:
+                    #    print("NOT NA: ",ws_sent)
+                    if know_s!="NA":
+                        print("KNOW SENT NOT FOUND: ",know_s)
                     know_not_parsed+=1
             else:
                 print("NO KNOW_SENT IN PROB")

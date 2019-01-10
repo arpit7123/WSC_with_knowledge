@@ -175,7 +175,7 @@ def combine_sent_qasrl(sents_file,qasrl_file,sent_and_qasrl_file):
 
     with open(sent_and_qasrl_file, 'a') as the_file:
         for i in range(0,len(sents)):
-            the_file.write(sents[i].rstrip()+"$$$$"+qa_srls[i].rstrip()+"\n")
+            the_file.write(sents[i].rstrip()+"$$$$"+qasrls[i].rstrip()+"\n")
 
 def check_probs_without_know_sent(wsc_probs_file):
     f2 = open(wsc_probs_file,'r')
@@ -195,11 +195,16 @@ if __name__=="__main__":
 
     #tsv_probs_file = "newer_wsc_probs_1.tsv"
     #wsc_probs_json_file = "../inputs/wsc_problems_final.json"
-    output_wsc_probs_file = "wsc_problems_final.json"
+#    output_wsc_probs_file = "wsc_problems_final.json"
     #update_wsc_probs_json(tsv_probs_file, wsc_probs_json_file, output_wsc_probs_file)
     
-    check_probs_without_know_sent(output_wsc_probs_file)
-    
+#    check_probs_without_know_sent(output_wsc_probs_file)
+   
+    know_sents_file = "/home/ASUAD/asharm73/nrl-qasrl/group24_know_sents_to_parse"
+    know_qasrl_file = "/home/ASUAD/asharm73/nrl-qasrl/group24_know_parsed"
+    know_sents_and_qasrl_file = "/home/ASUAD/asharm73/WSC_with_knowledge/inputs/group24/know_sents_and_qasrl_out.txt"
+    combine_sent_qasrl(know_sents_file,know_qasrl_file,know_sents_and_qasrl_file)
+ 
     '''
     know_sents_file = ""
     know_qasrl_file = ""
