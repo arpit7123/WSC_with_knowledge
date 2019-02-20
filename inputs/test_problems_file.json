@@ -1,9 +1,12 @@
-[ {'ans': 'a daughter',
-  'choice1': 'Anne',
-  'choice2': 'a daughter',
-  'know_sent': 'Serena Williams has given birth to a baby girl .',
-  'know_url': 'http://www.smh.com.au/sport/tennis/serena-williams-gives-birth-to-a-baby-girl-20170901-gy9dzz.html',
-  'pronoun': 'She',
-  'search_query': 'Google: " * given birth to * baby * "',
-  'ws_sent': 'Anne gave birth to a daughter last month . She is a very '
-             'charming baby .'}]
+[
+   {'ans': 'Shakespeare',
+  'choice1': 'Shakespeare',
+  'choice2': 'Ovid',
+  'know_sent': 'Shakespeare was inspired by the works of Ovid, in particular '
+               'the poems in Metamorphoses',
+  'know_url': 'https://www.quora.com/Who-is-the-Latin-Shakespeare',
+  'pronoun': 'his',
+  'search_query': '" * shakespeare * inspired by * ovid * "\n',
+  'ws_sent': 'This book introduced Shakespeare to Ovid ; it was a major '
+             'influence on his writing .'}
+]
