@@ -1,0 +1,9 @@
+
+Without normalizing the scores between candidate choices
+i) Inter sentence alone 50.5%
+ii) Intra sentence alone 52.6%
+iii) Inter + Intra with above score 56.14%
+
+After normalizing the scores between candidate choices
+i) Both inter and intra 53.3%
+ii) No difference with removing inter dependency - 53.3%

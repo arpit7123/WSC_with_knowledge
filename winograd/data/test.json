@@ -1,0 +1,41 @@
+[
+	{
+    "ws_sent": "Joan made sure to thank Susan for all the help she had received .",
+    "ans": "Joan",
+    "pronoun": "she",
+    "domain": [
+      "Joan",
+      "Susan",
+      "she"
+    ],
+    "coref_target": [
+      "Joan$$she",
+      "Susan$$she",
+      "she$$Joan",
+      "she$$Susan"
+    ],
+    "coref_target_truth": [
+      "Joan$$she$$1",
+      "Susan$$she$$0",
+      "she$$Joan$$1",
+      "she$$Susan$$0"
+    ],
+    "scr_score": [
+      "Joan$$she$$5.777711179656892e-32",
+      "Susan$$she$$1.143403516380672e-30"
+    ],
+    "context": [
+      "she$$you",
+      "Susan$$you",
+      "she$$I",
+      "she$$because you have helped me the best",
+      "Susan$$I",
+      "Joan$$I",
+      "she$$because you have helped me the best"
+    ],
+    "entailment": [
+      "Joan$$she$$0.7030576467514038",
+      "Susan$$she$$0.6779013276100159"
+    ]
+  }
+]

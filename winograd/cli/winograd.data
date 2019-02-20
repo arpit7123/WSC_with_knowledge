@@ -1,0 +1,22 @@
+predicates:
+  Coref/2: open
+  Context/2: closed
+  Similar/2: closed
+  Disimilar/2: closed
+  Domain/1: closed
+  Entailment/2: closed
+  Commonsense/2: closed
+
+observations:
+  Context : ../data/context_obs.txt
+  Similar : ../data/similar_obs.txt
+  Disimilar : ../data/dissimilar_obs.txt
+  Domain : ../data/domain_obs.txt
+  Entailment : ../data/entailment_obs.txt
+  Commonsense : ../data/commonsense_obs.txt
+
+targets:
+  Coref : ../data/coref_targets.txt
+
+truth:
+  Coref : ../data/coref_truth.txt
