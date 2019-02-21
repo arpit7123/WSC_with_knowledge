@@ -1,41 +1,38 @@
 [
 	{
-    "ws_sent": "Joan made sure to thank Susan for all the help she had received .",
-    "ans": "Joan",
-    "pronoun": "she",
+    "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
+    "ans": "the witness",
+    "pronoun": "he",
     "domain": [
-      "Joan",
-      "Susan",
-      "she"
+      "the lawyer",
+      "the witness",
+      "he"
     ],
     "coref_target": [
-      "Joan$$she",
-      "Susan$$she",
-      "she$$Joan",
-      "she$$Susan"
+      "the lawyer$$he",
+      "the witness$$he",
+      "he$$the lawyer",
+      "he$$the witness"
     ],
     "coref_target_truth": [
-      "Joan$$she$$1",
-      "Susan$$she$$0",
-      "she$$Joan$$1",
-      "she$$Susan$$0"
+      "the lawyer$$he$$0",
+      "the witness$$he$$1",
+      "he$$the lawyer$$0",
+      "he$$the witness$$1"
     ],
     "scr_score": [
-      "Joan$$she$$5.777711179656892e-32",
-      "Susan$$she$$1.143403516380672e-30"
+      "the lawyer$$he$$1.203124856630761e-25",
+      "the witness$$he$$3.023708488901286e-26"
     ],
     "context": [
-      "she$$you",
-      "Susan$$you",
-      "she$$I",
-      "she$$because you have helped me the best",
-      "Susan$$I",
-      "Joan$$I",
-      "she$$because you have helped me the best"
+      "the witness$$I 've",
+      "he$$I",
+      "the witness$$I",
+      "he$$I 've"
     ],
     "entailment": [
-      "Joan$$she$$0.7030576467514038",
-      "Susan$$she$$0.6779013276100159"
-    ]
+      "the witness$$he$$0.4752756655216217"
+    ],
+    "predicted": "INCORRECT"
   }
 ]

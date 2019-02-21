@@ -707,9 +707,9 @@ def choose_max_entailment(psl):
 if __name__=="__main__":
     populate_ques_type_list()
 
-    #all_probs_file = "inputs/test_problems_file.json"
+    all_probs_file = "inputs/test_problems_file.json"
     #all_probs_file = "inputs/wsc_problems_final.json"
-    all_probs_file = "final_problems.json"
+    #all_probs_file = "final_problems.json"
     f = open(all_probs_file,"r")
     all_probs = f.read()
     probs = ast.literal_eval(all_probs)#json.loads(all_probs)

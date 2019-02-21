@@ -176,7 +176,7 @@
       "Joan$$she$$0.702859103679657",
       "Susan$$she$$0.6774041056632996"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joan made sure to thank Susan for all the help she had given .",
@@ -218,7 +218,7 @@
       "Joan$$she$$0.7721942663192749",
       "Susan$$she$$0.950334370136261"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Paul tried to call George on the phone , but he was not successful .",
@@ -259,7 +259,7 @@
       "Paul$$he$$0.5422361493110657",
       "George$$he$$0.5217283964157104"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Paul tried to call George on the phone , but he was not available .",
@@ -295,7 +295,7 @@
       "Paul$$he$$0.019067492336034775",
       "George$$he$$0.3612944483757019"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The lawyer asked the witness a question , but he was reluctant to repeat it .",
@@ -367,7 +367,7 @@
     "entailment": [
       "the witness$$he$$0.4752756655216217"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The delivery truck zoomed by the school bus because it was going so fast .",
@@ -438,7 +438,7 @@
       "the delivery truck$$it$$0.4408574402332306",
       "the school bus$$it$$0.4916062653064728"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition .",
@@ -506,7 +506,7 @@
     "entailment": [
       "Frank$$he$$0.17060108482837677"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The man could not lift his son because he was so weak .",
@@ -649,7 +649,7 @@
     "entailment": [
       "The large ball$$it$$0.03129928931593895"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John could not see the stage with Billy in front of him because he is so short .",
@@ -719,7 +719,7 @@
     "entailment": [
       "John$$he$$0.49435102939605713"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Tom threw his schoolbag down to Ray after he reached the top of the stairs .",
@@ -787,7 +787,7 @@
     "entailment": [
       "Tom$$he$$0.30566129088401794"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a good start .",
@@ -819,7 +819,7 @@
       "Sue$$she$$0.16112227737903595",
       "Sally$$she$$0.17935556173324585"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a bad start .",
@@ -885,7 +885,7 @@
     "entailment": [
       "The sculpture$$it$$0.04894673079252243"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The sculpture rolled off the shelf because it was not level .",
@@ -1082,7 +1082,7 @@
       "The firemen$$they$$0.09158565104007721",
       "The police$$they$$0.055500566959381104"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The firemen arrived before the police because they were coming from so far away .",
@@ -1116,7 +1116,7 @@
     "entailment": [
       "The firemen$$they$$0.40167152881622314"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Frank was upset with Tom because the toaster he had bought from him did not work .",
@@ -1300,7 +1300,7 @@
       "The sack of potatoes$$it$$0.001301425858400762",
       "The bag of flour$$it$$0.0012649782001972198"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The sack of potatoes had been placed below the bag of flour , so it had to be moved first .",
@@ -1469,7 +1469,7 @@
     "entailment": [
       "The younger ones$$them$$0.06645505130290985"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I poured water from the bottle into the cup until it was empty .",
@@ -1505,7 +1505,7 @@
     "entailment": [
       "the bottle$$it$$0.21414987742900848"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I poured water from the bottle into the cup until it was full .",
@@ -1539,7 +1539,7 @@
     "entailment": [
       "the bottle$$it$$0.4114690124988556"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Susan knows all about Ann's personal problems because she is nosy .",
@@ -1578,7 +1578,7 @@
       "Susan$$she$$0.12243034690618515",
       "Ann$$she$$0.7318966388702393"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Susan knows all about Ann's personal problems because she is indiscreet .",
@@ -1686,7 +1686,7 @@
       "Sid$$him$$0.5250387191772461",
       "Mark$$him$$0.5280959606170654"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Susan knew that Ann's son had been in a car accident , so she told her about it .",
@@ -1762,7 +1762,7 @@
       "Susan$$she$$0.6494742631912231",
       "Ann$$she$$0.9060736894607544"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years younger .",
@@ -1794,7 +1794,7 @@
       "Joe$$he$$0.263125479221344",
       "Joe's uncle$$he$$0.28823935985565186"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years older .",
@@ -1860,7 +1860,7 @@
       "The painting$$It$$0.00918173510581255",
       "The oak tree$$It$$0.004151450470089912"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of a house .",
@@ -1924,7 +1924,7 @@
       "The gap$$it$$0.8874977827072144",
       "The wall$$it$$0.7423520088195801"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "There is a gap in the wall . You can see the garden behind it  .",
@@ -1956,7 +1956,7 @@
       "The gap$$it$$0.5241740942001343",
       "The wall$$it$$0.4834151864051819"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The drain is clogged with hair . It has to be cleaned .",
@@ -1988,7 +1988,7 @@
       "The drain$$It$$0.04842846468091011",
       "The hair$$It$$0.027134044095873833"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The drain is clogged with hair . It has to be removed .",
@@ -2120,7 +2120,7 @@
       "The pillar$$it$$0.47912463545799255",
       "The stage$$it$$0.42047742009162903"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "There is a pillar between me and the stage , and I can not see it  .",
@@ -2152,7 +2152,7 @@
       "The pillar$$it$$0.3698329031467438",
       "The stage$$it$$0.3268299996852875"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear it  .",
@@ -2184,7 +2184,7 @@
       "The announcement$$it$$0.1506931334733963",
       "The subway$$it$$0.10162349045276642"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear over it  .",
@@ -2216,7 +2216,7 @@
       "The announcement$$it$$0.06927971541881561",
       "The subway$$it$$0.016756290569901466"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "In the middle of the outdoor concert , the rain started falling , but it continued until 10 .",
@@ -2320,7 +2320,7 @@
     "entailment": [
       "The knife$$it$$0.13510875403881073"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I used an old rag to clean the knife , and then I put it in the drawer .",
@@ -2426,7 +2426,7 @@
     "entailment": [
       "Ann$$she$$0.15012049674987793"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I took the water bottle out of the backpack so that it would be handy .",
@@ -2458,7 +2458,7 @@
       "The water bottle$$it$$0.020964836701750755",
       "The backpack$$it$$0.03961145505309105"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I took the water bottle out of the backpack so that it would be lighter .",
@@ -2522,7 +2522,7 @@
       "The pot$$it$$0.1749894618988037",
       "The shelf$$it$$0.20415444672107697"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I could not put the pot on the shelf because it was too high .",
@@ -2588,7 +2588,7 @@
       "The map$$it$$0.05301430821418762",
       "The building$$it$$0.06203434243798256"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I am sure that my map will show this building ; it is very famous .",
@@ -2620,7 +2620,7 @@
       "The map$$it$$0.28037354350090027",
       "The building$$it$$0.23987546563148499"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob paid for Charlie's college education . He is very generous .",
@@ -2693,7 +2693,7 @@
       "Bob$$He$$0.6301818490028381",
       "Charlie$$He$$0.7173231840133667"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very hurt .",
@@ -2762,7 +2762,7 @@
       "Bob$$He$$0.3463215231895447",
       "Charlie$$He$$0.36741867661476135"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have won .",
@@ -2893,7 +2893,7 @@
     "entailment": [
       "Bob$$he$$0.6280713081359863"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .",
@@ -2960,7 +2960,7 @@
       "The con artist$$he$$0.2891123294830322",
       "Sam$$he$$0.3047887682914734"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .",
@@ -3096,7 +3096,7 @@
     "entailment": [
       "The mouse$$it$$0.010038373060524464"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Anne gave birth to a daughter last month . She is a very charming woman .",
@@ -3263,7 +3263,7 @@
       "Jim$$he$$0.11238972842693329",
       "the guy$$he$$0.1076318770647049"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who he was , but he looked very unhappy .",
@@ -3331,7 +3331,7 @@
     "entailment": [
       "The worm$$It$$0.35821232199668884"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The fish ate the worm . It was tasty .",
@@ -3528,7 +3528,7 @@
       "The tree$$it$$0.04179837182164192",
       "The roof$$it$$0.012846538797020912"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it repaired .",
@@ -3562,7 +3562,7 @@
     "entailment": [
       "The tree$$it$$0.02782844379544258"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the police station .",
@@ -3696,7 +3696,7 @@
       "John$$He$$0.02779439277946949",
       "The man$$He$$0.022494317963719368"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressed .",
@@ -3730,7 +3730,7 @@
     "entailment": [
       "John$$He$$0.10977727174758911"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressive .",
@@ -3862,7 +3862,7 @@
       "Sam and Amy$$they$$0.11195481568574905",
       "Amy's parents$$they$$0.0861106589436531"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .",
@@ -4000,7 +4000,7 @@
       "The old house$$it$$0.019091542810201645",
       "The new house$$it$$0.014744940213859081"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .",
@@ -4032,7 +4032,7 @@
       "The old house$$it$$0.02470317669212818",
       "The new house$$it$$0.016656896099448204"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Many people start to read Paul's books and can not put them down . They are gripped because Paul writes so well .",
@@ -4162,7 +4162,7 @@
       "The flute$$it$$0.03559292480349541",
       "The piece$$it$$0.029191672801971436"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam pulled up a chair to the piano , but it was broken , so he had to stand instead .",
@@ -4221,7 +4221,7 @@
       "The chair$$it$$2.836615206020586e-34",
       "The piano$$it$$9.119043653566424e-33"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Since it was raining , I carried the newspaper in my backpack to keep it dry .",
@@ -4255,7 +4255,7 @@
     "entailment": [
       "The newspaper$$it$$0.16775532066822052"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Since it was raining , I carried the newspaper over my backpack to keep it dry .",
@@ -4383,7 +4383,7 @@
       "The sand castle$$it$$0.016829507425427437",
       "The flag$$it$$0.03127777948975563"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked it down .",
@@ -4415,7 +4415,7 @@
       "The sand castle$$it$$0.00016617677465546876",
       "The flag$$it$$0.0015095178969204426"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was disappointed .",
@@ -4483,7 +4483,7 @@
     "entailment": [
       "Susan$$She$$0.8753633499145508"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come out .",
@@ -4624,7 +4624,7 @@
       "Sam$$he$$0.0381971038877964",
       "Adam$$he$$0.02376214601099491"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The path to the lake was blocked , so we could not use it  .",
@@ -4688,7 +4688,7 @@
       "The path$$it$$0.0028323179576545954",
       "The lake$$it$$0.0021652181167155504"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was out .",
@@ -4784,7 +4784,7 @@
       "The lake$$it$$0.29289624094963074",
       "The ocean beach$$it$$0.28459152579307556"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a dangerous place to swim .",
@@ -4816,7 +4816,7 @@
       "The lake$$it$$0.0010379796149209142",
       "The ocean beach$$it$$0.00026086674188263714"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like golfers .",
@@ -4919,7 +4919,7 @@
       "Mary$$she$$0.12659472227096558",
       "daughter$$she$$0.17870326340198517"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Mary tucked her daughter Anne into bed , so that she could sleep .",
@@ -4953,7 +4953,7 @@
     "entailment": [
       "daughter$$she$$0.0006960696191526949"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Fred and Alice had very warm down coats , but they were not prepared for the cold in Alaska .",
@@ -4985,7 +4985,7 @@
       "Fred and Alice$$they$$0.2823718190193176",
       "coats$$they$$0.36940398812294006"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred and Alice had very warm down coats , but they were not enough for the cold in Alaska .",
@@ -5091,7 +5091,7 @@
       "Thomson$$he$$0.059000469744205475",
       "Cooper$$he$$0.053391460329294205"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
@@ -5125,7 +5125,7 @@
     "entailment": [
       "Jackson$$he$$0.6601131558418274"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries earlier .",
@@ -5157,7 +5157,7 @@
       "Jackson$$he$$0.6629976630210876",
       "Arnold$$he$$0.5521978735923767"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I can not cut that tree down with that axe ; it is too thick .",
@@ -5189,7 +5189,7 @@
       "The tree$$it$$0.16385342180728912",
       "The axe$$it$$0.1449480950832367"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I can not cut that tree down with that axe ; it is too small .",
@@ -5263,7 +5263,7 @@
       "The foxes$$them$$0.3252471387386322",
       "The chickens$$them$$0.32524657249450684"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to guard them  .",
@@ -5297,7 +5297,7 @@
     "entailment": [
       "The chickens$$them$$0.0005325076053850353"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very bold .",
@@ -5397,7 +5397,7 @@
       "His eyes$$them$$0.056608133018016815",
       "His hands$$them$$0.06395334750413895"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered them when the wind stopped .",
@@ -5461,7 +5461,7 @@
       "Terpsichore$$it$$0.17469970881938934",
       "Tina$$it$$0.22601069509983063"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was easier to pronounce .",
@@ -5653,7 +5653,7 @@
       "Fred$$He$$1.560951866647717e-39",
       "great-grandfather$$He$$8.02164196871088e-41"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred is the only man still alive who remembers my great-grandfather . He was a remarkable man .",
@@ -5680,7 +5680,7 @@
       "Fred$$He$$3.0752218302441114e-40",
       "great-grandfather$$He$$8.434638532422883e-41"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve years old .",
@@ -5712,7 +5712,7 @@
       "Fred$$he$$0.07599671185016632",
       "My father$$he$$0.0708974227309227"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .",
@@ -5744,7 +5744,7 @@
       "Fred$$he$$0.07507281005382538",
       "My father$$he$$0.07101351022720337"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .",
@@ -5778,7 +5778,7 @@
     "entailment": [
       "Yakutsk$$they$$0.4530757665634155"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .",
@@ -5812,7 +5812,7 @@
     "entailment": [
       "Yakutsk$$they$$0.015031077899038792"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Look! There is a minnow swimming right below that duck! It had better get away to safety fast! .",
@@ -5839,7 +5839,7 @@
       "The minnow$$It$$1.0348283494364584e-52",
       "The duck$$It$$1.9990912625341775e-51"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Look! There is a shark swimming right below that duck! It had better get away to safety fast! .",
@@ -5898,7 +5898,7 @@
       "Archaeologists$$They$$0.040896859019994736",
       "humans$$They$$0.05260191485285759"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
@@ -5932,7 +5932,7 @@
     "entailment": [
       "humans$$They$$0.009596560150384903"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They began two years ago .",
@@ -6027,7 +6027,7 @@
       "The journalists$$They$$2.4668532804550382e-48",
       "The stars$$They$$4.286701200249141e-48"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The journalists interviewed the stars of the new movie . They were very cooperative , so the interview lasted for a long time .",
@@ -6059,7 +6059,7 @@
       "The journalists$$They$$0.052991610020399094",
       "The stars$$They$$0.04287681356072426"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The police arrested all of the gang members . They were trying to stop the drug trade in the neighborhood .",
@@ -6168,7 +6168,7 @@
       "The cake$$It$$0.027325086295604706",
       "The refrigerator$$It$$0.0011943436693400145"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I put the cake away in the refrigerator . It has a lot of leftovers in it .",
@@ -6232,7 +6232,7 @@
       "The ankles$$they$$0.2561100423336029",
       "The crutches$$they$$0.23856793344020844"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be unnecessary .",
@@ -6323,7 +6323,7 @@
       "The sponsors$$They$$0.011777893640100956",
       "The opponents$$They$$0.007317744195461273"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of them  .",
@@ -6359,7 +6359,7 @@
       "The oatmeal cookies$$them$$0.01182450819760561",
       "The chocolate chip cookies$$them$$0.009171598590910435"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of them  .",
@@ -6391,7 +6391,7 @@
       "The oatmeal cookies$$them$$9.116107685258612e-05",
       "The chocolate chip cookies$$them$$9.96888120425865e-05"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of them  .",
@@ -6423,7 +6423,7 @@
       "copies of the newsletter$$them$$0.0013648545136675239",
       "chairs$$them$$0.0015992450062185526"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of them  .",
@@ -6450,7 +6450,7 @@
       "copies of the newsletter$$them$$1.6355564817394071e-46",
       "chairs$$them$$8.700700431722635e-42"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it left a hole .",
@@ -6482,7 +6482,7 @@
       "The pin$$it$$0.017541736364364624",
       "The carrot$$it$$0.007234801072627306"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it had a hole .",
@@ -6514,7 +6514,7 @@
       "The pin$$it$$0.041738733649253845",
       "The carrot$$it$$0.004506198689341545"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of coffee .",
@@ -6650,7 +6650,7 @@
     "entailment": [
       "Fred$$him$$0.6281261444091797"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The table will not fit through the doorway because it is too wide .",
@@ -6686,7 +6686,7 @@
     "entailment": [
       "The doorway$$it$$0.8719777464866638"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The table will not fit through the doorway because it is too narrow .",
@@ -6828,7 +6828,7 @@
       "John$$him$$0.9109183549880981",
       "Bill$$him$$0.9102174639701843"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John hired himself out to Bill to take care of him  .",
@@ -6869,7 +6869,7 @@
       "John$$him$$0.8028980493545532",
       "Bill$$him$$0.8028983473777771"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John promised Bill to leave , so an hour later he left .",
@@ -6940,7 +6940,7 @@
       "John$$he$$0.1106739193201065",
       "Bill$$he$$0.13772422075271606"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research .",
@@ -6972,7 +6972,7 @@
       "Goodman$$he$$0.3754432797431946",
       "Xenophanes$$he$$0.3801933825016022"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .",
@@ -7009,7 +7009,7 @@
       "Goodman$$he$$0.6168257594108582",
       "Xenophanes$$he$$0.6146689653396606"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .",
@@ -7041,7 +7041,7 @@
       "Emma$$her$$0.27881038188934326",
       "Emma's mother$$her$$0.2691535949707031"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .",
@@ -7177,7 +7177,7 @@
     "entailment": [
       "Joe$$he$$0.07310198247432709"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Joe paid the detective after he delivered the final report on the case .",
@@ -7284,7 +7284,7 @@
       "Beth$$she$$0.3845345973968506",
       "Sally$$she$$0.2900179624557495"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jim signaled the barman and gestured toward his empty glass .",
@@ -7316,7 +7316,7 @@
       "Jim$$his$$0.23616912961006165",
       "The barman$$his$$0.20112119615077972"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jim signaled the barman and gestured toward his bathroom key .",
@@ -7380,7 +7380,7 @@
       "Dan$$his$$0.26453348994255066",
       "Bill$$his$$0.26929229497909546"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was quicker .",
@@ -7412,7 +7412,7 @@
       "Dan$$his$$0.2652362287044525",
       "Bill$$his$$0.29389896988868713"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Tom said Check to Ralph as he moved his bishop .",
@@ -7452,7 +7452,7 @@
       "Tom$$his$$0.35761764645576477",
       "Ralph$$his$$0.800421416759491"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Tom said Check to Ralph as he took his bishop .",
@@ -7516,7 +7516,7 @@
       "Andrea$$she$$0.013553799130022526",
       "Susan$$she$$0.01788424514234066"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing gear .",
@@ -7625,7 +7625,7 @@
       "Tom$$he$$0.7321169972419739",
       "Ralph$$he$$0.3144655227661133"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bill passed the half-empty plate to John because he was full .",
@@ -7697,7 +7697,7 @@
       "Bill$$he$$0.17072519659996033",
       "John$$he$$0.12260288745164871"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bill passed the gameboy to John because his turn was over .",
@@ -7734,7 +7734,7 @@
       "Bill$$his$$0.0004012687422800809",
       "John$$his$$0.00011786371760535985"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bill passed the gameboy to John because his turn was next .",
@@ -7834,7 +7834,7 @@
       "The man$$his$$0.08607282489538193",
       "The boy$$his$$0.12080202251672745"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Stretching her back , the woman smiled at the girl .",
@@ -7906,7 +7906,7 @@
     "entailment": [
       "The woman$$her$$0.20836248993873596"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Billy cried because Toby would not accept his toy .",
@@ -7984,7 +7984,7 @@
       "Billy$$his$$0.5458070635795593",
       "Toby$$his$$0.6984630227088928"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Lily spoke to Donna , breaking her silence .",
@@ -8020,7 +8020,7 @@
       "Lily$$her$$0.9660272598266602",
       "Donna$$her$$0.9658948183059692"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Lily spoke to Donna , breaking her concentration .",
@@ -8091,7 +8091,7 @@
     "entailment": [
       "Timmy$$him$$0.04277435690164566"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a stern look .",
@@ -8261,7 +8261,7 @@
     "entailment": [
       "The father$$his$$8.500971944158664e-07"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The woman held the girl against her chest .",
@@ -8300,7 +8300,7 @@
       "The woman$$her$$0.953001856803894",
       "The girl$$her$$0.943267822265625"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The woman held the girl against her will .",
@@ -8402,7 +8402,7 @@
       "Pam's parents$$They$$0.06525325775146484",
       "Pam and Paul$$They$$0.09392742067575455"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Dr . Adams informed Kate that she had retired and presented several options for future treatment .",
@@ -8434,7 +8434,7 @@
       "Dr. Adams$$she$$0.1383662223815918",
       "Kate$$she$$0.19084616005420685"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dr . Adams informed Kate that she had cancer and presented several options for future treatment .",
@@ -8468,7 +8468,7 @@
     "entailment": [
       "Kate$$she$$0.11298239976167679"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very compassionate .",
@@ -8505,7 +8505,7 @@
       "Dan$$He$$0.30225956439971924",
       "Bill$$He$$0.34384605288505554"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very cruel .",
@@ -8566,7 +8566,7 @@
       "George$$he$$2.0897898333067138e-52",
       "Eric$$he$$8.378360567055826e-53"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was particularly eager to see it .",
@@ -8598,7 +8598,7 @@
       "George$$he$$0.058304429054260254",
       "Eric$$he$$0.08190590888261795"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was not particularly eager to see it .",
@@ -8669,7 +8669,7 @@
       "Jane$$she$$0.931462287902832",
       "Joan$$she$$0.8798490762710571"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jane gave Joan candy because she was hungry .",
@@ -8842,7 +8842,7 @@
     "entailment": [
       "James$$he$$0.3595189154148102"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Kirilov ceded the presidency to Shatov because he was less popular .",
@@ -8908,7 +8908,7 @@
     "entailment": [
       "Kirilov$$he$$0.01101154275238514"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Emma did not pass the ball to Janie although she saw that she was open .",
@@ -8942,7 +8942,7 @@
     "entailment": [
       "Emma$$she$$0.33170077204704285"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Emma did not pass the ball to Janie although she was open .",
@@ -8976,7 +8976,7 @@
     "entailment": [
       "Emma$$she$$0.044469673186540604"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I put the butterfly wing on the table and it broke .",
@@ -9150,7 +9150,7 @@
     "entailment": [
       "Madonna$$her$$0.651043176651001"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
@@ -9188,7 +9188,7 @@
       "Madonna$$her$$0.25501030683517456",
       "her trainer$$her$$0.9023364782333374"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Carol believed that Rebecca suspected that she had stolen the watch .",
@@ -9220,7 +9220,7 @@
       "Carol$$she$$0.3198574185371399",
       "Rebecca$$she$$0.3237886130809784"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Carol believed that Rebecca regretted that she had stolen the watch .",
@@ -9256,7 +9256,7 @@
     "entailment": [
       "Rebecca$$she$$0.5295065641403198"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Ovid ; it was a major influence on his writing .",
@@ -9288,7 +9288,7 @@
       "Shakespeare$$his$$0.7144905924797058",
       "Ovid$$his$$0.6506813764572144"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Goethe ; it was a major influence on his writing .",
@@ -9320,7 +9320,7 @@
       "Shakespeare$$his$$0.5440537929534912",
       "Goethe$$his$$0.6174539923667908"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Ovid ; it was a fine selection of his writing .",
@@ -9352,7 +9352,7 @@
       "Shakespeare$$his$$0.6596131920814514",
       "Ovid$$his$$0.6264626383781433"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing .",
@@ -9487,7 +9487,7 @@
       "Ethan$$he$$0.054228153079748154",
       "Luke$$he$$0.3195256292819977"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
@@ -9519,7 +9519,7 @@
       "Ethan$$he$$0.09151468425989151",
       "Luke$$he$$0.10559779405593872"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so stupid .",
@@ -9551,7 +9551,7 @@
       "the judges$$they$$0.04069443419575691",
       "the chatbots$$they$$0.0779549777507782"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so advanced .",
@@ -9585,7 +9585,7 @@
     "entailment": [
       "the chatbots$$they$$0.06215442344546318"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to forget .",
@@ -9617,7 +9617,7 @@
       "GrWQWu8JyC$$it$$0.25095102190971375",
       "willow-towered Canopy Huntertropic wrestles$$it$$0.10589117556810379"
     ],
-    "predicted": "CORRECT"
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to remember .",
@@ -9649,6 +9649,6 @@
       "GrWQWu8JyC$$it$$0.08950316160917282",
       "willow-towered Canopy Huntertropic wrestles$$it$$0.004614285659044981"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   }
 ]

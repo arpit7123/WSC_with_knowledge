@@ -1,12 +1,16 @@
 [
-   {'ans': 'Shakespeare',
-  'choice1': 'Shakespeare',
-  'choice2': 'Ovid',
-  'know_sent': 'Shakespeare was inspired by the works of Ovid, in particular '
-               'the poems in Metamorphoses',
-  'know_url': 'https://www.quora.com/Who-is-the-Latin-Shakespeare',
-  'pronoun': 'his',
-  'search_query': '" * shakespeare * inspired by * ovid * "\n',
-  'ws_sent': 'This book introduced Shakespeare to Ovid ; it was a major '
-             'influence on his writing .'}
+   {
+    "ans": "the witness",
+    "choice1": "the lawyer",
+    "choice2": "the witness",
+    "know_sent": "For years I've been asked to address this question , but I have been reluctant to answer it .",
+    "know_url": "NA",
+    "pronoun": "he",
+    "search_query": "NA",
+    "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
+    "scr_score": {
+      "choice1": 1.203124856630761e-25,
+      "choice2": 3.023708488901286e-26
+    }
+  }
 ]

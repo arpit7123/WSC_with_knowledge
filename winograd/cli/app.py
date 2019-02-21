@@ -2,7 +2,8 @@
 
 import json
 import shlex, subprocess
-import sys;
+import sys
+import math
 
 parent_dir = '/Users/ash/Documents/Study/Research/psl-examples/winograd/'
 PIPE= '/Users/ash/Documents/Study/Research/psl-examples/winograd/log/run.txt'
@@ -65,11 +66,11 @@ def get_ans(prob, bert):
             else:
                 inferred_ans = coref_score[0]
 
-    if not (inferred_ans == bert['choice1'] and not bert_isChoice1 and bert['ans'].lower() ==  bert['choice1'].lower())
-        inferred_ans = bert['choice2']
+    # if not (inferred_ans.lower() == bert['choice1'].lower() and not bert_isChoice1 and bert['ans'].lower() ==  bert['choice1'].lower()):
+    #     inferred_ans = bert['choice2']
 
-    if not (bert['ans'].lower() ==  bert['choice2'].lower() and bert_isChoice1 and inferred_ans.lower() == bert['choice2'].lower()):
-        inferred_ans = bert['choice1']
+    # if not (bert['ans'].lower() ==  bert['choice2'].lower() and bert_isChoice1 and inferred_ans.lower() == bert['choice2'].lower()):
+    #     inferred_ans = bert['choice1']
 
     return inferred_ans, max
 
@@ -122,13 +123,12 @@ def main():
             token = con.split('$$')
             context_pair_txt = context_pair_txt+token[0]+'\t'+token[1]+'\n'
 
-        for con in domain:
-            domain_txt = domain_txt+con+'\n'
+        domain_txt = domain_txt+domain[0]+'\t'+'can'+'\n'
+        domain_txt = domain_txt+domain[1]+'\t'+'can'+'\n'
+        domain_txt = domain_txt+domain[2]+'\t'+'p'+'\n'
 
-        # if bert["choice1_score"] > bert["choice2_score"]:
-        #     commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\n'
-        # else:
-        #     commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\n'
+        commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\t'+str(bert["choice1_score"] / math.ceil(bert["choice1_score"]))+'\n'
+        commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\t'+str(bert["choice2_score"] / math.ceil(bert["choice2_score"]))+'\n'
 
 
         # if len(entailment) == 2:

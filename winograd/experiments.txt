@@ -7,3 +7,11 @@ iii) Inter + Intra with above score 56.14%
 After normalizing the scores between candidate choices
 i) Both inter and intra 53.3%
 ii) No difference with removing inter dependency - 53.3%
+
+
+PSL INCORRECT PREVIOUS SYSTEM CORRECT : 70
+PSL CORRECT PREVIOUS SYSTEM INCORRECT : 56
+PSL no knowledge : 5
+
+
+PSL with BERT Intra sentence and System Inter sentence - First run c1/c1+2, c2/c1+c2 ==> 60.3%

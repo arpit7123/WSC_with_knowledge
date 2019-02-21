@@ -1,13 +1,13 @@
-10: Domain(P1) & Domain(P2) & Context(P1, C) & Context(P2, C) & (P1 != P2) -> Coref(P1, P2) ^2
 
-8: Domain(P1) & Domain(P2) & Context(P1, C1) & Context(P2, C2) & Similar(C1, C2) & (P1 != P2) -> Coref(P1, P2) ^2
+40: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C) & Context(P2, C) & (P1 != P2) -> Coref(P1, P2) ^2
 
-5: Domain(P1) & Domain(P2) & Context(P1, C1) & Context(P2, C2) & Disimilar(C1, C2) -> !Coref(P1, P2)^2
+8: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C1) & Context(P2, C2) & Similar(C1, C2) & (P1 != P2) -> Coref(P1, P2) ^2
 
-8: Entailment(P1, P2) ->  Coref(P1, P2) ^2
+5: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C1) & Context(P2, C2) & Disimilar(C1, C2) -> !Coref(P1, P2)^2
 
-20: Commonsense(P1, P2) -> Coref(P1, P2) ^2
+40: Entailment(P1, P2) ->  Coref(P1, P2)
+
+10: Commonsense(P1, P2) -> Coref(P1, P2)
 
 // Negative Prior
-1: !Coref(P1, P2) ^2
-
+1: !Coref(P1, P2)^2

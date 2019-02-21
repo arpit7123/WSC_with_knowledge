@@ -3,7 +3,7 @@ predicates:
   Context/2: closed
   Similar/2: closed
   Disimilar/2: closed
-  Domain/1: closed
+  Domain/2: closed
   Entailment/2: closed
   Commonsense/2: closed
 
