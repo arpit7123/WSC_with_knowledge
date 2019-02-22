@@ -1,16 +1,16 @@
 [
-   {
-    "ans": "the witness",
-    "choice1": "the lawyer",
-    "choice2": "the witness",
-    "know_sent": "For years I've been asked to address this question , but I have been reluctant to answer it .",
-    "know_url": "NA",
+  {
+    "ans": "Tom",
+    "choice1": "Frank",
+    "choice2": "Tom",
+    "know_sent": "He sold me a bad rug . I am really angry about it .",
+    "know_url": "http://www.quotes.net/mquote/947889",
     "pronoun": "he",
-    "search_query": "NA",
-    "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
+    "search_query": "Google: \" * sold  bad * angry * \"",
+    "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
     "scr_score": {
-      "choice1": 1.203124856630761e-25,
-      "choice2": 3.023708488901286e-26
+      "choice1": 1.0125118216202368e-41,
+      "choice2": 6.956185858150792e-40
     }
   }
 ]

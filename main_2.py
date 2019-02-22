@@ -266,6 +266,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
     choice1_count = 0
     choice2_count = 0
     psl["context"] = []
+    psl["case"] = []
     psl["entailment"] = []
     ws_sent = problem["ws_sent"]
     ws_pronoun = problem["pronoun"]
@@ -408,7 +409,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
                     ent_comparisons_for_choice2.add(("TTF",new_sent,know_sent))
                     psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans)
-
+                psl["case"].append("TTF")
             # If q1=F, q2=T, q3=F
             elif len(choice1_set_of_sim_ans) == 0 and len(choice2_set_of_sim_ans) > 0:
                 sent_tokens = ws_sent.split(" ")
@@ -427,7 +428,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
                     ent_comparisons_for_choice2.add(("FTF",new_sent,know_sent))
                     psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans)
-
+                psl["case"].append("FTF")
             # If q1=T, q2=F, q3=F
             elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans) == 0:
                 sent_tokens = ws_sent.split(" ")
@@ -446,7 +447,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
                     ent_comparisons_for_choice1.add(("TFF",new_sent,know_sent))
                     psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans)
                     psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans)
-
+                psl["case"].append("TFF")
         else:
             # If q1=F, q2=F, q3=T
             if len(choice1_set_of_sim_ans)==0 and len(choice2_set_of_sim_ans)==0:
@@ -467,7 +468,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
                 new_sent = " ".join(sent_tokens)
                 ent_comparisons_for_choice2.add(("FFT",new_sent,know_sent))
-
+                psl["case"].append("FFT")
             # If q1=F, q2=T, q3=T
             if len(choice1_set_of_sim_ans) == 0 and len(choice2_set_of_sim_ans)>0:
                 sent_tokens = ws_sent.split(" ")
@@ -486,7 +487,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
                     ent_comparisons_for_choice2.add(("FTT",new_sent,know_sent))
                     psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans)
-
+                psl["case"].append("FTT")
             # If q1=T, q2=F, q3=T
             elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans)== 0:
                 sent_tokens = ws_sent.split(" ")
@@ -505,10 +506,11 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl):
                     ent_comparisons_for_choice1.add(("TFT",new_sent,know_sent))
                     psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans)
                     psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans)
-
+                psl["case"].append("TFT")
             # If q1=T, q2=T, q3=T
             elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans) > 0:
                 ans_tokens = ans.split(" ")
+                psl["case"].append("TTT")
                 anss_wrt_choice1 = []
                 for (know_choice,verb2) in choice1_set_of_sim_ans:
                     new_ans = ""
@@ -702,7 +704,27 @@ def choose_max_entailment(psl):
     
     for (key, value) in ent.items():
         psl["entailment"].append(key+"$$"+str(value))
+
+def process(psl):
+    #if "case" in psl and len(psl["case"]) == 1 and psl["case"][0] == "TTF":
+    #    context = []
+    #    for each in psl["case"]:
+    #        if each != "TTF":
+    #            return     
+    if len(psl["entailment"]) < 2:
+        return
+    context = []
+    for each in psl["context"]:
         
+        choice1 = psl["entailment"][0].split("$$")
+        choice2 = psl["entailment"][1].split("$$")
+        if float(choice1[-1]) < float(choice2[-1]):
+            if prob['choice1']+'$$' not in each:
+                context.append(each)
+        else:
+            if prob['choice2']+'$$' not in each:
+                context.append(each)
+    psl["context"] = context
 
 if __name__=="__main__":
     populate_ques_type_list()
@@ -790,6 +812,7 @@ if __name__=="__main__":
                     result = main(prob, ws_sent_qa_pairs, know_sent_qa_pairs, psl)
                     psl["context"] = list(set(psl["context"]))
                     choose_max_entailment(psl)
+                    process(psl)
                     if result=="correct":
                         correct += 1
                     elif result=="incorrect":

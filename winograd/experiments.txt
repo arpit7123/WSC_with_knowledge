@@ -15,3 +15,9 @@ PSL no knowledge : 5
 
 
 PSL with BERT Intra sentence and System Inter sentence - First run c1/c1+2, c2/c1+c2 ==> 60.3%
+
+
+PSL + BERT, TTF cases which has both references are removed based on entailment => 61.5%
+
+
+PSL + BERT after normalizing entailment - 63.9%

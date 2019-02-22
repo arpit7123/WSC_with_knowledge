@@ -25,8 +25,8 @@
       "The demonstrators$$they$$3.510759942941763e-35"
     ],
     "context": [
-      "The city councilmen$$He",
-      "they$$He"
+      "they$$He",
+      "The city councilmen$$He"
     ],
     "case": [
       "TFT",
@@ -35,9 +35,7 @@
     "entailment": [
       "The city councilmen$$they$$0.7360312938690186"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.504308223724365,
-    "bert_choice2": 4.492002964019775
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The city councilmen refused the demonstrators a permit because they advocated violence .",
@@ -65,8 +63,8 @@
       "The demonstrators$$they$$5.9488331319324445e-36"
     ],
     "context": [
-      "The demonstrators$$He",
-      "they$$He"
+      "they$$He",
+      "The demonstrators$$He"
     ],
     "case": [
       "FTT",
@@ -75,9 +73,7 @@
     "entailment": [
       "The demonstrators$$they$$0.40214547514915466"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.307188034057617,
-    "bert_choice2": 4.434593677520752
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The trophy does not fit into the brown suitcase because it is too large .",
@@ -115,9 +111,7 @@
     "entailment": [
       "the trophy$$it$$0.01770344190299511"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.708538055419922,
-    "bert_choice2": 3.6001269817352295
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The trophy does not fit into the brown suitcase because it is too small .",
@@ -146,8 +140,8 @@
     ],
     "context": [
       "it$$PSU",
-      "it$$Case",
-      "the brown suitcase$$Case"
+      "the brown suitcase$$Case",
+      "it$$Case"
     ],
     "case": [
       "TTF",
@@ -157,9 +151,7 @@
       "the trophy$$it$$0.2785727381706238",
       "the brown suitcase$$it$$0.4829086363315582"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.6728336811065674,
-    "bert_choice2": 3.937723398208618
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joan made sure to thank Susan for all the help she had received .",
@@ -187,10 +179,10 @@
       "Susan$$she$$1.143403516380672e-30"
     ],
     "context": [
-      "Joan$$I",
-      "she$$you",
       "she$$because you have helped me the best",
       "she$$I",
+      "Joan$$I",
+      "she$$you",
       "she$$because you have helped me the best when I received the deny letter from immigration some years ago"
     ],
     "case": [
@@ -200,12 +192,10 @@
       "TTT"
     ],
     "entailment": [
-      "Joan$$she$$0.7030576467514038",
-      "Susan$$she$$0.6779120564460754"
+      "Joan$$she$$0.7028608918190002",
+      "Susan$$she$$0.6779205799102783"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.368645191192627,
-    "bert_choice2": 3.991436004638672
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joan made sure to thank Susan for all the help she had given .",
@@ -233,12 +223,14 @@
       "Susan$$she$$7.897900511630578e-31"
     ],
     "context": [
-      "she$$you",
+      "Susan$$me",
       "she$$for all the help you 've given me",
+      "Joan$$me",
       "Susan$$you",
       "she$$an account",
       "she$$all the help you 've given me",
-      "Susan$$me",
+      "Joan$$I",
+      "she$$you",
       "Susan$$an account"
     ],
     "case": [
@@ -248,12 +240,10 @@
       "TTT"
     ],
     "entailment": [
-      "Joan$$she$$0.7698685526847839",
-      "Susan$$she$$0.950436532497406"
+      "Joan$$she$$0.7721534371376038",
+      "Susan$$she$$0.9504537582397461"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.1214377880096436,
-    "bert_choice2": 3.9562814235687256
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Paul tried to call George on the phone , but he was not successful .",
@@ -281,22 +271,20 @@
       "George$$he$$1.3116910089092451e-29"
     ],
     "context": [
-      "he$$to call the Doctors associate",
-      "he$$We",
-      "he$$call the Doctors associate",
       "he$$the Doctors associate",
-      "Paul$$We"
+      "he$$We",
+      "he$$to call the Doctors associate",
+      "Paul$$We",
+      "he$$call the Doctors associate"
     ],
     "case": [
       "TTF"
     ],
     "entailment": [
-      "Paul$$he$$0.5422695279121399",
-      "George$$he$$0.521728515625"
+      "Paul$$he$$0.5422832369804382",
+      "George$$he$$0.5217282772064209"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.056726932525635,
-    "bert_choice2": 4.401879787445068
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Paul tried to call George on the phone , but he was not available .",
@@ -325,18 +313,17 @@
     ],
     "context": [
       "George$$Jack",
+      "Paul$$she",
       "he$$his phone"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Paul$$he$$0.019067486748099327",
+      "Paul$$he$$0.019067473709583282",
       "George$$he$$0.3612944483757019"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.550156116485596,
-    "bert_choice2": 4.192549705505371
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The lawyer asked the witness a question , but he was reluctant to repeat it .",
@@ -364,20 +351,19 @@
       "the witness$$he$$1.4888291693508965e-27"
     ],
     "context": [
-      "the lawyer$$she",
-      "he$$Williams"
+      "the witness$$the official",
+      "he$$Williams",
+      "the lawyer$$she"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "the lawyer$$he$$0.2873248755931854",
-      "the witness$$he$$0.04524126648902893"
+      "the lawyer$$he$$0.28732481598854065",
+      "the witness$$he$$0.045241277664899826"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.229097843170166,
-    "bert_choice2": 5.214666366577148
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
@@ -405,21 +391,19 @@
       "the witness$$he$$3.023708488901286e-26"
     ],
     "context": [
-      "he$$I 've",
-      "he$$I",
       "the witness$$I 've",
-      "the witness$$I"
+      "he$$I 've",
+      "the witness$$I",
+      "he$$I"
     ],
     "case": [
       "FTT",
       "FTT"
     ],
     "entailment": [
-      "the witness$$he$$0.4752758741378784"
+      "the witness$$he$$0.47527578473091125"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.21223783493042,
-    "bert_choice2": 5.132189750671387
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The delivery truck zoomed by the school bus because it was going so fast .",
@@ -455,11 +439,9 @@
       "TFT"
     ],
     "entailment": [
-      "the delivery truck$$it$$0.07090305536985397"
+      "the delivery truck$$it$$0.07090307772159576"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.100998401641846,
-    "bert_choice2": 3.8725485801696777
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The delivery truck zoomed by the school bus because it was going so slow .",
@@ -488,6 +470,7 @@
     ],
     "context": [
       "the school bus$$it",
+      "the delivery truck$$I",
       "it$$because it felt like it was going really really slow",
       "it$$it"
     ],
@@ -496,12 +479,10 @@
       "TTT"
     ],
     "entailment": [
-      "the delivery truck$$it$$0.44085752964019775",
-      "the school bus$$it$$0.49160638451576233"
+      "the delivery truck$$it$$0.440857470035553",
+      "the school bus$$it$$0.49160632491111755"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.3103227615356445,
-    "bert_choice2": 4.091191291809082
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition .",
@@ -529,8 +510,8 @@
       "Bill$$he$$2.2167570361572852e-43"
     ],
     "context": [
-      "he$$National Award Winner Raveena Tandon",
-      "Frank$$National Award Winner Raveena Tandon"
+      "Frank$$National Award Winner Raveena Tandon",
+      "he$$National Award Winner Raveena Tandon"
     ],
     "case": [
       "TFF",
@@ -539,11 +520,9 @@
       "TFF"
     ],
     "entailment": [
-      "Frank$$he$$0.4204479455947876"
+      "Frank$$he$$0.42044797539711"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.365478992462158,
-    "bert_choice2": 3.2696447372436523
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition .",
@@ -580,11 +559,9 @@
       "TFF"
     ],
     "entailment": [
-      "Frank$$he$$0.17060106992721558"
+      "Frank$$he$$0.17060108482837677"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.7853164672851562,
-    "bert_choice2": 3.6518943309783936
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The man could not lift his son because he was so weak .",
@@ -612,9 +589,9 @@
       "The son$$he$$1.0062476211990715e-24"
     ],
     "context": [
+      "The man$$it",
       "he$$She",
       "he$$it",
-      "The man$$it",
       "The man$$She"
     ],
     "case": [
@@ -622,11 +599,9 @@
       "TFT"
     ],
     "entailment": [
-      "The man$$he$$0.3667300343513489"
+      "The man$$he$$0.36179590225219727"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.4814798831939697,
-    "bert_choice2": 3.4782333374023438
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The man could not lift his son because he was so heavy .",
@@ -654,9 +629,10 @@
       "his son$$he$$3.5654404658719076e-25"
     ],
     "context": [
-      "he$$she",
       "The man$$they",
-      "he$$because she was so heavy"
+      "he$$she",
+      "he$$because she was so heavy",
+      "his son$$her"
     ],
     "case": [
       "TTT",
@@ -666,9 +642,7 @@
       "The man$$he$$0.938097357749939",
       "his son$$he$$0.8796311616897583"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.9102344512939453,
-    "bert_choice2": 4.378847122192383
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The large ball crashed right through the table because it was made of steel .",
@@ -704,11 +678,9 @@
       "TFF"
     ],
     "entailment": [
-      "The large ball$$it$$0.0019887909293174744"
+      "The large ball$$it$$0.0019887902308255434"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.9353110790252686,
-    "bert_choice2": 2.086062431335449
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The large ball crashed right through the table because it was made of styrofoam .",
@@ -736,21 +708,19 @@
       "The table$$it$$2.2490214301603355e-31"
     ],
     "context": [
-      "The large ball$$tire",
       "it$$this tire",
-      "The large ball$$this tire",
-      "it$$tire"
+      "it$$tire",
+      "The large ball$$tire",
+      "The large ball$$this tire"
     ],
     "case": [
       "TFF",
       "TFF"
     ],
     "entailment": [
-      "The large ball$$it$$0.031299278140068054"
+      "The large ball$$it$$0.03129926323890686"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.3758530616760254,
-    "bert_choice2": 3.427467107772827
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "John could not see the stage with Billy in front of him because he is so short .",
@@ -786,11 +756,9 @@
       "TFT"
     ],
     "entailment": [
-      "John$$he$$0.5886359214782715"
+      "John$$he$$0.588635265827179"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.267356872558594,
-    "bert_choice2": 3.7294182777404785
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John could not see the stage with Billy in front of him because he is so tall .",
@@ -818,8 +786,8 @@
       "Billy$$he$$1.1849160860301848e-36"
     ],
     "context": [
-      "he$$he",
       "John$$tyra",
+      "he$$he",
       "John$$he",
       "he$$tyra"
     ],
@@ -828,11 +796,9 @@
       "TFT"
     ],
     "entailment": [
-      "John$$he$$0.4943508505821228"
+      "John$$he$$0.4777843952178955"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.5626819133758545,
-    "bert_choice2": 3.977400064468384
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Tom threw his schoolbag down to Ray after he reached the top of the stairs .",
@@ -860,8 +826,8 @@
       "Ray$$he$$5.1245221306940286e-40"
     ],
     "context": [
-      "he$$I",
-      "Tom$$I"
+      "Tom$$I",
+      "he$$I"
     ],
     "case": [
       "TFF",
@@ -870,9 +836,7 @@
     "entailment": [
       "Tom$$he$$0.7419595718383789"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.5246927738189697,
-    "bert_choice2": 1.818040132522583
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Tom threw his schoolbag down to Ray after he reached the bottom of the stairs .",
@@ -900,8 +864,8 @@
       "Ray$$he$$2.3272194916649254e-40"
     ],
     "context": [
-      "Tom$$She",
-      "he$$She"
+      "he$$She",
+      "Tom$$She"
     ],
     "case": [
       "TFT",
@@ -910,9 +874,7 @@
     "entailment": [
       "Tom$$he$$0.3056613504886627"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 0.5688786506652832,
-    "bert_choice2": 3.67647385597229
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a good start .",
@@ -944,12 +906,10 @@
       "FFT"
     ],
     "entailment": [
-      "Sue$$she$$0.16112227737903595",
-      "Sally$$she$$0.17935548722743988"
+      "Sue$$she$$0.16112226247787476",
+      "Sally$$she$$0.17935556173324585"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.402876377105713,
-    "bert_choice2": 3.2350456714630127
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a bad start .",
@@ -979,12 +939,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Sue$$she$$0.14471423625946045",
+      "Sue$$she$$0.14471405744552612",
       "Sally$$she$$0.13122498989105225"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.4523184299468994,
-    "bert_choice2": 3.330714464187622
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The sculpture rolled off the shelf because it was not anchored .",
@@ -1020,11 +978,9 @@
       "TFT"
     ],
     "entailment": [
-      "The sculpture$$it$$0.04894673451781273"
+      "The sculpture$$it$$0.04894671589136124"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.386287212371826,
-    "bert_choice2": 3.6392879486083984
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The sculpture rolled off the shelf because it was not level .",
@@ -1053,20 +1009,18 @@
     ],
     "context": [
       "it$$The oranges",
-      "it$$the uneven table",
-      "The shelf$$the uneven table"
+      "The shelf$$the uneven table",
+      "it$$the uneven table"
     ],
     "case": [
       "TTF",
       "TTF"
     ],
     "entailment": [
-      "The sculpture$$it$$0.018847422674298286",
-      "The shelf$$it$$0.03091832436621189"
+      "The sculpture$$it$$0.01884741149842739",
+      "The shelf$$it$$0.030918294563889503"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.4150023460388184,
-    "bert_choice2": 3.940788745880127
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one below it .",
@@ -1097,11 +1051,9 @@
     "case": [],
     "entailment": [
       "Sam's drawing$$it$$0.2917413115501404",
-      "Tina's$$it$$0.2446565330028534"
+      "Tina's$$it$$0.24465656280517578"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.382077693939209,
-    "bert_choice2": 4.3950982093811035
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one above it .",
@@ -1131,12 +1083,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Sam's drawing$$it$$0.21304698288440704",
-      "Tina's$$it$$0.17148496210575104"
+      "Sam's drawing$$it$$0.21304699778556824",
+      "Tina's$$it$$0.17148493230342865"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.282764434814453,
-    "bert_choice2": 4.433406352996826
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Anna did a lot better than her good friend Lucy on the test because she had studied so hard .",
@@ -1168,12 +1118,10 @@
       "FFT"
     ],
     "entailment": [
-      "Anna$$she$$0.07284107804298401",
-      "Lucy$$she$$0.051156144589185715"
+      "Anna$$she$$0.0728411078453064",
+      "Lucy$$she$$0.05115612968802452"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.939105987548828,
-    "bert_choice2": 4.019087314605713
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Anna did a lot worse than her good friend Lucy on the test because she had studied so hard .",
@@ -1203,12 +1151,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Anna$$she$$0.0009618859621696174",
-      "Lucy$$she$$0.0006665990222245455"
+      "Anna$$she$$0.0009618846233934164",
+      "Lucy$$she$$0.000666599371470511"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 6.051731109619141,
-    "bert_choice2": 4.195581912994385
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The firemen arrived after the police because they were coming from so far away .",
@@ -1238,12 +1184,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The firemen$$they$$0.091585673391819",
-      "The police$$they$$0.05550055578351021"
+      "The firemen$$they$$0.09158569574356079",
+      "The police$$they$$0.055500540882349014"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.035774230957031,
-    "bert_choice2": 4.345764636993408
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The firemen arrived before the police because they were coming from so far away .",
@@ -1281,9 +1225,7 @@
     "entailment": [
       "The firemen$$they$$0.40167155861854553"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.084039211273193,
-    "bert_choice2": 4.591358661651611
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Frank was upset with Tom because the toaster he had bought from him did not work .",
@@ -1311,11 +1253,11 @@
       "Tom$$he$$4.382290431820339e-40"
     ],
     "context": [
+      "Frank$$they",
       "he$$they",
-      "he$$people",
-      "Frank$$people",
       "he$$products",
-      "Frank$$they"
+      "Frank$$people",
+      "he$$people"
     ],
     "case": [
       "TTF",
@@ -1323,12 +1265,10 @@
       "TTT"
     ],
     "entailment": [
-      "Frank$$he$$0.9836867451667786",
-      "Tom$$he$$0.9654950499534607"
+      "Frank$$he$$0.9836868643760681",
+      "Tom$$he$$0.9650353193283081"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.311819553375244,
-    "bert_choice2": 4.601017475128174
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
@@ -1356,8 +1296,8 @@
       "Tom$$he$$6.956185858150792e-40"
     ],
     "context": [
-      "Frank$$He",
-      "he$$He"
+      "he$$He",
+      "Frank$$He"
     ],
     "case": [
       "TTF",
@@ -1365,12 +1305,10 @@
       "TTF"
     ],
     "entailment": [
-      "Frank$$he$$0.11601240187883377",
-      "Tom$$he$$0.09456167370080948"
+      "Frank$$he$$0.11601220816373825",
+      "Tom$$he$$0.09456169605255127"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.537201881408691,
-    "bert_choice2": 4.418819904327393
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jim yelled at Kevin because he was so upset .",
@@ -1398,22 +1336,21 @@
       "Kevin$$he$$3.0887989824194177e-27"
     ],
     "context": [
-      "Jim$$MD",
-      "he$$he",
       "he$$because he is in a bad mood",
-      "he$$MD"
+      "Jim$$MD",
+      "he$$MD",
+      "Kevin$$me",
+      "he$$he"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "Jim$$he$$0.6459207534790039",
-      "Kevin$$he$$0.41806942224502563"
+      "Jim$$he$$0.6416705250740051",
+      "Kevin$$he$$0.4182390570640564"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.020120143890381,
-    "bert_choice2": 3.583439350128174
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jim comforted Kevin because he was so upset .",
@@ -1441,23 +1378,21 @@
       "Kevin$$he$$8.643603116048382e-28"
     ],
     "context": [
-      "he$$he",
       "he$$me",
-      "he$$I",
+      "Kevin$$me",
       "he$$we",
-      "Kevin$$me"
+      "he$$he",
+      "he$$I"
     ],
     "case": [
       "TTF",
       "TTT"
     ],
     "entailment": [
-      "Jim$$he$$0.9304040670394897",
+      "Jim$$he$$0.9310484528541565",
       "Kevin$$he$$0.9335905313491821"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.92587423324585,
-    "bert_choice2": 3.5874674320220947
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The sack of potatoes had been placed above the bag of flour , so it had to be moved first .",
@@ -1487,12 +1422,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The sack of potatoes$$it$$0.001322533586062491",
-      "The bag of flour$$it$$0.0012649782001972198"
+      "The sack of potatoes$$it$$0.0013225364964455366",
+      "The bag of flour$$it$$0.0012649775017052889"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.555918216705322,
-    "bert_choice2": 4.677971839904785
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The sack of potatoes had been placed below the bag of flour , so it had to be moved first .",
@@ -1524,12 +1457,10 @@
       "FFT"
     ],
     "entailment": [
-      "The sack of potatoes$$it$$0.0014185074251145124",
-      "The bag of flour$$it$$0.0027280664071440697"
+      "The sack of potatoes$$it$$0.0014185088220983744",
+      "The bag of flour$$it$$0.00272806896828115"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.596589088439941,
-    "bert_choice2": 4.723725318908691
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Pete envies Martin although he is very successful .",
@@ -1557,19 +1488,17 @@
       "Martin$$he$$6.550360369801121e-32"
     ],
     "context": [
-      "Pete$$Azin",
       "Martin$$her older brother",
-      "he$$Azin"
+      "he$$Azin",
+      "Pete$$Azin"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Martin$$he$$0.07541705667972565"
+      "Martin$$he$$0.07541707158088684"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.206812381744385,
-    "bert_choice2": 3.396771192550659
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Pete envies Martin because he is very successful .",
@@ -1601,12 +1530,10 @@
       "FFT"
     ],
     "entailment": [
-      "Pete$$he$$0.02724313735961914",
-      "Martin$$he$$0.037048399448394775"
+      "Pete$$he$$0.0272431131452322",
+      "Martin$$he$$0.03704833984375"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.4253249168395996,
-    "bert_choice2": 3.504375457763672
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The older students were bullying the younger ones , so we punished them  .",
@@ -1634,6 +1561,7 @@
       "The younger ones$$them$$1.1703909073186299e-28"
     ],
     "context": [
+      "The younger ones$$a consumer",
       "them$$the merchant",
       "The older students$$merchant"
     ],
@@ -1642,11 +1570,9 @@
     ],
     "entailment": [
       "The older students$$them$$0.7983705401420593",
-      "The younger ones$$them$$0.5699191689491272"
+      "The younger ones$$them$$0.5699191093444824"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.144518852233887,
-    "bert_choice2": 3.98669171333313
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The older students were bullying the younger ones , so we rescued them  .",
@@ -1674,8 +1600,8 @@
       "The younger ones$$them$$1.0608343032669964e-28"
     ],
     "context": [
-      "The younger ones$$This Girl",
-      "them$$This Girl"
+      "them$$This Girl",
+      "The younger ones$$This Girl"
     ],
     "case": [
       "FTF"
@@ -1683,9 +1609,7 @@
     "entailment": [
       "The younger ones$$them$$0.06645502895116806"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.401491641998291,
-    "bert_choice2": 4.324794292449951
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I poured water from the bottle into the cup until it was empty .",
@@ -1713,10 +1637,10 @@
       "the cup$$it$$1.0611269811966458e-20"
     ],
     "context": [
-      "the bottle$$the lemonade",
-      "it$$the lemonade",
+      "it$$12 paper cup",
       "the bottle$$12 paper cup",
-      "it$$12 paper cup"
+      "the bottle$$the lemonade",
+      "it$$the lemonade"
     ],
     "case": [
       "TFT",
@@ -1725,9 +1649,7 @@
     "entailment": [
       "the bottle$$it$$0.21414987742900848"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.09794807434082,
-    "bert_choice2": 4.115431785583496
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I poured water from the bottle into the cup until it was full .",
@@ -1763,11 +1685,9 @@
       "TFT"
     ],
     "entailment": [
-      "the bottle$$it$$0.4114687740802765"
+      "the bottle$$it$$0.41146883368492126"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.008075714111328,
-    "bert_choice2": 4.022435665130615
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Susan knows all about Ann's personal problems because she is nosy .",
@@ -1795,23 +1715,22 @@
       "Ann$$she$$2.0510154707580695e-35"
     ],
     "context": [
-      "she$$because she is nosy and kept asking me when we were going to try",
-      "she$$she",
       "Ann$$my situation",
+      "Ann$$about my situation",
+      "Susan$$She",
+      "she$$she",
       "she$$because she is nosy",
-      "Ann$$about my situation"
+      "she$$because she is nosy and kept asking me when we were going to try"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "Susan$$she$$0.12243036925792694",
-      "Ann$$she$$0.733679473400116"
+      "Susan$$she$$0.12243034690618515",
+      "Ann$$she$$0.7337297201156616"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.214856147766113,
-    "bert_choice2": 3.7764787673950195
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Susan knows all about Ann's personal problems because she is indiscreet .",
@@ -1839,21 +1758,20 @@
       "Ann$$she$$2.7793009696222917e-37"
     ],
     "context": [
+      "she$$The only reason you know anything about God",
+      "Susan$$you",
       "Ann$$anything about God",
-      "she$$because he has chosen to reveal himself",
-      "she$$The only reason you know anything about God"
+      "she$$because he has chosen to reveal himself"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "Susan$$she$$0.3985956907272339",
-      "Ann$$she$$0.611238420009613"
+      "Susan$$she$$0.39860618114471436",
+      "Ann$$she$$0.6112421751022339"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.406118869781494,
-    "bert_choice2": 3.760528087615967
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sid explained his theory to Mark but he could not convince him .",
@@ -1881,18 +1799,16 @@
       "Mark$$him$$2.1960651197900604e-32"
     ],
     "context": [
-      "Mark$$i",
       "Mark$$him",
       "Sid$$i",
-      "him$$him"
+      "him$$him",
+      "Mark$$i"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [],
-    "predicted": "CORRECT",
-    "bert_choice1": 6.098962306976318,
-    "bert_choice2": 4.433399200439453
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sid explained his theory to Mark but he could not understand him .",
@@ -1920,19 +1836,19 @@
       "Mark$$him$$7.568720715000783e-31"
     ],
     "context": [
+      "Sid$$They",
       "Mark$$They",
-      "him$$me"
+      "him$$me",
+      "Sid$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Sid$$him$$0.5281115174293518",
-      "Mark$$him$$0.5281160473823547"
+      "Sid$$him$$0.5250386595726013",
+      "Mark$$him$$0.5280958414077759"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.4890007972717285,
-    "bert_choice2": 4.373039722442627
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Susan knew that Ann's son had been in a car accident , so she told her about it .",
@@ -1960,19 +1876,17 @@
       "Ann$$she$$3.5001490890426985e-38"
     ],
     "context": [
-      "Ann$$he would do it all over again the next day",
       "she$$I",
+      "Ann$$he would do it all over again the next day",
       "Susan$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Ann$$she$$0.7721170783042908"
+      "Ann$$she$$0.7721196413040161"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.219604015350342,
-    "bert_choice2": 4.494559288024902
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Susan knew that Ann's son had been in a car accident , because she told her about it .",
@@ -2000,13 +1914,14 @@
       "Ann$$she$$5.6650441346129623e-39"
     ],
     "context": [
-      "she$$about her research",
-      "Ann$$her research",
-      "she$$she",
       "Ann$$about her research",
-      "she$$her research",
       "she$$because she told me",
-      "she$$I"
+      "Ann$$her research",
+      "she$$her research",
+      "she$$I",
+      "she$$she",
+      "Susan$$I",
+      "she$$about her research"
     ],
     "case": [
       "TTT",
@@ -2014,12 +1929,10 @@
       "TTT"
     ],
     "entailment": [
-      "Susan$$she$$0.6523966789245605",
-      "Ann$$she$$0.9060733914375305"
+      "Susan$$she$$0.6494743227958679",
+      "Ann$$she$$0.9050531387329102"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.2290568351745605,
-    "bert_choice2": 3.8478212356567383
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years younger .",
@@ -2051,12 +1964,10 @@
       "FFT"
     ],
     "entailment": [
-      "Joe$$he$$0.2634762227535248",
-      "Joe's uncle$$he$$0.2882397770881653"
+      "Joe$$he$$0.2631411552429199",
+      "Joe's uncle$$he$$0.28823933005332947"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.686951637268066,
-    "bert_choice2": 3.3432161808013916
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years older .",
@@ -2084,18 +1995,16 @@
       "Joe's uncle$$he$$2.668145669496478e-42"
     ],
     "context": [
-      "he$$he",
-      "Joe$$he"
+      "Joe$$he",
+      "he$$he"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "Joe$$he$$0.28149643540382385"
+      "Joe$$he$$0.2814963757991791"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.565429210662842,
-    "bert_choice2": 3.2416205406188965
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of the bookcase .",
@@ -2125,12 +2034,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The painting$$It$$0.00918173510581255",
+      "The painting$$It$$0.009181729517877102",
       "The oak tree$$It$$0.004151450004428625"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.5629003047943115,
-    "bert_choice2": 4.085114479064941
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of a house .",
@@ -2161,11 +2068,9 @@
     "case": [],
     "entailment": [
       "The painting$$It$$0.04543706774711609",
-      "The oak tree$$It$$0.13538429141044617"
+      "The oak tree$$It$$0.13538430631160736"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.3098015785217285,
-    "bert_choice2": 3.657439947128296
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "There is a gap in the wall . You can see the garden through it  .",
@@ -2199,11 +2104,9 @@
     ],
     "entailment": [
       "The gap$$it$$0.8874977827072144",
-      "The wall$$it$$0.7423519492149353"
+      "The wall$$it$$0.7423520088195801"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.429242134094238,
-    "bert_choice2": 4.508073329925537
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "There is a gap in the wall . You can see the garden behind it  .",
@@ -2233,12 +2136,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The gap$$it$$0.5241742730140686",
-      "The wall$$it$$0.4834151268005371"
+      "The gap$$it$$0.5241743922233582",
+      "The wall$$it$$0.48341524600982666"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.110089302062988,
-    "bert_choice2": 4.119396209716797
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The drain is clogged with hair . It has to be cleaned .",
@@ -2271,11 +2172,9 @@
     ],
     "entailment": [
       "The drain$$It$$0.04842846468091011",
-      "The hair$$It$$0.027134062722325325"
+      "The hair$$It$$0.02713405340909958"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.06914758682251,
-    "bert_choice2": 4.098048686981201
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The drain is clogged with hair . It has to be removed .",
@@ -2308,11 +2207,9 @@
     ],
     "entailment": [
       "The drain$$It$$0.9645500779151917",
-      "The hair$$It$$0.974306583404541"
+      "The hair$$It$$0.9743064641952515"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.048097133636475,
-    "bert_choice2": 4.173095226287842
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was short , so it worked out .",
@@ -2340,10 +2237,10 @@
       "The train$$it$$1.678186131843466e-51"
     ],
     "context": [
-      "it$$the train home",
       "The train$$the train home",
-      "The train$$the train",
-      "it$$the train"
+      "it$$the train",
+      "it$$the train home",
+      "The train$$the train"
     ],
     "case": [
       "FTF",
@@ -2352,9 +2249,7 @@
     "entailment": [
       "The train$$it$$0.07147255539894104"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.5740485191345215,
-    "bert_choice2": 4.910645008087158
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was delayed , so it worked out .",
@@ -2386,12 +2281,10 @@
       "FFT"
     ],
     "entailment": [
-      "The meeting$$it$$0.30325233936309814",
-      "The train$$it$$0.38435098528862"
+      "The meeting$$it$$0.30325230956077576",
+      "The train$$it$$0.38435107469558716"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.903143405914307,
-    "bert_choice2": 5.148691177368164
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "There is a pillar between me and the stage , and I can not see around it  .",
@@ -2422,11 +2315,9 @@
     "case": [],
     "entailment": [
       "The pillar$$it$$0.47912463545799255",
-      "The stage$$it$$0.4204774498939514"
+      "The stage$$it$$0.42047736048698425"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.025726318359375,
-    "bert_choice2": 4.15352725982666
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "There is a pillar between me and the stage , and I can not see it  .",
@@ -2458,12 +2349,10 @@
       "FFT"
     ],
     "entailment": [
-      "The pillar$$it$$0.36983293294906616",
-      "The stage$$it$$0.3268299400806427"
+      "The pillar$$it$$0.36983299255371094",
+      "The stage$$it$$0.3268299698829651"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.8091678619384766,
-    "bert_choice2": 3.8572800159454346
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear it  .",
@@ -2493,12 +2382,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The announcement$$it$$0.1506931632757187",
+      "The announcement$$it$$0.15069317817687988",
       "The subway$$it$$0.10162349045276642"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.185665607452393,
-    "bert_choice2": 4.830538272857666
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear over it  .",
@@ -2528,12 +2415,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The announcement$$it$$0.0692797377705574",
-      "The subway$$it$$0.016756292432546616"
+      "The announcement$$it$$0.06927968561649323",
+      "The subway$$it$$0.016756288707256317"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.198509216308594,
-    "bert_choice2": 4.7759575843811035
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "In the middle of the outdoor concert , the rain started falling , but it continued until 10 .",
@@ -2570,9 +2455,7 @@
     "entailment": [
       "The rain$$it$$0.05145739018917084"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.306152105331421,
-    "bert_choice2": 3.38472318649292
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "In the middle of the outdoor concert , the rain started falling , and it continued until 10 .",
@@ -2607,11 +2490,9 @@
       "FTT"
     ],
     "entailment": [
-      "The rain$$it$$0.02183317393064499"
+      "The rain$$it$$0.021833175793290138"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.241776704788208,
-    "bert_choice2": 3.686727523803711
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I used an old rag to clean the knife , and then I put it in the trash .",
@@ -2640,19 +2521,17 @@
     ],
     "context": [
       "The knife$$it",
-      "it$$paper towels",
       "The knife$$paper towels",
-      "it$$it"
+      "it$$it",
+      "it$$paper towels"
     ],
     "case": [
       "FTT"
     ],
     "entailment": [
-      "The knife$$it$$0.13525772094726562"
+      "The knife$$it$$0.1351087987422943"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.631758689880371,
-    "bert_choice2": 3.5341014862060547
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I used an old rag to clean the knife , and then I put it in the drawer .",
@@ -2687,11 +2566,9 @@
       "FTT"
     ],
     "entailment": [
-      "The knife$$it$$0.03199976310133934"
+      "The knife$$it$$0.03199977055191994"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.052961587905884,
-    "bert_choice2": 3.415222644805908
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Ann asked Mary what time the library closes , because she had forgotten .",
@@ -2719,8 +2596,8 @@
       "Mary$$she$$2.563363286811587e-35"
     ],
     "context": [
-      "Ann$$I",
-      "she$$I"
+      "she$$I",
+      "Ann$$I"
     ],
     "case": [
       "TTF",
@@ -2728,12 +2605,10 @@
       "TTT"
     ],
     "entailment": [
-      "Ann$$she$$0.28119853138923645",
-      "Mary$$she$$0.26150208711624146"
+      "Ann$$she$$0.28119856119155884",
+      "Mary$$she$$0.26150211691856384"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.0419859886169434,
-    "bert_choice2": 4.040688514709473
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Ann asked Mary what time the library closes , but she had forgotten .",
@@ -2770,11 +2645,9 @@
       "TFF"
     ],
     "entailment": [
-      "Ann$$she$$0.15012052655220032"
+      "Ann$$she$$0.15012051165103912"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.482172727584839,
-    "bert_choice2": 3.9443628787994385
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I took the water bottle out of the backpack so that it would be handy .",
@@ -2804,12 +2677,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The water bottle$$it$$0.02096482552587986",
-      "The backpack$$it$$0.03961146995425224"
+      "The water bottle$$it$$0.020964831113815308",
+      "The backpack$$it$$0.03961144760251045"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.7355241775512695,
-    "bert_choice2": 4.433441162109375
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I took the water bottle out of the backpack so that it would be lighter .",
@@ -2839,12 +2710,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The water bottle$$it$$0.005685532931238413",
-      "The backpack$$it$$0.012867600657045841"
+      "The water bottle$$it$$0.005685525480657816",
+      "The backpack$$it$$0.012867606244981289"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.688758277893066,
-    "bert_choice2": 4.78783712387085
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I could not put the pot on the shelf because it was too tall .",
@@ -2876,12 +2745,10 @@
       "FFT"
     ],
     "entailment": [
-      "The pot$$it$$0.17498941719532013",
+      "The pot$$it$$0.1749894618988037",
       "The shelf$$it$$0.2041543871164322"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.112177848815918,
-    "bert_choice2": 3.8452072143554688
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I could not put the pot on the shelf because it was too high .",
@@ -2919,9 +2786,7 @@
     "entailment": [
       "The pot$$it$$0.4610641598701477"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.173068523406982,
-    "bert_choice2": 3.9262354373931885
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I am sure that my map will show this building ; it is very good .",
@@ -2951,12 +2816,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The map$$it$$0.05301430821418762",
-      "The building$$it$$0.06203434243798256"
+      "The map$$it$$0.05301429331302643",
+      "The building$$it$$0.062034353613853455"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.381376028060913,
-    "bert_choice2": 3.2657203674316406
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I am sure that my map will show this building ; it is very famous .",
@@ -2988,12 +2851,10 @@
       "FFT"
     ],
     "entailment": [
-      "The map$$it$$0.28037363290786743",
-      "The building$$it$$0.23987554013729095"
+      "The map$$it$$0.28037354350090027",
+      "The building$$it$$0.23987552523612976"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.3925833702087402,
-    "bert_choice2": 2.7202258110046387
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob paid for Charlie's college education . He is very generous .",
@@ -3021,20 +2882,18 @@
       "Charlie$$He$$2.8845037951735266e-35"
     ],
     "context": [
-      "He$$Woman 's layaway",
-      "Bob$$generous donor",
       "Bob$$Woman 's layaway",
-      "He$$generous donor"
+      "He$$Woman 's layaway",
+      "He$$generous donor",
+      "Bob$$generous donor"
     ],
     "case": [
       "TFF"
     ],
     "entailment": [
-      "Bob$$He$$0.15754657983779907"
+      "Bob$$He$$0.15754656493663788"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.470498085021973,
-    "bert_choice2": 3.859415054321289
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob paid for Charlie's college education . He is very grateful .",
@@ -3063,18 +2922,18 @@
     ],
     "context": [
       "Charlie$$my tuition",
-      "He$$I"
+      "He$$I",
+      "Bob$$it",
+      "Bob$$the NGO"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Bob$$He$$0.6301820874214172",
-      "Charlie$$He$$0.7173232436180115"
+      "Bob$$He$$0.630182147026062",
+      "Charlie$$He$$0.7173231840133667"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.9409613609313965,
-    "bert_choice2": 3.709819793701172
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very hurt .",
@@ -3108,11 +2967,9 @@
     ],
     "entailment": [
       "Bob$$He$$0.33521926403045654",
-      "Charlie$$He$$0.32648566365242004"
+      "Charlie$$He$$0.32648560404777527"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.594988822937012,
-    "bert_choice2": 2.6589179039001465
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .",
@@ -3141,19 +2998,17 @@
     ],
     "context": [
       "Charlie$$that ungrateful sob and con artist Gary",
-      "He$$that ungrateful sob and con artist Gary",
-      "He$$Paul"
+      "He$$Paul",
+      "He$$that ungrateful sob and con artist Gary"
     ],
     "case": [
       "TTF"
     ],
     "entailment": [
-      "Bob$$He$$0.34632158279418945",
+      "Bob$$He$$0.3463214337825775",
       "Charlie$$He$$0.3674185872077942"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.923461437225342,
-    "bert_choice2": 2.7063381671905518
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have won .",
@@ -3184,11 +3039,9 @@
     "case": [],
     "entailment": [
       "Bob$$he$$0.024563420563936234",
-      "Adam$$he$$0.02935372106730938"
+      "Adam$$he$$0.029353726655244827"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.257508754730225,
-    "bert_choice2": 5.453633785247803
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .",
@@ -3216,8 +3069,8 @@
       "Adam$$he$$2.7784792980132757e-58"
     ],
     "context": [
-      "Bob$$Inter Milan",
       "he$$Inter Milan",
+      "Bob$$Inter Milan",
       "Adam$$Inter Milan"
     ],
     "case": [
@@ -3225,9 +3078,7 @@
       "TTT"
     ],
     "entailment": [],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.004612922668457,
-    "bert_choice2": 5.409873008728027
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be gone by this time .",
@@ -3257,12 +3108,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Adam$$he$$0.2560606598854065",
+      "Adam$$he$$0.25606074929237366",
       "Bob$$he$$0.25400444865226746"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.248526573181152,
-    "bert_choice2": 4.0554070472717285
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .",
@@ -3290,8 +3139,8 @@
       "Bob$$he$$8.195491136636533e-63"
     ],
     "context": [
-      "he$$I",
-      "Bob$$I"
+      "Bob$$I",
+      "he$$I"
     ],
     "case": [
       "FTF"
@@ -3299,9 +3148,7 @@
     "entailment": [
       "Bob$$he$$0.6280713081359863"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.1686859130859375,
-    "bert_choice2": 3.932798385620117
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .",
@@ -3329,9 +3176,9 @@
       "Sam$$he$$1.8147844418078194e-40"
     ],
     "context": [
-      "Sam$$Muslims",
+      "The con artist$$Al Gore",
       "he$$Al Gore",
-      "The con artist$$Al Gore"
+      "Sam$$Muslims"
     ],
     "case": [
       "TTT"
@@ -3339,9 +3186,7 @@
     "entailment": [
       "Sam$$he$$9.923593461280689e-05"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8830461502075195,
-    "bert_choice2": 2.2022109031677246
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "If the con artist has succeeded in fooling Sam , he would have lost a lot of money .",
@@ -3374,11 +3219,9 @@
     ],
     "entailment": [
       "The con artist$$he$$0.28911226987838745",
-      "Sam$$he$$0.3047887086868286"
+      "Sam$$he$$0.3047887682914734"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8413214683532715,
-    "bert_choice2": 3.1266703605651855
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .",
@@ -3411,12 +3254,10 @@
       "FFT"
     ],
     "entailment": [
-      "The dog$$it$$0.011603770777583122",
-      "The spot under the tree$$it$$0.01867286115884781"
+      "The dog$$it$$0.01160377636551857",
+      "The spot under the tree$$it$$0.018672868609428406"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.995532512664795,
-    "bert_choice2": 5.4402995109558105
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was cooler .",
@@ -3449,12 +3290,10 @@
       "FFT"
     ],
     "entailment": [
-      "The dog$$it$$0.00896939542144537",
+      "The dog$$it$$0.008969396352767944",
       "The spot under the tree$$it$$0.015066774562001228"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.244131088256836,
-    "bert_choice2": 5.528899669647217
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too impatient .",
@@ -3482,22 +3321,20 @@
       "The mouse$$it$$3.7451369908611996e-33"
     ],
     "context": [
-      "it$$my Jetstar flight",
-      "it$$I",
-      "The cat$$I",
-      "The cat$$Jetstar flight",
       "The cat$$my Jetstar flight",
+      "it$$I",
+      "The cat$$Jetstar flight",
+      "it$$my Jetstar flight",
+      "The cat$$I",
       "it$$Jetstar flight"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "The cat$$it$$0.11090818792581558"
+      "The cat$$it$$0.11090824007987976"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.96336030960083,
-    "bert_choice2": 3.851670742034912
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .",
@@ -3532,11 +3369,9 @@
       "FTT"
     ],
     "entailment": [
-      "The mouse$$it$$0.010038333013653755"
+      "The mouse$$it$$0.010038337670266628"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.718498706817627,
-    "bert_choice2": 3.676175832748413
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Anne gave birth to a daughter last month . She is a very charming woman .",
@@ -3573,9 +3408,7 @@
     "entailment": [
       "Anne$$She$$0.03148532286286354"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.649002113342285,
-    "bert_choice2": 4.606354675292969
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Anne gave birth to a daughter last month . She is a very charming baby .",
@@ -3604,19 +3437,17 @@
     ],
     "context": [
       "She$$a baby girl",
-      "daughter$$a baby girl",
-      "She$$Serena Williams"
+      "She$$Serena Williams",
+      "daughter$$a baby girl"
     ],
     "case": [
       "TTF"
     ],
     "entailment": [
-      "Anne$$She$$0.021045992150902748",
+      "Anne$$She$$0.021045995876193047",
       "daughter$$She$$0.02317446656525135"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.586063385009766,
-    "bert_choice2": 5.06252908706665
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why she was behaving so strangely .",
@@ -3646,12 +3477,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Alice$$she$$0.008485894650220871",
-      "daughter$$she$$0.006745954044163227"
+      "Alice$$she$$0.008485897444188595",
+      "daughter$$she$$0.0067459531128406525"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.827666759490967,
-    "bert_choice2": 4.514627456665039
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why she was behaving so strangely .",
@@ -3681,12 +3510,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Alice$$she$$0.0384368933737278",
-      "daughter$$she$$0.030820555984973907"
+      "Alice$$she$$0.0384368821978569",
+      "daughter$$she$$0.030820569023489952"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.230802536010742,
-    "bert_choice2": 4.478471755981445
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why he was , but he looked very unhappy .",
@@ -3719,11 +3546,9 @@
     ],
     "entailment": [
       "Jim$$he$$0.11238976567983627",
-      "the guy$$he$$0.10763189196586609"
+      "the guy$$he$$0.1076318621635437"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.8111133575439453,
-    "bert_choice2": 4.20881986618042
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who he was , but he looked very unhappy .",
@@ -3753,12 +3578,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Jim$$he$$0.0834561139345169",
-      "the guy$$he$$0.08567923307418823"
+      "Jim$$he$$0.0834561213850975",
+      "the guy$$he$$0.08567928522825241"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.311147928237915,
-    "bert_choice2": 3.8008947372436523
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The fish ate the worm . It was hungry .",
@@ -3787,19 +3610,17 @@
     ],
     "context": [
       "The fish$$I",
-      "The worm$$something",
+      "It$$I",
       "It$$i",
-      "It$$I"
+      "The worm$$something"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "The worm$$It$$0.35821232199668884"
+      "The worm$$It$$0.35821229219436646"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.0294289588928223,
-    "bert_choice2": 3.421304702758789
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The fish ate the worm . It was tasty .",
@@ -3828,16 +3649,14 @@
     ],
     "context": [
       "The fish$$I",
-      "The worm$$it",
-      "It$$it"
+      "It$$it",
+      "The worm$$it"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.2621006965637207,
-    "bert_choice2": 3.891599655151367
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it in .",
@@ -3870,9 +3689,7 @@
       "The key$$it$$0.06884921342134476",
       "The chewing gum$$it$$0.05466582253575325"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.8909549713134766,
-    "bert_choice2": 2.1793813705444336
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .",
@@ -3905,9 +3722,7 @@
       "The key$$it$$0.11947434395551682",
       "The chewing gum$$it$$0.08731143176555634"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.9816372394561768,
-    "bert_choice2": 2.908055067062378
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the bottom .",
@@ -3935,18 +3750,16 @@
       "The cat$$It$$1.061079660287188e-35"
     ],
     "context": [
-      "The dog$$they",
-      "It$$they"
+      "It$$they",
+      "The dog$$they"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "The dog$$It$$0.037835896015167236"
+      "The dog$$It$$0.03783591464161873"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.3086981773376465,
-    "bert_choice2": 4.274167537689209
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the top .",
@@ -3974,18 +3787,16 @@
       "The cat$$It$$1.4208743031900675e-35"
     ],
     "context": [
-      "It$$Little Pit",
-      "The cat$$Little Pit"
+      "The cat$$Little Pit",
+      "It$$Little Pit"
     ],
     "case": [
       "FTT"
     ],
     "entailment": [
-      "The cat$$It$$0.00706196203827858"
+      "The cat$$It$$0.0070619587786495686"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.472705364227295,
-    "bert_choice2": 4.485895156860352
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .",
@@ -4019,12 +3830,10 @@
       "FFT"
     ],
     "entailment": [
-      "The tree$$it$$0.04179839417338371",
-      "The roof$$it$$0.01284654438495636"
+      "The tree$$it$$0.041798386722803116",
+      "The roof$$it$$0.012846549041569233"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.7101447582244873,
-    "bert_choice2": 3.886223077774048
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it repaired .",
@@ -4062,11 +3871,9 @@
       "TFF"
     ],
     "entailment": [
-      "The tree$$it$$0.027828438207507133"
+      "The tree$$it$$0.02782844938337803"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.542088270187378,
-    "bert_choice2": 3.5522749423980713
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the police station .",
@@ -4094,19 +3901,17 @@
       "The teller$$He$$1.0346467700081652e-39"
     ],
     "context": [
-      "The customer$$A suicidal transient",
-      "He$$A suicidal transient"
+      "He$$A suicidal transient",
+      "The customer$$A suicidal transient"
     ],
     "case": [
       "TFF",
       "TFT"
     ],
     "entailment": [
-      "The customer$$He$$0.06906914710998535"
+      "The customer$$He$$0.06906916946172714"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.075074195861816,
-    "bert_choice2": 3.868619918823242
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the hospital .",
@@ -4142,11 +3947,9 @@
       "FTT"
     ],
     "entailment": [
-      "one of the tellers$$He$$0.024757396429777145"
+      "one of the tellers$$He$$0.024757400155067444"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.177849769592285,
-    "bert_choice2": 4.229552268981934
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John was doing research in the library when he heard a man humming and whistling . He was very annoyed .",
@@ -4174,18 +3977,16 @@
       "The man$$He$$1.185396245878866e-41"
     ],
     "context": [
-      "John$$you",
-      "He$$you"
+      "He$$you",
+      "John$$you"
     ],
     "case": [
       "TFF"
     ],
     "entailment": [
-      "John$$He$$0.10565310716629028"
+      "John$$He$$0.10565309226512909"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.241227149963379,
-    "bert_choice2": 3.0850839614868164
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John was doing research in the library when he heard a man humming and whistling . He was very annoying .",
@@ -4217,12 +4018,10 @@
       "FFT"
     ],
     "entailment": [
-      "John$$He$$0.027794381603598595",
-      "The man$$He$$0.022494317963719368"
+      "John$$He$$0.027794398367404938",
+      "The man$$He$$0.022494321689009666"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.823882579803467,
-    "bert_choice2": 4.132585048675537
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressed .",
@@ -4250,18 +4049,16 @@
       "The juggler$$He$$1.5976872669886333e-44"
     ],
     "context": [
-      "He$$We",
-      "John$$We"
+      "John$$We",
+      "He$$We"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "John$$He$$0.10977720469236374"
+      "John$$He$$0.10977724194526672"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.8642311096191406,
-    "bert_choice2": 4.292047023773193
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressive .",
@@ -4291,12 +4088,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "John$$He$$0.014063319191336632",
+      "John$$He$$0.01406332477927208",
       "The juggler$$He$$0.023416241630911827"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.683305263519287,
-    "bert_choice2": 4.203869819641113
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very ill .",
@@ -4331,11 +4126,9 @@
       "TFT"
     ],
     "entailment": [
-      "Bob$$He$$0.13074633479118347"
+      "Bob$$He$$0.13074636459350586"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.328376770019531,
-    "bert_choice2": 3.3966751098632812
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very concerned .",
@@ -4372,9 +4165,7 @@
     "entailment": [
       "Carl$$He$$0.24701695144176483"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.384934186935425,
-    "bert_choice2": 3.5344152450561523
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .",
@@ -4404,12 +4195,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Sam and Amy$$they$$0.11195477843284607",
+      "Sam and Amy$$they$$0.11195481568574905",
       "Amy's parents$$they$$0.08611064404249191"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.037254333496094,
-    "bert_choice2": 4.456389904022217
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .",
@@ -4437,9 +4226,9 @@
       "Amy's parents$$they$$2.0146089306630155e-46"
     ],
     "context": [
-      "they$$snobbish",
       "Sam and Amy$$snobbish",
       "Sam and Amy$$snobs",
+      "they$$snobbish",
       "they$$snobs"
     ],
     "case": [
@@ -4447,11 +4236,9 @@
       "TFT"
     ],
     "entailment": [
-      "Sam and Amy$$they$$0.01857367902994156"
+      "Sam and Amy$$they$$0.018573695793747902"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.5726099014282227,
-    "bert_choice2": 4.18941593170166
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Mark told Pete many lies about himself , which Pete included in his book . He should have been more truthful .",
@@ -4479,21 +4266,19 @@
       "Pete$$He$$3.952388123315448e-53"
     ],
     "context": [
+      "He$$We",
       "He$$we",
       "Mark$$We",
-      "Mark$$we",
-      "He$$We"
+      "Mark$$we"
     ],
     "case": [
       "TFT",
       "TFT"
     ],
     "entailment": [
-      "Mark$$He$$0.5284224152565002"
+      "Mark$$He$$0.5284222364425659"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.106351852416992,
-    "bert_choice2": 3.8255348205566406
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Mark told Pete many lies about himself , which Pete included in his book . He should have been more skeptical .",
@@ -4521,19 +4306,17 @@
       "Pete$$He$$6.661566127056219e-54"
     ],
     "context": [
-      "He$$brands",
-      "Mark$$brands"
+      "Mark$$brands",
+      "He$$brands"
     ],
     "case": [
       "TFT",
       "TFT"
     ],
     "entailment": [
-      "Mark$$He$$0.5299174189567566"
+      "Mark$$He$$0.5299173593521118"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.077467441558838,
-    "bert_choice2": 3.8174445629119873
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .",
@@ -4568,9 +4351,7 @@
       "The old house$$it$$0.019091542810201645",
       "The new house$$it$$0.014744940213859081"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.5097103118896484,
-    "bert_choice2": 3.6242871284484863
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .",
@@ -4602,12 +4383,10 @@
       "FFT"
     ],
     "entailment": [
-      "The old house$$it$$0.02470317669212818",
-      "The new house$$it$$0.016656888648867607"
+      "The old house$$it$$0.02470318228006363",
+      "The new house$$it$$0.016656896099448204"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.784088134765625,
-    "bert_choice2": 3.946800947189331
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Many people start to read Paul's books and can not put them down . They are gripped because Paul writes so well .",
@@ -4643,11 +4422,9 @@
       "TFT"
     ],
     "entailment": [
-      "People$$They$$0.005903071723878384"
+      "People$$They$$0.005903065670281649"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.9321274757385254,
-    "bert_choice2": 3.8642449378967285
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Many people start to read Paul's books and can not put them down . They are popular because Paul writes so well .",
@@ -4679,12 +4456,10 @@
       "FFT"
     ],
     "entailment": [
-      "People$$They$$0.11782781034708023",
-      "Paul's books$$They$$0.10839729756116867"
+      "People$$They$$0.11782782524824142",
+      "Paul's books$$They$$0.10839731246232986"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.440779209136963,
-    "bert_choice2": 3.710578680038452
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Mary took out her flute and played one of her favorite pieces . She has had it since she was a child .",
@@ -4718,11 +4493,9 @@
     ],
     "entailment": [
       "The flute$$it$$0.05960855633020401",
-      "The piece$$it$$0.07316674292087555"
+      "The piece$$it$$0.07316675782203674"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.196155071258545,
-    "bert_choice2": 3.5713634490966797
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Mary took out her flute and played one of her favorite pieces . She has loved it since she was a child .",
@@ -4754,12 +4527,10 @@
       "FFT"
     ],
     "entailment": [
-      "The flute$$it$$0.035592932254076004",
+      "The flute$$it$$0.03559292480349541",
       "The piece$$it$$0.02919168397784233"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.9755101203918457,
-    "bert_choice2": 3.581305742263794
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam pulled up a chair to the piano , but it was broken , so he had to stand instead .",
@@ -4791,12 +4562,10 @@
       "FFT"
     ],
     "entailment": [
-      "The chair$$it$$0.1879352182149887",
-      "The piano$$it$$0.12518414855003357"
+      "The chair$$it$$0.18793518841266632",
+      "The piano$$it$$0.1251840889453888"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.8865814208984375,
-    "bert_choice2": 4.595227241516113
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam pulled up a chair to the piano , but it was broken , so he had to sing instead .",
@@ -4823,9 +4592,7 @@
       "The chair$$it$$2.836615206020586e-34",
       "The piano$$it$$9.119043653566424e-33"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.148076057434082,
-    "bert_choice2": 4.917677879333496
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Since it was raining , I carried the newspaper in my backpack to keep it dry .",
@@ -4853,8 +4620,8 @@
       "The backpack$$it$$1.262606526492585e-33"
     ],
     "context": [
-      "The newspaper$$electronics",
-      "it$$electronics"
+      "it$$electronics",
+      "The newspaper$$electronics"
     ],
     "case": [
       "TFF",
@@ -4863,11 +4630,9 @@
       "TFT"
     ],
     "entailment": [
-      "The newspaper$$it$$0.1677553802728653"
+      "The newspaper$$it$$0.16775548458099365"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.978935718536377,
-    "bert_choice2": 4.99426794052124
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Since it was raining , I carried the newspaper over my backpack to keep it dry .",
@@ -4898,11 +4663,9 @@
     "case": [],
     "entailment": [
       "The newspaper$$it$$0.004687439184635878",
-      "The backpack$$it$$0.010589433833956718"
+      "The backpack$$it$$0.010589437559247017"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.111865997314453,
-    "bert_choice2": 5.210466384887695
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sara borrowed the book from the library because she needs it for an article she is working on . She reads it when she gets home from work .",
@@ -4934,12 +4697,10 @@
       "FFT"
     ],
     "entailment": [
-      "The book$$it$$0.004340180195868015",
+      "The book$$it$$0.004340177867561579",
       "The article$$it$$0.005340625997632742"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.495734930038452,
-    "bert_choice2": 3.7836334705352783
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sara borrowed the book from the library because she needs it for an article she is working on . She writes it when she gets home from work .",
@@ -4971,12 +4732,10 @@
       "FFT"
     ],
     "entailment": [
-      "The book$$it$$0.023804495111107826",
-      "The article$$it$$0.026423558592796326"
+      "The book$$it$$0.02380448952317238",
+      "The article$$it$$0.026423566043376923"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.6381611824035645,
-    "bert_choice2": 3.839249610900879
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked it down .",
@@ -5006,12 +4765,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The sand castle$$it$$0.016829511150717735",
-      "The flag$$it$$0.031277772039175034"
+      "The sand castle$$it$$0.01682950370013714",
+      "The flag$$it$$0.03127779811620712"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.914970874786377,
-    "bert_choice2": 3.5900285243988037
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked it down .",
@@ -5041,12 +4798,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The sand castle$$it$$0.00016617677465546876",
-      "The flag$$it$$0.0015095178969204426"
+      "The sand castle$$it$$0.0001661769492784515",
+      "The flag$$it$$0.0015095171984285116"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8866963386535645,
-    "bert_choice2": 3.4914729595184326
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was disappointed .",
@@ -5078,12 +4833,10 @@
       "FFT"
     ],
     "entailment": [
-      "Jane$$She$$0.0059191822074353695",
+      "Jane$$She$$0.00591916823759675",
       "Susan$$She$$0.004212154541164637"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.792751312255859,
-    "bert_choice2": 3.6611406803131104
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was out .",
@@ -5111,20 +4864,18 @@
       "Susan$$She$$1.2053817172285697e-34"
     ],
     "context": [
+      "She$$she",
       "Susan$$her door",
       "Jane$$I",
-      "She$$she",
       "She$$there"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Susan$$She$$0.8753633499145508"
+      "Susan$$She$$0.8774232864379883"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.9128832817077637,
-    "bert_choice2": 3.3382980823516846
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come out .",
@@ -5156,12 +4907,10 @@
       "FFT"
     ],
     "entailment": [
-      "Jane$$her$$0.18767860531806946",
-      "Susan$$her$$0.10350631922483444"
+      "Jane$$her$$0.18574568629264832",
+      "Susan$$her$$0.10350634902715683"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.244363784790039,
-    "bert_choice2": 3.7497334480285645
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come in .",
@@ -5189,14 +4938,16 @@
       "Susan$$her$$9.737035912465753e-36"
     ],
     "context": [
-      "her$$me",
-      "Jane$$I",
       "her$$Mrs",
-      "Jane$$M",
-      "her$$When I knocked",
+      "Jane$$I",
       "her$$M",
-      "Jane$$Mrs",
-      "her$$I"
+      "her$$I",
+      "Susan$$Mrs",
+      "her$$When I knocked",
+      "Susan$$M",
+      "her$$me",
+      "Jane$$M",
+      "Jane$$Mrs"
     ],
     "case": [
       "TTT",
@@ -5204,12 +4955,10 @@
       "TTF"
     ],
     "entailment": [
-      "Jane$$her$$0.8464840650558472",
-      "Susan$$her$$0.7933715581893921"
+      "Jane$$her$$0.884285569190979",
+      "Susan$$her$$0.7922552227973938"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.953083038330078,
-    "bert_choice2": 3.9521868228912354
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam took French classes from Adam , because he was eager to speak it fluently .",
@@ -5237,8 +4986,8 @@
       "Adam$$he$$7.843406307541344e-42"
     ],
     "context": [
-      "Sam$$you",
-      "he$$you"
+      "he$$you",
+      "Sam$$you"
     ],
     "case": [
       "TFT",
@@ -5246,11 +4995,9 @@
       "TFF"
     ],
     "entailment": [
-      "Sam$$he$$0.029100481420755386"
+      "Sam$$he$$0.029361622408032417"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.43636417388916,
-    "bert_choice2": 5.159759521484375
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam took French classes from Adam , because he was known to speak it fluently .",
@@ -5280,12 +5027,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Sam$$he$$0.0381971150636673",
-      "Adam$$he$$0.023762131109833717"
+      "Sam$$he$$0.0381971076130867",
+      "Adam$$he$$0.023762129247188568"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.3832125663757324,
-    "bert_choice2": 4.391662120819092
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The path to the lake was blocked , so we could not use it  .",
@@ -5317,12 +5062,10 @@
       "FFT"
     ],
     "entailment": [
-      "The path$$it$$0.15391673147678375",
-      "The lake$$it$$0.1303270012140274"
+      "The path$$it$$0.15391674637794495",
+      "The lake$$it$$0.1303270310163498"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.818930625915527,
-    "bert_choice2": 4.528250694274902
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The path to the lake was blocked , so we could not reach it  .",
@@ -5352,12 +5095,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The path$$it$$0.0028323179576545954",
-      "The lake$$it$$0.0021652192808687687"
+      "The path$$it$$0.0028323205187916756",
+      "The lake$$it$$0.0021652160212397575"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.6201424598693848,
-    "bert_choice2": 3.7458086013793945
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was out .",
@@ -5389,12 +5130,10 @@
       "FFT"
     ],
     "entailment": [
-      "The sun$$it$$0.044532231986522675",
-      "The cloud$$it$$0.04194790497422218"
+      "The sun$$it$$0.04453223943710327",
+      "The cloud$$it$$0.041947897523641586"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.655307769775391,
-    "bert_choice2": 4.041727066040039
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was gone .",
@@ -5424,12 +5163,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The sun$$it$$0.09527893364429474",
-      "The cloud$$it$$0.08082742244005203"
+      "The sun$$it$$0.09527888149023056",
+      "The cloud$$it$$0.08082743734121323"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.210587501525879,
-    "bert_choice2": 4.616825103759766
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .",
@@ -5461,12 +5198,10 @@
       "FFT"
     ],
     "entailment": [
-      "The lake$$it$$0.2928963601589203",
-      "The ocean beach$$it$$0.284591406583786"
+      "The lake$$it$$0.2928961217403412",
+      "The ocean beach$$it$$0.2845914661884308"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.207765579223633,
-    "bert_choice2": 4.296614170074463
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a dangerous place to swim .",
@@ -5496,12 +5231,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The lake$$it$$0.0010379798477515578",
+      "The lake$$it$$0.0010379788000136614",
       "The ocean beach$$it$$0.0002608669747132808"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.225668430328369,
-    "bert_choice2": 4.254014492034912
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like golfers .",
@@ -5531,12 +5264,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The shepherds$$they$$0.0015928777866065502",
-      "The sheep$$they$$0.0008848023717291653"
+      "The shepherds$$they$$0.0015928782522678375",
+      "The sheep$$they$$0.0008848033030517399"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.900217533111572,
-    "bert_choice2": 4.82334041595459
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like dogs .",
@@ -5566,12 +5297,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The shepherds$$they$$0.040000490844249725",
-      "The sheep$$they$$0.06303011626005173"
+      "The shepherds$$they$$0.04000049829483032",
+      "The sheep$$they$$0.06303009390830994"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.514384746551514,
-    "bert_choice2": 4.634592056274414
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Mary tucked her daughter Anne into bed , so that she could work .",
@@ -5599,23 +5328,21 @@
       "daughter$$she$$3.106234078121801e-28"
     ],
     "context": [
-      "daughter$$children",
-      "she$$children",
-      "she$$our children",
       "she$$they",
-      "daughter$$our children"
+      "daughter$$our children",
+      "she$$our children",
+      "daughter$$children",
+      "she$$children"
     ],
     "case": [
       "TTF",
       "TTF"
     ],
     "entailment": [
-      "Mary$$she$$0.12659478187561035",
-      "daughter$$she$$0.17870335280895233"
+      "Mary$$she$$0.12667575478553772",
+      "daughter$$she$$0.17870306968688965"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.736289024353027,
-    "bert_choice2": 3.9474682807922363
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Mary tucked her daughter Anne into bed , so that she could sleep .",
@@ -5651,11 +5378,9 @@
       "FTT"
     ],
     "entailment": [
-      "daughter$$she$$0.0006960606551729143"
+      "daughter$$she$$0.0006960610044188797"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.02882719039917,
-    "bert_choice2": 3.3639237880706787
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred and Alice had very warm down coats , but they were not prepared for the cold in Alaska .",
@@ -5690,9 +5415,7 @@
       "Fred and Alice$$they$$0.28237184882164",
       "coats$$they$$0.36940401792526245"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.606687545776367,
-    "bert_choice2": 3.275172472000122
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred and Alice had very warm down coats , but they were not enough for the cold in Alaska .",
@@ -5720,19 +5443,17 @@
       "coats$$they$$1.6735822579013507e-41"
     ],
     "context": [
-      "Fred and Alice$$My coats",
       "coats$$not enough for the cold",
-      "they$$My coats"
+      "they$$My coats",
+      "Fred and Alice$$My coats"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "coats$$they$$0.03978145495057106"
+      "coats$$they$$0.039781466126441956"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.7637393474578857,
-    "bert_choice2": 3.3764233589172363
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Thomson visited Cooper's grave in 1765 . At that date he had been travelling for five years .",
@@ -5760,8 +5481,8 @@
       "Cooper$$he$$2.930155633267958e-50"
     ],
     "context": [
-      "he$$I",
-      "Thomson$$I"
+      "Thomson$$I",
+      "he$$I"
     ],
     "case": [
       "TFT",
@@ -5769,11 +5490,9 @@
       "TFT"
     ],
     "entailment": [
-      "Thomson$$he$$0.08961835503578186"
+      "Thomson$$he$$0.08961830288171768"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.6022071838378906,
-    "bert_choice2": 3.338423490524292
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Thomson visited Cooper's grave in 1765 . At that date he had been dead for five years .",
@@ -5810,12 +5529,10 @@
       "TTF"
     ],
     "entailment": [
-      "Thomson$$he$$0.05900048092007637",
-      "Cooper$$he$$0.053391456604003906"
+      "Thomson$$he$$0.05900051072239876",
+      "Cooper$$he$$0.05339144542813301"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.50053071975708,
-    "bert_choice2": 2.9167320728302
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
@@ -5843,18 +5560,16 @@
       "Arnold$$he$$1.269584414883885e-37"
     ],
     "context": [
-      "Jackson$$Galen of Pergamon",
-      "he$$Galen of Pergamon"
+      "he$$Galen of Pergamon",
+      "Jackson$$Galen of Pergamon"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "Jackson$$he$$0.6601130962371826"
+      "Jackson$$he$$0.6601129770278931"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 1.4984973669052124,
-    "bert_choice2": 4.064205646514893
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries earlier .",
@@ -5886,12 +5601,10 @@
       "FFT"
     ],
     "entailment": [
-      "Jackson$$he$$0.6629977226257324",
-      "Arnold$$he$$0.5521978139877319"
+      "Jackson$$he$$0.6629977822303772",
+      "Arnold$$he$$0.5521977543830872"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.305023193359375,
-    "bert_choice2": 4.311065673828125
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I can not cut that tree down with that axe ; it is too thick .",
@@ -5923,12 +5636,10 @@
       "FFT"
     ],
     "entailment": [
-      "The tree$$it$$0.16385334730148315",
+      "The tree$$it$$0.16385340690612793",
       "The axe$$it$$0.14494812488555908"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.2844669818878174,
-    "bert_choice2": 3.316134214401245
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I can not cut that tree down with that axe ; it is too small .",
@@ -5961,9 +5672,7 @@
       "The tree$$it$$0.1280820071697235",
       "The axe$$it$$0.1449337899684906"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.836806058883667,
-    "bert_choice2": 3.04396653175354
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to kill them  .",
@@ -5991,12 +5700,12 @@
       "The chickens$$them$$1.311091541036363e-34"
     ],
     "context": [
-      "them$$I",
-      "The foxes$$I",
       "them$$me",
       "them$$Sigar",
       "them$$him",
-      "The foxes$$Sigar"
+      "The foxes$$I",
+      "The foxes$$Sigar",
+      "them$$I"
     ],
     "case": [
       "TTF",
@@ -6004,12 +5713,10 @@
       "TTT"
     ],
     "entailment": [
-      "The foxes$$them$$0.3252471089363098",
-      "The chickens$$them$$0.32523128390312195"
+      "The foxes$$them$$0.3252464830875397",
+      "The chickens$$them$$0.3252313733100891"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.000415325164795,
-    "bert_choice2": 3.891645908355713
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to guard them  .",
@@ -6046,11 +5753,9 @@
       "FTT"
     ],
     "entailment": [
-      "The chickens$$them$$0.0005319850752130151"
+      "The chickens$$them$$0.0005319847841747105"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8632614612579346,
-    "bert_choice2": 3.7520968914031982
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very bold .",
@@ -6081,11 +5786,9 @@
     "case": [],
     "entailment": [
       "The foxes$$They$$0.018341397866606712",
-      "The chickens$$They$$0.009294182062149048"
+      "The chickens$$They$$0.009294192306697369"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.995547294616699,
-    "bert_choice2": 3.9597108364105225
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very nervous .",
@@ -6113,21 +5816,19 @@
       "The chickens$$They$$1.6503617303263591e-37"
     ],
     "context": [
-      "The chickens$$other dogs",
       "The chickens$$Max",
-      "They$$Max",
-      "They$$other dogs"
+      "The chickens$$other dogs",
+      "They$$other dogs",
+      "They$$Max"
     ],
     "case": [
       "FTT",
       "FTF"
     ],
     "entailment": [
-      "The chickens$$They$$0.07498390972614288"
+      "The chickens$$They$$0.07498393207788467"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.9729514122009277,
-    "bert_choice2": 4.058160305023193
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened them when the wind stopped .",
@@ -6157,12 +5858,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "His eyes$$them$$0.05660812184214592",
-      "His hands$$them$$0.06395332515239716"
+      "His eyes$$them$$0.05660814046859741",
+      "His hands$$them$$0.06395334750413895"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.8793671131134033,
-    "bert_choice2": 2.7177011966705322
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered them when the wind stopped .",
@@ -6194,12 +5893,10 @@
       "FFT"
     ],
     "entailment": [
-      "His eyes$$them$$0.029144644737243652",
+      "His eyes$$them$$0.029144659638404846",
       "His hands$$them$$0.030602119863033295"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.0294899940490723,
-    "bert_choice2": 3.167410135269165
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was too hard to pronounce .",
@@ -6232,12 +5929,10 @@
       "FFT"
     ],
     "entailment": [
-      "Terpsichore$$it$$0.17469972372055054",
-      "Tina$$it$$0.2260107398033142"
+      "Terpsichore$$it$$0.17469970881938934",
+      "Tina$$it$$0.22601072490215302"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.0854058265686035,
-    "bert_choice2": 4.744742393493652
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was easier to pronounce .",
@@ -6273,9 +5968,7 @@
       "Terpsichore$$it$$0.05031338334083557",
       "Tina$$it$$0.04870523139834404"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.971500873565674,
-    "bert_choice2": 4.769689559936523
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Fred watched TV while George went out to buy groceries . After an hour he got up .",
@@ -6303,19 +5996,18 @@
       "George$$he$$3.177560949936051e-42"
     ],
     "context": [
-      "Fred$$I",
-      "he$$each study volunteer"
+      "he$$each study volunteer",
+      "George$$all day",
+      "Fred$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Fred$$he$$0.05404098704457283",
-      "George$$he$$0.023455578833818436"
+      "Fred$$he$$0.054040972143411636",
+      "George$$he$$0.023455582559108734"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.6853227615356445,
-    "bert_choice2": 3.0959391593933105
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred watched TV while George went out to buy groceries . After an hour he got back .",
@@ -6343,17 +6035,15 @@
       "George$$he$$9.057186238422733e-43"
     ],
     "context": [
-      "Fred$$I",
+      "George$$I",
       "he$$I",
-      "George$$I"
+      "Fred$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.555567741394043,
-    "bert_choice2": 3.546252489089966
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it on .",
@@ -6386,12 +6076,10 @@
       "FFT"
     ],
     "entailment": [
-      "The dishwasher$$it$$0.055681683123111725",
-      "The TV$$it$$0.07206101715564728"
+      "The dishwasher$$it$$0.05568171665072441",
+      "The TV$$it$$0.07206098735332489"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.592403411865234,
-    "bert_choice2": 5.594320297241211
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it off .",
@@ -6424,11 +6112,9 @@
     ],
     "entailment": [
       "The dishwasher$$it$$0.06840348988771439",
-      "The TV$$it$$0.07943770289421082"
+      "The TV$$it$$0.07943768054246902"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.635595321655273,
-    "bert_choice2": 5.661404609680176
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred is the only man still alive who remembers my great-grandfather . He is a remarkable man .",
@@ -6455,9 +6141,7 @@
       "Fred$$He$$1.560951866647717e-39",
       "great-grandfather$$He$$8.02164196871088e-41"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.643345832824707,
-    "bert_choice2": 3.3372106552124023
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred is the only man still alive who remembers my great-grandfather . He was a remarkable man .",
@@ -6484,9 +6168,7 @@
       "Fred$$He$$3.0752218302441114e-40",
       "great-grandfather$$He$$8.434638532422883e-41"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.895690441131592,
-    "bert_choice2": 3.535447835922241
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve years old .",
@@ -6517,11 +6199,9 @@
     "case": [],
     "entailment": [
       "Fred$$he$$0.07599669694900513",
-      "My father$$he$$0.0708974078297615"
+      "My father$$he$$0.0708974152803421"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.217016220092773,
-    "bert_choice2": 5.6036858558654785
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .",
@@ -6552,11 +6232,9 @@
     "case": [],
     "entailment": [
       "Fred$$he$$0.07507281005382538",
-      "My father$$he$$0.07101351767778397"
+      "My father$$he$$0.07101349532604218"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.431187629699707,
-    "bert_choice2": 5.712122440338135
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .",
@@ -6584,19 +6262,17 @@
       "Yakutsk$$they$$2.024010133989808e-62"
     ],
     "context": [
-      "Yakutsk$$I",
-      "they$$I"
+      "they$$I",
+      "Yakutsk$$I"
     ],
     "case": [
       "FTT",
       "FTT"
     ],
     "entailment": [
-      "Yakutsk$$they$$0.45307570695877075"
+      "Yakutsk$$they$$0.4530758559703827"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.4172911643981934,
-    "bert_choice2": 3.3172597885131836
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .",
@@ -6633,9 +6309,7 @@
     "entailment": [
       "Yakutsk$$they$$0.01503108348697424"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.4389615058898926,
-    "bert_choice2": 3.189706563949585
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Look! There is a minnow swimming right below that duck! It had better get away to safety fast! .",
@@ -6662,9 +6336,7 @@
       "The minnow$$It$$1.0348283494364584e-52",
       "The duck$$It$$1.9990912625341775e-51"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.5040626525878906,
-    "bert_choice2": 3.3847784996032715
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Look! There is a shark swimming right below that duck! It had better get away to safety fast! .",
@@ -6691,9 +6363,7 @@
       "The shark$$It$$2.3661619699031773e-49",
       "The duck$$It$$7.76726159066331e-51"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.187046766281128,
-    "bert_choice2": 3.583224058151245
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for evidence on the river banks .",
@@ -6724,11 +6394,9 @@
     "case": [],
     "entailment": [
       "Archaeologists$$They$$0.04089685529470444",
-      "humans$$They$$0.05260194092988968"
+      "humans$$They$$0.052601926028728485"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.700137138366699,
-    "bert_choice2": 4.014638423919678
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
@@ -6756,19 +6424,17 @@
       "humans$$They$$3.0753145441379737e-46"
     ],
     "context": [
-      "humans$$Paleolithic humans",
-      "They$$Paleolithic humans"
+      "They$$Paleolithic humans",
+      "humans$$Paleolithic humans"
     ],
     "case": [
       "FTF",
       "FTT"
     ],
     "entailment": [
-      "humans$$They$$0.009596558287739754"
+      "humans$$They$$0.009596569463610649"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.731405735015869,
-    "bert_choice2": 4.046387672424316
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They began two years ago .",
@@ -6800,12 +6466,10 @@
       "FFT"
     ],
     "entailment": [
-      "The scientists$$They$$0.0074548483826220036",
-      "The fish$$They$$0.00110157229937613"
+      "The scientists$$They$$0.007454849313944578",
+      "The fish$$They$$0.0011015718337148428"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.2142930030822754,
-    "bert_choice2": 2.654428005218506
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They appeared two years ago .",
@@ -6833,20 +6497,18 @@
       "three species of fish$$They$$4.9644866754369115e-48"
     ],
     "context": [
-      "three species of fish$$The manuscript that surfaced in Verona",
       "They$$The manuscript",
+      "three species of fish$$The manuscript",
       "They$$The manuscript that surfaced in Verona",
-      "three species of fish$$The manuscript"
+      "three species of fish$$The manuscript that surfaced in Verona"
     ],
     "case": [
       "FTT"
     ],
     "entailment": [
-      "three species of fish$$They$$0.00180087483022362"
+      "three species of fish$$They$$0.0018008772749453783"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.6433606147766113,
-    "bert_choice2": 3.205298900604248
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The journalists interviewed the stars of the new movie . They were very persistent , so the interview lasted for a long time .",
@@ -6873,9 +6535,7 @@
       "The journalists$$They$$2.4668532804550382e-48",
       "The stars$$They$$4.286701200249141e-48"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.0901641845703125,
-    "bert_choice2": 4.595301151275635
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The journalists interviewed the stars of the new movie . They were very cooperative , so the interview lasted for a long time .",
@@ -6906,11 +6566,9 @@
     "case": [],
     "entailment": [
       "The journalists$$They$$0.0529915988445282",
-      "The stars$$They$$0.042876824736595154"
+      "The stars$$They$$0.04287681356072426"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.085732460021973,
-    "bert_choice2": 4.847078323364258
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The police arrested all of the gang members . They were trying to stop the drug trade in the neighborhood .",
@@ -6939,9 +6597,10 @@
     ],
     "context": [
       "They$$she",
-      "They$$officers",
       "They$$Sanderson",
       "all of the gang members$$Sanderson",
+      "They$$officers",
+      "The police$$officers",
       "They$$The woman"
     ],
     "case": [
@@ -6950,12 +6609,10 @@
       "TTT"
     ],
     "entailment": [
-      "The police$$They$$0.06375083327293396",
-      "all of the gang members$$They$$0.6039240956306458"
+      "The police$$They$$0.06395106762647629",
+      "all of the gang members$$They$$0.6031270027160645"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.464994430541992,
-    "bert_choice2": 4.234291076660156
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .",
@@ -6984,9 +6641,10 @@
     ],
     "context": [
       "They$$they",
-      "They$$a man",
+      "They$$Police",
+      "The police$$Police",
       "all of the gang members$$a man",
-      "They$$Police"
+      "They$$a man"
     ],
     "case": [
       "TTT",
@@ -6994,12 +6652,10 @@
       "TTT"
     ],
     "entailment": [
-      "The police$$They$$0.6810946464538574",
-      "all of the gang members$$They$$0.6986922025680542"
+      "The police$$They$$0.681094765663147",
+      "all of the gang members$$They$$0.6973860263824463"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.491156578063965,
-    "bert_choice2": 4.297854423522949
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I put the cake away in the refrigerator . It has a lot of butter in it .",
@@ -7029,12 +6685,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The cake$$It$$0.027327004820108414",
-      "The refrigerator$$It$$0.0011943425051867962"
+      "The cake$$It$$0.027371807023882866",
+      "The refrigerator$$It$$0.0011943336576223373"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.558010101318359,
-    "bert_choice2": 4.75104284286499
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I put the cake away in the refrigerator . It has a lot of leftovers in it .",
@@ -7066,12 +6720,10 @@
       "FFT"
     ],
     "entailment": [
-      "The cake$$It$$0.006049490068107843",
-      "The refrigerator$$It$$0.06213964894413948"
+      "The cake$$It$$0.006049484014511108",
+      "The refrigerator$$It$$0.06213962659239769"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.3202314376831055,
-    "bert_choice2": 5.007269859313965
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be better .",
@@ -7102,11 +6754,9 @@
     "case": [],
     "entailment": [
       "The ankles$$they$$0.2561100423336029",
-      "The crutches$$they$$0.23856788873672485"
+      "The crutches$$they$$0.23856787383556366"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.9174156188964844,
-    "bert_choice2": 3.2042770385742188
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be unnecessary .",
@@ -7139,11 +6789,9 @@
     ],
     "entailment": [
       "The ankles$$they$$0.007669005077332258",
-      "The crutches$$they$$0.014125336892902851"
+      "The crutches$$they$$0.01412532851099968"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.986109733581543,
-    "bert_choice2": 3.4102349281311035
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . They were very much in the minority .",
@@ -7170,9 +6818,7 @@
       "The sponsors$$They$$3.020904891027408e-54",
       "The opponents$$They$$1.2516037495897665e-53"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.755765914916992,
-    "bert_choice2": 4.924670219421387
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . They were very much in the majority .",
@@ -7205,11 +6851,9 @@
     ],
     "entailment": [
       "The sponsors$$They$$0.01177789457142353",
-      "The opponents$$They$$0.007317740935832262"
+      "The opponents$$They$$0.007317740470170975"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.5740203857421875,
-    "bert_choice2": 4.7482805252075195
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of them  .",
@@ -7245,11 +6889,9 @@
     ],
     "entailment": [
       "The oatmeal cookies$$them$$0.011824513785541058",
-      "The chocolate chip cookies$$them$$0.00917159765958786"
+      "The chocolate chip cookies$$them$$0.00917159952223301"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.394285678863525,
-    "bert_choice2": 4.999845027923584
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of them  .",
@@ -7279,12 +6921,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The oatmeal cookies$$them$$9.116107685258612e-05",
-      "The chocolate chip cookies$$them$$9.968889935407788e-05"
+      "The oatmeal cookies$$them$$9.116116416407749e-05",
+      "The chocolate chip cookies$$them$$9.96888120425865e-05"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.377042293548584,
-    "bert_choice2": 5.135394096374512
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of them  .",
@@ -7316,12 +6956,10 @@
       "FFT"
     ],
     "entailment": [
-      "copies of the newsletter$$them$$0.001364856492727995",
+      "copies of the newsletter$$them$$0.001364855794236064",
       "chairs$$them$$0.0015992450062185526"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.871700286865234,
-    "bert_choice2": 4.625513076782227
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of them  .",
@@ -7348,9 +6986,7 @@
       "copies of the newsletter$$them$$1.6355564817394071e-46",
       "chairs$$them$$8.700700431722635e-42"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.727830410003662,
-    "bert_choice2": 4.295353889465332
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it left a hole .",
@@ -7382,12 +7018,10 @@
       "FFT"
     ],
     "entailment": [
-      "The pin$$it$$0.01754174381494522",
-      "The carrot$$it$$0.007234799209982157"
+      "The pin$$it$$0.017541730776429176",
+      "The carrot$$it$$0.007234802935272455"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.9858245849609375,
-    "bert_choice2": 4.005201816558838
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it had a hole .",
@@ -7417,12 +7051,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The pin$$it$$0.04173875227570534",
-      "The carrot$$it$$0.004506202880293131"
+      "The pin$$it$$0.04173874109983444",
+      "The carrot$$it$$0.004506200551986694"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.634601593017578,
-    "bert_choice2": 3.9350380897521973
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of coffee .",
@@ -7455,11 +7087,9 @@
     ],
     "entailment": [
       "The pen$$it$$6.336095975711942e-05",
-      "The coffee$$it$$4.077113408129662e-05"
+      "The coffee$$it$$4.07711740990635e-05"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.884594440460205,
-    "bert_choice2": 0.9336405992507935
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of ink .",
@@ -7490,11 +7120,9 @@
     "case": [],
     "entailment": [
       "The pen$$it$$6.340735126286745e-05",
-      "The coffee$$it$$5.219754530116916e-05"
+      "The coffee$$it$$5.2197447075741366e-05"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.709171772003174,
-    "bert_choice2": 3.0203354358673096
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Steve follows Fred's example in everything . He admires him hugely .",
@@ -7522,20 +7150,19 @@
       "Fred$$him$$4.0048914620666075e-41"
     ],
     "context": [
-      "Fred$$I",
+      "Fred$$Amanda Krauss and her blog",
       "him$$Amanda Krauss",
-      "Fred$$Amanda Krauss and her blog"
+      "Fred$$I",
+      "Steve$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Steve$$him$$0.15713918209075928",
-      "Fred$$him$$0.8543872237205505"
+      "Steve$$him$$0.1571391522884369",
+      "Fred$$him$$0.8543868660926819"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.834737777709961,
-    "bert_choice2": 3.7919936180114746
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Steve follows Fred's example in everything . He influences him hugely .",
@@ -7563,19 +7190,17 @@
       "Fred$$him$$2.4277429312672764e-42"
     ],
     "context": [
+      "Steve$$We",
       "Fred$$the order",
-      "him$$we",
-      "Steve$$We"
+      "him$$we"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Fred$$him$$0.6281261444091797"
+      "Fred$$him$$0.6283339858055115"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.547287940979004,
-    "bert_choice2": 3.726309061050415
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The table will not fit through the doorway because it is too wide .",
@@ -7603,21 +7228,19 @@
       "The doorway$$it$$4.667363812808985e-25"
     ],
     "context": [
-      "The table$$It",
-      "The doorway$$the forward position",
+      "it$$because it is too wide",
       "it$$it",
-      "it$$because it is too wide"
+      "The doorway$$the forward position",
+      "The table$$It"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "The doorway$$it$$0.871708333492279"
+      "The doorway$$it$$0.8717084527015686"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.443913698196411,
-    "bert_choice2": 3.292708396911621
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The table will not fit through the doorway because it is too narrow .",
@@ -7646,9 +7269,9 @@
     ],
     "context": [
       "it$$stuff",
+      "it$$a lot of stuff",
       "The table$$stuff",
       "it$$the small , narrow gate",
-      "it$$a lot of stuff",
       "The table$$a lot of stuff"
     ],
     "case": [
@@ -7656,12 +7279,10 @@
       "TTF"
     ],
     "entailment": [
-      "The table$$it$$0.39791393280029297",
-      "The doorway$$it$$0.34020131826400757"
+      "The table$$it$$0.4015244245529175",
+      "The doorway$$it$$0.34019935131073"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.3558549880981445,
-    "bert_choice2": 3.238482713699341
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Grace was happy to trade me her sweater for my jacket . She thinks it looks dowdy on her .",
@@ -7693,12 +7314,10 @@
       "FFT"
     ],
     "entailment": [
-      "The sweater$$it$$0.18380610644817352",
+      "The sweater$$it$$0.18380609154701233",
       "The jacket$$it$$0.176069438457489"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 1.4973595142364502,
-    "bert_choice2": 1.2937707901000977
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Grace was happy to trade me her sweater for my jacket . She thinks it looks great on her .",
@@ -7730,12 +7349,10 @@
       "FFT"
     ],
     "entailment": [
-      "The sweater$$it$$0.032418616116046906",
-      "The jacket$$it$$0.03743996471166611"
+      "The sweater$$it$$0.032418638467788696",
+      "The jacket$$it$$0.03743995726108551"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.0118319988250732,
-    "bert_choice2": 2.039585828781128
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John hired Bill to take care of him  .",
@@ -7763,22 +7380,22 @@
       "Bill$$him$$3.886763895426156e-22"
     ],
     "context": [
-      "him$$care of a small forest",
-      "him$$to take care of a small forest",
+      "John$$Zhao MeiLan and her colleagues",
       "him$$care",
-      "Bill$$Zhao MeiLan and her colleagues"
+      "him$$to take care of a small forest",
+      "Bill$$Zhao MeiLan and her colleagues",
+      "John$$Mrs . Zhao MeiLan and her colleagues",
+      "him$$care of a small forest"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "John$$him$$0.9102200269699097",
-      "Bill$$him$$0.9104914665222168"
+      "John$$him$$0.9109184741973877",
+      "Bill$$him$$0.9102127552032471"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.433139801025391,
-    "bert_choice2": 4.2002105712890625
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John hired himself out to Bill to take care of him  .",
@@ -7807,23 +7424,21 @@
     ],
     "context": [
       "John$$A primary caregiver",
-      "him$$primary responsibility",
       "him$$A primary caregiver",
+      "him$$primary responsibility",
       "him$$the person",
-      "him$$primary responsibility for someone",
-      "John$$the person"
+      "John$$the person",
+      "him$$primary responsibility for someone"
     ],
     "case": [
       "TTF",
       "TTT"
     ],
     "entailment": [
-      "John$$him$$0.8027514219284058",
-      "Bill$$him$$0.802731454372406"
+      "John$$him$$0.8027515411376953",
+      "Bill$$him$$0.8027331233024597"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.369741439819336,
-    "bert_choice2": 4.694192409515381
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "John promised Bill to leave , so an hour later he left .",
@@ -7851,18 +7466,16 @@
       "Bill$$he$$1.1116062463350892e-34"
     ],
     "context": [
-      "he$$I",
-      "John$$I"
+      "John$$I",
+      "he$$I"
     ],
     "case": [
       "TFF"
     ],
     "entailment": [
-      "John$$he$$0.0696333572268486"
+      "John$$he$$0.06974828988313675"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.452765941619873,
-    "bert_choice2": 4.012308597564697
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "John ordered Bill to leave , so an hour later he left .",
@@ -7890,20 +7503,18 @@
       "Bill$$he$$6.65137126173242e-33"
     ],
     "context": [
+      "Bill$$him",
       "he$$him",
-      "he$$They",
-      "Bill$$him"
+      "he$$They"
     ],
     "case": [
       "TTF"
     ],
     "entailment": [
-      "John$$he$$0.11067395657300949",
-      "Bill$$he$$0.1377241611480713"
+      "John$$he$$0.11067390441894531",
+      "Bill$$he$$0.13772422075271606"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.856923580169678,
-    "bert_choice2": 4.170318603515625
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research .",
@@ -7936,11 +7547,9 @@
     ],
     "entailment": [
       "Goodman$$he$$0.3754432797431946",
-      "Xenophanes$$he$$0.38019344210624695"
+      "Xenophanes$$he$$0.3801933825016022"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.078141212463379,
-    "bert_choice2": 3.7030842304229736
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .",
@@ -7968,21 +7577,20 @@
       "Xenophanes$$he$$3.2740370222939095e-45"
     ],
     "context": [
-      "he$$he",
       "Goodman$$a biography of Rajdeep Singh",
-      "he$$the struggles and challenges he faced in the journey of his success"
+      "he$$he",
+      "he$$the struggles and challenges he faced in the journey of his success",
+      "Xenophanes$$a biography of Rajdeep Singh"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "Goodman$$he$$0.6146699786186218",
-      "Xenophanes$$he$$0.6146692037582397"
+      "Goodman$$he$$0.6168257594108582",
+      "Xenophanes$$he$$0.6146690249443054"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8652195930480957,
-    "bert_choice2": 3.6166231632232666
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .",
@@ -8012,12 +7620,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Emma$$her$$0.2786652445793152",
-      "Emma's mother$$her$$0.2691592574119568"
+      "Emma$$her$$0.27881038188934326",
+      "Emma's mother$$her$$0.2691536545753479"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.499020576477051,
-    "bert_choice2": 5.308666229248047
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .",
@@ -8049,12 +7655,10 @@
       "FFT"
     ],
     "entailment": [
-      "Emma$$her$$0.054593272507190704",
-      "Emma's mother$$her$$0.06853490322828293"
+      "Emma$$her$$0.05459323152899742",
+      "Emma's mother$$her$$0.06853488832712173"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.436220169067383,
-    "bert_choice2": 4.85111665725708
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jane knocked on Susan's door but she did not get an answer .",
@@ -8082,19 +7686,17 @@
       "Susan$$she$$1.9827649711569304e-30"
     ],
     "context": [
-      "Jane$$I",
       "she$$I",
-      "Susan$$the doors"
+      "Susan$$the doors",
+      "Jane$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Susan$$she$$0.5751709938049316"
+      "Susan$$she$$0.5751709342002869"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.804648399353027,
-    "bert_choice2": 3.7980902194976807
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jane knocked on Susan's door but she did not answer .",
@@ -8122,19 +7724,17 @@
       "Susan$$she$$5.4395735713145105e-27"
     ],
     "context": [
+      "she$$she",
       "Susan$$her door",
-      "Jane$$I",
-      "she$$she"
+      "Jane$$I"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "Susan$$she$$0.720218300819397"
+      "Susan$$she$$0.7202183604240417"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.069431781768799,
-    "bert_choice2": 3.7649922370910645
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Joe paid the detective after he received the final report on the case .",
@@ -8170,11 +7770,9 @@
       "TFT"
     ],
     "entailment": [
-      "Joe$$he$$0.0731019452214241"
+      "Joe$$he$$0.0731019377708435"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.6906909942626953,
-    "bert_choice2": 3.5775749683380127
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Joe paid the detective after he delivered the final report on the case .",
@@ -8211,12 +7809,10 @@
       "TTT"
     ],
     "entailment": [
-      "Joe$$he$$0.05165582895278931",
-      "the detective$$he$$0.025769459083676338"
+      "Joe$$he$$0.05165579542517662",
+      "the detective$$he$$0.025769446045160294"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 1.2536695003509521,
-    "bert_choice2": 3.529728651046753
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .",
@@ -8244,9 +7840,9 @@
       "Sally$$she$$2.817429474733623e-48"
     ],
     "context": [
+      "she$$angry",
       "she$$He",
-      "Beth$$He",
-      "she$$angry"
+      "Beth$$He"
     ],
     "case": [
       "TTF",
@@ -8254,12 +7850,10 @@
       "TTT"
     ],
     "entailment": [
-      "Beth$$she$$0.2813064157962799",
-      "Sally$$she$$0.2701117694377899"
+      "Beth$$she$$0.28130635619163513",
+      "Sally$$she$$0.27012118697166443"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.693638563156128,
-    "bert_choice2": 4.215410232543945
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and apologized .",
@@ -8291,12 +7885,10 @@
       "FFT"
     ],
     "entailment": [
-      "Beth$$she$$0.38442957401275635",
+      "Beth$$she$$0.38442954421043396",
       "Sally$$she$$0.2900180220603943"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.6942522525787354,
-    "bert_choice2": 4.056985855102539
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jim signaled the barman and gestured toward his empty glass .",
@@ -8326,12 +7918,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Jim$$his$$0.23616918921470642",
-      "The barman$$his$$0.2011212408542633"
+      "Jim$$his$$0.23616912961006165",
+      "The barman$$his$$0.2011212706565857"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.082493782043457,
-    "bert_choice2": 4.471583366394043
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Jim signaled the barman and gestured toward his bathroom key .",
@@ -8361,12 +7951,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Jim$$his$$0.08978423476219177",
-      "The barman$$his$$0.2826228439807892"
+      "Jim$$his$$0.08978424966335297",
+      "The barman$$his$$0.2826228737831116"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8444204330444336,
-    "bert_choice2": 4.596050262451172
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was slow .",
@@ -8396,12 +7984,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Dan$$his$$0.2645335793495178",
-      "Bill$$his$$0.2692922055721283"
+      "Dan$$his$$0.26453351974487305",
+      "Bill$$his$$0.26929226517677307"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.164886474609375,
-    "bert_choice2": 2.9749152660369873
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was quicker .",
@@ -8431,12 +8017,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Dan$$his$$0.2652362883090973",
-      "Bill$$his$$0.2938990294933319"
+      "Dan$$his$$0.2652362287044525",
+      "Bill$$his$$0.2938989996910095"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.8692731857299805,
-    "bert_choice2": 3.769570827484131
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Tom said Check to Ralph as he moved his bishop .",
@@ -8464,12 +8048,13 @@
       "Ralph$$his$$3.790619888978507e-39"
     ],
     "context": [
-      "Ralph$$his queen",
-      "Ralph$$checkmate",
-      "his$$checkmate",
-      "his$$his queen",
       "his$$a player",
-      "Ralph$$a player"
+      "his$$his queen",
+      "Ralph$$checkmate",
+      "Ralph$$a player",
+      "Ralph$$his queen",
+      "Tom$$a player",
+      "his$$checkmate"
     ],
     "case": [
       "TTT",
@@ -8477,12 +8062,10 @@
       "TTF"
     ],
     "entailment": [
-      "Tom$$his$$0.35752788186073303",
+      "Tom$$his$$0.35759469866752625",
       "Ralph$$his$$0.8004213571548462"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.117119789123535,
-    "bert_choice2": 3.7109475135803223
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Tom said Check to Ralph as he took his bishop .",
@@ -8512,12 +8095,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Tom$$his$$0.3007853627204895",
-      "Ralph$$his$$0.2699136734008789"
+      "Tom$$his$$0.30080723762512207",
+      "Ralph$$his$$0.26991578936576843"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.201961517333984,
-    "bert_choice2": 3.9889442920684814
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing strip .",
@@ -8547,12 +8128,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Andrea$$she$$0.013553806580603123",
-      "Susan$$she$$0.01788424886763096"
+      "Andrea$$she$$0.013553799130022526",
+      "Susan$$she$$0.017884252592921257"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.869581460952759,
-    "bert_choice2": 3.176424980163574
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing gear .",
@@ -8584,12 +8163,10 @@
       "FFT"
     ],
     "entailment": [
-      "Andrea$$she$$0.03617722913622856",
-      "Susan$$she$$0.029051214456558228"
+      "Andrea$$she$$0.03617723658680916",
+      "Susan$$she$$0.029051203280687332"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.7518277168273926,
-    "bert_choice2": 3.289565086364746
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Tom gave Ralph a lift to school so he would not have to drive alone .",
@@ -8617,9 +8194,10 @@
       "Ralph$$he$$5.9662150421053215e-37"
     ],
     "context": [
-      "he$$I",
+      "Ralph$$me",
+      "Tom$$Mashi",
       "he$$so I did not have to drive",
-      "Ralph$$me"
+      "he$$I"
     ],
     "case": [
       "TTT",
@@ -8627,12 +8205,10 @@
       "TTT"
     ],
     "entailment": [
-      "Tom$$he$$0.740183413028717",
-      "Ralph$$he$$0.773391842842102"
+      "Tom$$he$$0.7416092157363892",
+      "Ralph$$he$$0.7723257541656494"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.353269577026367,
-    "bert_choice2": 4.6302900314331055
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Tom gave Ralph a lift to school so he would not have to walk .",
@@ -8660,12 +8236,12 @@
       "Ralph$$he$$8.97468507087803e-35"
     ],
     "context": [
-      "he$$the shop",
+      "he$$us",
       "he$$We",
-      "Tom$$We",
-      "Tom$$the shop",
+      "he$$the shop",
       "he$$we",
-      "he$$us"
+      "Tom$$the shop",
+      "Tom$$We"
     ],
     "case": [
       "TTF",
@@ -8673,12 +8249,10 @@
       "TTT"
     ],
     "entailment": [
-      "Tom$$he$$0.732138454914093",
-      "Ralph$$he$$0.31446924805641174"
+      "Tom$$he$$0.7321169972419739",
+      "Ralph$$he$$0.3144656717777252"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.204521179199219,
-    "bert_choice2": 4.521831035614014
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Bill passed the half-empty plate to John because he was full .",
@@ -8714,11 +8288,9 @@
       "TFT"
     ],
     "entailment": [
-      "Bill$$he$$0.009798115119338036"
+      "Bill$$he$$0.00979810580611229"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.5434393882751465,
-    "bert_choice2": 1.8226474523544312
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bill passed the half-empty plate to John because he was hungry .",
@@ -8746,22 +8318,20 @@
       "John$$he$$1.0356851919766881e-35"
     ],
     "context": [
-      "he$$I",
       "Bill$$You",
+      "he$$Me",
       "he$$You",
-      "he$$Me"
+      "he$$I"
     ],
     "case": [
       "TTF",
       "TTT"
     ],
     "entailment": [
-      "Bill$$he$$0.1707252413034439",
-      "John$$he$$0.12260286509990692"
+      "Bill$$he$$0.17072518169879913",
+      "John$$he$$0.12260288000106812"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.9387643337249756,
-    "bert_choice2": 4.8433756828308105
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Bill passed the gameboy to John because his turn was over .",
@@ -8789,8 +8359,8 @@
       "John$$his$$2.753753015283652e-33"
     ],
     "context": [
-      "his$$me",
       "Bill$$my student",
+      "his$$me",
       "his$$my student"
     ],
     "case": [
@@ -8798,12 +8368,10 @@
       "TTF"
     ],
     "entailment": [
-      "Bill$$his$$0.0004012683348264545",
+      "Bill$$his$$0.00040126912062987685",
       "John$$his$$0.00011786383402068168"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.5640885829925537,
-    "bert_choice2": 2.7556958198547363
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Bill passed the gameboy to John because his turn was next .",
@@ -8831,8 +8399,8 @@
       "John$$his$$2.1008704557963114e-34"
     ],
     "context": [
-      "Bill$$Steiner",
-      "his$$Steiner"
+      "his$$Steiner",
+      "Bill$$Steiner"
     ],
     "case": [
       "TFF",
@@ -8841,9 +8409,7 @@
     "entailment": [
       "Bill$$his$$0.1256793886423111"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.682706832885742,
-    "bert_choice2": 2.4268739223480225
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The man lifted the boy onto his shoulders .",
@@ -8871,18 +8437,16 @@
       "The boy$$his$$3.299185131720502e-21"
     ],
     "context": [
-      "his$$I",
-      "The man$$I"
+      "The man$$I",
+      "his$$I"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "The man$$his$$0.3349548280239105"
+      "The man$$his$$0.3349548876285553"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.648694038391113,
-    "bert_choice2": 4.563766956329346
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The man lifted the boy onto his bunk bed .",
@@ -8912,12 +8476,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The man$$his$$0.08607281744480133",
-      "The boy$$his$$0.12080200761556625"
+      "The man$$his$$0.08607284724712372",
+      "The boy$$his$$0.12080198526382446"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.095512390136719,
-    "bert_choice2": 4.916401386260986
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Stretching her back , the woman smiled at the girl .",
@@ -8946,7 +8508,8 @@
     ],
     "context": [
       "her$$her back",
-      "The woman$$she"
+      "The woman$$she",
+      "The girl$$Mac"
     ],
     "case": [
       "TTT"
@@ -8955,9 +8518,7 @@
       "The woman$$her$$0.8963791131973267",
       "The girl$$her$$0.620783805847168"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.822918176651001,
-    "bert_choice2": 3.7924273014068604
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Patting her back , the woman smiled at the girl .",
@@ -8985,8 +8546,8 @@
       "The girl$$her$$4.7820215754806583e-23"
     ],
     "context": [
-      "her$$her back",
       "The woman$$her back",
+      "her$$her back",
       "The woman$$her",
       "her$$her"
     ],
@@ -8995,11 +8556,9 @@
       "TFF"
     ],
     "entailment": [
-      "The woman$$her$$0.2083626240491867"
+      "The woman$$her$$0.20836250483989716"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.6545746326446533,
-    "bert_choice2": 3.7709364891052246
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Billy cried because Toby would not accept his toy .",
@@ -9027,25 +8586,24 @@
       "Toby$$his$$3.169747605250812e-29"
     ],
     "context": [
-      "his$$because Israel would not accept His love",
-      "Toby$$Jesus",
-      "Toby$$Israel",
-      "his$$because Israel would not accept His love , would n't accept Him",
-      "his$$His love",
+      "Billy$$Jesus",
       "Toby$$because Israel would not accept His love , would n't accept Him",
-      "Toby$$because Israel would not accept His love"
+      "Toby$$Jesus",
+      "Toby$$because Israel would not accept His love",
+      "Toby$$Israel",
+      "his$$because Israel would not accept His love",
+      "his$$His love",
+      "his$$because Israel would not accept His love , would n't accept Him"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "Billy$$his$$0.38565099239349365",
-      "Toby$$his$$0.7054948210716248"
+      "Billy$$his$$0.3855501115322113",
+      "Toby$$his$$0.7051314115524292"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.664748191833496,
-    "bert_choice2": 5.080574035644531
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Billy cried because Toby would not share his toy .",
@@ -9073,21 +8631,20 @@
       "Toby$$his$$6.86222456884185e-30"
     ],
     "context": [
+      "his$$because Scott did not share in the memories of her childhood",
       "his$$I",
-      "Toby$$because Scott did not share in the memories of her childhood",
-      "his$$because Scott did not share in the memories of her childhood"
+      "Billy$$I",
+      "Toby$$because Scott did not share in the memories of her childhood"
     ],
     "case": [
       "TTT",
       "TTF"
     ],
     "entailment": [
-      "Billy$$his$$0.5458070635795593",
-      "Toby$$his$$0.6984630227088928"
+      "Billy$$his$$0.5458040833473206",
+      "Toby$$his$$0.698462724685669"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.883207321166992,
-    "bert_choice2": 5.211751937866211
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Lily spoke to Donna , breaking her silence .",
@@ -9116,7 +8673,8 @@
     ],
     "context": [
       "Lily$$Dolezal 's parents",
-      "her$$their silence"
+      "her$$their silence",
+      "Donna$$Dolezal 's parents"
     ],
     "case": [
       "TTT"
@@ -9125,9 +8683,7 @@
       "Lily$$her$$0.9660272598266602",
       "Donna$$her$$0.9658948183059692"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.6394739151000977,
-    "bert_choice2": 2.4602177143096924
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Lily spoke to Donna , breaking her concentration .",
@@ -9155,8 +8711,8 @@
       "Donna$$her$$3.6641658260094665e-31"
     ],
     "context": [
-      "Donna$$you",
       "her$$someone",
+      "Donna$$you",
       "her$$you"
     ],
     "case": [
@@ -9166,9 +8722,7 @@
       "Lily$$her$$0.8990516662597656",
       "Donna$$her$$0.9728097915649414"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.459468364715576,
-    "bert_choice2": 2.799163341522217
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a sympathetic look .",
@@ -9203,11 +8757,9 @@
       "FTT"
     ],
     "entailment": [
-      "Timmy$$him$$0.04277433827519417"
+      "Timmy$$him$$0.04277436062693596"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.916304349899292,
-    "bert_choice2": 2.858630418777466
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a stern look .",
@@ -9237,12 +8789,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Tommy$$him$$0.020837675780057907",
-      "Timmy$$him$$0.018562324345111847"
+      "Tommy$$him$$0.02083766460418701",
+      "Timmy$$him$$0.018562331795692444"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.0325281620025635,
-    "bert_choice2": 3.00006103515625
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "As Ollie carried Tommy up the long winding steps , his legs ached .",
@@ -9279,9 +8829,7 @@
     "entailment": [
       "Ollie$$his$$0.2860407531261444"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.4436233043670654,
-    "bert_choice2": 3.2126805782318115
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "As Ollie carried Tommy up the long winding steps , his legs dangled .",
@@ -9309,8 +8857,8 @@
       "Tommy$$his$$1.354135277741531e-41"
     ],
     "context": [
-      "Tommy$$a very fierce warrior",
       "Tommy$$He",
+      "Tommy$$a very fierce warrior",
       "his$$a very fierce warrior",
       "his$$He"
     ],
@@ -9318,11 +8866,9 @@
       "FTF"
     ],
     "entailment": [
-      "Tommy$$his$$0.19933512806892395"
+      "Tommy$$his$$0.19933511316776276"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.1568288803100586,
-    "bert_choice2": 3.238466501235962
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The father carried the sleeping boy in his arms .",
@@ -9350,19 +8896,17 @@
       "The boy$$his$$2.223149507616822e-24"
     ],
     "context": [
-      "his$$them",
-      "The father$$them"
+      "The father$$them",
+      "his$$them"
     ],
     "case": [
       "TFT",
       "TFF"
     ],
     "entailment": [
-      "The father$$his$$0.017351053655147552"
+      "The father$$his$$0.017351046204566956"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.45888352394104,
-    "bert_choice2": 3.3327343463897705
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The father carried the sleeping boy in his bassinet .",
@@ -9400,9 +8944,7 @@
     "entailment": [
       "The father$$his$$8.500979902237304e-07"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.4315249919891357,
-    "bert_choice2": 3.615510940551758
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The woman held the girl against her chest .",
@@ -9430,10 +8972,12 @@
       "The girl$$her$$2.379386721411227e-22"
     ],
     "context": [
+      "The girl$$his chest",
       "her$$her head",
-      "her$$against his chest",
+      "The girl$$her head",
       "The woman$$He",
-      "her$$his chest"
+      "her$$his chest",
+      "her$$against his chest"
     ],
     "case": [
       "TTT",
@@ -9441,11 +8985,9 @@
     ],
     "entailment": [
       "The woman$$her$$0.9527714848518372",
-      "The girl$$her$$0.9430742859840393"
+      "The girl$$her$$0.943268358707428"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.553179979324341,
-    "bert_choice2": 3.5498101711273193
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The woman held the girl against her will .",
@@ -9473,22 +9015,21 @@
       "The girl$$her$$1.0763179522245529e-21"
     ],
     "context": [
-      "her$$against her will",
+      "her$$an unoccupied apartment",
+      "The girl$$her",
       "The woman$$he",
-      "her$$her will",
-      "her$$an unoccupied apartment"
+      "her$$against her will",
+      "her$$her will"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "The woman$$her$$0.8116477727890015",
-      "The girl$$her$$0.0018319475930184126"
+      "The woman$$her$$0.8118062019348145",
+      "The girl$$her$$0.0018318936927244067"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.49737548828125,
-    "bert_choice2": 3.314661979675293
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were furious about it .",
@@ -9520,12 +9061,10 @@
       "FFT"
     ],
     "entailment": [
-      "Pam's parents$$They$$0.2476305067539215",
-      "Pam and Paul$$They$$0.24713189899921417"
+      "Pam's parents$$They$$0.24763132631778717",
+      "Pam and Paul$$They$$0.24713186919689178"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.1340813636779785,
-    "bert_choice2": 3.989842414855957
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .",
@@ -9558,11 +9097,9 @@
     ],
     "entailment": [
       "Pam's parents$$They$$0.06525324285030365",
-      "Pam and Paul$$They$$0.09392737597227097"
+      "Pam and Paul$$They$$0.09392740577459335"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.786989212036133,
-    "bert_choice2": 3.706596851348877
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Dr . Adams informed Kate that she had retired and presented several options for future treatment .",
@@ -9595,12 +9132,10 @@
       "FFT"
     ],
     "entailment": [
-      "Dr. Adams$$she$$0.13836626708507538",
+      "Dr. Adams$$she$$0.13836625218391418",
       "Kate$$she$$0.19084618985652924"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.5354623794555664,
-    "bert_choice2": 2.726907730102539
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dr . Adams informed Kate that she had cancer and presented several options for future treatment .",
@@ -9628,8 +9163,8 @@
       "Kate$$she$$1.3923065594572026e-39"
     ],
     "context": [
-      "she$$a doctor",
-      "Kate$$a doctor"
+      "Kate$$a doctor",
+      "she$$a doctor"
     ],
     "case": [
       "FTF",
@@ -9637,11 +9172,9 @@
       "FTT"
     ],
     "entailment": [
-      "Kate$$she$$0.11298244446516037"
+      "Kate$$she$$0.11298241466283798"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.7229013442993164,
-    "bert_choice2": 2.6126348972320557
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very compassionate .",
@@ -9677,12 +9210,10 @@
       "TTF"
     ],
     "entailment": [
-      "Dan$$He$$0.3022595942020416",
-      "Bill$$He$$0.34384608268737793"
+      "Dan$$He$$0.3022594749927521",
+      "Bill$$He$$0.34384605288505554"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.7534234523773193,
-    "bert_choice2": 3.386516809463501
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very cruel .",
@@ -9710,18 +9241,16 @@
       "Bill$$He$$2.4806893615703217e-45"
     ],
     "context": [
-      "Bill$$her submissive fuck slave",
-      "He$$her submissive fuck slave"
+      "He$$her submissive fuck slave",
+      "Bill$$her submissive fuck slave"
     ],
     "case": [
       "FTF"
     ],
     "entailment": [
-      "Bill$$He$$0.4437659978866577"
+      "Bill$$He$$0.44376593828201294"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 0.9537602066993713,
-    "bert_choice2": 1.2400949001312256
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , even though he was not particularly eager to see it .",
@@ -9748,9 +9277,7 @@
       "George$$he$$2.0897898333067138e-52",
       "Eric$$he$$8.378360567055826e-53"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.4299492835998535,
-    "bert_choice2": 3.5745787620544434
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was particularly eager to see it .",
@@ -9782,12 +9309,10 @@
       "FFT"
     ],
     "entailment": [
-      "George$$he$$0.058304429054260254",
-      "Eric$$he$$0.08190590143203735"
+      "George$$he$$0.058304425328969955",
+      "Eric$$he$$0.08190593123435974"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.506028175354004,
-    "bert_choice2": 3.4253664016723633
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was not particularly eager to see it .",
@@ -9820,12 +9345,10 @@
       "FFT"
     ],
     "entailment": [
-      "George$$he$$0.0864383652806282",
-      "Eric$$he$$0.0679488256573677"
+      "George$$he$$0.0864383801817894",
+      "Eric$$he$$0.0679488405585289"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.4558024406433105,
-    "bert_choice2": 3.7245686054229736
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jane gave Joan candy because she was not hungry .",
@@ -9853,23 +9376,22 @@
       "Joan$$she$$6.744656747618374e-33"
     ],
     "context": [
-      "she$$because I either was not hungry at the time",
-      "she$$that",
       "she$$THE Giovanni 's truck",
       "Jane$$I",
-      "she$$I"
+      "she$$that",
+      "she$$I",
+      "Joan$$it",
+      "she$$because I either was not hungry at the time"
     ],
     "case": [
       "TTT",
       "TTT"
     ],
     "entailment": [
-      "Jane$$she$$0.9310584664344788",
+      "Jane$$she$$0.9310495853424072",
       "Joan$$she$$0.879848062992096"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 2.966142416000366,
-    "bert_choice2": 3.917799472808838
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Jane gave Joan candy because she was hungry .",
@@ -9898,22 +9420,20 @@
     ],
     "context": [
       "she$$You",
+      "she$$Me",
       "she$$I",
       "Jane$$You",
-      "she$$Food",
-      "she$$Me"
+      "she$$Food"
     ],
     "case": [
       "TTF",
       "TTT"
     ],
     "entailment": [
-      "Jane$$she$$0.29910537600517273",
-      "Joan$$she$$0.22120948135852814"
+      "Jane$$she$$0.29910531640052795",
+      "Joan$$she$$0.221229687333107"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 2.1232492923736572,
-    "bert_choice2": 3.8009066581726074
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like light bulbs .",
@@ -9945,12 +9465,10 @@
       "FFT"
     ],
     "entailment": [
-      "lemons$$they$$0.2815162241458893",
+      "lemons$$they$$0.2815719544887543",
       "lemon trees$$they$$0.2762817442417145"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.417194366455078,
-    "bert_choice2": 4.202949523925781
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like telephone poles .",
@@ -9982,12 +9500,10 @@
       "FFT"
     ],
     "entailment": [
-      "lemons$$they$$0.01608024723827839",
-      "lemon trees$$they$$0.01469741016626358"
+      "lemons$$they$$0.016080260276794434",
+      "lemon trees$$they$$0.014697425998747349"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.337194442749023,
-    "bert_choice2": 4.120236396789551
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "James asked Robert for a favor but he was refused .",
@@ -10015,18 +9531,16 @@
       "Robert$$he$$1.0623377215275701e-30"
     ],
     "context": [
-      "James$$you",
-      "he$$you"
+      "he$$you",
+      "James$$you"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "James$$he$$0.28483855724334717"
+      "James$$he$$0.28483861684799194"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.278521537780762,
-    "bert_choice2": 4.658747673034668
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "James asked Robert for a favor but he refused .",
@@ -10054,19 +9568,17 @@
       "Robert$$he$$5.660821185135556e-28"
     ],
     "context": [
+      "Robert$$the LORD",
       "he$$the LORD",
-      "James$$He",
-      "Robert$$the LORD"
+      "James$$He"
     ],
     "case": [
       "TTT"
     ],
     "entailment": [
-      "James$$he$$0.3595188856124878"
+      "James$$he$$0.3595189154148102"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.214292526245117,
-    "bert_choice2": 4.6287994384765625
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Kirilov ceded the presidency to Shatov because he was less popular .",
@@ -10098,12 +9610,10 @@
       "FFT"
     ],
     "entailment": [
-      "Kirilov$$he$$0.15329013764858246",
-      "Shatov$$he$$0.19302867352962494"
+      "Kirilov$$he$$0.1532900482416153",
+      "Shatov$$he$$0.19302870333194733"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.936955451965332,
-    "bert_choice2": 3.9938242435455322
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Kirilov ceded the presidency to Shatov because he was more popular .",
@@ -10131,19 +9641,17 @@
       "Shatov$$he$$1.2714357770937966e-31"
     ],
     "context": [
-      "he$$The remnants",
-      "Kirilov$$The remnants"
+      "Kirilov$$The remnants",
+      "he$$The remnants"
     ],
     "case": [
       "TFF",
       "TFF"
     ],
     "entailment": [
-      "Kirilov$$he$$0.011011539027094841"
+      "Kirilov$$he$$0.011011534370481968"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.8922336101531982,
-    "bert_choice2": 4.023179531097412
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Emma did not pass the ball to Janie although she saw that she was open .",
@@ -10180,11 +9688,9 @@
       "TFT"
     ],
     "entailment": [
-      "Emma$$she$$0.33170074224472046"
+      "Emma$$she$$0.33170077204704285"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.5094428062438965,
-    "bert_choice2": 4.63995361328125
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Emma did not pass the ball to Janie although she was open .",
@@ -10212,18 +9718,16 @@
       "Janie$$she$$7.485324817840808e-33"
     ],
     "context": [
-      "Emma$$LeBron James",
-      "she$$LeBron James"
+      "she$$LeBron James",
+      "Emma$$LeBron James"
     ],
     "case": [
       "TFT"
     ],
     "entailment": [
-      "Emma$$she$$0.044469643384218216"
+      "Emma$$she$$0.04446966201066971"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.128255367279053,
-    "bert_choice2": 4.711147308349609
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "I put the butterfly wing on the table and it broke .",
@@ -10254,11 +9758,9 @@
     "case": [],
     "entailment": [
       "The butterfly wing$$it$$0.04977068305015564",
-      "The table$$it$$0.00047594946227036417"
+      "The table$$it$$0.0004759499279316515"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.024613380432129,
-    "bert_choice2": 3.4634692668914795
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "I put the heavy book on the table and it broke .",
@@ -10288,12 +9790,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "The book$$it$$4.556593194138259e-05",
+      "The book$$it$$4.55658882856369e-05",
       "The table$$it$$4.438621181179769e-05"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.33758544921875,
-    "bert_choice2": 3.2410032749176025
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
@@ -10321,9 +9821,10 @@
       "her trainer$$she$$2.843367368032697e-29"
     ],
     "context": [
+      "her trainer$$me",
       "Madonna$$he",
-      "she$$he",
-      "she$$As he could not stand ethical behavior"
+      "she$$As he could not stand ethical behavior",
+      "she$$he"
     ],
     "case": [
       "TTT",
@@ -10331,11 +9832,9 @@
     ],
     "entailment": [
       "Madonna$$she$$0.718542218208313",
-      "her trainer$$she$$0.6976088881492615"
+      "her trainer$$she$$0.697609007358551"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.119734764099121,
-    "bert_choice2": 3.9575042724609375
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
@@ -10365,6 +9864,7 @@
     "context": [
       "her trainer$$me",
       "she$$I",
+      "Madonna$$you",
       "she$$because I slept with your ex-wife"
     ],
     "case": [
@@ -10372,12 +9872,10 @@
       "TTT"
     ],
     "entailment": [
-      "Madonna$$she$$0.4276263415813446",
-      "her trainer$$she$$0.4435321092605591"
+      "Madonna$$she$$0.42762646079063416",
+      "her trainer$$she$$0.44353216886520386"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.381396770477295,
-    "bert_choice2": 3.0297436714172363
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
@@ -10405,10 +9903,10 @@
       "The trainer$$her$$3.282808254879009e-34"
     ],
     "context": [
-      "her$$you",
       "Madonna$$I",
+      "her$$I",
       "Madonna$$you",
-      "her$$I"
+      "her$$you"
     ],
     "case": [
       "TFT",
@@ -10416,11 +9914,9 @@
       "TFT"
     ],
     "entailment": [
-      "Madonna$$her$$0.6517532467842102"
+      "Madonna$$her$$0.5901815295219421"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.388716697692871,
-    "bert_choice2": 3.41259503364563
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
@@ -10448,10 +9944,11 @@
       "her trainer$$her$$7.918645220627587e-33"
     ],
     "context": [
-      "her$$He",
-      "her$$because he hated her",
       "her$$her",
-      "her trainer$$her"
+      "Madonna$$He",
+      "her trainer$$her",
+      "her$$He",
+      "her$$because he hated her"
     ],
     "case": [
       "TTT",
@@ -10459,12 +9956,10 @@
       "TTF"
     ],
     "entailment": [
-      "Madonna$$her$$0.25501373410224915",
-      "her trainer$$her$$0.9023361802101135"
+      "Madonna$$her$$0.25501516461372375",
+      "her trainer$$her$$0.9023109674453735"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.5669546127319336,
-    "bert_choice2": 4.206457614898682
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "Carol believed that Rebecca suspected that she had stolen the watch .",
@@ -10496,12 +9991,10 @@
       "FFT"
     ],
     "entailment": [
-      "Carol$$she$$0.31987664103507996",
+      "Carol$$she$$0.31976747512817383",
       "Rebecca$$she$$0.3237886130809784"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.381771087646484,
-    "bert_choice2": 3.0628819465637207
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Carol believed that Rebecca regretted that she had stolen the watch .",
@@ -10529,9 +10022,9 @@
       "Rebecca$$she$$7.390547975992512e-37"
     ],
     "context": [
+      "Rebecca$$she",
       "she$$she",
       "she$$She",
-      "Rebecca$$she",
       "Rebecca$$She"
     ],
     "case": [
@@ -10542,9 +10035,7 @@
     "entailment": [
       "Rebecca$$she$$0.5295066237449646"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.731581211090088,
-    "bert_choice2": 3.0362913608551025
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Ovid ; it was a major influence on his writing .",
@@ -10574,12 +10065,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Shakespeare$$his$$0.7144907116889954",
-      "Ovid$$his$$0.6506813764572144"
+      "Shakespeare$$his$$0.714490532875061",
+      "Ovid$$his$$0.6506814360618591"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.752987861633301,
-    "bert_choice2": 3.835995674133301
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Goethe ; it was a major influence on his writing .",
@@ -10609,12 +10098,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Shakespeare$$his$$0.5440537929534912",
-      "Goethe$$his$$0.6174539923667908"
+      "Shakespeare$$his$$0.5440536141395569",
+      "Goethe$$his$$0.6174538135528564"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.002275466918945,
-    "bert_choice2": 3.906897783279419
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Ovid ; it was a fine selection of his writing .",
@@ -10644,12 +10131,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Shakespeare$$his$$0.6596130132675171",
+      "Shakespeare$$his$$0.6596131324768066",
       "Ovid$$his$$0.6264625787734985"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.8543107509613037,
-    "bert_choice2": 4.110558986663818
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing .",
@@ -10679,12 +10164,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "Shakespeare$$his$$0.5720987319946289",
-      "Goethe$$his$$0.5133312940597534"
+      "Shakespeare$$his$$0.5720986127853394",
+      "Goethe$$his$$0.513331413269043"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.060189723968506,
-    "bert_choice2": 4.051721572875977
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Alice looked for her friend Jade in the crowd . Since she always has good luck , Alice spotted her quickly .",
@@ -10712,18 +10195,16 @@
       "Jade$$she$$3.095132683178598e-54"
     ],
     "context": [
-      "Alice$$I",
-      "she$$I"
+      "she$$I",
+      "Alice$$I"
     ],
     "case": [
       "TFF"
     ],
     "entailment": [
-      "Alice$$she$$0.04045731574296951"
+      "Alice$$she$$0.04045730084180832"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 5.949665069580078,
-    "bert_choice2": 3.7964680194854736
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "Alice looked for her friend Jade in the crowd . Since she always wears a red turban , Alice spotted her quickly .",
@@ -10755,12 +10236,10 @@
       "FFT"
     ],
     "entailment": [
-      "Alice$$she$$0.09007218480110168",
+      "Alice$$she$$0.0900721400976181",
       "Jade$$she$$0.08831007033586502"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.482969284057617,
-    "bert_choice2": 3.9712307453155518
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "During a game of tag , Ethan chased Luke because he was it .",
@@ -10789,8 +10268,8 @@
     ],
     "context": [
       "he$$the others",
-      "he$$The player",
-      "Luke$$the others"
+      "Luke$$the others",
+      "he$$The player"
     ],
     "case": [
       "TTF",
@@ -10798,11 +10277,9 @@
     ],
     "entailment": [
       "Ethan$$he$$0.054228127002716064",
-      "Luke$$he$$0.31957104802131653"
+      "Luke$$he$$0.3195256292819977"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.167482376098633,
-    "bert_choice2": 2.2696306705474854
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
@@ -10834,12 +10311,10 @@
       "FFT"
     ],
     "entailment": [
-      "Ethan$$he$$0.09152379631996155",
-      "Luke$$he$$0.10559778660535812"
+      "Ethan$$he$$0.09151473641395569",
+      "Luke$$he$$0.1055978313088417"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 3.413480758666992,
-    "bert_choice2": 3.2006516456604004
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so stupid .",
@@ -10869,12 +10344,10 @@
     "context": [],
     "case": [],
     "entailment": [
-      "the judges$$they$$0.04069441556930542",
+      "the judges$$they$$0.04069443419575691",
       "the chatbots$$they$$0.077954962849617"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 4.491005897521973,
-    "bert_choice2": 4.4732208251953125
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so advanced .",
@@ -10902,8 +10375,8 @@
       "the chatbots$$they$$5.06720597771335e-45"
     ],
     "context": [
-      "the chatbots$$n’t linear",
-      "they$$n’t linear"
+      "they$$n’t linear",
+      "the chatbots$$n’t linear"
     ],
     "case": [
       "FTF",
@@ -10911,11 +10384,9 @@
       "FTT"
     ],
     "entailment": [
-      "the chatbots$$they$$0.06215439364314079"
+      "the chatbots$$they$$0.062154438346624374"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.672054290771484,
-    "bert_choice2": 4.602584362030029
+    "predicted": "CORRECT"
   },
   {
     "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to forget .",
@@ -10947,12 +10418,10 @@
       "FFT"
     ],
     "entailment": [
-      "GrWQWu8JyC$$it$$0.25095105171203613",
-      "willow-towered Canopy Huntertropic wrestles$$it$$0.10589120537042618"
+      "GrWQWu8JyC$$it$$0.25095102190971375",
+      "willow-towered Canopy Huntertropic wrestles$$it$$0.10589121282100677"
     ],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.04510498046875,
-    "bert_choice2": 4.422180652618408
+    "predicted": "INCORRECT"
   },
   {
     "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to remember .",
@@ -10982,11 +10451,9 @@
     "context": [],
     "case": [],
     "entailment": [
-      "GrWQWu8JyC$$it$$0.089503213763237",
-      "willow-towered Canopy Huntertropic wrestles$$it$$0.004614281002432108"
+      "GrWQWu8JyC$$it$$0.08950323611497879",
+      "willow-towered Canopy Huntertropic wrestles$$it$$0.004614285193383694"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 3.8556630611419678,
-    "bert_choice2": 4.216564178466797
+    "predicted": "CORRECT"
   }
 ]

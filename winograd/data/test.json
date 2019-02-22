@@ -1,38 +1,37 @@
 [
 	{
-    "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
-    "ans": "the witness",
-    "pronoun": "he",
+    "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one below it .",
+    "ans": "Sam's drawing",
+    "pronoun": "it",
     "domain": [
-      "the lawyer",
-      "the witness",
-      "he"
+      "Sam's drawing",
+      "Tina's",
+      "it"
     ],
     "coref_target": [
-      "the lawyer$$he",
-      "the witness$$he",
-      "he$$the lawyer",
-      "he$$the witness"
+      "Sam's drawing$$it",
+      "Tina's$$it",
+      "it$$Sam's drawing",
+      "it$$Tina's"
     ],
     "coref_target_truth": [
-      "the lawyer$$he$$0",
-      "the witness$$he$$1",
-      "he$$the lawyer$$0",
-      "he$$the witness$$1"
+      "Sam's drawing$$it$$1",
+      "Tina's$$it$$0",
+      "it$$Sam's drawing$$1",
+      "it$$Tina's$$0"
     ],
     "scr_score": [
-      "the lawyer$$he$$1.203124856630761e-25",
-      "the witness$$he$$3.023708488901286e-26"
+      "Sam's drawing$$it$$4.409667491582237e-63",
+      "Tina's$$it$$2.2684012644383679e-60"
     ],
-    "context": [
-      "the witness$$I 've",
-      "he$$I",
-      "the witness$$I",
-      "he$$I 've"
-    ],
+    "context": [],
+    "case": [],
     "entailment": [
-      "the witness$$he$$0.4752756655216217"
+      "Sam's drawing$$it$$0.2917413115501404",
+      "Tina's$$it$$0.2446565330028534"
     ],
-    "predicted": "INCORRECT"
+    "predicted": "INCORRECT",
+    "bert_choice1": 5.382077693939209,
+    "bert_choice2": 4.3950982093811035
   }
 ]

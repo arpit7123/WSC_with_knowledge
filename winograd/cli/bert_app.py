@@ -94,21 +94,48 @@ def calculate_bert_scores():
     # plt.legend(loc='upper left')
     # plt.show()
 
-def compare_psl_wsc_prev(wsc_output_scores, psl_scores):
+def compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores):
     wsc_output_map = {}
+    bert_output_map = {}
     for wsc_each in wsc_output_scores:
         wsc_output_map[wsc_each['ws_sent']] = wsc_each
 
+    for i in range(0, len(bert_scores)):
+        bert_output_map[psl_scores[i]['ws_sent']] = bert_scores[i]
+
     for psl in psl_scores:
+
+        if psl['ws_sent'] in bert_output_map: 
+            bert_out = bert_output_map[psl['ws_sent']]
+            isBert_correct = False
+            if bert_out['ans'].lower() == bert_out['choice1'].lower() and bert_out['choice1_score'] > bert_out['choice2_score']:
+                isBert_correct = True
+            if bert_out['ans'].lower() == bert_out['choice2'].lower() and bert_out['choice2_score'] > bert_out['choice1_score']:
+                isBert_correct = True
+        
+            if psl['predicted'] == 'INCORRECT' and isBert_correct:
+                if 'context' in psl and len(psl['context']) == 0:
+                     print('PSL no context')
+                print('PSL INCORRECT, BERT CORRECT: '+psl['ws_sent'])
+
+
         if psl['ws_sent'] in wsc_output_map: 
             wsc_out = wsc_output_map[psl['ws_sent']]
-            if psl['predicted'] == 'CORRECT' and wsc_out['result'] == 'incorrect':
-                print('PSL CORRECT, PREV_SYS INCORRECT: '+wsc_out['ws_sent'])
+            
+            # if psl['predicted'] == 'CORRECT' and wsc_out['result'] == 'incorrect':
+            #     if 'context' in psl and len(psl['context']) == 0:
+            #         print('PSL no context')
+            #     print('PSL CORRECT, PREV_SYS INCORRECT: '+wsc_out['ws_sent'])
             if psl['predicted'] == 'INCORRECT' and wsc_out['result'] == 'correct':
+                if 'context' in psl and len(psl['context']) == 0:
+                    print('PSL no context')
                 print('PSL INCORRECT, PREV_SYS CORRECT: '+wsc_out['ws_sent'])
-        else:
-            if psl['predicted'] == 'CORRECT':
-                print('PSL CORRECT: Knowledge doesnt exist: '+psl['ws_sent'])
+
+        # else:
+        #     if psl['predicted'] == 'CORRECT':
+        #         if 'context' in psl and len(psl['context']) == 0:
+        #             print('PSL no context')
+        #         print('PSL CORRECT: Knowledge doesnt exist: '+psl['ws_sent'])
 
 def main():
     bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
@@ -120,7 +147,7 @@ def main():
     psl_scores_file = open("../data/new_psl_problems.json", "r") 
     psl_scores = json.loads(psl_scores_file.read())
 
-    compare_psl_wsc_prev(wsc_output_scores, psl_scores)
+    compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores)
     correct = 0
     incorrect = 0
     for psl in psl_scores:
