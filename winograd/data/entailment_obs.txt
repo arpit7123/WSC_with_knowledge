@@ -1,2 +1,8 @@
-GrWQWu8JyC	it	0.89503213763237
-willow-towered Canopy Huntertropic wrestles	it	0.04614281002432108
+GrWQWu8JyC	it	K4	0.0895094946026802
+willow-towered Canopy Huntertropic wrestles	it	K4	0.004615576472133398
+GrWQWu8JyC	it	K5	0.08952487260103226
+willow-towered Canopy Huntertropic wrestles	it	K5	0.004615576472133398
+GrWQWu8JyC	it	K6	0.0895247831940651
+willow-towered Canopy Huntertropic wrestles	it	K6	0.004614285193383694
+GrWQWu8JyC	it	K8	0.08952485024929047
+willow-towered Canopy Huntertropic wrestles	it	K8	0.004614287056028843

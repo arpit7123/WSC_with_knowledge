@@ -1,10 +1,10 @@
 predicates:
   Coref/2: open
-  Context/2: closed
+  Context/3: closed
   Similar/2: closed
   Disimilar/2: closed
   Domain/2: closed
-  Entailment/2: closed
+  Entailment/3: closed
   Commonsense/2: closed
 
 observations:

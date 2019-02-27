@@ -1,37 +1,78 @@
 [
 	{
-    "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one below it .",
-    "ans": "Sam's drawing",
-    "pronoun": "it",
+    "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .",
+    "ans": "Amy's parents",
+    "pronoun": "they",
     "domain": [
-      "Sam's drawing",
-      "Tina's",
-      "it"
+      "Sam and Amy",
+      "Amy's parents",
+      "they"
     ],
     "coref_target": [
-      "Sam's drawing$$it",
-      "Tina's$$it",
-      "it$$Sam's drawing",
-      "it$$Tina's"
+      "Sam and Amy$$they",
+      "Amy's parents$$they",
+      "they$$Sam and Amy",
+      "they$$Amy's parents"
     ],
     "coref_target_truth": [
-      "Sam's drawing$$it$$1",
-      "Tina's$$it$$0",
-      "it$$Sam's drawing$$1",
-      "it$$Tina's$$0"
+      "Sam and Amy$$they$$0",
+      "Amy's parents$$they$$1",
+      "they$$Sam and Amy$$0",
+      "they$$Amy's parents$$1"
     ],
     "scr_score": [
-      "Sam's drawing$$it$$4.409667491582237e-63",
-      "Tina's$$it$$2.2684012644383679e-60"
+      "Sam and Amy$$they$$3.891837832202867e-49",
+      "Amy's parents$$they$$2.0146089306630155e-46"
     ],
-    "context": [],
-    "case": [],
-    "entailment": [
-      "Sam's drawing$$it$$0.2917413115501404",
-      "Tina's$$it$$0.2446565330028534"
+    "context": [
+      "they$$products$$K1",
+      "they$$products$$K3",
+      "Sam and Amy$$retailers$$K3",
+      "they$$it$$K10",
+      "they$$products$$K2",
+      "Sam and Amy$$these products$$K2",
+      "they$$retailers$$K7",
+      "Sam and Amy$$products$$K3",
+      "Sam and Amy$$products$$K1",
+      "they$$products$$K7",
+      "they$$These products$$K3",
+      "they$$retailers$$K1",
+      "Sam and Amy$$products$$K7",
+      "they$$retailers$$K3",
+      "Sam and Amy$$these products$$K7",
+      "Sam and Amy$$retailers$$K7",
+      "Sam and Amy$$retailers$$K2",
+      "Sam and Amy$$These products$$K3",
+      "they$$retailers$$K2",
+      "they$$these products$$K2",
+      "Sam and Amy$$these products$$K1",
+      "Sam and Amy$$products$$K2",
+      "Sam and Amy$$retailers$$K1",
+      "they$$these products$$K7",
+      "Sam and Amy$$it$$K10",
+      "they$$these products$$K1"
     ],
-    "predicted": "INCORRECT",
-    "bert_choice1": 5.382077693939209,
-    "bert_choice2": 4.3950982093811035
+    "case": [
+      "TFF$$K1",
+      "TFT",
+      "TFF$$K2",
+      "TFT",
+      "TFF$$K3",
+      "TFT",
+      "TFF$$K7",
+      "TFT",
+      "TFF$$K10",
+      "TFT"
+    ],
+    "entailment": [],
+    "similarity": [
+      "Sam and Amy$$they$$K1$$0.008045460097491741",
+      "Sam and Amy$$they$$K2$$0.008045457303524017",
+      "Sam and Amy$$they$$K3$$0.008045460097491741",
+      "Sam and Amy$$they$$K4$$0.008045453578233719",
+      "Sam and Amy$$they$$K6$$0.008044902235269547",
+      "Sam and Amy$$they$$K7$$0.00804546382278204",
+      "Sam and Amy$$they$$K10$$0.008045456372201443"
+    ]
   }
 ]

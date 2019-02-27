@@ -125,7 +125,7 @@ def main():
 
         for con in context:
             token = con.split('$$')
-            context_pair_txt = context_pair_txt+token[0]+'\t'+token[1]+'\n'
+            context_pair_txt = context_pair_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\n'
 
         domain_txt = domain_txt+domain[0]+'\t'+'can'+'\n'
         domain_txt = domain_txt+domain[1]+'\t'+'can'+'\n'
@@ -140,8 +140,8 @@ def main():
         if len(entailment) == 2:
             ch1_tokens = entailment[0].split('$$')
             ch2_tokens = entailment[1].split('$$')
-            ch1_score = float(ch1_tokens[2])
-            ch2_score = float(ch2_tokens[2])
+            ch1_score = float(ch1_tokens[3])
+            ch2_score = float(ch2_tokens[3])
             print("ch1_score was :"+str(ch1_score))
             print("ch2_score was :"+str(ch2_score))
             if ch1_score < 0.01 and ch2_score < 0.01:
@@ -158,16 +158,16 @@ def main():
                ch2_score = ch2_score * 2
             print("updated ch1_score :"+str(ch1_score))
             print("updated ch2_score :"+str(ch2_score))
-            entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+str(ch1_score)+'\n'
-            entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+str(ch2_score)+'\n'
+            entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
+            entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
 
             # commonsense_txt = commonsense_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+str(each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
             # commonsense_txt = commonsense_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+str(each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
         else:
             for ent in entailment:
                 token = ent.split('$$')
-                if float(token[2]) < 0.1:
-                    entailment_txt = entailment_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\n'
+                if float(token[3]) < 0.1:
+                    entailment_txt = entailment_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\n'
 
         # for com in commonsense:
         #     token = com.split('$$')

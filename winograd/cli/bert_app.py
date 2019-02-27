@@ -117,6 +117,8 @@ def compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores):
                 if 'context' in psl and len(psl['context']) == 0:
                      print('PSL no context')
                 print('PSL INCORRECT, BERT CORRECT: '+psl['ws_sent'])
+            if psl['predicted'] == 'CORRECT' and not isBert_correct:
+                print('PSL CORRECT, BERT INCORRECT: '+psl['ws_sent'])
 
 
         if psl['ws_sent'] in wsc_output_map: 
