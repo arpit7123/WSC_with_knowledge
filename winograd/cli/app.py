@@ -34,8 +34,8 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    #process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
-    process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
 def get_ans(prob, bert):
@@ -132,8 +132,10 @@ def main():
         domain_txt = domain_txt+domain[2]+'\t'+'p'+'\n'
 
         if isCommonsense:
-            commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\t'+str(bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"]))+'\n'
-            commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\t'+str(bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"]))+'\n'
+            score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"]) 
+            score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"]) 
+            commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\t'+str(score1)+'\n'
+            commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\t'+str(score2)+'\n'
 
         if len(entailment) == 2:
             ch1_tokens = entailment[0].split('$$')

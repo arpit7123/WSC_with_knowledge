@@ -738,6 +738,7 @@ if __name__=="__main__":
 
     qasrl_output_dict = {}
     qasrl_ws_sent_file = "inputs/ws_sents_and_qasrl_out.txt"
+    bert_wsc_json = "inputs/ws_sents_and_qasrl_out.txt"
     #qasrl_ws_sent_file = "inputs/group24/ws_sents_and_qasrl_out.txt"
     f = open(qasrl_ws_sent_file,"r")
     for line in f:
