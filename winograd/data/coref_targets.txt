@@ -1,4 +1,4 @@
-Sam and Amy	they
-Amy's parents	they
-they	Sam and Amy
-they	Amy's parents
+Paul	he
+George	he
+he	Paul
+he	George

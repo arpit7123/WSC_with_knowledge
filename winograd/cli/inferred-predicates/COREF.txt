@@ -1,4 +1,4 @@
-'they'	'Amy\'s parents'	5.966202789249133E-27
-'they'	'Sam and Amy'	6.026419300076333E-27
-'Sam and Amy'	'they'	0.9974425435066223
-'Amy\'s parents'	'they'	0.0
+'Susan'	'she'	0.600955069065094
+'Joan'	'she'	0.6097816824913025
+'she'	'Joan'	5.201397992871115E-11
+'she'	'Susan'	7.34995050932774E-11

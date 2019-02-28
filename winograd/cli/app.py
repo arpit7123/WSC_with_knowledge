@@ -82,10 +82,10 @@ def get_ans(prob, bert):
 def main():
 
     #probs_with_context_file = "../data/wsc_problem_psl.json"
-    #probs_with_context_file = "../data/new_psl_problems.json"
+    probs_with_context_file = "../data/new_psl_problems.json"
     bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
     bert_scores = json.loads(bert_scores_file.read())
-    probs_with_context_file = "../data/test.json"
+    #probs_with_context_file = "../data/test.json"
     f = open(probs_with_context_file,"r")
     all_probs = f.read()
     probs_and_context = json.loads(all_probs)
@@ -148,37 +148,46 @@ def main():
             commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\t'+str(score1)+'\n'
             commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\t'+str(score2)+'\n'
         
-        if len(entailment) == 2:
-            ch1_tokens = entailment[0].split('$$')
-            ch2_tokens = entailment[1].split('$$')
-            ch1_score = float(ch1_tokens[3])
-            ch2_score = float(ch2_tokens[3])
-            print("ch1_score was :"+str(ch1_score))
-            print("ch2_score was :"+str(ch2_score))
-            if ch1_score < 0.01 and ch2_score < 0.01:
-               ch1_score = ch1_score * 100
-               ch2_score = ch2_score * 100
-            if ch1_score < 0.1 and ch2_score < 0.1:
-               ch1_score = ch1_score * 10
-               ch2_score = ch2_score * 10
-            if ch1_score < 0.3 and ch2_score < 0.3:
-               ch1_score = ch1_score * 3
-               ch2_score = ch2_score * 3
-            if ch1_score < 0.5 and ch2_score < 0.5:
-               ch1_score = ch1_score * 2
-               ch2_score = ch2_score * 2
-            print("updated ch1_score :"+str(ch1_score))
-            print("updated ch2_score :"+str(ch2_score))
-            entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
-            entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
+        know_entailment = {}
+        for ent in entailment:
+            token = ent.split('$$')
+            if token[2] not in know_entailment:
+                know_entailment[token[2]] = []
+            know_entailment[token[2]].append(token)
+
+        for key, value in know_entailment.items():
+            if len(know_entailment[key]) == 2:
+                entail = know_entailment[key]
+                ch1_tokens = entail[0]
+                ch2_tokens = entail[1]
+                ch1_score = float(ch1_tokens[3])
+                ch2_score = float(ch2_tokens[3])
+                print("ch1_score was :"+str(ch1_score))
+                print("ch2_score was :"+str(ch2_score))
+                if ch1_score < 0.01 and ch2_score < 0.01:
+                   ch1_score = ch1_score * 100
+                   ch2_score = ch2_score * 100
+                if ch1_score < 0.1 and ch2_score < 0.1:
+                   ch1_score = ch1_score * 10
+                   ch2_score = ch2_score * 10
+                if ch1_score < 0.3 and ch2_score < 0.3:
+                   ch1_score = ch1_score * 3
+                   ch2_score = ch2_score * 3
+                if ch1_score < 0.5 and ch2_score < 0.5:
+                   ch1_score = ch1_score * 2
+                   ch2_score = ch2_score * 2
+                print("updated ch1_score :"+str(ch1_score))
+                print("updated ch2_score :"+str(ch2_score))
+                entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
+                entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
 
             # commonsense_txt = commonsense_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+str(each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
             # commonsense_txt = commonsense_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+str(each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
-        else:
-            for ent in entailment:
-                token = ent.split('$$')
-                if float(token[3]) < 0.1:
-                    entailment_txt = entailment_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\n'
+            else:
+                for ent in know_entailment[key]:
+                    token = ent
+                    if float(token[3]) < 0.1:
+                        entailment_txt = entailment_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\n'
 
         # for com in commonsense:
         #     token = com.split('$$')

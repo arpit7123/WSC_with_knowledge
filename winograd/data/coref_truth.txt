@@ -1,4 +1,4 @@
-Sam and Amy	they	0
-Amy's parents	they	1
-they	Sam and Amy	0
-they	Amy's parents	1
+Paul	he	1
+George	he	0
+he	Paul	1
+he	George	0
