@@ -1,4 +1,4 @@
-'willow-towered Canopy Huntertropic wrestles'	'it'	0.5226932168006897
-'it'	'GrWQWu8JyC'	1.4255853442168842E-12
-'it'	'willow-towered Canopy Huntertropic wrestles'	0.0
-'GrWQWu8JyC'	'it'	0.47741198539733887
+'they'	'Amy\'s parents'	5.966202789249133E-27
+'they'	'Sam and Amy'	6.026419300076333E-27
+'Sam and Amy'	'they'	0.9974425435066223
+'Amy\'s parents'	'they'	0.0

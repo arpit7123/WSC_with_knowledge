@@ -1,8 +1,9 @@
 predicates:
   Coref/2: open
   Context/3: closed
-  Similar/2: closed
-  Disimilar/2: closed
+  Similar/3: closed
+  Meta_sim/2: closed
+  Meta_dissim/2: closed
   Domain/2: closed
   Entailment/3: closed
   Commonsense/2: closed
@@ -10,7 +11,8 @@ predicates:
 observations:
   Context : ../data/context_obs.txt
   Similar : ../data/similar_obs.txt
-  Disimilar : ../data/dissimilar_obs.txt
+  Meta_sim: ../data/meta_obs.txt
+  Meta_dissim : ../data/meta_dis_obs.txt
   Domain : ../data/domain_obs.txt
   Entailment : ../data/entailment_obs.txt
   Commonsense : ../data/commonsense_obs.txt

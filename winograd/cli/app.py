@@ -6,7 +6,7 @@ import sys;
 
 parent_dir = '/Users/ash/Documents/Study/Research/psl-examples/winograd/'
 PIPE= '/Users/ash/Documents/Study/Research/psl-examples/winograd/log/run.txt'
-def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_txt, entailment_txt, commonsense_txt):
+def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_txt, entailment_txt, commonsense_txt, similarity_txt):
 
     coref_file = open('../data/coref_targets.txt', 'w')
     coref_file.write(coref_txt)
@@ -26,6 +26,9 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file = open('../data/commonsense_obs.txt', 'w')
     commonsense_file.write(commonsense_txt)
 
+    similarity_file = open('../data/similar_obs.txt', 'w')
+    similarity_file.write(similarity_txt)
+
     coref_file.close()
     coref_truth_file.close()
     context_file.close()
@@ -34,8 +37,8 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    #process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
-    process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
 def get_ans(prob, bert):
@@ -79,10 +82,10 @@ def get_ans(prob, bert):
 def main():
 
     #probs_with_context_file = "../data/wsc_problem_psl.json"
-    probs_with_context_file = "../data/new_psl_problems.json"
+    #probs_with_context_file = "../data/new_psl_problems.json"
     bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
     bert_scores = json.loads(bert_scores_file.read())
-    #probs_with_context_file = "../data/test.json"
+    probs_with_context_file = "../data/test.json"
     f = open(probs_with_context_file,"r")
     all_probs = f.read()
     probs_and_context = json.loads(all_probs)
@@ -90,13 +93,14 @@ def main():
     correct = 0
     incorrect = 0
     total = 0
-    isCommonsense = True
+    isCommonsense = False
 
     for i in range(0, len(probs_and_context)):
         each = probs_and_context[i]
         bert = bert_scores[i]
         coref_target = each['coref_target']
         coref_target_truth = each['coref_target_truth']
+        similar = each['similarity']
         if 'context' in each:
             context = each['context']
         else: 
@@ -114,6 +118,7 @@ def main():
         domain_txt = ''
         entailment_txt = ''
         commonsense_txt = ''
+        similarity_txt = ''
 
         for coref in coref_target:
             token = coref.split('$$')
@@ -126,6 +131,10 @@ def main():
         for con in context:
             token = con.split('$$')
             context_pair_txt = context_pair_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\n'
+
+        for sim in similar:
+            token = sim.split('$$')
+            similarity_txt = similarity_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\n'
 
         domain_txt = domain_txt+domain[0]+'\t'+'can'+'\n'
         domain_txt = domain_txt+domain[1]+'\t'+'can'+'\n'
@@ -175,7 +184,7 @@ def main():
         #     token = com.split('$$')
         #     commonsense_txt = commonsense_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\n'
 
-        create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_txt, entailment_txt, commonsense_txt)
+        create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_txt, entailment_txt, commonsense_txt, similarity_txt)
         run_psl();
         inferred_ans, max = get_ans(each, bert);
         print('INFERRED_ANS: ', inferred_ans)

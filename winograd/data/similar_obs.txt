@@ -1,15 +1,7 @@
-I	he	1
-I	she	1
-I	i	1
-I	mine	1
-I	myself	1
-I	my	1
-he	his	1
-he	him	1
-he	himself	1
-she	her	1
-she	herself	1
-I	you	1
-I	yourself	1
-I	your	1
-we	us	1
+Sam and Amy	they	K1	0.008045460097491741
+Sam and Amy	they	K2	0.008045457303524017
+Sam and Amy	they	K3	0.008045460097491741
+Sam and Amy	they	K4	0.008045453578233719
+Sam and Amy	they	K6	0.008044902235269547
+Sam and Amy	they	K7	0.00804546382278204
+Sam and Amy	they	K10	0.008045456372201443
