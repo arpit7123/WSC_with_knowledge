@@ -110,7 +110,7 @@
         "ws_sent": "The trophy does not fit into the brown suitcase because it is too small .",
         "k_sents": [
             {
-                "k_sent": "PSU Will Not Fit into Case (too small)\r\n",
+                "k_sent": "PSU Will Not Fit into Case (too small)",
                 "score": 0.19467222690582275
             }
         ]
@@ -747,7 +747,12 @@
     },
     {
         "ws_sent": "John could not see the stage with Billy in front of him because he is so short .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "He wanted to see who Jesus was, but because he was short he could not see over the crowd.",
+                "score": 0.368
+            }
+        ]
     },
     {
         "ws_sent": "John could not see the stage with Billy in front of him because he is so tall .",
@@ -1066,11 +1071,21 @@
     },
     {
         "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one below it .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "When hanging a picture above a piece of furniture that is, there should be approx from the top of your furniture piece and the bottom of your picture",
+                "score": 0.863
+            }
+        ]
     },
     {
         "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one above it .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Yes, hanging art over a door or window is perfectly acceptable. As a matter of fact, I love it.",
+                "score": 0.40
+            }
+        ]
     },
     {
         "ws_sent": "Anna did a lot better than her good friend Lucy on the test because she had studied so hard .",
@@ -1254,11 +1269,21 @@
     },
     {
         "ws_sent": "Frank was upset with Tom because the toaster he had bought from him did not work .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "my daughter had apparently got upset because she'd got make-up on a silk top I'd bought her for her",
+                "score": 0.01
+            }
+        ]
     },
     {
         "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Ram was angry with Sham because Sham did not do his work",
+                "score": 0.495
+            }
+        ]
     },
     {
         "ws_sent": "Jim yelled at Kevin because he was so upset .",
@@ -1352,11 +1377,21 @@
     },
     {
         "ws_sent": "The sack of potatoes had been placed above the bag of flour , so it had to be moved first .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Coal seams are extracted from a mountain by removing the land, or overburden, above the seams.",
+                "score": 0.002
+            }
+        ]
     },
     {
         "ws_sent": "The sack of potatoes had been placed below the bag of flour , so it had to be moved first .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.",
+                "score": 0.015
+            }
+        ]
     },
     {
         "ws_sent": "Pete envies Martin although he is very successful .",
@@ -1900,11 +1935,22 @@
     },
     {
         "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years younger .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Part One, as she was defeated by her little sister Hanabi, though she was 5 years younger",
+                "score": 0.01
+            }
+
+        ]
     },
     {
         "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years older .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Not saying he would have defeated Royce, but even though he was older when the UFC came around",
+                "score": 0.316
+            }
+        ]
     },
     {
         "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of the bookcase .",
@@ -2178,15 +2224,30 @@
     },
     {
         "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was short , so it worked out .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Wanted to let you know that some people often leave the evening meeting early so they can catch the train home.",
+                "score": 0.032
+            }
+        ]
     },
     {
         "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was delayed , so it worked out .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Ross cannot reach the 3:00 meeting on time as he is delayed because of traffic. Trains are expected to run on time, but unexpected scenarios delays the train",
+                "score": 0.242
+            }
+        ]
     },
     {
         "ws_sent": "There is a pillar between me and the stage , and I can not see around it  .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "It is a fairly easy transition between flyhalf and fullback. But I would rather not see him bouncing around between too many positions.",
+                "score": 0.079
+            }
+        ]
     },
     {
         "ws_sent": "There is a pillar between me and the stage , and I can not see it  .",
@@ -2235,15 +2296,30 @@
     },
     {
         "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear it  .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I laughed so loud my family couldn't hear the television",
+                "score": 0.6
+            }
+        ]
     },
     {
         "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear over it  .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Because it's not like I hear it echoing over the hills, it's like it's in me.",
+                "score": 0.327
+            }
+        ]
     },
     {
         "ws_sent": "In the middle of the outdoor concert , the rain started falling , but it continued until 10 .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Then in middle of June, I started coughing and it continued for 3 weeks",
+                "score": 0.019
+            }
+        ]
     },
     {
         "ws_sent": "In the middle of the outdoor concert , the rain started falling , and it continued until 10 .",
@@ -2607,7 +2683,12 @@
     },
     {
         "ws_sent": "I could not put the pot on the shelf because it was too high .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I couldn't put a top on it because it was SO ridiculously tall",
+                "score": 0.139
+            }
+        ]
     },
     {
         "ws_sent": "I am sure that my map will show this building ; it is very good .",
@@ -2656,7 +2737,12 @@
     },
     {
         "ws_sent": "I am sure that my map will show this building ; it is very famous .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "there is a famous description of a 'paradise'. It is shown by a paradisiacal situation on earth.",
+                "score": 0.222
+            }
+        ]
     },
     {
         "ws_sent": "Bob paid for Charlie's college education . He is very generous .",
@@ -2930,17 +3016,27 @@
     },
     {
         "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be gone by this time .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "arrived on time and replaces an older one of the same type",
+                "score": 0.342
+            }
+        ]
     },
     {
         "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I normally leave my house on time and can reach work on time",
+                "score": 0.615
+            }
+        ]
     },
     {
         "ws_sent": "If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .",
         "k_sents": [
             {
-                "k_sent": "Al Gore made money fooling Muslims into thinking anybody watched CurrentTV.\r\n",
+                "k_sent": "Al Gore made money fooling Muslims into thinking anybody watched CurrentTV.",
                 "score": 0.32859450578689575
             }
         ]
@@ -3545,7 +3641,12 @@
     },
     {
         "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "they will be full of sawdust and you can not get it out",
+                "score": 0.347
+            }
+        ]
     },
     {
         "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the bottom .",
@@ -4271,7 +4372,7 @@
         "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .",
         "k_sents": [
             {
-                "k_sent": "Sold Davids home so he can move out to the country!\r\n",
+                "k_sent": "Sold David\u2019s home so he can move out to the country!",
                 "score": 0.04063848406076431
             }
         ]
@@ -4280,7 +4381,7 @@
         "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .",
         "k_sents": [
             {
-                "k_sent": "In a perfect world I would be able to sell my old house and immediately move into my new one.  \r\n",
+                "k_sent": "In a perfect world I would be able to sell my old house and immediately move into my new one.  ",
                 "score": 0.02389228530228138
             }
         ]
@@ -5204,11 +5305,21 @@
     },
     {
         "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was gone .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "There are quite a few clouds about, but fortunately they aren't getting between us and the sun so much.",
+                "score": 0.546
+            }
+        ]
     },
     {
         "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "have a fear of sharks and stingrays . Can anyone suggest any hotels that have safe places to swim (no major rips) without sharks or stingrays to worry about? Maybe a nice lagoon that sea creatures can not get into? Would also prefer the water outside the OWB is not more than shoulder deep to get into .",
+                "score": 0.001
+            }
+        ]
     },
     {
         "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a dangerous place to swim .",
@@ -5257,11 +5368,21 @@
     },
     {
         "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like golfers .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "My original concept when I first taught other people was to make them look like great golfers when they hit the ball.",
+                "score": 0.021
+            }
+        ]
     },
     {
         "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like dogs .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Those sheep look like dogs with furry coats.",
+                "score": 0.168
+            }
+        ]
     },
     {
         "ws_sent": "Mary tucked her daughter Anne into bed , so that she could work .",
@@ -5670,13 +5791,18 @@
     },
     {
         "ws_sent": "I can not cut that tree down with that axe ; it is too small .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "a small knife can not cut such a bulk material.",
+                "score": 0.629
+            }
+        ]
     },
     {
         "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to kill them  .",
         "k_sents": [
             {
-                "k_sent": "Terrorists are attacking your cell, you have to kill them and complete the objectives\r\n",
+                "k_sent": "Terrorists are attacking your cell, you have to kill them and complete the objectives",
                 "score": 0.006888735573738813
             }
         ]
@@ -5689,7 +5815,7 @@
                 "score": 0.017604133114218712
             },
             {
-                "k_sent": "his castle, if someone is attacking you, you have to protect you, your family and your\r\n",
+                "k_sent": "his castle, if someone is attacking you, you have to protect you, your family and your",
                 "score": 0.03498602285981178
             }
         ]
@@ -5698,7 +5824,7 @@
         "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very bold .",
         "k_sents": [
             {
-                "k_sent": "Bold sheep attacking a parcel of mangoes\r\n",
+                "k_sent": "Bold sheep attacking a parcel of mangoes",
                 "score": 0.013770515099167824
             }
         ]
@@ -5707,7 +5833,7 @@
         "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very nervous .",
         "k_sents": [
             {
-                "k_sent": "You are so right, I never heard the German Shepherd that attacked and bit me. Since then I am so afraid to walk anywhere I might encounter a dog off leash or on those stupid leases.\r\n",
+                "k_sent": "You are so right, I never heard the German Shepherd that attacked and bit me. Since then I am so afraid to walk anywhere I might encounter a dog off leash or on those stupid leases.",
                 "score": 0.01626497693359852
             }
         ]
@@ -6344,11 +6470,21 @@
     },
     {
         "ws_sent": "Look! There is a minnow swimming right below that duck! It had better get away to safety fast! .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Wild ducks eat small fish. Minnow is the common name for a number of species of small freshwater fish. They are popular prey, so they have to be very fast and clever at squeezing through tiny holes, and really good at hiding from animals that want to eat them.",
+                "score": 0.001
+            }
+        ]
     },
     {
         "ws_sent": "Look! There is a shark swimming right below that duck! It had better get away to safety fast! .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "They are popular prey, so they have to be very fast and clever at squeezing through tiny holes, and really good at hiding from animals that want to eat them.",
+                "score": 0.031
+            }
+        ]
     },
     {
         "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for evidence on the river banks .",
@@ -7072,11 +7208,21 @@
     },
     {
         "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of them  .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I put compost on all my farms but there is not enough compost to go around.",
+                "score": 0.113
+            }
+        ]
     },
     {
         "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of them  .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I put compost on all my farms but there is not enough compost to go around.",
+                "score": 0.003
+            }
+        ]
     },
     {
         "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it left a hole .",
@@ -7170,11 +7316,21 @@
     },
     {
         "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of coffee .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Hot coffee is stirred with a spoon, the spoon gets hot",
+                "score": 0.218
+            }
+        ]
     },
     {
         "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of ink .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Stir Fry with Lemon Sauce recipe is full of amazing flavor",
+                "score": 0.00
+            }
+        ]
     },
     {
         "ws_sent": "Steve follows Fred's example in everything . He admires him hugely .",
@@ -7628,19 +7784,39 @@
     },
     {
         "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "This book purports to be a biography, but the writer faced very considerable difficulties in researching it.",
+                "score": 0.812
+            }
+        ]
     },
     {
         "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "a biography of Rajdeep Singh showing the struggles and challenges he faced in the journey of his success .",
+                "score": 0.335
+            }
+        ]
     },
     {
         "ws_sent": "Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Emma is motherless and has been educated by Miss Taylor, her governess of 16 years",
+                "score": 0.217
+            }
+        ]
     },
     {
         "ws_sent": "Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "His untimely death in March 1956 , following that his place was taken by Barry Bucknell",
+                "score": 0.001
+            }
+        ]
     },
     {
         "ws_sent": "Jane knocked on Susan's door but she did not get an answer .",
@@ -7824,7 +8000,12 @@
     },
     {
         "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "He counted to ten in his head , willing himself not to get angry .",
+                "score": 0.883
+            }
+        ]
     },
     {
         "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and apologized .",
@@ -8250,7 +8431,12 @@
     },
     {
         "ws_sent": "Tom gave Ralph a lift to school so he would not have to walk .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "We purchased our beds and ask[ed] the shop if they could deliver them that afternoon and also give us a lift back home , so we would not have to walk .",
+                "score": 0.0015
+            }
+        ]
     },
     {
         "ws_sent": "Bill passed the half-empty plate to John because he was full .",
@@ -9146,19 +9332,39 @@
     },
     {
         "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were furious about it .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "What if it were your daughter , and you found out she was six and having sex , I hope you would be furious , and",
+                "score": 0.696
+            }
+        ]
     },
     {
         "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "This iconic gesture , depicting pulling shades up over the eyes , says that here is a man who was caught having sex and was very embarrassed as a result",
+                "score": 0.377
+            }
+        ]
     },
     {
         "ws_sent": "Dr . Adams informed Kate that she had retired and presented several options for future treatment .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I count my blessings that I had a doctor who presented me with these options",
+                "score": 0.652
+            }
+        ]
     },
     {
         "ws_sent": "Dr . Adams informed Kate that she had cancer and presented several options for future treatment .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "I count my blessings that I had a doctor who presented me with these options",
+                "score": 0.656
+            }
+        ]
     },
     {
         "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very compassionate .",
@@ -9342,7 +9548,12 @@
     },
     {
         "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was not particularly eager to see it .",
-        "k_sents": []
+        "k_sents": [
+            {
+                "k_sent": "Eighteenth-century leaders were extremely anxious to show their disinterest; a number of them gave away their fortune and bankrupted themselves.",
+                "score": 0.003
+            }
+        ]
     },
     {
         "ws_sent": "Jane gave Joan candy because she was not hungry .",

@@ -361,7 +361,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                 know_sent_tokens = [you_pronouns[0] if token.lower() in you_pronouns else token for token in know_sent_tokens]
 
                 know_sent = " ".join(know_sent_tokens)
-                ent_comparisons_for_choice1.add(("FFF", new_sent,know_sent))
+                ent_comparisons_for_choice1.add(("FFF", new_sent, know_sent))
 
                 sent_tokens = ws_sent.split(" ")
                 sent_tokens = [ws_choice2 if token.lower()==ws_pronoun.lower() else token for token in sent_tokens]
