@@ -1,16 +1,16 @@
 [
   {
-    "ans": "The demonstrators",
-    "choice1": "The city councilmen",
-    "choice2": "The demonstrators",
-    "know_sent": "He has been refused travel to the West because he has openly advocated for terror against Israeli citizens as well as Americans in Iraq and Afghanistan",
+    "ans": "Charlie",
+    "choice1": "Bob",
+    "choice2": "Charlie",
+    "know_sent": "Paul also paid for that ungrateful sob and con artist Gary.",
     "know_url": "NA",
-    "pronoun": "they",
+    "pronoun": "He",
     "search_query": "NA",
-    "ws_sent": "The city councilmen refused the demonstrators a permit because they advocated violence .",
+    "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .",
     "scr_score": {
-      "choice1": 4.641482730606502e-40,
-      "choice2": 5.9488331319324445e-36
+      "choice1": 1.1848135186801006e-54,
+      "choice2": 1.9344933326832443e-54
     }
   }
 ]

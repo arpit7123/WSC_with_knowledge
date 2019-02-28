@@ -1,4 +1,4 @@
-Paul	he
-George	he
-he	Paul
-he	George
+The customer	He
+one of the tellers	He
+He	The customer
+He	one of the tellers

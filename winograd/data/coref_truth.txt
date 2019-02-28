@@ -1,4 +1,4 @@
-Paul	he	1
-George	he	0
-he	Paul	1
-he	George	0
+The customer	He	0
+one of the tellers	He	1
+He	The customer	0
+He	one of the tellers	1

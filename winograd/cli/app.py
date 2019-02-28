@@ -100,7 +100,10 @@ def main():
         bert = bert_scores[i]
         coref_target = each['coref_target']
         coref_target_truth = each['coref_target_truth']
-        similar = each['similarity']
+        if 'similarity' in each:
+            similar = each['similarity']
+        else:
+            similar = []
         if 'context' in each:
             context = each['context']
         else: 
@@ -162,8 +165,8 @@ def main():
                 ch2_tokens = entail[1]
                 ch1_score = float(ch1_tokens[3])
                 ch2_score = float(ch2_tokens[3])
-                print("ch1_score was :"+str(ch1_score))
-                print("ch2_score was :"+str(ch2_score))
+                # print("ch1_score was :"+str(ch1_score))
+                # print("ch2_score was :"+str(ch2_score))
                 if ch1_score < 0.01 and ch2_score < 0.01:
                    ch1_score = ch1_score * 100
                    ch2_score = ch2_score * 100
@@ -176,8 +179,8 @@ def main():
                 if ch1_score < 0.5 and ch2_score < 0.5:
                    ch1_score = ch1_score * 2
                    ch2_score = ch2_score * 2
-                print("updated ch1_score :"+str(ch1_score))
-                print("updated ch2_score :"+str(ch2_score))
+                # print("updated ch1_score :"+str(ch1_score))
+                # print("updated ch2_score :"+str(ch2_score))
                 entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
                 entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
 

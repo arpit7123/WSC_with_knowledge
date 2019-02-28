@@ -1,2 +1,8 @@
-Paul	he	K10	0.8896900415420532
-George	he	K10	0.9222531318664551
+The customer	He	K1	0.6792360730469227
+one of the tellers	He	K1	0.5762976408004761
+The customer	He	K2	0.680167693644762
+one of the tellers	He	K2	0.5762976408004761
+The customer	He	K8	0.6801678612828255
+one of the tellers	He	K8	0.5771487392485142
+The customer	He	K9	0.680167693644762
+one of the tellers	He	K9	0.5762974731624126
