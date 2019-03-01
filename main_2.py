@@ -872,7 +872,7 @@ if __name__=="__main__":
                         psl["context"] = list(set(psl["context"]))
                         choose_max_entailment(psl)
                         choose_max_similarity(psl)
-                        process(psl)
+                        #process(psl)
                         if result=="correct":
                             correct += 1
                         elif result=="incorrect":
