@@ -45,6 +45,9 @@ you_pronouns = ["you","yourself","your"]
 list_of_sim_words = [("we","us")]
 list_of_dissim_words = [("there","i"),("them","you"),("i","it")]
 
+similar_file = open("similar_pair.json","r")
+similar_pair = json.load(similar_file)
+
 def are_same(phrase1,phrase2):
     if phrase1==phrase2:
         return True
@@ -261,6 +264,21 @@ def get_conf(bucket_ch1,bucket_ch2):
             choice2_conf += 1.0
     return choice1_conf,choice2_conf
 
+def get_similarity_score(choice_set, k_ans_set, psl, know_no):
+    for (e_ans, verb) in choice_set:
+        for (e1_ans, e1_verb) in k_ans_set:
+            if e_ans.lower() != e1_ans.lower():
+                key = e_ans+'$$'+e1_ans
+                pair_score = 0.0
+                if key not in similar_pair:
+                    score = predictor.predict(hypothesis = e_ans, premise = e1_ans)
+                    ent_score = score["label_probs"][0]
+                    pair_score = ent_score
+                    similar_pair[key] = pair_score
+                    
+                psl["similarity"].append(e_ans+'$$'+e1_ans+'$$'+'K'+know_no+'$$'+str(similar_pair[key]))
+                
+
 def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
 
     ws_sent = problem["ws_sent"]
@@ -297,7 +315,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
         print(dict_of_sim_ans)
 
     # Getting WSC question/answers which contain the concerned pronoun in the answers
-    ws_qas_with_pronoun_in_ans = get_ques_with_ans(ws_pronoun,ws_qa_pairs)
+    ws_qas_with_pronoun_in_ans = get_ques_with_ans(ws_pronoun, ws_qa_pairs)
 
     # Finding if an answer exists in the WSC question/answers with just the concerned pronoun as the answer
     one_word_pronoun_ans_exists = False
@@ -482,6 +500,8 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     ent_comparisons_for_choice2.add(("FTT",new_sent,know_sent))
                     psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                     
+                get_similarity_score(choice2_set_of_sim_ans, k_ans_list, psl, know_no)
                 psl["case"].append("FTT"+'$$'+'K'+know_no)
             # If q1=T, q2=F, q3=T
             elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans)== 0:
@@ -501,11 +521,14 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     ent_comparisons_for_choice1.add(("TFT",new_sent,know_sent))
                     psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
-                psl["case"].append("TFT")
-            # If q1=T, q2=T, q3=T
+                
+                get_similarity_score(choice1_set_of_sim_ans, k_ans_list, psl, know_no)
+                
+                psl["case"].append("TFT"+'$$'+'K'+know_no)
+            # If q1=T, q2=T, q3=Ts
             elif len(choice1_set_of_sim_ans) > 0 and len(choice2_set_of_sim_ans) > 0:
                 ans_tokens = ans.split(" ")
-                psl["case"].append("TTT")
+                psl["case"].append("TTT"+'$$'+'K'+know_no)
                 anss_wrt_choice1 = []
                 for (know_choice,verb2) in choice1_set_of_sim_ans:
                     new_ans = ""
@@ -529,7 +552,10 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                         else:
                             new_ans += " " + ans_token
                     anss_wrt_choice2.append(new_ans.strip())
-
+                
+                get_similarity_score(choice1_set_of_sim_ans, k_ans_list, psl, know_no)
+                get_similarity_score(choice2_set_of_sim_ans, k_ans_list, psl, know_no)
+                 
                 for (k_ans,k_verb) in k_ans_list:
                     psl["context"].append(prob['pronoun']+'$$'+k_ans+'$$'+'K'+know_no)
                     if k_ans=="":
@@ -733,6 +759,7 @@ def process(psl):
     if len(psl["entailment"]) < 2:
         return
     context = []
+    
     for each in psl["context"]:
         
         choice1 = psl["entailment"][0].split("$$")
@@ -872,6 +899,9 @@ if __name__=="__main__":
         psl_output.append(psl)
     with open('new_psl_context.json', 'w') as outfile:
         json.dump(psl_output, outfile)
+    
+    with open('similar_pair.json', 'w') as outfile:
+        json.dump(similar_pair, outfile)
         
     print("CORRECT: ",correct)
     print("INCORRECT: ",incorrect)

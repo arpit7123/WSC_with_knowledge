@@ -1,16 +1,16 @@
 [
   {
-    "ans": "Charlie",
-    "choice1": "Bob",
-    "choice2": "Charlie",
-    "know_sent": "Paul also paid for that ungrateful sob and con artist Gary.",
-    "know_url": "NA",
-    "pronoun": "He",
-    "search_query": "NA",
-    "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .",
+    "ans": "My father",
+    "choice1": "Fred",
+    "choice2": "My father",
+    "know_sent": "The term infant is typically applied to young children under one year of age",
+    "know_url": "https://en.wikipedia.org/wiki/Infant",
+    "pronoun": "he",
+    "search_query": "infant age limit\n",
+    "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .",
     "scr_score": {
-      "choice1": 1.1848135186801006e-54,
-      "choice2": 1.9344933326832443e-54
+      "choice1": 2.6379896633663623e-55,
+      "choice2": 1.2956515232696888e-50
     }
   }
 ]
