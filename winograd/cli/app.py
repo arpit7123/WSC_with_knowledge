@@ -37,8 +37,8 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
-    #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
+    #process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
 def get_ans(prob, bert):
@@ -56,7 +56,7 @@ def get_ans(prob, bert):
         coref_score = each.split('\t')
         if len(coref_score) < 2:
             continue
-    
+
         if max < float(coref_score[2]):
             coref_score[0] = coref_score[0][1:-1]
             coref_score[1] = coref_score[1][1:-1]
@@ -79,13 +79,28 @@ def get_ans(prob, bert):
 
     return inferred_ans, max
 
+def get_normalized_prob(ch1_score, ch2_score):
+    if ch1_score < 0.01 and ch2_score < 0.01:
+        ch1_score = ch1_score * 100
+        ch2_score = ch2_score * 100
+    if ch1_score < 0.1 and ch2_score < 0.1:
+        ch1_score = ch1_score * 10
+        ch2_score = ch2_score * 10
+    if ch1_score < 0.3 and ch2_score < 0.3:
+        ch1_score = ch1_score * 3
+        ch2_score = ch2_score * 3
+    if ch1_score < 0.5 and ch2_score < 0.5:
+        ch1_score = ch1_score * 2
+        ch2_score = ch2_score * 2
+    return ch1_score, ch2_score;
+
 def main():
 
     #probs_with_context_file = "../data/wsc_problem_psl.json"
-    #probs_with_context_file = "../data/new_psl_problems.json"
-    bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
+    probs_with_context_file = "../data/new_psl_problems.json"
+    bert_scores_file = open("../data/bert_wsc_problems.json", "r")
     bert_scores = json.loads(bert_scores_file.read())
-    probs_with_context_file = "../data/test.json"
+    #probs_with_context_file = "../data/test.json"
     f = open(probs_with_context_file,"r")
     all_probs = f.read()
     probs_and_context = json.loads(all_probs)
@@ -93,7 +108,7 @@ def main():
     correct = 0
     incorrect = 0
     total = 0
-    isCommonsense = False
+    isCommonsense = True
 
     for i in range(0, len(probs_and_context)):
         each = probs_and_context[i]
@@ -106,11 +121,11 @@ def main():
             similar = []
         if 'context' in each:
             context = each['context']
-        else: 
+        else:
             context = []
         if 'entailment' in each:
             entailment = each['entailment']
-        else: 
+        else:
             entailment = []
 
         domain = each['domain']
@@ -144,53 +159,40 @@ def main():
         domain_txt = domain_txt+domain[2]+'\t'+'p'+'\n'
 
         if isCommonsense:
-            score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"]) 
-            score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"]) 
-            val1 = commonsense[0].split('$$') #scr score1
-            val2 = commonsense[1].split('$$') #scr score2
+            score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"])
+            score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"])
+            val1 = float(commonsense[0].split('$$')[2]) #scr score1
+            val2 = float(commonsense[1].split('$$')[2]) #scr score2
+            #val1, val2 = get_normalized_prob(val1, val2)
             commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\t'+str(score1)+'\n'
             commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\t'+str(score2)+'\n'
-        
-        know_entailment = {}
-        for ent in entailment:
-            token = ent.split('$$')
-            if token[2] not in know_entailment:
-                know_entailment[token[2]] = []
-            know_entailment[token[2]].append(token)
 
-        for key, value in know_entailment.items():
-            if len(know_entailment[key]) == 2:
-                entail = know_entailment[key]
-                ch1_tokens = entail[0]
-                ch2_tokens = entail[1]
-                ch1_score = float(ch1_tokens[3])
-                ch2_score = float(ch2_tokens[3])
-                # print("ch1_score was :"+str(ch1_score))
-                # print("ch2_score was :"+str(ch2_score))
-                if ch1_score < 0.01 and ch2_score < 0.01:
-                   ch1_score = ch1_score * 100
-                   ch2_score = ch2_score * 100
-                if ch1_score < 0.1 and ch2_score < 0.1:
-                   ch1_score = ch1_score * 10
-                   ch2_score = ch2_score * 10
-                if ch1_score < 0.3 and ch2_score < 0.3:
-                   ch1_score = ch1_score * 3
-                   ch2_score = ch2_score * 3
-                if ch1_score < 0.5 and ch2_score < 0.5:
-                   ch1_score = ch1_score * 2
-                   ch2_score = ch2_score * 2
-                # print("updated ch1_score :"+str(ch1_score))
-                # print("updated ch2_score :"+str(ch2_score))
-                entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
-                entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
+        if len(context) > 1:
+            know_entailment = {}
+            for ent in entailment:
+                token = ent.split('$$')
+                if token[2] not in know_entailment:
+                    know_entailment[token[2]] = []
+                know_entailment[token[2]].append(token)
 
-            # commonsense_txt = commonsense_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+str(each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
-            # commonsense_txt = commonsense_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+str(each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
-            else:
-                for ent in know_entailment[key]:
-                    token = ent
-                    if float(token[3]) < 0.1:
-                        entailment_txt = entailment_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\n'
+            for key, value in know_entailment.items():
+                if len(know_entailment[key]) == 2:
+                    entail = know_entailment[key]
+                    ch1_tokens = entail[0]
+                    ch2_tokens = entail[1]
+                    ch1_score = float(ch1_tokens[3])
+                    ch2_score = float(ch2_tokens[3])
+                    ch1_score, ch2_score = get_normalized_prob(ch1_score, ch2_score)
+                    entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
+                    entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
+
+                # commonsense_txt = commonsense_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+str(each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
+                # commonsense_txt = commonsense_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+str(each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
+                else:
+                    for ent in know_entailment[key]:
+                        token = ent
+                        if float(token[3]) < 0.1:
+                            entailment_txt = entailment_txt+token[0]+'\t'+token[1]+'\t'+token[2]+'\t'+token[3]+'\n'
 
         # for com in commonsense:
         #     token = com.split('$$')
