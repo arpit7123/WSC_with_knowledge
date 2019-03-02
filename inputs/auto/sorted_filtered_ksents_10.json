@@ -112,6 +112,10 @@
             {
                 "k_sent": "PSU Will Not Fit into Case (too small)",
                 "score": 0.19467222690582275
+            },
+            {
+                "k_sent": "Japanese car does not fit into the small garage in the street in Kyoto.",
+                "score": 0.07
             }
         ]
     },
@@ -343,6 +347,10 @@
     {
         "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
         "k_sents": [
+            {
+                "k_sent": "When finally Siti asked, Marni reluctant to answer",
+                "score": 1.0
+            },
             {
                 "k_sent": "Make friends and expand your network",
                 "score": 0.0005272756679914892
@@ -983,6 +991,10 @@
         "ws_sent": "The sculpture rolled off the shelf because it was not anchored .",
         "k_sents": [
             {
+                "k_sent": "The elastic in the waistband was not anchored and rolled when you put the garment on and took it off.",
+                "score": 1.0
+            },
+            {
                 "k_sent": "Look for pages within Wikipedia that link to this title.",
                 "score": 5.15523788635619e-06
             },
@@ -1334,6 +1346,10 @@
         "ws_sent": "Jim comforted Kevin because he was so upset .",
         "k_sents": [
             {
+                "k_sent": "She says I comforted her, because she was so upset",
+                "score": 1.0
+            },
+            {
                 "k_sent": "Copyright  20042018 Yelp Inc. Yelp, ,",
                 "score": 0.017487477511167526
             },
@@ -1532,6 +1548,10 @@
         "ws_sent": "The older students were bullying the younger ones , so we rescued them  .",
         "k_sents": [
             {
+                "k_sent": "The victim of bullying is rescued by the adult running the programme.",
+                "score": 1.0
+            },
+            {
                 "k_sent": "Be the first to know about new giveaways, teacher tips, and laugh-out-loud posts. Sign-up to receive our newsletter.",
                 "score": 0.001900912495329976
             },
@@ -1576,6 +1596,10 @@
     {
         "ws_sent": "I poured water from the bottle into the cup until it was empty .",
         "k_sents": [
+            {
+                "k_sent": "Imagine you made a gallon pitcher of lemonade for your family picnic.You poured the lemonade into 12 paper cup until there wasn't a drop left.",
+                "score": 1.0
+            },
             {
                 "k_sent": "To reach their findings, Accenture and Girls Who Code created a model to estimate future changes in the participation of women in computing and the impact on womens earnings. They also carried out qualitative research among girls aged 12 to 18 years old, undergraduates, young workers, parents, and teachers, to determine which factors impact decisions to study and work in computing, and surveyed an additional 8,000 people.",
                 "score": 9.383867904944054e-08
@@ -1756,6 +1780,10 @@
     {
         "ws_sent": "Sid explained his theory to Mark but he could not convince him .",
         "k_sents": [
+            {
+                "k_sent": "wife know that this is done, and some of DM's uncomfortable messages went to them, we explained them, but we could not convince them.",
+                "score": 1.0
+            },
             {
                 "k_sent": "convince to the contrary",
                 "score": 0.015849970281124115
@@ -2135,6 +2163,10 @@
     {
         "ws_sent": "The drain is clogged with hair . It has to be cleaned .",
         "k_sents": [
+            {
+                "k_sent": "Clogged sewer to be cleaned",
+                "score": 1.0
+            },
             {
                 "k_sent": "Browse the Medical Dictionary",
                 "score": 0.013936722651124
@@ -2792,6 +2824,10 @@
     {
         "ws_sent": "Bob paid for Charlie's college education . He is very grateful .",
         "k_sents": [
+            {
+                "k_sent": "I am really grateful for having a good job now, and I am grateful to the NGO because it has helped me and paid for my tuition until I graduated with satisfactory grades.",
+                "score": 1.0
+            },
             {
                 "k_sent": "Something dreadful has occurred with our site. We beg your patience while our developers attempt to ameliorate the situation.",
                 "score": 0.00037764135049656034
@@ -3507,6 +3543,10 @@
     {
         "ws_sent": "The fish ate the worm . It was hungry .",
         "k_sents": [
+            {
+                "k_sent": "I ate it because I was hungry",
+                "score": 1.0
+            },
             {
                 "k_sent": "Cambridge Academic Content Dictionary",
                 "score": 2.2567768098724628e-08
@@ -5433,6 +5473,10 @@
         "ws_sent": "Mary tucked her daughter Anne into bed , so that she could sleep .",
         "k_sents": [
             {
+                "k_sent": "My dog is very serious about being tucked in to sleep in the morning and at night.",
+                "score": 1.0
+            },
+            {
                 "k_sent": "Running along the shore",
                 "score": 1.1298234570134014e-09
             },
@@ -5747,6 +5791,10 @@
     {
         "ws_sent": "I can not cut that tree down with that axe ; it is too thick .",
         "k_sents": [
+            {
+                "k_sent": "my ebay key was a little too thick to fit so they couldn't cut it but I had it done else where.",
+                "score": 1.0
+            },
             {
                 "k_sent": "Questions? Feedback? powered by Olark live chat software",
                 "score": 5.532801878871396e-06
@@ -7336,6 +7384,10 @@
         "ws_sent": "Steve follows Fred's example in everything . He admires him hugely .",
         "k_sents": [
             {
+                "k_sent": "I follow you because I admire your spirit of openness and acceptance.",
+                "score": 1.0
+            },
+            {
                 "k_sent": "Not logged inTalkContributionsCreate accountLog in",
                 "score": 0.01840757019817829
             },
@@ -7866,6 +7918,10 @@
     {
         "ws_sent": "Jane knocked on Susan's door but she did not answer .",
         "k_sents": [
+            {
+                "k_sent": "Suck knocked on my door and I answered it!",
+                "score": 1.0
+            },
             {
                 "k_sent": "a big ask idiom",
                 "score": 2.477941416145768e-05
@@ -9783,6 +9839,10 @@
     {
         "ws_sent": "James asked Robert for a favor but he refused .",
         "k_sents": [
+            {
+                "k_sent": "He asked the LORD what he should do, but the LORD refused to answer him, either by dreams or by sacred lots or by the prophets.",
+                "score": 1.0
+            },
             {
                 "k_sent": "Such an opportunity, where the state has undertaken to provide it, is a right which must be made available to all on equal terms.",
                 "score": 0.0038161941338330507
