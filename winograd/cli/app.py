@@ -37,8 +37,8 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    #process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
-    process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
 def get_ans(prob, bert):
@@ -159,13 +159,26 @@ def main():
         domain_txt = domain_txt+domain[2]+'\t'+'p'+'\n'
 
         if isCommonsense:
-            score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"])
-            score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"])
-            val1 = float(commonsense[0].split('$$')[2]) #scr score1
-            val2 = float(commonsense[1].split('$$')[2]) #scr score2
-            #val1, val2 = get_normalized_prob(val1, val2)
-            commonsense_txt = commonsense_txt+bert["choice1"]+'\t'+bert["pronoun"]+'\t'+str(score1)+'\n'
-            commonsense_txt = commonsense_txt+bert["choice2"]+'\t'+bert["pronoun"]+'\t'+str(score2)+'\n'
+            choice1 = ''
+            choice2 = ''
+            ctoken1 = commonsense[0].split('$$')
+            ctoken2 = commonsense[1].split('$$')
+            if 'bert_choice1' not in each: #if PSL file is not having bert score then pick from the bert file
+                score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"])
+                score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"])
+                choice1 = bert["choice1"]
+                choice2 = bert["choice2"]
+            else:
+                score1 = each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"])
+                score2 = each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"])
+                choice1 = ctoken1[0]
+                choice2 = ctoken2[0]
+
+            val1 = float(ctoken1[2]) #scr score1
+            val2 = float(ctoken2[2]) #scr score2
+            val1, val2 = get_normalized_prob(val1, val2)
+            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(score1)+'\n'
+            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(score2)+'\n'
 
         if len(context) > 1:
             know_entailment = {}
@@ -185,9 +198,6 @@ def main():
                     ch1_score, ch2_score = get_normalized_prob(ch1_score, ch2_score)
                     entailment_txt = entailment_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch1_score)+'\n'
                     entailment_txt = entailment_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+ch1_tokens[2]+'\t'+str(ch2_score)+'\n'
-
-                # commonsense_txt = commonsense_txt+ch1_tokens[0]+'\t'+ch1_tokens[1]+'\t'+str(each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
-                # commonsense_txt = commonsense_txt+ch2_tokens[0]+'\t'+ch2_tokens[1]+'\t'+str(each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"]))+'\n'
                 else:
                     for ent in know_entailment[key]:
                         token = ent

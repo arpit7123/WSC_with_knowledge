@@ -4691,7 +4691,9 @@
       "products$$retailers$$K8$$0.9321684241294861",
       "Sam and Amy$$they$$K8$$0.11201462149620056",
       "Sam and Amy$$they$$K9$$0.11201462149620056"
-    ]
+    ], 
+    "bert_choice1": 4.037254333496094,
+    "bert_choice2": 4.456389904022217
   },
   {
     "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .",

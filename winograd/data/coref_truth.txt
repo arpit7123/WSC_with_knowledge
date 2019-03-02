@@ -1,4 +1,4 @@
-Sam and Amy	they	1
-Amy's parents	they	0
-they	Sam and Amy	1
-they	Amy's parents	0
+GrWQWu8JyC	it	0
+willow-towered Canopy Huntertropic wrestles	it	1
+it	GrWQWu8JyC	0
+it	willow-towered Canopy Huntertropic wrestles	1
