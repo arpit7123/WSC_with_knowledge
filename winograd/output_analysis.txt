@@ -1,160 +1,307 @@
 PSL INCORRECT, BERT CORRECT: The trophy does not fit into the brown suitcase because it is too small .
 PSL INCORRECT, PREV_SYS CORRECT: The trophy does not fit into the brown suitcase because it is too small .
 PSL no context
-PSL INCORRECT, BERT CORRECT: Joan made sure to thank Susan for all the help she had received .
-PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Joan made sure to thank Susan for all the help she had received .
-PSL no context
-PSL INCORRECT, BERT CORRECT: Paul tried to call George on the phone , but he was not successful .
-PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Paul tried to call George on the phone , but he was not successful .
+PSL INCORRECT, BERT INCORRECT: Paul tried to call George on the phone , but he was not available .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Paul tried to call George on the phone , but he was not available .
-PSL no context
+PSL INCORRECT, BERT INCORRECT: The lawyer asked the witness a question , but he was reluctant to answer it .
 PSL INCORRECT, PREV_SYS CORRECT: The lawyer asked the witness a question , but he was reluctant to answer it .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The delivery truck zoomed by the school bus because it was going so slow .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The delivery truck zoomed by the school bus because it was going so slow .
 PSL no context
-PSL INCORRECT, BERT CORRECT: The man could not lift his son because he was so heavy .
+PSL INCORRECT, BERT INCORRECT: Although they ran at about the same speed , Sue beat Sally because she had such a bad start .
+PSL CORRECT, BERT INCORRECT: The sculpture rolled off the shelf because it was not anchored .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: The man could not lift his son because he was so heavy .
+PSL INCORRECT, BERT INCORRECT: Sam's drawing was hung just above Tina's and it did look much better with another one above it .
 PSL no context
-PSL INCORRECT, BERT CORRECT: Although they ran at about the same speed , Sue beat Sally because she had such a good start .
+PSL INCORRECT, BERT INCORRECT: Anna did a lot worse than her good friend Lucy on the test because she had studied so hard .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: The sculpture rolled off the shelf because it was not anchored .
+PSL INCORRECT, BERT INCORRECT: The firemen arrived after the police because they were coming from so far away .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The firemen arrived after the police because they were coming from so far away .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Frank was upset with Tom because the toaster he had sold him did not work .
+PSL INCORRECT, BERT INCORRECT: Frank was upset with Tom because the toaster he had sold him did not work .
 PSL no context
+PSL INCORRECT, PREV_SYS CORRECT: Frank was upset with Tom because the toaster he had sold him did not work .
+PSL INCORRECT, BERT INCORRECT: Jim comforted Kevin because he was so upset .
 PSL INCORRECT, PREV_SYS CORRECT: Jim comforted Kevin because he was so upset .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The sack of potatoes had been placed above the bag of flour , so it had to be moved first .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The sack of potatoes had been placed above the bag of flour , so it had to be moved first .
 PSL no context
-PSL INCORRECT, BERT CORRECT: Pete envies Martin although he is very successful .
-PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Pete envies Martin although he is very successful .
+PSL INCORRECT, BERT INCORRECT: The older students were bullying the younger ones , so we rescued them  .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The older students were bullying the younger ones , so we rescued them  .
-PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: I poured water from the bottle into the cup until it was empty .
-PSL no context
+PSL CORRECT, BERT INCORRECT: I poured water from the bottle into the cup until it was empty .
+PSL INCORRECT, BERT INCORRECT: Sid explained his theory to Mark but he could not convince him .
 PSL INCORRECT, PREV_SYS CORRECT: Sid explained his theory to Mark but he could not convince him .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: Susan knew that Ann's son had been in a car accident , because she told her about it .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Susan knew that Ann's son had been in a car accident , because she told her about it .
+PSL INCORRECT, BERT INCORRECT: Joe's uncle can still beat him at tennis , even though he is 30 years older .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The painting in Mark's living room shows an oak tree . It is to the right of the bookcase .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The painting in Mark's living room shows an oak tree . It is to the right of the bookcase .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: There is a gap in the wall . You can see the garden through it  .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: There is a gap in the wall . You can see the garden through it  .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: The drain is clogged with hair . It has to be cleaned .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The drain is clogged with hair . It has to be cleaned .
+PSL INCORRECT, BERT INCORRECT: My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was short , so it worked out .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: There is a pillar between me and the stage , and I can not see around it  .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: There is a pillar between me and the stage , and I can not see around it  .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: They broadcast an announcement , but a subway came into the station and I could not hear it  .
+PSL INCORRECT, BERT INCORRECT: They broadcast an announcement , but a subway came into the station and I could not hear it  .
 PSL no context
+PSL INCORRECT, PREV_SYS CORRECT: They broadcast an announcement , but a subway came into the station and I could not hear it  .
+PSL INCORRECT, BERT INCORRECT: In the middle of the outdoor concert , the rain started falling , but it continued until 10 .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Ann asked Mary what time the library closes , because she had forgotten .
+PSL INCORRECT, BERT INCORRECT: I could not put the pot on the shelf because it was too high .
+PSL INCORRECT, BERT INCORRECT: Bob paid for Charlie's college education . He is very grateful .
 PSL INCORRECT, PREV_SYS CORRECT: Bob paid for Charlie's college education . He is very grateful .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .
+PSL INCORRECT, BERT INCORRECT: Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .
-PSL CORRECT, BERT INCORRECT: If the con artist has succeeded in fooling Sam , he would have lost a lot of money .
+PSL INCORRECT, PREV_SYS CORRECT: Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .
+PSL INCORRECT, BERT INCORRECT: Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have won .
+PSL INCORRECT, BERT CORRECT: Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .
+PSL INCORRECT, PREV_SYS CORRECT: Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .
+PSL CORRECT, BERT INCORRECT: Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: If the con artist has succeeded in fooling Sam , he would have lost a lot of money .
+PSL no context
+PSL INCORRECT, PREV_SYS CORRECT: If the con artist has succeeded in fooling Sam , he would have lost a lot of money .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .
+PSL INCORRECT, BERT CORRECT: Anne gave birth to a daughter last month . She is a very charming baby .
+PSL INCORRECT, PREV_SYS CORRECT: Anne gave birth to a daughter last month . She is a very charming baby .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why she was behaving so strangely .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why he was , but he looked very unhappy .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why he was , but he looked very unhappy .
+PSL CORRECT, BERT INCORRECT: The fish ate the worm . It was hungry .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: The fish ate the worm . It was hungry .
-PSL CORRECT, BERT INCORRECT: In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .
+PSL INCORRECT, BERT INCORRECT: I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .
+PSL no context
+PSL INCORRECT, PREV_SYS CORRECT: In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: John was jogging through the park when he saw a man juggling watermelons . He was very impressed .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: John was jogging through the park when he saw a man juggling watermelons . He was very impressed .
 PSL CORRECT, BERT INCORRECT: Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .
 PSL INCORRECT, BERT CORRECT: Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: Mark told Pete many lies about himself , which Pete included in his book . He should have been more skeptical .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Mary took out her flute and played one of her favorite pieces . She has had it since she was a child .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Sam pulled up a chair to the piano , but it was broken , so he had to sing instead .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Since it was raining , I carried the newspaper in my backpack to keep it dry .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Since it was raining , I carried the newspaper in my backpack to keep it dry .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: Sara borrowed the book from the library because she needs it for an article she is working on . She reads it when she gets home from work .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked it down .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked it down .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .
+PSL INCORRECT, BERT INCORRECT: Jane knocked on the door , and Susan answered it . She invited her to come out .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Mary tucked her daughter Anne into bed , so that she could sleep .
+PSL INCORRECT, BERT INCORRECT: The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was gone .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .
+PSL no context
+PSL INCORRECT, PREV_SYS CORRECT: We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .
+PSL CORRECT, BERT INCORRECT: Mary tucked her daughter Anne into bed , so that she could sleep .
 PSL INCORRECT, BERT CORRECT: Fred and Alice had very warm down coats , but they were not prepared for the cold in Alaska .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Fred and Alice had very warm down coats , but they were not enough for the cold in Alaska .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Thomson visited Cooper's grave in 1765 . At that date he had been dead for five years .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Jackson was greatly influenced by Arnold , though he lived two centuries later .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Jackson was greatly influenced by Arnold , though he lived two centuries later .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: I can not cut that tree down with that axe ; it is too thick .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: I can not cut that tree down with that axe ; it is too thick .
+PSL INCORRECT, BERT INCORRECT: The foxes are getting in at night and attacking the chickens . I shall have to guard them  .
 PSL INCORRECT, PREV_SYS CORRECT: The foxes are getting in at night and attacking the chickens . I shall have to guard them  .
 PSL INCORRECT, BERT CORRECT: The foxes are getting in at night and attacking the chickens . They have gotten very nervous .
 PSL INCORRECT, PREV_SYS CORRECT: The foxes are getting in at night and attacking the chickens . They have gotten very nervous .
-PSL INCORRECT, BERT CORRECT: The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was too hard to pronounce .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was easier to pronounce .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Fred watched TV while George went out to buy groceries . After an hour he got back .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Fred watched TV while George went out to buy groceries . After an hour he got back .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it on .
 PSL INCORRECT, BERT CORRECT: Fred is the only man still alive who remembers my great-grandfather . He is a remarkable man .
 PSL CORRECT, BERT INCORRECT: Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve years old .
 PSL INCORRECT, BERT CORRECT: Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .
-PSL INCORRECT, PREV_SYS CORRECT: In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .
+PSL INCORRECT, BERT CORRECT: In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .
+PSL CORRECT, BERT INCORRECT: In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: The journalists interviewed the stars of the new movie . They were very persistent , so the interview lasted for a long time .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: I put the cake away in the refrigerator . It has a lot of butter in it .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: I put the cake away in the refrigerator . It has a lot of butter in it .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be better .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be better .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . They were very much in the minority .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of them  .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of them  .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of them  .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: I stuck a pin through a carrot . When I pulled the pin out , it left a hole .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: I stuck a pin through a carrot . When I pulled the pin out , it left a hole .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of ink .
+PSL INCORRECT, BERT INCORRECT: Steve follows Fred's example in everything . He admires him hugely .
 PSL INCORRECT, PREV_SYS CORRECT: Steve follows Fred's example in everything . He admires him hugely .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: The table will not fit through the doorway because it is too narrow .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: John ordered Bill to leave , so an hour later he left .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: John ordered Bill to leave , so an hour later he left .
+PSL INCORRECT, BERT INCORRECT: Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .
+PSL CORRECT, BERT INCORRECT: Jane knocked on Susan's door but she did not answer .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Jane knocked on Susan's door but she did not answer .
+PSL INCORRECT, BERT INCORRECT: Joe paid the detective after he received the final report on the case .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Joe paid the detective after he received the final report on the case .
+PSL INCORRECT, BERT INCORRECT: Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Jim signaled the barman and gestured toward his empty glass .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Jim signaled the barman and gestured toward his empty glass .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: Dan took the rear seat while Bill claimed the front because his Dibs was quicker .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Dan took the rear seat while Bill claimed the front because his Dibs was quicker .
+PSL CORRECT, BERT INCORRECT: Tom said Check to Ralph as he took his bishop .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: As Andrea in the crop duster passed over Susan , she could see the landing gear .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Tom gave Ralph a lift to school so he would not have to drive alone .
+PSL INCORRECT, BERT CORRECT: Tom gave Ralph a lift to school so he would not have to walk .
+PSL INCORRECT, PREV_SYS CORRECT: Tom gave Ralph a lift to school so he would not have to walk .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Bill passed the gameboy to John because his turn was next .
 PSL INCORRECT, BERT CORRECT: The man lifted the boy onto his shoulders .
 PSL INCORRECT, PREV_SYS CORRECT: The man lifted the boy onto his shoulders .
+PSL INCORRECT, BERT INCORRECT: The man lifted the boy onto his bunk bed .
 PSL INCORRECT, PREV_SYS CORRECT: The man lifted the boy onto his bunk bed .
 PSL no context
-PSL INCORRECT, BERT CORRECT: The woman held the girl against her chest .
+PSL INCORRECT, BERT INCORRECT: Billy cried because Toby would not accept his toy .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: The woman held the girl against her chest .
-PSL INCORRECT, PREV_SYS CORRECT: The woman held the girl against her will .
+PSL INCORRECT, BERT INCORRECT: When Tommy dropped his ice cream , Timmy giggled , so father gave him a stern look .
+PSL CORRECT, BERT INCORRECT: The woman held the girl against her will .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .
+PSL CORRECT, BERT INCORRECT: Dr . Adams informed Kate that she had cancer and presented several options for future treatment .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Dr . Adams informed Kate that she had cancer and presented several options for future treatment .
+PSL INCORRECT, BERT INCORRECT: George got free tickets to the play , but he gave them to Eric , because he was particularly eager to see it .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: George got free tickets to the play , but he gave them to Eric , because he was particularly eager to see it .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: Jane gave Joan candy because she was not hungry .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Jane gave Joan candy because she was not hungry .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like telephone poles .
+PSL INCORRECT, BERT INCORRECT: James asked Robert for a favor but he refused .
 PSL INCORRECT, PREV_SYS CORRECT: James asked Robert for a favor but he refused .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Kirilov ceded the presidency to Shatov because he was less popular .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Emma did not pass the ball to Janie although she saw that she was open .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Emma did not pass the ball to Janie although she saw that she was open .
 PSL no context
-PSL INCORRECT, PREV_SYS CORRECT: Madonna fired her trainer because she slept with her boyfriend .
+PSL INCORRECT, BERT INCORRECT: I put the heavy book on the table and it broke .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Madonna fired her trainer because she slept with her boyfriend .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Madonna fired her trainer because she slept with her boyfriend .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Madonna fired her trainer because she slept with her boyfriend .
+PSL no context
+PSL INCORRECT, PREV_SYS CORRECT: Madonna fired her trainer because she slept with her boyfriend .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Carol believed that Rebecca regretted that she had stolen the watch .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: Carol believed that Rebecca regretted that she had stolen the watch .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: This book introduced Shakespeare to Ovid ; it was a major influence on his writing .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: This book introduced Shakespeare to Ovid ; it was a major influence on his writing .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: This book introduced Shakespeare to Goethe ; it was a major influence on his writing .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: This book introduced Shakespeare to Goethe ; it was a major influence on his writing .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: Alice looked for her friend Jade in the crowd . Since she always wears a red turban , Alice spotted her quickly .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: During a game of tag , Ethan ran from Luke because he was it .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: During a game of tag , Ethan ran from Luke because he was it .
 PSL INCORRECT, BERT CORRECT: At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so stupid .
 PSL no context
+PSL INCORRECT, BERT INCORRECT: At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so advanced .
+PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so advanced .
+PSL no context
+PSL INCORRECT, BERT INCORRECT: The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to forget .
 PSL no context
 PSL INCORRECT, PREV_SYS CORRECT: The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to forget .

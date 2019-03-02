@@ -1,4 +1,4 @@
-The customer	He	0
-one of the tellers	He	1
-He	The customer	0
-He	one of the tellers	1
+Sam and Amy	they	1
+Amy's parents	they	0
+they	Sam and Amy	1
+they	Amy's parents	0

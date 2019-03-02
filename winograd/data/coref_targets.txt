@@ -1,4 +1,4 @@
-The customer	He
-one of the tellers	He
-He	The customer
-He	one of the tellers
+Sam and Amy	they
+Amy's parents	they
+they	Sam and Amy
+they	Amy's parents

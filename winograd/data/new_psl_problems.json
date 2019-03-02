@@ -166,7 +166,8 @@
     ],
     "entailment": [],
     "similarity": [
-      "the trophy$$it$$K1$$0.482908695936203"
+      "the trophy$$it$$K1$$0.482908695936203",
+      "the brown suitcase$$it$$K1$$0.58310235932325"
     ]
   },
   {
@@ -3293,10 +3294,7 @@
       "Adam$$he$$2.5447783350395245e-50"
     ],
     "context": [
-      "he$$Instagram$$K7",
       "Adam$$Stingrays$$K5",
-      "Bob$$Instagram$$K7",
-      "Adam$$Instagram$$K7",
       "he$$Stingrays$$K5",
       "Bob$$they$$K5",
       "Bob$$Stingrays$$K5",
@@ -3311,9 +3309,7 @@
     ],
     "case": [
       "TTT$$K5",
-      "TTF$$K5",
-      "TTT$$K7",
-      "TTF$$K7"
+      "TTF$$K5"
     ],
     "entailment": [
       "Bob$$he$$K1$$0.13019950687885284",
@@ -3333,12 +3329,7 @@
       "they$$courts$$K5$$0.6244120597839355",
       "their use$$Stingrays$$K5$$0.8557084798812866",
       "their use$$they$$K5$$0.9374540448188782",
-      "their use$$courts$$K5$$0.9257305264472961",
-      "Bob$$he$$K5$$0.9368965029716492",
-      "Bob$$he$$K6$$0.1403900384902954",
-      "Bob$$he$$K7$$0.14039002358913422",
-      "Bob$$he$$K8$$0.14039000868797302",
-      "Bob$$he$$K10$$0.1403900384902954"
+      "their use$$courts$$K5$$0.9257305264472961"
     ]
   },
   {

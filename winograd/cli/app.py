@@ -82,10 +82,10 @@ def get_ans(prob, bert):
 def main():
 
     #probs_with_context_file = "../data/wsc_problem_psl.json"
-    probs_with_context_file = "../data/new_psl_problems.json"
+    #probs_with_context_file = "../data/new_psl_problems.json"
     bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
     bert_scores = json.loads(bert_scores_file.read())
-    #probs_with_context_file = "../data/test.json"
+    probs_with_context_file = "../data/test.json"
     f = open(probs_with_context_file,"r")
     all_probs = f.read()
     probs_and_context = json.loads(all_probs)

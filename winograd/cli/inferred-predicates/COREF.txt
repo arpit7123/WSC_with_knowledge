@@ -1,4 +1,4 @@
-'The teller'	'He'	0.641934871673584
-'He'	'The teller'	6.075243419445542E-9
-'He'	'The customer'	3.234207568425518E-9
-'The customer'	'He'	0.6899580359458923
+'Sam and Amy'	'they'	0.9974125027656555
+'they'	'Amy\'s parents'	2.129940446487293E-16
+'they'	'Sam and Amy'	1.9065419917449738E-15
+'Amy\'s parents'	'they'	4.1577052673109904E-15

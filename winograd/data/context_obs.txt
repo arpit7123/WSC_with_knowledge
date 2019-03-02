@@ -1,0 +1,26 @@
+they	products	K4
+they	products	K1
+Sam and Amy	it	K9
+they	retailers	K8
+they	these products	K1
+Sam and Amy	retailers	K8
+Sam and Amy	products	K8
+Sam and Amy	products	K3
+they	products	K8
+Sam and Amy	these products	K1
+they	products	K3
+they	retailers	K3
+they	retailers	K4
+Sam and Amy	these products	K3
+Sam and Amy	these products	K8
+they	These products	K4
+Sam and Amy	retailers	K3
+Sam and Amy	products	K1
+Sam and Amy	retailers	K1
+Sam and Amy	products	K4
+they	it	K9
+they	these products	K3
+Sam and Amy	retailers	K4
+they	retailers	K1
+Sam and Amy	These products	K4
+they	these products	K8
