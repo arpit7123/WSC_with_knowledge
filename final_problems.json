@@ -9,8 +9,8 @@
     "search_query": "Bing:[refused]&&[because]&&[feared]",
     "ws_sent": "The city councilmen refused the demonstrators a permit because they feared violence .",
     "scr_score": {
-      "choice1": 1.4196144206882542e-38,
-      "choice2": 3.510759942941763e-35
+      "choice1": 3.829933689837034e-34,
+      "choice2": 1.702156157240529e-33
     }
   },
   {
@@ -23,8 +23,8 @@
     "search_query": "NA",
     "ws_sent": "The city councilmen refused the demonstrators a permit because they advocated violence .",
     "scr_score": {
-      "choice1": 4.641482730606502e-40,
-      "choice2": 5.9488331319324445e-36
+      "choice1": 1.4042950289785339e-35,
+      "choice2": 1.337113581546516e-34
     }
   },
   {
@@ -37,8 +37,8 @@
     "search_query": "Bing: \"large\"&&\"not fit in\"",
     "ws_sent": "The trophy does not fit into the brown suitcase because it is too large .",
     "scr_score": {
-      "choice1": 1.799525707668262e-32,
-      "choice2": 7.170487140267147e-31
+      "choice1": 1.2153429212500013e-27,
+      "choice2": 5.254420477935192e-27
     }
   },
   {
@@ -51,8 +51,8 @@
     "search_query": "Google: \" * small * not fit into *\"",
     "ws_sent": "The trophy does not fit into the brown suitcase because it is too small .",
     "scr_score": {
-      "choice1": 3.4666272746557547e-32,
-      "choice2": 2.3359053083274707e-33
+      "choice1": 3.3544299614637435e-27,
+      "choice2": 1.0973058330244357e-26
     }
   },
   {
@@ -65,8 +65,8 @@
     "search_query": "Google: \".*thank.*because.*helped.*\"",
     "ws_sent": "Joan made sure to thank Susan for all the help she had received .",
     "scr_score": {
-      "choice1": 5.777711179656892e-32,
-      "choice2": 1.143403516380672e-30
+      "choice1": 5.070089278815632e-25,
+      "choice2": 4.249684420842557e-25
     }
   },
   {
@@ -79,8 +79,8 @@
     "search_query": "NA",
     "ws_sent": "Joan made sure to thank Susan for all the help she had given .",
     "scr_score": {
-      "choice1": 8.571631458760649e-32,
-      "choice2": 7.897900511630578e-31
+      "choice1": 1.2726777830999459e-22,
+      "choice2": 1.0606476539655516e-22
     }
   },
   {
@@ -93,8 +93,8 @@
     "search_query": "NA",
     "ws_sent": "Paul tried to call George on the phone , but he was not successful .",
     "scr_score": {
-      "choice1": 3.1678126076662333e-29,
-      "choice2": 1.3116910089092451e-29
+      "choice1": 2.8674663888296625e-22,
+      "choice2": 2.1034364712961272e-22
     }
   },
   {
@@ -107,8 +107,8 @@
     "search_query": "Google: \" * call * but * unavailable * \"",
     "ws_sent": "Paul tried to call George on the phone , but he was not available .",
     "scr_score": {
-      "choice1": 2.771267158480741e-28,
-      "choice2": 1.0353396453910742e-28
+      "choice1": 3.0116471989357212e-21,
+      "choice2": 3.936089202845899e-21
     }
   },
   {
@@ -121,8 +121,8 @@
     "search_query": "NA",
     "ws_sent": "The lawyer asked the witness a question , but he was reluctant to repeat it .",
     "scr_score": {
-      "choice1": 3.644988447612708e-27,
-      "choice2": 1.4888291693508965e-27
+      "choice1": 1.6533008510135482e-25,
+      "choice2": 2.7334243754582917e-25
     }
   },
   {
@@ -135,8 +135,8 @@
     "search_query": "NA",
     "ws_sent": "The lawyer asked the witness a question , but he was reluctant to answer it .",
     "scr_score": {
-      "choice1": 1.203124856630761e-25,
-      "choice2": 3.023708488901286e-26
+      "choice1": 7.613784548212794e-24,
+      "choice2": 9.666910290122667e-24
     }
   },
   {
@@ -149,8 +149,8 @@
     "search_query": "Google: zoomed_by meaning",
     "ws_sent": "The delivery truck zoomed by the school bus because it was going so fast .",
     "scr_score": {
-      "choice1": 1.4651344961781882e-32,
-      "choice2": 2.760746603597897e-30
+      "choice1": 9.135638732837144e-28,
+      "choice2": 1.3436863622691077e-27
     }
   },
   {
@@ -163,8 +163,8 @@
     "search_query": "NA",
     "ws_sent": "The delivery truck zoomed by the school bus because it was going so slow .",
     "scr_score": {
-      "choice1": 1.676235757837191e-33,
-      "choice2": 3.83639399778313e-31
+      "choice1": 8.632559154028057e-29,
+      "choice2": 1.4485257633638292e-28
     }
   },
   {
@@ -177,8 +177,8 @@
     "search_query": "\" * vindicated * winner * \"\n",
     "ws_sent": "Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition .",
     "scr_score": {
-      "choice1": 4.4030420922535224e-44,
-      "choice2": 2.2167570361572852e-43
+      "choice1": 1.9335581755327797e-35,
+      "choice2": 1.525335980618322e-35
     }
   },
   {
@@ -191,8 +191,8 @@
     "search_query": "Google: \" *  feel crushed * lose *\"",
     "ws_sent": "Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition .",
     "scr_score": {
-      "choice1": 2.6183081941007456e-44,
-      "choice2": 1.3665550549215903e-43
+      "choice1": 5.079227410631975e-36,
+      "choice2": 4.1337996031616424e-36
     }
   },
   {
@@ -205,8 +205,8 @@
     "search_query": "NA",
     "ws_sent": "The man could not lift his son because he was so weak .",
     "scr_score": {
-      "choice1": 4.984280878563358e-24,
-      "choice2": 1.0062476211990715e-24
+      "choice1": 1.4038245289513812e-24,
+      "choice2": 1.3596734188085574e-24
     }
   },
   {
@@ -219,8 +219,8 @@
     "search_query": "NA",
     "ws_sent": "The man could not lift his son because he was so heavy .",
     "scr_score": {
-      "choice1": 1.1338490594357392e-24,
-      "choice2": 3.5654404658719076e-25
+      "choice1": 4.261486618719893e-25,
+      "choice2": 2.6313234101545307e-25
     }
   },
   {
@@ -233,8 +233,8 @@
     "search_query": "Google: \" * steel * crashed through *\"",
     "ws_sent": "The large ball crashed right through the table because it was made of steel .",
     "scr_score": {
-      "choice1": 4.484009106099097e-34,
-      "choice2": 7.34457228533576e-30
+      "choice1": 2.4406824843288697e-31,
+      "choice2": 8.873013870887964e-31
     }
   },
   {
@@ -247,8 +247,8 @@
     "search_query": "Google: \" * crashed through * styrofoam *\"",
     "ws_sent": "The large ball crashed right through the table because it was made of styrofoam .",
     "scr_score": {
-      "choice1": 1.7463670015531696e-35,
-      "choice2": 2.2490214301603355e-31
+      "choice1": 1.5076935656154798e-32,
+      "choice2": 5.868439223926752e-32
     }
   },
   {
@@ -261,8 +261,8 @@
     "search_query": "NA",
     "ws_sent": "John could not see the stage with Billy in front of him because he is so short .",
     "scr_score": {
-      "choice1": 5.497746978715031e-37,
-      "choice2": 4.003942481417861e-37
+      "choice1": 4.7383832295822655e-30,
+      "choice2": 7.514226916934834e-30
     }
   },
   {
@@ -275,8 +275,8 @@
     "search_query": "NA",
     "ws_sent": "John could not see the stage with Billy in front of him because he is so tall .",
     "scr_score": {
-      "choice1": 2.533499259680908e-36,
-      "choice2": 1.1849160860301848e-36
+      "choice1": 2.9999671556026627e-29,
+      "choice2": 4.656273299489414e-29
     }
   },
   {
@@ -289,8 +289,8 @@
     "search_query": "NA",
     "ws_sent": "Tom threw his schoolbag down to Ray after he reached the top of the stairs .",
     "scr_score": {
-      "choice1": 1.325677048229841e-38,
-      "choice2": 5.1245221306940286e-40
+      "choice1": 2.570565840411282e-31,
+      "choice2": 2.5347955332931144e-31
     }
   },
   {
@@ -303,8 +303,8 @@
     "search_query": "NA",
     "ws_sent": "Tom threw his schoolbag down to Ray after he reached the bottom of the stairs .",
     "scr_score": {
-      "choice1": 5.3373184968735416e-39,
-      "choice2": 2.3272194916649254e-40
+      "choice1": 9.919994880964664e-32,
+      "choice2": 1.023632497831196e-31
     }
   },
   {
@@ -317,8 +317,8 @@
     "search_query": "Google: good start meaning",
     "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a good start .",
     "scr_score": {
-      "choice1": 3.895719187579019e-47,
-      "choice2": 2.1861613545904924e-47
+      "choice1": 1.1837031080140017e-38,
+      "choice2": 8.633885617853785e-39
     }
   },
   {
@@ -331,8 +331,8 @@
     "search_query": "Google: \" * I lost *  I had a bad start * \"",
     "ws_sent": "Although they ran at about the same speed , Sue beat Sally because she had such a bad start .",
     "scr_score": {
-      "choice1": 2.8221278818252823e-47,
-      "choice2": 1.5521339899065784e-47
+      "choice1": 3.1936555004772e-39,
+      "choice2": 2.6966425030261637e-39
     }
   },
   {
@@ -345,8 +345,8 @@
     "search_query": "NA",
     "ws_sent": "The sculpture rolled off the shelf because it was not anchored .",
     "scr_score": {
-      "choice1": 1.726723981193653e-29,
-      "choice2": 1.6006976955539342e-29
+      "choice1": 9.523418152814709e-29,
+      "choice2": 2.0351411340423135e-28
     }
   },
   {
@@ -359,8 +359,8 @@
     "search_query": "Google:\" * rolled off *  uneven * \"",
     "ws_sent": "The sculpture rolled off the shelf because it was not level .",
     "scr_score": {
-      "choice1": 7.366421587263354e-29,
-      "choice2": 6.340905169046495e-29
+      "choice1": 2.283676622547062e-28,
+      "choice2": 5.342217308099695e-28
     }
   },
   {
@@ -373,8 +373,8 @@
     "search_query": "NA",
     "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one below it .",
     "scr_score": {
-      "choice1": 4.409667491582237e-63,
-      "choice2": 2.2684012644383679e-60
+      "choice1": 3.4505853858476413e-48,
+      "choice2": 4.580194719420792e-48
     }
   },
   {
@@ -387,8 +387,8 @@
     "search_query": "NA",
     "ws_sent": "Sam's drawing was hung just above Tina's and it did look much better with another one above it .",
     "scr_score": {
-      "choice1": 2.8351225756744303e-63,
-      "choice2": 3.0833729385730713e-60
+      "choice1": 6.352183321916253e-48,
+      "choice2": 8.149721270370293e-48
     }
   },
   {
@@ -401,8 +401,8 @@
     "search_query": "Bing: \"succeeded \"&&\"because\"&&\"studied hard\"",
     "ws_sent": "Anna did a lot better than her good friend Lucy on the test because she had studied so hard .",
     "scr_score": {
-      "choice1": 1.4456180439789348e-45,
-      "choice2": 1.1121497082679606e-45
+      "choice1": 4.406690314113946e-37,
+      "choice2": 2.7978690199597283e-37
     }
   },
   {
@@ -415,8 +415,8 @@
     "search_query": "NA",
     "ws_sent": "Anna did a lot worse than her good friend Lucy on the test because she had studied so hard .",
     "scr_score": {
-      "choice1": 4.072645916101953e-47,
-      "choice2": 2.611781461918183e-47
+      "choice1": 1.6291476288043665e-38,
+      "choice2": 1.0168517419706818e-38
     }
   },
   {
@@ -429,8 +429,8 @@
     "search_query": "\" * come late * from * away * \"\n",
     "ws_sent": "The firemen arrived after the police because they were coming from so far away .",
     "scr_score": {
-      "choice1": 2.9529812028966877e-30,
-      "choice2": 2.986471970114215e-30
+      "choice1": 2.1471214684187367e-29,
+      "choice2": 6.603048893320404e-30
     }
   },
   {
@@ -443,8 +443,8 @@
     "search_query": "NA",
     "ws_sent": "The firemen arrived before the police because they were coming from so far away .",
     "scr_score": {
-      "choice1": 1.8329061632853837e-29,
-      "choice2": 1.8634131478452402e-29
+      "choice1": 9.394866594938882e-29,
+      "choice2": 2.9184524677465675e-29
     }
   },
   {
@@ -457,8 +457,8 @@
     "search_query": "Google: \" * frustrated * bought  * didn't work * \"",
     "ws_sent": "Frank was upset with Tom because the toaster he had bought from him did not work .",
     "scr_score": {
-      "choice1": 9.715350066786288e-42,
-      "choice2": 4.382290431820339e-40
+      "choice1": 7.178516266232853e-30,
+      "choice2": 8.699258612145985e-30
     }
   },
   {
@@ -471,8 +471,8 @@
     "search_query": "Google: \" * sold  bad * angry * \"",
     "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
     "scr_score": {
-      "choice1": 1.0125118216202368e-41,
-      "choice2": 6.956185858150792e-40
+      "choice1": 9.472118637305136e-30,
+      "choice2": 6.746365351604686e-30
     }
   },
   {
@@ -485,8 +485,8 @@
     "search_query": "Google: \"*yelled at*because*\"",
     "ws_sent": "Jim yelled at Kevin because he was so upset .",
     "scr_score": {
-      "choice1": 1.2221843216608608e-27,
-      "choice2": 3.0887989824194177e-27
+      "choice1": 1.0917445928442948e-19,
+      "choice2": 1.276096130196175e-19
     }
   },
   {
@@ -499,8 +499,8 @@
     "search_query": "NA",
     "ws_sent": "Jim comforted Kevin because he was so upset .",
     "scr_score": {
-      "choice1": 1.3701288431494664e-28,
-      "choice2": 8.643603116048382e-28
+      "choice1": 7.398803784372588e-21,
+      "choice2": 1.432110636242502e-20
     }
   },
   {
@@ -513,8 +513,8 @@
     "search_query": "NA",
     "ws_sent": "The sack of potatoes had been placed above the bag of flour , so it had to be moved first .",
     "scr_score": {
-      "choice1": 2.346184625349593e-36,
-      "choice2": 1.9800595826705115e-35
+      "choice1": 2.6208747082682463e-35,
+      "choice2": 2.319726762658435e-35
     }
   },
   {
@@ -527,8 +527,8 @@
     "search_query": "NA",
     "ws_sent": "The sack of potatoes had been placed below the bag of flour , so it had to be moved first .",
     "scr_score": {
-      "choice1": 8.051433185457492e-37,
-      "choice2": 6.575097481474381e-36
+      "choice1": 1.10726899819737e-35,
+      "choice2": 9.518763774039888e-36
     }
   },
   {
@@ -541,8 +541,8 @@
     "search_query": "Google: \".*envies.*because.*successful.*\"",
     "ws_sent": "Pete envies Martin although he is very successful .",
     "scr_score": {
-      "choice1": 1.7701803118185586e-32,
-      "choice2": 6.550360369801121e-32
+      "choice1": 1.7538539274211539e-25,
+      "choice2": 2.128083747961724e-25
     }
   },
   {
@@ -555,8 +555,8 @@
     "search_query": "Google: \"*hate*because*successful*\"",
     "ws_sent": "Pete envies Martin because he is very successful .",
     "scr_score": {
-      "choice1": 1.3536070837003776e-30,
-      "choice2": 5.5783542855092035e-30
+      "choice1": 2.0002635035333286e-23,
+      "choice2": 2.425557394531655e-23
     }
   },
   {
@@ -569,8 +569,8 @@
     "search_query": "NA",
     "ws_sent": "The older students were bullying the younger ones , so we punished them  .",
     "scr_score": {
-      "choice1": 6.053931586484637e-29,
-      "choice2": 1.1703909073186299e-28
+      "choice1": 3.243955858643995e-29,
+      "choice2": 2.956218396115054e-29
     }
   },
   {
@@ -583,8 +583,8 @@
     "search_query": "Bing: \"bullying\"&&\"so\"&&\"rescued\"",
     "ws_sent": "The older students were bullying the younger ones , so we rescued them  .",
     "scr_score": {
-      "choice1": 5.287835111702384e-29,
-      "choice2": 1.0608343032669964e-28
+      "choice1": 1.0582391948925504e-29,
+      "choice2": 1.0579872428540648e-29
     }
   },
   {
@@ -597,8 +597,8 @@
     "search_query": "Google: \".*poured.*into.*until.*\"",
     "ws_sent": "I poured water from the bottle into the cup until it was empty .",
     "scr_score": {
-      "choice1": 3.492586658422587e-21,
-      "choice2": 1.0611269811966458e-20
+      "choice1": 1.777314228419052e-19,
+      "choice2": 1.6724616322732953e-19
     }
   },
   {
@@ -611,8 +611,8 @@
     "search_query": "NA",
     "ws_sent": "I poured water from the bottle into the cup until it was full .",
     "scr_score": {
-      "choice1": 8.41102560652675e-22,
-      "choice2": 5.3020758235786025e-21
+      "choice1": 6.051788734106917e-20,
+      "choice2": 8.5670168988514e-20
     }
   },
   {
@@ -625,8 +625,8 @@
     "search_query": "NA",
     "ws_sent": "Susan knows all about Ann's personal problems because she is nosy .",
     "scr_score": {
-      "choice1": 3.460150131580442e-35,
-      "choice2": 2.0510154707580695e-35
+      "choice1": 9.237486710470025e-28,
+      "choice2": 7.285801443810364e-28
     }
   },
   {
@@ -639,8 +639,8 @@
     "search_query": "Google: \" * knows * because * revealed * \"",
     "ws_sent": "Susan knows all about Ann's personal problems because she is indiscreet .",
     "scr_score": {
-      "choice1": 1.0778699750915894e-36,
-      "choice2": 2.7793009696222917e-37
+      "choice1": 1.8395637978554922e-29,
+      "choice2": 2.0088680069349618e-29
     }
   },
   {
@@ -653,8 +653,8 @@
     "search_query": "Google: \" * explained * to * but * not convince * \"",
     "ws_sent": "Sid explained his theory to Mark but he could not convince him .",
     "scr_score": {
-      "choice1": 8.815076304723386e-33,
-      "choice2": 2.1960651197900604e-32
+      "choice1": 2.1085026784203935e-25,
+      "choice2": 2.7273125351789558e-25
     }
   },
   {
@@ -667,8 +667,8 @@
     "search_query": "NA",
     "ws_sent": "Sid explained his theory to Mark but he could not understand him .",
     "scr_score": {
-      "choice1": 7.92033470163053e-32,
-      "choice2": 7.568720715000783e-31
+      "choice1": 4.864655295200735e-25,
+      "choice2": 4.975095210945624e-25
     }
   },
   {
@@ -681,8 +681,8 @@
     "search_query": "Google: \".*told.*because.*knew.*\"",
     "ws_sent": "Susan knew that Ann's son had been in a car accident , so she told her about it .",
     "scr_score": {
-      "choice1": 5.72760468687864e-38,
-      "choice2": 3.5001490890426985e-38
+      "choice1": 5.9267327531190525e-30,
+      "choice2": 6.384613692706368e-30
     }
   },
   {
@@ -695,8 +695,8 @@
     "search_query": "\" * knew about her * because * told *\"",
     "ws_sent": "Susan knew that Ann's son had been in a car accident , because she told her about it .",
     "scr_score": {
-      "choice1": 6.868797243434612e-39,
-      "choice2": 5.6650441346129623e-39
+      "choice1": 2.4282927822192006e-31,
+      "choice2": 2.827610172289054e-31
     }
   },
   {
@@ -709,8 +709,8 @@
     "search_query": "\" * defeated * though * was younger * \"\n",
     "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years younger .",
     "scr_score": {
-      "choice1": 5.7700097041506926e-39,
-      "choice2": 2.229984754828678e-42
+      "choice1": 2.0816110231748243e-34,
+      "choice2": 1.8198184039656822e-34
     }
   },
   {
@@ -723,8 +723,8 @@
     "search_query": "\" * defeated * though * was older * \"\n",
     "ws_sent": "Joe's uncle can still beat him at tennis , even though he is 30 years older .",
     "scr_score": {
-      "choice1": 4.660161975999103e-39,
-      "choice2": 2.668145669496478e-42
+      "choice1": 2.2651505640926346e-34,
+      "choice2": 2.386481060095413e-34
     }
   },
   {
@@ -737,8 +737,8 @@
     "search_query": "\" * painting * right of * bookcase * \"\n",
     "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of the bookcase .",
     "scr_score": {
-      "choice1": 2.281166457951017e-39,
-      "choice2": 1.6426882779097263e-40
+      "choice1": 2.418702758146744e-35,
+      "choice2": 1.9473000111235364e-35
     }
   },
   {
@@ -751,8 +751,8 @@
     "search_query": "\" * tree * right of * house * \"\n",
     "ws_sent": "The painting in Mark's living room shows an oak tree . It is to the right of a house .",
     "scr_score": {
-      "choice1": 2.8352062477972984e-40,
-      "choice2": 7.422813296008859e-41
+      "choice1": 1.2758299524488393e-36,
+      "choice2": 6.84603261202582e-36
     }
   },
   {
@@ -765,8 +765,8 @@
     "search_query": "Google: \"*see through*gap*\"",
     "ws_sent": "There is a gap in the wall . You can see the garden through it  .",
     "scr_score": {
-      "choice1": 3.3521681070095146e-27,
-      "choice2": 1.7118881756724654e-26
+      "choice1": 1.76229782661761e-27,
+      "choice2": 3.0788524677613913e-27
     }
   },
   {
@@ -779,8 +779,8 @@
     "search_query": "\" * gap in * see * behind * \"\n",
     "ws_sent": "There is a gap in the wall . You can see the garden behind it  .",
     "scr_score": {
-      "choice1": 7.251541948135929e-29,
-      "choice2": 1.2744518686752262e-26
+      "choice1": 4.8314578040657095e-27,
+      "choice2": 6.227192458455239e-27
     }
   },
   {
@@ -793,8 +793,8 @@
     "search_query": "Google: \" * clogged * cleaned * \"",
     "ws_sent": "The drain is clogged with hair . It has to be cleaned .",
     "scr_score": {
-      "choice1": 3.2618653566754536e-28,
-      "choice2": 1.790069777815322e-27
+      "choice1": 2.5123939695987222e-23,
+      "choice2": 2.273338739865784e-24
     }
   },
   {
@@ -807,8 +807,8 @@
     "search_query": "Google: \" * clogged with * remove * \"",
     "ws_sent": "The drain is clogged with hair . It has to be removed .",
     "scr_score": {
-      "choice1": 1.603238487106118e-27,
-      "choice2": 1.6545081857648657e-26
+      "choice1": 4.409737125481806e-23,
+      "choice2": 1.2056918803167776e-23
     }
   },
   {
@@ -821,8 +821,8 @@
     "search_query": "\" * meeting * so catch the train * \"\n",
     "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was short , so it worked out .",
     "scr_score": {
-      "choice1": 7.446195245083644e-54,
-      "choice2": 1.678186131843466e-51
+      "choice1": 6.048262825526347e-49,
+      "choice2": 5.77071826256218e-50
     }
   },
   {
@@ -835,8 +835,8 @@
     "search_query": "\n",
     "ws_sent": "My meeting started at 4:00 and I needed to catch the train at 4:30 , so there was not much time . Luckily , it was delayed , so it worked out .",
     "scr_score": {
-      "choice1": 2.2322971984080776e-54,
-      "choice2": 2.4581505471023096e-50
+      "choice1": 2.3882779675792266e-49,
+      "choice2": 6.051941061766056e-49
     }
   },
   {
@@ -849,8 +849,8 @@
     "search_query": "\" * between * and * not see * around * \"\n",
     "ws_sent": "There is a pillar between me and the stage , and I can not see around it  .",
     "scr_score": {
-      "choice1": 3.842242283089926e-30,
-      "choice2": 3.689367401802422e-28
+      "choice1": 2.1126301327921477e-29,
+      "choice2": 2.4515104019891065e-29
     }
   },
   {
@@ -863,8 +863,8 @@
     "search_query": "\" * between * and * can not see * \"\n",
     "ws_sent": "There is a pillar between me and the stage , and I can not see it  .",
     "scr_score": {
-      "choice1": 3.670185623770897e-27,
-      "choice2": 3.8768664044873993e-25
+      "choice1": 4.813482644904022e-26,
+      "choice2": 7.606914359094665e-26
     }
   },
   {
@@ -877,8 +877,8 @@
     "search_query": "\" * broadcast * announcement * not hear * \"\n",
     "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear it  .",
     "scr_score": {
-      "choice1": 7.931205967498342e-35,
-      "choice2": 2.7730061325519637e-35
+      "choice1": 1.2336238740697546e-35,
+      "choice2": 8.310102118156874e-36
     }
   },
   {
@@ -891,8 +891,8 @@
     "search_query": "\" * broadcast * not hear * over * \"\n",
     "ws_sent": "They broadcast an announcement , but a subway came into the station and I could not hear over it  .",
     "scr_score": {
-      "choice1": 4.1186012931959997e-38,
-      "choice2": 5.843143350414602e-38
+      "choice1": 1.1663880401235452e-38,
+      "choice2": 1.06000325477346e-38
     }
   },
   {
@@ -905,8 +905,8 @@
     "search_query": "NA",
     "ws_sent": "In the middle of the outdoor concert , the rain started falling , but it continued until 10 .",
     "scr_score": {
-      "choice1": 4.578842584737617e-30,
-      "choice2": 7.009763928856721e-30
+      "choice1": 1.3321467576311466e-30,
+      "choice2": 6.4721888191399485e-31
     }
   },
   {
@@ -919,8 +919,8 @@
     "search_query": "Google: \" * started * and * continued * \"",
     "ws_sent": "In the middle of the outdoor concert , the rain started falling , and it continued until 10 .",
     "scr_score": {
-      "choice1": 7.341865934736582e-30,
-      "choice2": 9.765533790719645e-30
+      "choice1": 5.8826409360777404e-30,
+      "choice2": 2.709835986297101e-30
     }
   },
   {
@@ -933,8 +933,8 @@
     "search_query": "Google: \" * cleaned with * and * in trash *  \"",
     "ws_sent": "I used an old rag to clean the knife , and then I put it in the trash .",
     "scr_score": {
-      "choice1": 3.403517130766188e-29,
-      "choice2": 7.788380302760505e-28
+      "choice1": 2.518312034948378e-29,
+      "choice2": 1.3688850499371335e-29
     }
   },
   {
@@ -947,8 +947,8 @@
     "search_query": "Google: \" * cleaned * and put * in * \"",
     "ws_sent": "I used an old rag to clean the knife , and then I put it in the drawer .",
     "scr_score": {
-      "choice1": 1.041292297137351e-29,
-      "choice2": 1.623970868321062e-27
+      "choice1": 1.3857351096596975e-29,
+      "choice2": 4.029006785187267e-29
     }
   },
   {
@@ -961,8 +961,8 @@
     "search_query": "\" * asked * because * forgot * \"",
     "ws_sent": "Ann asked Mary what time the library closes , because she had forgotten .",
     "scr_score": {
-      "choice1": 3.274426065590635e-36,
-      "choice2": 2.563363286811587e-35
+      "choice1": 1.2538567849798113e-29,
+      "choice2": 1.1664516807576054e-29
     }
   },
   {
@@ -975,8 +975,8 @@
     "search_query": "NA",
     "ws_sent": "Ann asked Mary what time the library closes , but she had forgotten .",
     "scr_score": {
-      "choice1": 1.6737711861339805e-35,
-      "choice2": 1.6102816819735858e-34
+      "choice1": 9.253869771560378e-29,
+      "choice2": 8.527456774498879e-29
     }
   },
   {
@@ -989,8 +989,8 @@
     "search_query": "Google: \".*out of.*so that.*\"",
     "ws_sent": "I took the water bottle out of the backpack so that it would be handy .",
     "scr_score": {
-      "choice1": 3.562515105004881e-26,
-      "choice2": 3.431607240842928e-26
+      "choice1": 4.295294403237484e-25,
+      "choice2": 2.9617929293642793e-25
     }
   },
   {
@@ -1003,8 +1003,8 @@
     "search_query": "NA",
     "ws_sent": "I took the water bottle out of the backpack so that it would be lighter .",
     "scr_score": {
-      "choice1": 3.977456688200587e-27,
-      "choice2": 1.1278419980430715e-26
+      "choice1": 9.567063258211655e-26,
+      "choice2": 1.9674034094502099e-25
     }
   },
   {
@@ -1017,8 +1017,8 @@
     "search_query": "NA",
     "ws_sent": "I could not put the pot on the shelf because it was too tall .",
     "scr_score": {
-      "choice1": 1.4524879230064637e-24,
-      "choice2": 4.259377655218736e-25
+      "choice1": 2.0078323897710267e-24,
+      "choice2": 2.5459501118217377e-24
     }
   },
   {
@@ -1031,8 +1031,8 @@
     "search_query": "NA",
     "ws_sent": "I could not put the pot on the shelf because it was too high .",
     "scr_score": {
-      "choice1": 5.556852697394373e-24,
-      "choice2": 2.055579940283884e-24
+      "choice1": 8.589224394753335e-24,
+      "choice2": 1.0735070896440864e-23
     }
   },
   {
@@ -1045,8 +1045,8 @@
     "search_query": "NA",
     "ws_sent": "I am sure that my map will show this building ; it is very good .",
     "scr_score": {
-      "choice1": 1.233114978729104e-28,
-      "choice2": 1.592218008876023e-28
+      "choice1": 1.3500760597000196e-28,
+      "choice2": 8.692929421065623e-29
     }
   },
   {
@@ -1059,8 +1059,8 @@
     "search_query": "NA",
     "ws_sent": "I am sure that my map will show this building ; it is very famous .",
     "scr_score": {
-      "choice1": 1.1784759463042847e-30,
-      "choice2": 1.066612666770804e-29
+      "choice1": 1.9650602601890127e-30,
+      "choice2": 1.4202915005742073e-29
     }
   },
   {
@@ -1073,8 +1073,8 @@
     "search_query": "Google: \"*paid for*generous*\"",
     "ws_sent": "Bob paid for Charlie's college education . He is very generous .",
     "scr_score": {
-      "choice1": 2.162153429968488e-35,
-      "choice2": 2.8845037951735266e-35
+      "choice1": 2.2984455542977324e-24,
+      "choice2": 1.016015370116268e-24
     }
   },
   {
@@ -1087,8 +1087,8 @@
     "search_query": "Google: \".*grateful.*because.*paid for.*\"",
     "ws_sent": "Bob paid for Charlie's college education . He is very grateful .",
     "scr_score": {
-      "choice1": 1.852214506693115e-35,
-      "choice2": 2.418655341303039e-35
+      "choice1": 1.1978534335374455e-24,
+      "choice2": 8.285519729254404e-25
     }
   },
   {
@@ -1101,8 +1101,8 @@
     "search_query": "Google: \" * hurt * not appreciated *  \"",
     "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very hurt .",
     "scr_score": {
-      "choice1": 3.358630054509217e-54,
-      "choice2": 4.9763534676407494e-54
+      "choice1": 1.5978179102661962e-43,
+      "choice2": 2.7650985394735453e-43
     }
   },
   {
@@ -1115,8 +1115,8 @@
     "search_query": "NA",
     "ws_sent": "Bob paid for Charlie's college education , but now Charlie acts as though it never happened . He is very ungrateful .",
     "scr_score": {
-      "choice1": 1.1848135186801006e-54,
-      "choice2": 1.9344933326832443e-54
+      "choice1": 3.666205726465268e-44,
+      "choice2": 5.599340611449363e-44
     }
   },
   {
@@ -1129,8 +1129,8 @@
     "search_query": "\" * if * not lucky * loose * \"\n",
     "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have won .",
     "scr_score": {
-      "choice1": 2.9895589006609404e-57,
-      "choice2": 3.618395122270852e-57
+      "choice1": 1.9119862379801144e-49,
+      "choice2": 2.490773093864733e-49
     }
   },
   {
@@ -1143,8 +1143,8 @@
     "search_query": "Google: \" * lose * unlucky * \"",
     "ws_sent": "Bob was playing cards with Adam and was way ahead . If Adam had not had a sudden run of good luck , he would have lost .",
     "scr_score": {
-      "choice1": 2.580201061005453e-58,
-      "choice2": 2.7784792980132757e-58
+      "choice1": 1.6388555774809856e-50,
+      "choice2": 2.5447783350395245e-50
     }
   },
   {
@@ -1157,8 +1157,8 @@
     "search_query": "\" * on time * replaces * \"\n",
     "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be gone by this time .",
     "scr_score": {
-      "choice1": 2.9437562613706745e-63,
-      "choice2": 1.7049901590819453e-62
+      "choice1": 5.260778324474617e-54,
+      "choice2": 4.404171488287718e-54
     }
   },
   {
@@ -1171,8 +1171,8 @@
     "search_query": "Google: \" * leave * on time * reach * on time * \"",
     "ws_sent": "Adam can not leave work here until Bob arrives to replace him . If Bob had left home for work on time , he would be here by this time .",
     "scr_score": {
-      "choice1": 2.058658260061501e-63,
-      "choice2": 8.195491136636533e-63
+      "choice1": 1.8695096747976147e-54,
+      "choice2": 1.9429201159691932e-54
     }
   },
   {
@@ -1185,8 +1185,8 @@
     "search_query": "Google: \"*made*fooling*\"",
     "ws_sent": "If the con artist has succeeded in fooling Sam , he would have gotten a lot of money .",
     "scr_score": {
-      "choice1": 5.055861045135654e-38,
-      "choice2": 1.8147844418078194e-40
+      "choice1": 3.616168697509355e-32,
+      "choice2": 1.0490024323896728e-32
     }
   },
   {
@@ -1199,8 +1199,8 @@
     "search_query": "Google: \" * deceived * so * lost * \"",
     "ws_sent": "If the con artist has succeeded in fooling Sam , he would have lost a lot of money .",
     "scr_score": {
-      "choice1": 6.248022051752392e-37,
-      "choice2": 2.8719080125113228e-39
+      "choice1": 5.5244274721080935e-31,
+      "choice2": 2.225124721309313e-31
     }
   },
   {
@@ -1213,8 +1213,8 @@
     "search_query": "Google: moved because hot",
     "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was hot .",
     "scr_score": {
-      "choice1": 1.633540500812567e-51,
-      "choice2": 2.707186291298028e-65
+      "choice1": 2.2711328449620183e-54,
+      "choice2": 8.588777207652402e-54
     }
   },
   {
@@ -1227,8 +1227,8 @@
     "search_query": "Google: moved because hot",
     "ws_sent": "It was a summer afternoon , and the dog was sitting in the middle of the lawn . After a while , it got up and moved to a spot under the tree , because it was cooler .",
     "scr_score": {
-      "choice1": 1.5498519367723915e-52,
-      "choice2": 3.9498790860006706e-66
+      "choice1": 9.043077602298637e-56,
+      "choice2": 7.668107493060205e-55
     }
   },
   {
@@ -1241,8 +1241,8 @@
     "search_query": "NA",
     "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too impatient .",
     "scr_score": {
-      "choice1": 1.0091759035888791e-33,
-      "choice2": 3.7451369908611996e-33
+      "choice1": 1.5157304767614821e-34,
+      "choice2": 1.182966860352601e-34
     }
   },
   {
@@ -1255,8 +1255,8 @@
     "search_query": "Google: \" * waiting for * but * cautious * \"",
     "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .",
     "scr_score": {
-      "choice1": 3.541093250222222e-34,
-      "choice2": 1.6925161173859034e-33
+      "choice1": 4.769894861165021e-35,
+      "choice2": 4.642426799194688e-35
     }
   },
   {
@@ -1269,8 +1269,8 @@
     "search_query": "Google: \" * woman * give birth * \"",
     "ws_sent": "Anne gave birth to a daughter last month . She is a very charming woman .",
     "scr_score": {
-      "choice1": 4.5717011804962226e-33,
-      "choice2": 4.00300617902611e-31
+      "choice1": 2.6487355096652935e-27,
+      "choice2": 1.0043675096443028e-27
     }
   },
   {
@@ -1283,8 +1283,8 @@
     "search_query": "Google: \" * given birth to * baby * \"",
     "ws_sent": "Anne gave birth to a daughter last month . She is a very charming baby .",
     "scr_score": {
-      "choice1": 1.4846817530241003e-33,
-      "choice2": 3.179702718797564e-31
+      "choice1": 4.10057198349152e-28,
+      "choice2": 2.5787191102483616e-28
     }
   },
   {
@@ -1297,8 +1297,8 @@
     "search_query": "\" * strange * stops from talking *\"\n",
     "ws_sent": "Alice tried frantically to stop her daughter from chatting at the party , leaving us to wonder why she was behaving so strangely .",
     "scr_score": {
-      "choice1": 2.530992300970253e-50,
-      "choice2": 1.1838435442010315e-48
+      "choice1": 2.787433291156691e-44,
+      "choice2": 2.422266641050764e-44
     }
   },
   {
@@ -1311,8 +1311,8 @@
     "search_query": "NA",
     "ws_sent": "Alice tried frantically to stop her daughter from barking at the party , leaving us to wonder why she was behaving so strangely .",
     "scr_score": {
-      "choice1": 2.0064451552961782e-49,
-      "choice2": 8.715014739954317e-48
+      "choice1": 8.892863811727267e-44,
+      "choice2": 7.985458000737662e-44
     }
   },
   {
@@ -1325,8 +1325,8 @@
     "search_query": "\"*yell* was unhappy * \"",
     "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know why he was , but he looked very unhappy .",
     "scr_score": {
-      "choice1": 3.913857497625898e-62,
-      "choice2": 2.9698379343432996e-55
+      "choice1": 1.7852220006377773e-48,
+      "choice2": 1.4239299040842727e-48
     }
   },
   {
@@ -1339,8 +1339,8 @@
     "search_query": "\" * yelled at * unhappy *\"\n",
     "ws_sent": "I saw Jim yelling at some guy in a military uniform with a huge red beard . I do not know who he was , but he looked very unhappy .",
     "scr_score": {
-      "choice1": 1.1594127148382029e-60,
-      "choice2": 1.3270033808247274e-52
+      "choice1": 4.100120833404019e-47,
+      "choice2": 2.9753720558184294e-46
     }
   },
   {
@@ -1353,8 +1353,8 @@
     "search_query": "Google: \"*ate*because*hungry*\"",
     "ws_sent": "The fish ate the worm . It was hungry .",
     "scr_score": {
-      "choice1": 3.515029287674852e-23,
-      "choice2": 2.8666967928642184e-24
+      "choice1": 8.229937646580147e-21,
+      "choice2": 7.36346688187873e-21
     }
   },
   {
@@ -1367,8 +1367,8 @@
     "search_query": "Google: \"*eat*because*tasty*\"",
     "ws_sent": "The fish ate the worm . It was tasty .",
     "scr_score": {
-      "choice1": 1.783754345685467e-24,
-      "choice2": 7.194154061400098e-26
+      "choice1": 4.1859928204930914e-21,
+      "choice2": 1.1927181364734293e-21
     }
   },
   {
@@ -1381,8 +1381,8 @@
     "search_query": "Google: \" * full  * not get in * \"",
     "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it in .",
     "scr_score": {
-      "choice1": 1.3592921536674674e-41,
-      "choice2": 4.5649240872066074e-45
+      "choice1": 7.765555585092833e-45,
+      "choice2": 4.4153006627028005e-45
     }
   },
   {
@@ -1395,8 +1395,8 @@
     "search_query": "Google: \" * full of * can't get it * \"",
     "ws_sent": "I was trying to open the lock with the key , but someone had filled the keyhole with chewing gum , and I could not get it out .",
     "scr_score": {
-      "choice1": 9.90576849820335e-41,
-      "choice2": 5.534091973009263e-44
+      "choice1": 4.073073153838296e-44,
+      "choice2": 4.3614374786729257e-44
     }
   },
   {
@@ -1409,8 +1409,8 @@
     "search_query": "\" * chased * waited at bottom *\"\n",
     "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the bottom .",
     "scr_score": {
-      "choice1": 2.9121071603282794e-35,
-      "choice2": 1.061079660287188e-35
+      "choice1": 4.1454521363421845e-32,
+      "choice2": 3.9731900058437607e-32
     }
   },
   {
@@ -1423,8 +1423,8 @@
     "search_query": "\" * ran up * waited at top *\"\n",
     "ws_sent": "The dog chased the cat , which ran up a tree . It waited at the top .",
     "scr_score": {
-      "choice1": 3.148342297701053e-35,
-      "choice2": 1.4208743031900675e-35
+      "choice1": 4.2290215754794114e-32,
+      "choice2": 4.4433632703190836e-32
     }
   },
   {
@@ -1437,8 +1437,8 @@
     "search_query": "Google: \"*tree*fell*removed*\"",
     "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it removed .",
     "scr_score": {
-      "choice1": 6.848591589364763e-39,
-      "choice2": 6.333907369487609e-39
+      "choice1": 2.0729425191640233e-38,
+      "choice2": 4.071030986550359e-38
     }
   },
   {
@@ -1451,8 +1451,8 @@
     "search_query": "NA",
     "ws_sent": "In the storm , the tree fell down and crashed through the roof of my house . Now , I have to get it repaired .",
     "scr_score": {
-      "choice1": 2.3011346136522627e-39,
-      "choice2": 1.5161286700159967e-38
+      "choice1": 5.51127747042772e-38,
+      "choice2": 2.3081440519469522e-37
     }
   },
   {
@@ -1465,8 +1465,8 @@
     "search_query": "Google: \" * stab * and * arrested * \"",
     "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the police station .",
     "scr_score": {
-      "choice1": 9.608301126115357e-40,
-      "choice2": 1.0346467700081652e-39
+      "choice1": 7.365896316934082e-34,
+      "choice2": 1.001802436212563e-34
     }
   },
   {
@@ -1479,8 +1479,8 @@
     "search_query": "Google: \" * stabbed * taken to * \"",
     "ws_sent": "The customer walked into the bank and stabbed one of the tellers . He was immediately taken to the hospital .",
     "scr_score": {
-      "choice1": 2.573596981182496e-39,
-      "choice2": 5.837423124256245e-41
+      "choice1": 5.7453403964614356e-33,
+      "choice2": 1.1298191249275934e-33
     }
   },
   {
@@ -1493,8 +1493,8 @@
     "search_query": "Google: \" * hear * whistle * annoyed * \"",
     "ws_sent": "John was doing research in the library when he heard a man humming and whistling . He was very annoyed .",
     "scr_score": {
-      "choice1": 3.934385427265041e-44,
-      "choice2": 1.185396245878866e-41
+      "choice1": 3.0707660792429497e-34,
+      "choice2": 6.477614428069019e-34
     }
   },
   {
@@ -1507,8 +1507,8 @@
     "search_query": "Google: \" * whistling * annoying * \"",
     "ws_sent": "John was doing research in the library when he heard a man humming and whistling . He was very annoying .",
     "scr_score": {
-      "choice1": 1.2545270056398718e-44,
-      "choice2": 9.32126072123422e-42
+      "choice1": 7.488568700216697e-35,
+      "choice2": 3.8046676508751637e-34
     }
   },
   {
@@ -1521,8 +1521,8 @@
     "search_query": "Google: \" * juggling * impressed * \"",
     "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressed .",
     "scr_score": {
-      "choice1": 1.0335781150090552e-43,
-      "choice2": 1.5976872669886333e-44
+      "choice1": 5.343957443215401e-34,
+      "choice2": 1.088464624018131e-33
     }
   },
   {
@@ -1535,8 +1535,8 @@
     "search_query": "NA",
     "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressive .",
     "scr_score": {
-      "choice1": 1.0283254389410002e-44,
-      "choice2": 6.286140050859406e-45
+      "choice1": 3.9539876459512364e-35,
+      "choice2": 5.265444449253017e-34
     }
   },
   {
@@ -1549,8 +1549,8 @@
     "search_query": "Google: \" * collapsed * sick * \"",
     "ws_sent": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very ill .",
     "scr_score": {
-      "choice1": 4.480004631039253e-47,
-      "choice2": 5.740690399370894e-48
+      "choice1": 1.6495390037954103e-38,
+      "choice2": 1.2364683328216283e-38
     }
   },
   {
@@ -1563,8 +1563,8 @@
     "search_query": "Google: \" * concerned * helped * \"",
     "ws_sent": "Bob collapsed on the sidewalk . Soon he saw Carl coming to help . He was very concerned .",
     "scr_score": {
-      "choice1": 9.498586926404364e-48,
-      "choice2": 2.125301334824255e-48
+      "choice1": 2.837723618483651e-38,
+      "choice2": 1.881737882140911e-38
     }
   },
   {
@@ -1577,8 +1577,8 @@
     "search_query": "NA",
     "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .",
     "scr_score": {
-      "choice1": 1.2318480944213655e-49,
-      "choice2": 1.151260998028145e-47
+      "choice1": 8.512850686476007e-38,
+      "choice2": 2.4496628008098113e-38
     }
   },
   {
@@ -1591,8 +1591,8 @@
     "search_query": "Google: \"*unhappy*because*snob*\"",
     "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are snobs .",
     "scr_score": {
-      "choice1": 3.891837832202867e-49,
-      "choice2": 2.0146089306630155e-46
+      "choice1": 3.2109166149655573e-37,
+      "choice2": 5.317452053212986e-37
     }
   },
   {
@@ -1605,8 +1605,8 @@
     "search_query": "\" * lies * should * truthful *\"\n",
     "ws_sent": "Mark told Pete many lies about himself , which Pete included in his book . He should have been more truthful .",
     "scr_score": {
-      "choice1": 1.801274098794368e-53,
-      "choice2": 3.952388123315448e-53
+      "choice1": 7.665163488525486e-43,
+      "choice2": 9.225704593133928e-43
     }
   },
   {
@@ -1619,8 +1619,8 @@
     "search_query": "\" * lied to * skeptical * \"\n",
     "ws_sent": "Mark told Pete many lies about himself , which Pete included in his book . He should have been more skeptical .",
     "scr_score": {
-      "choice1": 2.2135909824315594e-55,
-      "choice2": 6.661566127056219e-54
+      "choice1": 3.1644569035731664e-43,
+      "choice2": 4.175846873995921e-43
     }
   },
   {
@@ -1633,8 +1633,8 @@
     "search_query": "Google: \".*sold.*so.*move out.*\"",
     "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving out of it on Thursday .",
     "scr_score": {
-      "choice1": 2.118056897911951e-39,
-      "choice2": 2.951737987571701e-39
+      "choice1": 1.006402314196336e-38,
+      "choice2": 1.384793602726195e-38
     }
   },
   {
@@ -1647,8 +1647,8 @@
     "search_query": "Google: \".*sell.*old house.*move into.*\"",
     "ws_sent": "Joe has sold his house and bought a new one a few miles away . He will be moving into it on Thursday .",
     "scr_score": {
-      "choice1": 3.651537013030486e-39,
-      "choice2": 6.772287040444081e-38
+      "choice1": 3.287300241909401e-38,
+      "choice2": 4.754801152381259e-38
     }
   },
   {
@@ -1661,8 +1661,8 @@
     "search_query": "NA",
     "ws_sent": "Many people start to read Paul's books and can not put them down . They are gripped because Paul writes so well .",
     "scr_score": {
-      "choice1": 2.444600009438803e-49,
-      "choice2": 2.9528243219870716e-55
+      "choice1": 1.7475369953077414e-41,
+      "choice2": 3.6159097607893526e-41
     }
   },
   {
@@ -1675,8 +1675,8 @@
     "search_query": "Google: \" * popular * because * well written * \"",
     "ws_sent": "Many people start to read Paul's books and can not put them down . They are popular because Paul writes so well .",
     "scr_score": {
-      "choice1": 2.2121944081551464e-47,
-      "choice2": 1.9676196733219518e-51
+      "choice1": 5.284178511443435e-39,
+      "choice2": 4.886810181045948e-37
     }
   },
   {
@@ -1689,8 +1689,8 @@
     "search_query": "\" * had flute * childhood * \"\n",
     "ws_sent": "Mary took out her flute and played one of her favorite pieces . She has had it since she was a child .",
     "scr_score": {
-      "choice1": 2.5722920614177323e-35,
-      "choice2": 1.3053972857922102e-36
+      "choice1": 1.5861846243359257e-36,
+      "choice2": 3.6526024828164847e-37
     }
   },
   {
@@ -1703,8 +1703,8 @@
     "search_query": "\" * loved * musical piece * \"\n",
     "ws_sent": "Mary took out her flute and played one of her favorite pieces . She has loved it since she was a child .",
     "scr_score": {
-      "choice1": 1.6966661125953647e-35,
-      "choice2": 6.206881247582414e-37
+      "choice1": 2.3641124053900674e-36,
+      "choice2": 5.557437062967905e-37
     }
   },
   {
@@ -1717,8 +1717,8 @@
     "search_query": "\"*chair was broken* stand *\"",
     "ws_sent": "Sam pulled up a chair to the piano , but it was broken , so he had to stand instead .",
     "scr_score": {
-      "choice1": 3.5246167648038043e-34,
-      "choice2": 1.943158087055076e-33
+      "choice1": 2.7265528802590327e-34,
+      "choice2": 8.596797109830637e-35
     }
   },
   {
@@ -1731,8 +1731,8 @@
     "search_query": "NA",
     "ws_sent": "Sam pulled up a chair to the piano , but it was broken , so he had to sing instead .",
     "scr_score": {
-      "choice1": 2.836615206020586e-34,
-      "choice2": 9.119043653566424e-33
+      "choice1": 2.5199860624144557e-34,
+      "choice2": 1.0007510995053785e-33
     }
   },
   {
@@ -1745,8 +1745,8 @@
     "search_query": "Google: \".*carry.*in.*keep.*dry.*\"",
     "ws_sent": "Since it was raining , I carried the newspaper in my backpack to keep it dry .",
     "scr_score": {
-      "choice1": 9.452356803003767e-33,
-      "choice2": 1.262606526492585e-33
+      "choice1": 1.7293732980739086e-28,
+      "choice2": 3.3483128689500795e-28
     }
   },
   {
@@ -1759,8 +1759,8 @@
     "search_query": "Google: \" * put over * protect * \"",
     "ws_sent": "Since it was raining , I carried the newspaper over my backpack to keep it dry .",
     "scr_score": {
-      "choice1": 2.723937007382085e-35,
-      "choice2": 1.0537723983489781e-35
+      "choice1": 9.560251508190826e-31,
+      "choice2": 1.6346876106158342e-30
     }
   },
   {
@@ -1773,8 +1773,8 @@
     "search_query": "\" * reads a book * \"\n",
     "ws_sent": "Sara borrowed the book from the library because she needs it for an article she is working on . She reads it when she gets home from work .",
     "scr_score": {
-      "choice1": 8.886479928170722e-46,
-      "choice2": 1.8091829129382104e-48
+      "choice1": 4.256496645234713e-44,
+      "choice2": 2.75707335224966e-44
     }
   },
   {
@@ -1787,8 +1787,8 @@
     "search_query": "NA",
     "ws_sent": "Sara borrowed the book from the library because she needs it for an article she is working on . She writes it when she gets home from work .",
     "scr_score": {
-      "choice1": 2.35790748579876e-47,
-      "choice2": 1.5069715341736638e-49
+      "choice1": 5.127559548897802e-45,
+      "choice2": 5.511828466057581e-45
     }
   },
   {
@@ -1801,8 +1801,8 @@
     "search_query": "\" * tide knocked  * sandcastle *  \"\n",
     "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the tide knocked it down .",
     "scr_score": {
-      "choice1": 5.4956484657305565e-58,
-      "choice2": 1.150853567986858e-56
+      "choice1": 1.1594462016862355e-57,
+      "choice2": 1.2149975689079197e-57
     }
   },
   {
@@ -1815,8 +1815,8 @@
     "search_query": "\" * wind knocked  * flag * \"\n",
     "ws_sent": "This morning , Joey built a sand castle on the beach , and put a toy flag in the highest tower , but this afternoon the wind knocked it down .",
     "scr_score": {
-      "choice1": 1.4819472309277208e-56,
-      "choice2": 1.4818776508568446e-54
+      "choice1": 1.2761484707792334e-55,
+      "choice2": 1.4685440141062011e-55
     }
   },
   {
@@ -1829,8 +1829,8 @@
     "search_query": "Google: \".*knocked.*answer.*disappointed.*\"",
     "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was disappointed .",
     "scr_score": {
-      "choice1": 8.890384653488929e-36,
-      "choice2": 2.1732332801046502e-35
+      "choice1": 6.09302661913169e-25,
+      "choice2": 5.461194703253521e-25
     }
   },
   {
@@ -1843,8 +1843,8 @@
     "search_query": "Google: \" * knocked on * was out * \"",
     "ws_sent": "Jane knocked on Susan's door , but there was no answer . She was out .",
     "scr_score": {
-      "choice1": 6.228143746370645e-35,
-      "choice2": 1.2053817172285697e-34
+      "choice1": 9.371534198145038e-25,
+      "choice2": 8.051852887348025e-25
     }
   },
   {
@@ -1857,8 +1857,8 @@
     "search_query": "Google: \" * knock  * ask * come out * \"",
     "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come out .",
     "scr_score": {
-      "choice1": 5.703734656675167e-37,
-      "choice2": 1.5278657069126545e-36
+      "choice1": 3.1459841671739287e-27,
+      "choice2": 2.6430744423533205e-27
     }
   },
   {
@@ -1871,8 +1871,8 @@
     "search_query": "Google: \" * knocked * answered * invited * \"",
     "ws_sent": "Jane knocked on the door , and Susan answered it . She invited her to come in .",
     "scr_score": {
-      "choice1": 3.626875559481693e-36,
-      "choice2": 9.737035912465753e-36
+      "choice1": 1.594216296576324e-26,
+      "choice2": 1.3716610421360772e-26
     }
   },
   {
@@ -1885,8 +1885,8 @@
     "search_query": "Google: \" * want to learn * take * classes * \"",
     "ws_sent": "Sam took French classes from Adam , because he was eager to speak it fluently .",
     "scr_score": {
-      "choice1": 7.555541931252203e-43,
-      "choice2": 7.843406307541344e-42
+      "choice1": 2.045532113414189e-34,
+      "choice2": 1.5057554748878288e-34
     }
   },
   {
@@ -1899,8 +1899,8 @@
     "search_query": "Google: \" * knows how to * so * teaches * \"",
     "ws_sent": "Sam took French classes from Adam , because he was known to speak it fluently .",
     "scr_score": {
-      "choice1": 2.611665208241021e-42,
-      "choice2": 3.702536667083919e-41
+      "choice1": 9.388019319063977e-34,
+      "choice2": 1.2451948065747482e-33
     }
   },
   {
@@ -1913,8 +1913,8 @@
     "search_query": "Google: \".*use.*because.*blocked.*\"",
     "ws_sent": "The path to the lake was blocked , so we could not use it  .",
     "scr_score": {
-      "choice1": 9.183928410110546e-24,
-      "choice2": 1.4194011779100048e-23
+      "choice1": 3.1018499244312067e-24,
+      "choice2": 3.1449501457627033e-24
     }
   },
   {
@@ -1927,8 +1927,8 @@
     "search_query": "NA",
     "ws_sent": "The path to the lake was blocked , so we could not reach it  .",
     "scr_score": {
-      "choice1": 2.1967177036013017e-23,
-      "choice2": 1.3619910704663191e-22
+      "choice1": 1.9547491787221463e-23,
+      "choice2": 2.4711769155165693e-23
     }
   },
   {
@@ -1941,8 +1941,8 @@
     "search_query": "\" * covered with clouds  * but * was out * \"\n",
     "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was out .",
     "scr_score": {
-      "choice1": 2.6530689122361084e-36,
-      "choice2": 6.629783808882732e-40
+      "choice1": 2.3126926279130292e-38,
+      "choice2": 8.372822732899033e-40
     }
   },
   {
@@ -1955,8 +1955,8 @@
     "search_query": "\" * clouds  * but fortunately * \"\n",
     "ws_sent": "The sun was covered by a thick cloud all morning , but luckily , by the time the picnic started , it was gone .",
     "scr_score": {
-      "choice1": 8.372722699259795e-38,
-      "choice2": 1.09427263864112e-38
+      "choice1": 1.6081418588387232e-39,
+      "choice2": 8.019138739283949e-39
     }
   },
   {
@@ -1969,8 +1969,8 @@
     "search_query": "NA",
     "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a safer place to swim .",
     "scr_score": {
-      "choice1": 3.4891802428703815e-41,
-      "choice2": 1.428803731984849e-45
+      "choice1": 2.2884342830026033e-41,
+      "choice2": 1.6653234261414301e-41
     }
   },
   {
@@ -1983,8 +1983,8 @@
     "search_query": "NA",
     "ws_sent": "We went to the lake , because a shark had been seen at the ocean beach , so it was a dangerous place to swim .",
     "scr_score": {
-      "choice1": 3.200276512370664e-40,
-      "choice2": 1.0299645608351826e-44
+      "choice1": 2.5410792573265545e-40,
+      "choice2": 1.507498811100371e-40
     }
   },
   {
@@ -1997,8 +1997,8 @@
     "search_query": "\" * people  * look like * golfers * \"\n",
     "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like golfers .",
     "scr_score": {
-      "choice1": 5.958210819550141e-40,
-      "choice2": 2.124794468720602e-39
+      "choice1": 3.91809501327047e-40,
+      "choice2": 3.904296659454029e-40
     }
   },
   {
@@ -2011,8 +2011,8 @@
     "search_query": "\" * sheep look like dogs * \"\n",
     "ws_sent": "Sam tried to paint a picture of shepherds with sheep , but they ended up looking more like dogs .",
     "scr_score": {
-      "choice1": 2.3135573562871458e-36,
-      "choice2": 1.3239187635031516e-35
+      "choice1": 9.313823004065228e-37,
+      "choice2": 1.0245908762692948e-36
     }
   },
   {
@@ -2025,8 +2025,8 @@
     "search_query": "NA",
     "ws_sent": "Mary tucked her daughter Anne into bed , so that she could work .",
     "scr_score": {
-      "choice1": 2.2910106427997372e-30,
-      "choice2": 3.106234078121801e-28
+      "choice1": 2.2363558801187682e-26,
+      "choice2": 2.692517281329614e-26
     }
   },
   {
@@ -2039,8 +2039,8 @@
     "search_query": "Google: \".*tucked.*sleep.*\"",
     "ws_sent": "Mary tucked her daughter Anne into bed , so that she could sleep .",
     "scr_score": {
-      "choice1": 7.388783440728436e-29,
-      "choice2": 1.5670222303650915e-26
+      "choice1": 1.2084677558794595e-24,
+      "choice2": 1.3874643794794806e-24
     }
   },
   {
@@ -2053,8 +2053,8 @@
     "search_query": "\" * coats * but * not prepared for cold *\"\n",
     "ws_sent": "Fred and Alice had very warm down coats , but they were not prepared for the cold in Alaska .",
     "scr_score": {
-      "choice1": 3.0569254446445546e-49,
-      "choice2": 9.866383567653465e-41
+      "choice1": 1.2242746537059352e-36,
+      "choice2": 4.265159565321518e-37
     }
   },
   {
@@ -2067,8 +2067,8 @@
     "search_query": "\" * coats * not enough for cold *\"\n",
     "ws_sent": "Fred and Alice had very warm down coats , but they were not enough for the cold in Alaska .",
     "scr_score": {
-      "choice1": 2.5848442306768536e-51,
-      "choice2": 1.6735822579013507e-41
+      "choice1": 8.361086717604383e-39,
+      "choice2": 5.504491246572953e-37
     }
   },
   {
@@ -2081,8 +2081,8 @@
     "search_query": "NA",
     "ws_sent": "Thomson visited Cooper's grave in 1765 . At that date he had been travelling for five years .",
     "scr_score": {
-      "choice1": 1.0489845776840703e-51,
-      "choice2": 2.930155633267958e-50
+      "choice1": 6.40092429260399e-42,
+      "choice2": 5.780090423273911e-42
     }
   },
   {
@@ -2095,8 +2095,8 @@
     "search_query": "Google: \" * died * visit * grave * \"",
     "ws_sent": "Thomson visited Cooper's grave in 1765 . At that date he had been dead for five years .",
     "scr_score": {
-      "choice1": 5.6302972950917826e-49,
-      "choice2": 9.781484528886407e-48
+      "choice1": 2.1587187219367033e-39,
+      "choice2": 4.521606048456231e-39
     }
   },
   {
@@ -2109,8 +2109,8 @@
     "search_query": "NA",
     "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
     "scr_score": {
-      "choice1": 1.6393598753937558e-36,
-      "choice2": 1.269584414883885e-37
+      "choice1": 6.391015484777861e-29,
+      "choice2": 7.152180123418503e-29
     }
   },
   {
@@ -2123,8 +2123,8 @@
     "search_query": "NA",
     "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries earlier .",
     "scr_score": {
-      "choice1": 6.194854304461174e-37,
-      "choice2": 4.3067550392065266e-38
+      "choice1": 2.5763466573283294e-29,
+      "choice2": 2.9285687116782064e-29
     }
   },
   {
@@ -2137,8 +2137,8 @@
     "search_query": "Google: \".*thick.*so.*couldn't cut.*\"",
     "ws_sent": "I can not cut that tree down with that axe ; it is too thick .",
     "scr_score": {
-      "choice1": 5.063069004103686e-28,
-      "choice2": 6.892348248925882e-29
+      "choice1": 6.888172182308098e-29,
+      "choice2": 1.1726154154561644e-28
     }
   },
   {
@@ -2151,8 +2151,8 @@
     "search_query": "\" * small  * can not cut * \"\n",
     "ws_sent": "I can not cut that tree down with that axe ; it is too small .",
     "scr_score": {
-      "choice1": 6.837219240902367e-27,
-      "choice2": 7.124875819954797e-28
+      "choice1": 6.590886037205438e-28,
+      "choice2": 4.436455572636265e-28
     }
   },
   {
@@ -2165,8 +2165,8 @@
     "search_query": "\"*attacked*so*killed*\"",
     "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to kill them  .",
     "scr_score": {
-      "choice1": 1.522266393342828e-35,
-      "choice2": 1.311091541036363e-34
+      "choice1": 2.8479061478080694e-37,
+      "choice2": 2.7566573755945415e-37
     }
   },
   {
@@ -2179,8 +2179,8 @@
     "search_query": "\"*was attacked*was protected*\"",
     "ws_sent": "The foxes are getting in at night and attacking the chickens . I shall have to guard them  .",
     "scr_score": {
-      "choice1": 8.700076103386656e-38,
-      "choice2": 3.797854743818924e-36
+      "choice1": 9.149061726244072e-39,
+      "choice2": 9.452880720960386e-39
     }
   },
   {
@@ -2193,8 +2193,8 @@
     "search_query": "Google: \" * bold * attacking * \"",
     "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very bold .",
     "scr_score": {
-      "choice1": 1.654759638426207e-38,
-      "choice2": 2.4911128997260984e-38
+      "choice1": 5.069580504178293e-35,
+      "choice2": 1.7218605621084057e-35
     }
   },
   {
@@ -2207,8 +2207,8 @@
     "search_query": "NA",
     "ws_sent": "The foxes are getting in at night and attacking the chickens . They have gotten very nervous .",
     "scr_score": {
-      "choice1": 3.9780372908175147e-38,
-      "choice2": 1.6503617303263591e-37
+      "choice1": 1.1604991329569633e-34,
+      "choice2": 1.1705708140933898e-34
     }
   },
   {
@@ -2221,8 +2221,8 @@
     "search_query": "NA",
     "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He opened them when the wind stopped .",
     "scr_score": {
-      "choice1": 3.221755118325178e-45,
-      "choice2": 4.251491155511323e-47
+      "choice1": 1.7546665308164108e-45,
+      "choice2": 1.5618988860705238e-45
     }
   },
   {
@@ -2235,8 +2235,8 @@
     "search_query": "NA",
     "ws_sent": "Fred covered his eyes with his hands , because the wind was blowing sand around . He lowered them when the wind stopped .",
     "scr_score": {
-      "choice1": 8.547271995755677e-47,
-      "choice2": 3.2432748769408836e-47
+      "choice1": 5.461176041348629e-46,
+      "choice2": 5.5358365166736196e-46
     }
   },
   {
@@ -2249,8 +2249,8 @@
     "search_query": "\" * changed * name to * hard to pronounce * \"\n",
     "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was too hard to pronounce .",
     "scr_score": {
-      "choice1": 3.8823747757732517e-63,
-      "choice2": 1.7230449010214664e-60
+      "choice1": 9.610011468778917e-46,
+      "choice2": 2.3792708839846963e-46
     }
   },
   {
@@ -2263,8 +2263,8 @@
     "search_query": "\" * changed * name to * easy to pronounce * \"\n",
     "ws_sent": "The actress used to be named Terpsichore , but she changed it to Tina a few years ago , because she figured it was easier to pronounce .",
     "scr_score": {
-      "choice1": 5.490315483486558e-63,
-      "choice2": 8.553641985299342e-60
+      "choice1": 2.294006584834836e-45,
+      "choice2": 5.9792583500997466e-46
     }
   },
   {
@@ -2277,8 +2277,8 @@
     "search_query": "NA",
     "ws_sent": "Fred watched TV while George went out to buy groceries . After an hour he got up .",
     "scr_score": {
-      "choice1": 3.748421161743119e-43,
-      "choice2": 3.177560949936051e-42
+      "choice1": 2.999368645119632e-33,
+      "choice2": 2.6768986274503013e-33
     }
   },
   {
@@ -2291,8 +2291,8 @@
     "search_query": "Google: \"*went out*got back*\"",
     "ws_sent": "Fred watched TV while George went out to buy groceries . After an hour he got back .",
     "scr_score": {
-      "choice1": 1.7241524965057496e-43,
-      "choice2": 9.057186238422733e-43
+      "choice1": 6.603224415200742e-34,
+      "choice2": 7.786108618719035e-34
     }
   },
   {
@@ -2305,8 +2305,8 @@
     "search_query": "\" * put it off  * turn on * \"\n",
     "ws_sent": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it on .",
     "scr_score": {
-      "choice1": 1.109577152708146e-60,
-      "choice2": 8.226746865204029e-62
+      "choice1": 3.139793855389528e-58,
+      "choice2": 4.92404856586275e-58
     }
   },
   {
@@ -2319,8 +2319,8 @@
     "search_query": "\" * not like  * turned off * \"\n",
     "ws_sent": "Fred was supposed to run the dishwasher , but he put it off , because he wanted to watch TV . But the show turned out to be boring , so he changed his mind and turned it off .",
     "scr_score": {
-      "choice1": 8.107158604032705e-61,
-      "choice2": 1.1084949403601375e-61
+      "choice1": 5.015722688700491e-58,
+      "choice2": 4.493950987439611e-58
     }
   },
   {
@@ -2333,8 +2333,8 @@
     "search_query": "\" * alive * great-grandfather * \"",
     "ws_sent": "Fred is the only man still alive who remembers my great-grandfather . He is a remarkable man .",
     "scr_score": {
-      "choice1": 1.560951866647717e-39,
-      "choice2": 8.02164196871088e-41
+      "choice1": 1.0230691172494982e-30,
+      "choice2": 5.23219674339091e-31
     }
   },
   {
@@ -2347,8 +2347,8 @@
     "search_query": "\" * alive * great-grandfather * \"",
     "ws_sent": "Fred is the only man still alive who remembers my great-grandfather . He was a remarkable man .",
     "scr_score": {
-      "choice1": 3.0752218302441114e-40,
-      "choice2": 8.434638532422883e-41
+      "choice1": 7.125871778582929e-31,
+      "choice2": 2.6926224656611426e-30
     }
   },
   {
@@ -2361,8 +2361,8 @@
     "search_query": "infant age limit\n",
     "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve years old .",
     "scr_score": {
-      "choice1": 3.554743927534471e-54,
-      "choice2": 2.905171069864781e-49
+      "choice1": 4.920456257912671e-45,
+      "choice2": 5.186929290017724e-45
     }
   },
   {
@@ -2375,8 +2375,8 @@
     "search_query": "infant age limit\n",
     "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .",
     "scr_score": {
-      "choice1": 2.6379896633663623e-55,
-      "choice2": 1.2956515232696888e-50
+      "choice1": 3.575642419339515e-46,
+      "choice2": 2.4742946700735168e-46
     }
   },
   {
@@ -2389,8 +2389,8 @@
     "search_query": "Google: \"*beat*because*better*\"",
     "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were defeated within weeks .",
     "scr_score": {
-      "choice1": 2.024010133989808e-62,
-      "choice2": 2.024010133989808e-62
+      "choice1": 1.2285796369893959e-60,
+      "choice2": 1.6557188989124648e-60
     }
   },
   {
@@ -2403,8 +2403,8 @@
     "search_query": "Google: \" * win * because * better * \"",
     "ws_sent": "In July , Kamtchatka declared war on Yakutsk . Since Yakutsk's army was much better equipped and ten times larger , they were victorious within weeks .",
     "scr_score": {
-      "choice1": 4.7339880262008905e-63,
-      "choice2": 4.7339880262008905e-63
+      "choice1": 1.3282307583487436e-61,
+      "choice2": 1.6743254333077074e-61
     }
   },
   {
@@ -2417,8 +2417,8 @@
     "search_query": "duck minnow;minnow;\" * want to eat * get away * \"",
     "ws_sent": "Look! There is a minnow swimming right below that duck! It had better get away to safety fast! .",
     "scr_score": {
-      "choice1": 1.0348283494364584e-52,
-      "choice2": 1.9990912625341775e-51
+      "choice1": 3.4534891376004103e-47,
+      "choice2": 6.577221044918823e-47
     }
   },
   {
@@ -2431,8 +2431,8 @@
     "search_query": "\" * want to eat * get away * \"",
     "ws_sent": "Look! There is a shark swimming right below that duck! It had better get away to safety fast! .",
     "scr_score": {
-      "choice1": 2.3661619699031773e-49,
-      "choice2": 7.76726159066331e-51
+      "choice1": 4.599989944093968e-45,
+      "choice2": 2.6443518860777162e-45
     }
   },
   {
@@ -2445,8 +2445,8 @@
     "search_query": "\" * archeologists * evidence * \"\n",
     "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for evidence on the river banks .",
     "scr_score": {
-      "choice1": 7.038758109093782e-49,
-      "choice2": 2.2279802828124505e-47
+      "choice1": 3.345296949641557e-39,
+      "choice2": 4.241045752001394e-39
     }
   },
   {
@@ -2459,8 +2459,8 @@
     "search_query": "\" * humans * years ago * hunted * \"\n",
     "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
     "scr_score": {
-      "choice1": 1.1435693226097012e-49,
-      "choice2": 3.0753145441379737e-46
+      "choice1": 3.0475455468196464e-40,
+      "choice2": 3.2587586493775576e-38
     }
   },
   {
@@ -2473,8 +2473,8 @@
     "search_query": "\" * began * so * found * \"\n",
     "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They began two years ago .",
     "scr_score": {
-      "choice1": 2.69980594662594e-46,
-      "choice2": 8.024262768657905e-46
+      "choice1": 4.973376345154875e-40,
+      "choice2": 5.259355791064168e-41
     }
   },
   {
@@ -2487,8 +2487,8 @@
     "search_query": "NA",
     "ws_sent": "The scientists are studying three species of fish that have recently been found living in the Indian Ocean . They appeared two years ago .",
     "scr_score": {
-      "choice1": 1.6776967426582477e-47,
-      "choice2": 4.9644866754369115e-48
+      "choice1": 1.0413668930603508e-41,
+      "choice2": 1.894613291312907e-40
     }
   },
   {
@@ -2501,8 +2501,8 @@
     "search_query": "\"* interview * was persistent *\"",
     "ws_sent": "The journalists interviewed the stars of the new movie . They were very persistent , so the interview lasted for a long time .",
     "scr_score": {
-      "choice1": 2.4668532804550382e-48,
-      "choice2": 4.286701200249141e-48
+      "choice1": 4.5722668572960945e-41,
+      "choice2": 2.426488700063533e-42
     }
   },
   {
@@ -2515,8 +2515,8 @@
     "search_query": "NA",
     "ws_sent": "The journalists interviewed the stars of the new movie . They were very cooperative , so the interview lasted for a long time .",
     "scr_score": {
-      "choice1": 8.961533379626336e-48,
-      "choice2": 1.9134106227056562e-47
+      "choice1": 8.439411064263536e-40,
+      "choice2": 1.746865283436423e-41
     }
   },
   {
@@ -2529,8 +2529,8 @@
     "search_query": "\"*arrested*to prevent*\"",
     "ws_sent": "The police arrested all of the gang members . They were trying to stop the drug trade in the neighborhood .",
     "scr_score": {
-      "choice1": 2.5800286518523904e-36,
-      "choice2": 7.948085184216118e-39
+      "choice1": 1.7377332568415451e-31,
+      "choice2": 1.2010639569429344e-31
     }
   },
   {
@@ -2543,8 +2543,8 @@
     "search_query": "NA",
     "ws_sent": "The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .",
     "scr_score": {
-      "choice1": 3.4206926051964834e-38,
-      "choice2": 6.211685187351442e-40
+      "choice1": 1.911231439126712e-33,
+      "choice2": 1.556247730015909e-32
     }
   },
   {
@@ -2557,8 +2557,8 @@
     "search_query": "\" * cake * lot of butter * \"\n",
     "ws_sent": "I put the cake away in the refrigerator . It has a lot of butter in it .",
     "scr_score": {
-      "choice1": 1.1018742076087508e-28,
-      "choice2": 4.350855019241895e-31
+      "choice1": 7.537325655192521e-26,
+      "choice2": 3.1423661190526557e-26
     }
   },
   {
@@ -2571,8 +2571,8 @@
     "search_query": "\" * lot of leftovers in * \"\n",
     "ws_sent": "I put the cake away in the refrigerator . It has a lot of leftovers in it .",
     "scr_score": {
-      "choice1": 5.199759319727096e-31,
-      "choice2": 3.429259538983274e-32
+      "choice1": 1.100120467350147e-27,
+      "choice2": 7.815776671027356e-27
     }
   },
   {
@@ -2585,8 +2585,8 @@
     "search_query": "\" * broke * are cured * \"\n",
     "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be better .",
     "scr_score": {
-      "choice1": 6.820039619927315e-47,
-      "choice2": 1.7951403085886248e-45
+      "choice1": 5.057563290391169e-45,
+      "choice2": 3.360378166304269e-45
     }
   },
   {
@@ -2599,8 +2599,8 @@
     "search_query": "\" * using * but * are not needed * \"\n",
     "ws_sent": "Sam broke both his ankles and he is walking with crutches . But a month or so from now they should be unnecessary .",
     "scr_score": {
-      "choice1": 2.626479393538352e-50,
-      "choice2": 9.067837616416315e-48
+      "choice1": 1.6183940900512912e-48,
+      "choice2": 7.971058634289305e-48
     }
   },
   {
@@ -2613,8 +2613,8 @@
     "search_query": "minority meaning",
     "ws_sent": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . They were very much in the minority .",
     "scr_score": {
-      "choice1": 3.020904891027408e-54,
-      "choice2": 1.2516037495897665e-53
+      "choice1": 1.9187341170417e-46,
+      "choice2": 7.086739851619868e-46
     }
   },
   {
@@ -2627,8 +2627,8 @@
     "search_query": "NA",
     "ws_sent": "When the sponsors of the bill got to the town hall , they were surprised to find that the room was full of opponents . They were very much in the majority .",
     "scr_score": {
-      "choice1": 9.984095987621211e-55,
-      "choice2": 6.515706544324807e-54
+      "choice1": 4.765762155827323e-48,
+      "choice2": 1.3486589761944175e-47
     }
   },
   {
@@ -2641,8 +2641,8 @@
     "search_query": "\" * liked * so * made * more * \"\n",
     "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make more of them  .",
     "scr_score": {
-      "choice1": 8.96358580274937e-48,
-      "choice2": 4.360821737178557e-48
+      "choice1": 3.4360053935544123e-47,
+      "choice2": 8.811833136664485e-47
     }
   },
   {
@@ -2655,8 +2655,8 @@
     "search_query": "\" * not likes * so * made * fewer * \"\n",
     "ws_sent": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time , we should make fewer of them  .",
     "scr_score": {
-      "choice1": 5.548318573827314e-51,
-      "choice2": 5.413550276381413e-51
+      "choice1": 5.44481467866689e-50,
+      "choice2": 9.317279434014912e-50
     }
   },
   {
@@ -2669,8 +2669,8 @@
     "search_query": "\" * put * on all * but * not enough  * \"\n",
     "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply not enough of them  .",
     "scr_score": {
-      "choice1": 3.3227709690280236e-47,
-      "choice2": 1.3335443959218777e-41
+      "choice1": 1.8186400395157693e-38,
+      "choice2": 1.6820251565088243e-38
     }
   },
   {
@@ -2683,8 +2683,8 @@
     "search_query": "not enough opposite;\" * put * on all * but * not enough  * \"",
     "ws_sent": "We had hoped to place copies of our newsletter on all the chairs in the auditorium , but there were simply too many of them  .",
     "scr_score": {
-      "choice1": 1.6355564817394071e-46,
-      "choice2": 8.700700431722635e-42
+      "choice1": 1.3528746914679485e-37,
+      "choice2": 1.2917896501185617e-37
     }
   },
   {
@@ -2697,8 +2697,8 @@
     "search_query": "NA",
     "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it left a hole .",
     "scr_score": {
-      "choice1": 1.9514975651487584e-37,
-      "choice2": 2.3082075143301395e-38
+      "choice1": 2.147001949922742e-37,
+      "choice2": 7.786827188104393e-38
     }
   },
   {
@@ -2711,8 +2711,8 @@
     "search_query": "NA",
     "ws_sent": "I stuck a pin through a carrot . When I pulled the pin out , it had a hole .",
     "scr_score": {
-      "choice1": 3.2746632392714598e-37,
-      "choice2": 2.932813375069493e-38
+      "choice1": 5.5958792232714645e-37,
+      "choice2": 2.1006252431472446e-37
     }
   },
   {
@@ -2725,8 +2725,8 @@
     "search_query": "NA",
     "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of coffee .",
     "scr_score": {
-      "choice1": 4.3479495365288775e-52,
-      "choice2": 2.37985281488352e-51
+      "choice1": 4.383974628445356e-52,
+      "choice2": 3.671372269204156e-52
     }
   },
   {
@@ -2739,8 +2739,8 @@
     "search_query": "NA",
     "ws_sent": "I could not find a spoon , so I tried using a pen to stir my coffee . But that turned out to be a bad idea , because it got full of ink .",
     "scr_score": {
-      "choice1": 3.386094344762922e-51,
-      "choice2": 2.6928707463530865e-52
+      "choice1": 4.916859549757182e-51,
+      "choice2": 5.81682743453948e-53
     }
   },
   {
@@ -2753,8 +2753,8 @@
     "search_query": "NA",
     "ws_sent": "Steve follows Fred's example in everything . He admires him hugely .",
     "scr_score": {
-      "choice1": 3.666068970933123e-40,
-      "choice2": 4.0048914620666075e-41
+      "choice1": 1.645522057391434e-30,
+      "choice2": 4.697524240430693e-31
     }
   },
   {
@@ -2767,8 +2767,8 @@
     "search_query": "NA",
     "ws_sent": "Steve follows Fred's example in everything . He influences him hugely .",
     "scr_score": {
-      "choice1": 2.1789029607642545e-41,
-      "choice2": 2.4277429312672764e-42
+      "choice1": 1.074368514858601e-31,
+      "choice2": 5.196390699416572e-32
     }
   },
   {
@@ -2781,8 +2781,8 @@
     "search_query": "Google: \".* fit through.*because.*.*\"",
     "ws_sent": "The table will not fit through the doorway because it is too wide .",
     "scr_score": {
-      "choice1": 1.6271653597164061e-24,
-      "choice2": 4.667363812808985e-25
+      "choice1": 2.106895200645321e-25,
+      "choice2": 5.100781967110869e-25
     }
   },
   {
@@ -2795,8 +2795,8 @@
     "search_query": "Google: \".*fit through.*because.*.*\"",
     "ws_sent": "The table will not fit through the doorway because it is too narrow .",
     "scr_score": {
-      "choice1": 4.8000038469126706e-24,
-      "choice2": 1.344569843214037e-24
+      "choice1": 6.979966007784506e-25,
+      "choice2": 1.8092513481875085e-24
     }
   },
   {
@@ -2809,8 +2809,8 @@
     "search_query": "NA",
     "ws_sent": "Grace was happy to trade me her sweater for my jacket . She thinks it looks dowdy on her .",
     "scr_score": {
-      "choice1": 7.35967781609973e-44,
-      "choice2": 5.985636558724409e-44
+      "choice1": 5.828465511408297e-44,
+      "choice2": 5.822571849265539e-44
     }
   },
   {
@@ -2823,8 +2823,8 @@
     "search_query": "NA",
     "ws_sent": "Grace was happy to trade me her sweater for my jacket . She thinks it looks great on her .",
     "scr_score": {
-      "choice1": 7.954654745576666e-40,
-      "choice2": 6.118897581095075e-40
+      "choice1": 1.1296174968985339e-39,
+      "choice2": 1.1757989027351824e-39
     }
   },
   {
@@ -2837,8 +2837,8 @@
     "search_query": "Google: \"*hired*take care*\"",
     "ws_sent": "John hired Bill to take care of him  .",
     "scr_score": {
-      "choice1": 3.9302648159176957e-22,
-      "choice2": 3.886763895426156e-22
+      "choice1": 4.271052338652014e-16,
+      "choice2": 5.025014319369292e-16
     }
   },
   {
@@ -2851,8 +2851,8 @@
     "search_query": "NA",
     "ws_sent": "John hired himself out to Bill to take care of him  .",
     "scr_score": {
-      "choice1": 1.0376403603083078e-28,
-      "choice2": 1.2723266295903528e-28
+      "choice1": 1.42843287208633e-22,
+      "choice2": 1.6270179240703974e-22
     }
   },
   {
@@ -2865,8 +2865,8 @@
     "search_query": "NA",
     "ws_sent": "John promised Bill to leave , so an hour later he left .",
     "scr_score": {
-      "choice1": 9.962227197755279e-34,
-      "choice2": 1.1116062463350892e-34
+      "choice1": 1.338847299589125e-26,
+      "choice2": 1.1805165501027386e-26
     }
   },
   {
@@ -2879,8 +2879,8 @@
     "search_query": "NA",
     "ws_sent": "John ordered Bill to leave , so an hour later he left .",
     "scr_score": {
-      "choice1": 1.0239620980851366e-31,
-      "choice2": 6.65137126173242e-33
+      "choice1": 8.529244652857039e-25,
+      "choice2": 7.30673356476062e-25
     }
   },
   {
@@ -2893,8 +2893,8 @@
     "search_query": "\" * biography * faced * difficulties\"\n",
     "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research .",
     "scr_score": {
-      "choice1": 3.0801492215940856e-46,
-      "choice2": 3.0801492215940856e-46
+      "choice1": 4.048605640004385e-43,
+      "choice2": 1.4098342615784603e-43
     }
   },
   {
@@ -2907,8 +2907,8 @@
     "search_query": "Google: \" * biography * shows * problems * faced * \"",
     "ws_sent": "Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood .",
     "scr_score": {
-      "choice1": 3.2740370222939095e-45,
-      "choice2": 3.2740370222939095e-45
+      "choice1": 1.8098963481063204e-42,
+      "choice2": 1.4195012583340498e-42
     }
   },
   {
@@ -2921,8 +2921,8 @@
     "search_query": "NA",
     "ws_sent": "Emma's mother had died long ago , and her education had been managed by an excellent woman as governess .",
     "scr_score": {
-      "choice1": 1.9126266905161368e-44,
-      "choice2": 8.867224363224034e-46
+      "choice1": 8.546961695626803e-37,
+      "choice2": 2.1982950292695166e-36
     }
   },
   {
@@ -2935,8 +2935,8 @@
     "search_query": "NA",
     "ws_sent": "Emma's mother had died long ago , and her place had been taken by an excellent woman as governess .",
     "scr_score": {
-      "choice1": 3.5255082047546797e-44,
-      "choice2": 5.151117233301991e-46
+      "choice1": 1.4417630417976421e-36,
+      "choice2": 3.930371921222657e-36
     }
   },
   {
@@ -2949,8 +2949,8 @@
     "search_query": "\" * knocked * but * not get a * \"",
     "ws_sent": "Jane knocked on Susan's door but she did not get an answer .",
     "scr_score": {
-      "choice1": 8.34048333526327e-31,
-      "choice2": 1.9827649711569304e-30
+      "choice1": 3.1099270128704636e-23,
+      "choice2": 2.9015498120005953e-23
     }
   },
   {
@@ -2963,8 +2963,8 @@
     "search_query": "NA",
     "ws_sent": "Jane knocked on Susan's door but she did not answer .",
     "scr_score": {
-      "choice1": 2.026028289308905e-27,
-      "choice2": 5.4395735713145105e-27
+      "choice1": 4.9507737844279874e-20,
+      "choice2": 5.53309406871054e-20
     }
   },
   {
@@ -2977,8 +2977,8 @@
     "search_query": "Google: \"*pay*after*receive*\"",
     "ws_sent": "Joe paid the detective after he received the final report on the case .",
     "scr_score": {
-      "choice1": 4.142652392707464e-37,
-      "choice2": 6.248024169502745e-33
+      "choice1": 4.232144634822795e-29,
+      "choice2": 1.9757989812145003e-28
     }
   },
   {
@@ -2991,8 +2991,8 @@
     "search_query": "NA",
     "ws_sent": "Joe paid the detective after he delivered the final report on the case .",
     "scr_score": {
-      "choice1": 1.086630034788295e-37,
-      "choice2": 3.509136962250611e-33
+      "choice1": 1.5956752327554142e-29,
+      "choice2": 1.4345839121617075e-28
     }
   },
   {
@@ -3005,8 +3005,8 @@
     "search_query": "Google: \" * counted to ten * not get * \"",
     "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and counted to ten .",
     "scr_score": {
-      "choice1": 9.576953587016461e-48,
-      "choice2": 2.817429474733623e-48
+      "choice1": 9.527653361955194e-40,
+      "choice2": 8.719897221710096e-40
     }
   },
   {
@@ -3019,8 +3019,8 @@
     "search_query": "Google: \" * apologized * was not angry anymore * \"",
     "ws_sent": "Beth did not get angry with Sally , who had cut her off , because she stopped and apologized .",
     "scr_score": {
-      "choice1": 4.7082877642355347e-45,
-      "choice2": 2.0199930524783356e-45
+      "choice1": 9.05134373538686e-37,
+      "choice2": 6.207261903467712e-37
     }
   },
   {
@@ -3033,8 +3033,8 @@
     "search_query": "\" * barman * empty glass * \"\n",
     "ws_sent": "Jim signaled the barman and gestured toward his empty glass .",
     "scr_score": {
-      "choice1": 1.6922874296877944e-35,
-      "choice2": 7.948497262606759e-33
+      "choice1": 3.6933677045569754e-29,
+      "choice2": 5.503206173964561e-29
     }
   },
   {
@@ -3047,8 +3047,8 @@
     "search_query": "\" * bar * bathroom keys * \"\n",
     "ws_sent": "Jim signaled the barman and gestured toward his bathroom key .",
     "scr_score": {
-      "choice1": 1.3864731770047523e-38,
-      "choice2": 2.619043387954814e-36
+      "choice1": 7.849727239058042e-32,
+      "choice2": 7.573241014557165e-32
     }
   },
   {
@@ -3061,8 +3061,8 @@
     "search_query": "NA",
     "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was slow .",
     "scr_score": {
-      "choice1": 6.343307543238546e-48,
-      "choice2": 2.6294934340881578e-48
+      "choice1": 1.2601546693567897e-45,
+      "choice2": 1.6823205157454047e-45
     }
   },
   {
@@ -3075,8 +3075,8 @@
     "search_query": "NA",
     "ws_sent": "Dan took the rear seat while Bill claimed the front because his Dibs was quicker .",
     "scr_score": {
-      "choice1": 5.728814578086652e-49,
-      "choice2": 4.0767530348431214e-49
+      "choice1": 2.0432967186761218e-46,
+      "choice2": 2.5908052355655286e-46
     }
   },
   {
@@ -3089,8 +3089,8 @@
     "search_query": "NA",
     "ws_sent": "Tom said Check to Ralph as he moved his bishop .",
     "scr_score": {
-      "choice1": 4.163915700378722e-38,
-      "choice2": 3.790619888978507e-39
+      "choice1": 1.0965033286290272e-32,
+      "choice2": 9.520917353882425e-33
     }
   },
   {
@@ -3103,8 +3103,8 @@
     "search_query": "NA",
     "ws_sent": "Tom said Check to Ralph as he took his bishop .",
     "scr_score": {
-      "choice1": 6.550818938229682e-38,
-      "choice2": 4.4925542662300096e-39
+      "choice1": 1.8129256661741983e-32,
+      "choice2": 2.2622877241980898e-32
     }
   },
   {
@@ -3117,8 +3117,8 @@
     "search_query": "NA",
     "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing strip .",
     "scr_score": {
-      "choice1": 5.599517647548883e-45,
-      "choice2": 9.495430854898837e-44
+      "choice1": 7.361990350417192e-38,
+      "choice2": 7.022034851477221e-38
     }
   },
   {
@@ -3131,8 +3131,8 @@
     "search_query": "NA",
     "ws_sent": "As Andrea in the crop duster passed over Susan , she could see the landing gear .",
     "scr_score": {
-      "choice1": 7.526775960424031e-45,
-      "choice2": 8.68421171313237e-44
+      "choice1": 3.116308471545279e-38,
+      "choice2": 2.9548350299599497e-38
     }
   },
   {
@@ -3145,8 +3145,8 @@
     "search_query": "Google: \" * lift * not have to drive * \"",
     "ws_sent": "Tom gave Ralph a lift to school so he would not have to drive alone .",
     "scr_score": {
-      "choice1": 1.8085079329309694e-36,
-      "choice2": 5.9662150421053215e-37
+      "choice1": 3.8062651489471835e-28,
+      "choice2": 3.792612059471783e-28
     }
   },
   {
@@ -3159,8 +3159,8 @@
     "search_query": "Google: \" * give lift * not walk * \"",
     "ws_sent": "Tom gave Ralph a lift to school so he would not have to walk .",
     "scr_score": {
-      "choice1": 2.3503091382831523e-34,
-      "choice2": 8.97468507087803e-35
+      "choice1": 2.3719054284793633e-26,
+      "choice2": 2.864399681501216e-26
     }
   },
   {
@@ -3173,8 +3173,8 @@
     "search_query": "NA",
     "ws_sent": "Bill passed the half-empty plate to John because he was full .",
     "scr_score": {
-      "choice1": 9.54512455117896e-37,
-      "choice2": 1.4471761754043102e-36
+      "choice1": 3.0305948063752018e-30,
+      "choice2": 2.8944853607956922e-30
     }
   },
   {
@@ -3187,8 +3187,8 @@
     "search_query": "NA",
     "ws_sent": "Bill passed the half-empty plate to John because he was hungry .",
     "scr_score": {
-      "choice1": 8.462766072914532e-38,
-      "choice2": 1.0356851919766881e-35
+      "choice1": 1.9965026656965507e-29,
+      "choice2": 2.615887796762011e-29
     }
   },
   {
@@ -3201,8 +3201,8 @@
     "search_query": "NA",
     "ws_sent": "Bill passed the gameboy to John because his turn was over .",
     "scr_score": {
-      "choice1": 3.0437341394389225e-33,
-      "choice2": 2.753753015283652e-33
+      "choice1": 3.367583267224182e-28,
+      "choice2": 5.863636450765572e-28
     }
   },
   {
@@ -3215,8 +3215,8 @@
     "search_query": "\" * passed * turn was next * \"\n",
     "ws_sent": "Bill passed the gameboy to John because his turn was next .",
     "scr_score": {
-      "choice1": 1.3258559183043207e-34,
-      "choice2": 2.1008704557963114e-34
+      "choice1": 1.7633934773984064e-29,
+      "choice2": 2.3782414019820241e-29
     }
   },
   {
@@ -3229,8 +3229,8 @@
     "search_query": "Google: \" * lift * onto * shoulder * \"",
     "ws_sent": "The man lifted the boy onto his shoulders .",
     "scr_score": {
-      "choice1": 1.949837026729641e-21,
-      "choice2": 3.299185131720502e-21
+      "choice1": 7.098390967138833e-22,
+      "choice2": 8.85437293436564e-22
     }
   },
   {
@@ -3243,8 +3243,8 @@
     "search_query": "\" * on boy's bunk bed * \"\n",
     "ws_sent": "The man lifted the boy onto his bunk bed .",
     "scr_score": {
-      "choice1": 4.225163976378491e-24,
-      "choice2": 7.003413793347591e-23
+      "choice1": 1.6475967968170642e-24,
+      "choice2": 7.72968581625739e-24
     }
   },
   {
@@ -3257,8 +3257,8 @@
     "search_query": "\" * stretching * back * smiled  *\"\n",
     "ws_sent": "Stretching her back , the woman smiled at the girl .",
     "scr_score": {
-      "choice1": 2.971143433039075e-24,
-      "choice2": 3.9264043730372115e-24
+      "choice1": 7.078762550540267e-23,
+      "choice2": 5.967092289217942e-23
     }
   },
   {
@@ -3271,8 +3271,8 @@
     "search_query": "\" * patting * back * smiled  *\"\n",
     "ws_sent": "Patting her back , the woman smiled at the girl .",
     "scr_score": {
-      "choice1": 5.116144722886851e-23,
-      "choice2": 4.7820215754806583e-23
+      "choice1": 2.9497941434238604e-22,
+      "choice2": 1.3199058641749028e-22
     }
   },
   {
@@ -3285,8 +3285,8 @@
     "search_query": "\" * cried * because * not accept  *\"\n",
     "ws_sent": "Billy cried because Toby would not accept his toy .",
     "scr_score": {
-      "choice1": 8.81142644668721e-34,
-      "choice2": 3.169747605250812e-29
+      "choice1": 2.823382817433673e-27,
+      "choice2": 4.752117472337337e-27
     }
   },
   {
@@ -3299,8 +3299,8 @@
     "search_query": "\" * cried * because * not share * \"\n",
     "ws_sent": "Billy cried because Toby would not share his toy .",
     "scr_score": {
-      "choice1": 3.4431367641930417e-34,
-      "choice2": 6.86222456884185e-30
+      "choice1": 8.616572623655765e-28,
+      "choice2": 2.502394715949562e-27
     }
   },
   {
@@ -3313,8 +3313,8 @@
     "search_query": "Google: \" * speak * break their silence * \"",
     "ws_sent": "Lily spoke to Donna , breaking her silence .",
     "scr_score": {
-      "choice1": 8.905687567230847e-30,
-      "choice2": 2.2513618449168573e-29
+      "choice1": 6.364778998907536e-23,
+      "choice2": 3.902458067515003e-23
     }
   },
   {
@@ -3327,8 +3327,8 @@
     "search_query": "Google: \" * speak to * break * concentration * \"",
     "ws_sent": "Lily spoke to Donna , breaking her concentration .",
     "scr_score": {
-      "choice1": 1.3611131189465465e-30,
-      "choice2": 3.6641658260094665e-31
+      "choice1": 1.4388051782461985e-24,
+      "choice2": 7.095888862315997e-25
     }
   },
   {
@@ -3341,8 +3341,8 @@
     "search_query": "NA",
     "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a sympathetic look .",
     "scr_score": {
-      "choice1": 7.274328350884815e-48,
-      "choice2": 6.777165824525675e-49
+      "choice1": 5.916653122995462e-40,
+      "choice2": 4.226540233260378e-40
     }
   },
   {
@@ -3355,8 +3355,8 @@
     "search_query": "NA",
     "ws_sent": "When Tommy dropped his ice cream , Timmy giggled , so father gave him a stern look .",
     "scr_score": {
-      "choice1": 1.5791437615486493e-47,
-      "choice2": 3.6318936242065356e-48
+      "choice1": 3.999646397858176e-39,
+      "choice2": 3.213892489117015e-39
     }
   },
   {
@@ -3369,8 +3369,8 @@
     "search_query": "Google: \".*hurts.*because.*lift.*\"",
     "ws_sent": "As Ollie carried Tommy up the long winding steps , his legs ached .",
     "scr_score": {
-      "choice1": 1.4295640743727267e-42,
-      "choice2": 1.1887647430307334e-41
+      "choice1": 7.603225838986613e-36,
+      "choice2": 5.241265769127946e-36
     }
   },
   {
@@ -3383,8 +3383,8 @@
     "search_query": "Google: \" * carried * because * legs * \"",
     "ws_sent": "As Ollie carried Tommy up the long winding steps , his legs dangled .",
     "scr_score": {
-      "choice1": 3.439826380884776e-42,
-      "choice2": 1.354135277741531e-41
+      "choice1": 1.6851836064724896e-35,
+      "choice2": 1.7722175033368106e-35
     }
   },
   {
@@ -3397,8 +3397,8 @@
     "search_query": "Google: \" * carry * boy * in * arms * \"",
     "ws_sent": "The father carried the sleeping boy in his arms .",
     "scr_score": {
-      "choice1": 4.493393080332661e-24,
-      "choice2": 2.223149507616822e-24
+      "choice1": 2.857083101114928e-24,
+      "choice2": 1.0823860760338988e-24
     }
   },
   {
@@ -3411,8 +3411,8 @@
     "search_query": "\" * carried * in * bassinet * \"\n",
     "ws_sent": "The father carried the sleeping boy in his bassinet .",
     "scr_score": {
-      "choice1": 5.48606183048567e-26,
-      "choice2": 9.909585349792269e-26
+      "choice1": 3.3968721726395823e-26,
+      "choice2": 4.855609702277787e-26
     }
   },
   {
@@ -3425,8 +3425,8 @@
     "search_query": "Google: \" * he held * against * chest * \"",
     "ws_sent": "The woman held the girl against her chest .",
     "scr_score": {
-      "choice1": 2.5121593759073467e-22,
-      "choice2": 2.379386721411227e-22
+      "choice1": 1.7645200282372525e-22,
+      "choice2": 1.8767023317064062e-22
     }
   },
   {
@@ -3439,8 +3439,8 @@
     "search_query": "Google: \" * he held * against * will * \"",
     "ws_sent": "The woman held the girl against her will .",
     "scr_score": {
-      "choice1": 1.4457312378896414e-21,
-      "choice2": 1.0763179522245529e-21
+      "choice1": 1.5574678168420896e-21,
+      "choice2": 2.1110825468303914e-21
     }
   },
   {
@@ -3453,8 +3453,8 @@
     "search_query": "NA",
     "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were furious about it .",
     "scr_score": {
-      "choice1": 4.822996731679053e-50,
-      "choice2": 1.1132606341731801e-52
+      "choice1": 8.439280897608553e-41,
+      "choice2": 1.7044692867299842e-41
     }
   },
   {
@@ -3467,8 +3467,8 @@
     "search_query": "Google: \" * caught having sex * embarrassed * \"",
     "ws_sent": "Pam's parents came home and found her having sex with her boyfriend , Paul . They were embarrassed about it .",
     "scr_score": {
-      "choice1": 5.706511321993652e-51,
-      "choice2": 2.1485960586001397e-53
+      "choice1": 6.001658384508198e-42,
+      "choice2": 2.8807574018142235e-42
     }
   },
   {
@@ -3481,8 +3481,8 @@
     "search_query": "\" * doctor * presented * options *\"\n",
     "ws_sent": "Dr . Adams informed Kate that she had retired and presented several options for future treatment .",
     "scr_score": {
-      "choice1": 1.81655937083207e-45,
-      "choice2": 3.9849278597504116e-42
+      "choice1": 1.291017117994225e-32,
+      "choice2": 1.1418535255292424e-33
     }
   },
   {
@@ -3495,8 +3495,8 @@
     "search_query": "\" * doctor * presented * options *\"\n",
     "ws_sent": "Dr . Adams informed Kate that she had cancer and presented several options for future treatment .",
     "scr_score": {
-      "choice1": 1.1113735226418137e-43,
-      "choice2": 1.3923065594572026e-39
+      "choice1": 2.550673319518526e-31,
+      "choice2": 3.173019944535735e-31
     }
   },
   {
@@ -3509,8 +3509,8 @@
     "search_query": "Google: \" * stopped * from * because * cared * \"",
     "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very compassionate .",
     "scr_score": {
-      "choice1": 9.584696225778797e-46,
-      "choice2": 2.34687853210188e-46
+      "choice1": 4.518025024034756e-36,
+      "choice2": 4.420419784889331e-36
     }
   },
   {
@@ -3523,8 +3523,8 @@
     "search_query": "Google: \" * cruel * toying *  \"",
     "ws_sent": "Dan had to stop Bill from toying with the injured bird . He is very cruel .",
     "scr_score": {
-      "choice1": 1.2204842878267373e-45,
-      "choice2": 2.4806893615703217e-45
+      "choice1": 2.618762081779716e-36,
+      "choice2": 2.959944605488201e-36
     }
   },
   {
@@ -3537,8 +3537,8 @@
     "search_query": "\" * give * even though * eager * \"\n",
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , even though he was not particularly eager to see it .",
     "scr_score": {
-      "choice1": 2.0897898333067138e-52,
-      "choice2": 8.378360567055826e-53
+      "choice1": 2.7775164734360765e-40,
+      "choice2": 2.5527979557124246e-40
     }
   },
   {
@@ -3551,8 +3551,8 @@
     "search_query": "NA",
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was particularly eager to see it .",
     "scr_score": {
-      "choice1": 5.2019424794090514e-51,
-      "choice2": 9.567195437760886e-52
+      "choice1": 3.339111626585271e-39,
+      "choice2": 3.3441634039738485e-39
     }
   },
   {
@@ -3565,8 +3565,8 @@
     "search_query": "NA",
     "ws_sent": "George got free tickets to the play , but he gave them to Eric , because he was not particularly eager to see it .",
     "scr_score": {
-      "choice1": 8.893263065803968e-52,
-      "choice2": 2.7891673448588596e-52
+      "choice1": 6.466863922123452e-40,
+      "choice2": 5.819083807830069e-40
     }
   },
   {
@@ -3579,8 +3579,8 @@
     "search_query": "Google: \" * passed * because * wasn't hungry * \"",
     "ws_sent": "Jane gave Joan candy because she was not hungry .",
     "scr_score": {
-      "choice1": 2.525875267967897e-32,
-      "choice2": 6.744656747618374e-33
+      "choice1": 2.917898722813462e-25,
+      "choice2": 2.4379664951922836e-25
     }
   },
   {
@@ -3593,8 +3593,8 @@
     "search_query": "NA",
     "ws_sent": "Jane gave Joan candy because she was hungry .",
     "scr_score": {
-      "choice1": 4.362139262767521e-31,
-      "choice2": 8.76526270192044e-32
+      "choice1": 4.821316238328395e-24,
+      "choice2": 3.581784259787607e-24
     }
   },
   {
@@ -3607,8 +3607,8 @@
     "search_query": "\" * lemons look like * bulbs * \"\n",
     "ws_sent": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like light bulbs .",
     "scr_score": {
-      "choice1": 8.330946186772171e-47,
-      "choice2": 1.644174088061832e-47
+      "choice1": 1.1830797653681335e-41,
+      "choice2": 8.702620354462045e-42
     }
   },
   {
@@ -3621,8 +3621,8 @@
     "search_query": "\" * trees * look like * telephone poles * \"\n",
     "ws_sent": "I tried to paint a picture of an orchard , with lemons in the lemon trees , but they came out looking more like telephone poles .",
     "scr_score": {
-      "choice1": 3.554088132482368e-48,
-      "choice2": 1.6788922364328984e-48
+      "choice1": 1.6741302208551862e-43,
+      "choice2": 3.0838776315474225e-43
     }
   },
   {
@@ -3635,8 +3635,8 @@
     "search_query": "Google: \"*asked*but*refused*\"",
     "ws_sent": "James asked Robert for a favor but he was refused .",
     "scr_score": {
-      "choice1": 2.2904488566737644e-30,
-      "choice2": 1.0623377215275701e-30
+      "choice1": 4.393997667109939e-23,
+      "choice2": 3.761562680618034e-23
     }
   },
   {
@@ -3649,8 +3649,8 @@
     "search_query": "Google: \"*inquired*but*refused*\"",
     "ws_sent": "James asked Robert for a favor but he refused .",
     "scr_score": {
-      "choice1": 1.5740004600681087e-27,
-      "choice2": 5.660821185135556e-28
+      "choice1": 4.083159062663711e-20,
+      "choice2": 3.210524911086735e-20
     }
   },
   {
@@ -3663,8 +3663,8 @@
     "search_query": "Google: \" * defeat * was unpopular * \"",
     "ws_sent": "Kirilov ceded the presidency to Shatov because he was less popular .",
     "scr_score": {
-      "choice1": 2.935470774781933e-32,
-      "choice2": 2.935470774781933e-32
+      "choice1": 6.2005838626938835e-27,
+      "choice2": 4.846702978624514e-27
     }
   },
   {
@@ -3677,8 +3677,8 @@
     "search_query": "Google: \" * ceded to * popular * \"",
     "ws_sent": "Kirilov ceded the presidency to Shatov because he was more popular .",
     "scr_score": {
-      "choice1": 1.2714357770937966e-31,
-      "choice2": 1.2714357770937966e-31
+      "choice1": 1.106448961973679e-26,
+      "choice2": 8.516564244812208e-27
     }
   },
   {
@@ -3691,8 +3691,8 @@
     "search_query": "NA",
     "ws_sent": "Emma did not pass the ball to Janie although she saw that she was open .",
     "scr_score": {
-      "choice1": 3.373300159718328e-45,
-      "choice2": 1.259402851964815e-37
+      "choice1": 6.744762450741879e-33,
+      "choice2": 7.450234757942186e-33
     }
   },
   {
@@ -3705,8 +3705,8 @@
     "search_query": "NA",
     "ws_sent": "Emma did not pass the ball to Janie although she was open .",
     "scr_score": {
-      "choice1": 7.703456980712607e-37,
-      "choice2": 7.485324817840808e-33
+      "choice1": 2.1573766019667884e-29,
+      "choice2": 2.6637413867902294e-29
     }
   },
   {
@@ -3719,8 +3719,8 @@
     "search_query": "\" * butterfly wing * fragile * \"\n",
     "ws_sent": "I put the butterfly wing on the table and it broke .",
     "scr_score": {
-      "choice1": 6.218813115443217e-25,
-      "choice2": 1.1347061476289268e-22
+      "choice1": 1.4260451469323373e-23,
+      "choice2": 2.3791132194200702e-23
     }
   },
   {
@@ -3733,8 +3733,8 @@
     "search_query": "Google: \"*drop*heavy*on*broke*\"",
     "ws_sent": "I put the heavy book on the table and it broke .",
     "scr_score": {
-      "choice1": 5.553887421546657e-22,
-      "choice2": 3.3710335982831286e-22
+      "choice1": 1.7785738545886585e-22,
+      "choice2": 2.525382945446499e-22
     }
   },
   {
@@ -3747,8 +3747,8 @@
     "search_query": "NA",
     "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
     "scr_score": {
-      "choice1": 1.6767139397547828e-33,
-      "choice2": 2.843367368032697e-29
+      "choice1": 7.668821724261197e-24,
+      "choice2": 2.2860334678051572e-24
     }
   },
   {
@@ -3761,8 +3761,8 @@
     "search_query": "Google: \"*fired*because*slept*\"",
     "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
     "scr_score": {
-      "choice1": 2.1369782411623833e-31,
-      "choice2": 9.245825738722466e-28
+      "choice1": 6.268350748725038e-23,
+      "choice2": 6.629965633408132e-24
     }
   },
   {
@@ -3775,8 +3775,8 @@
     "search_query": "Google: \"*fired*because*slept*\"",
     "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
     "scr_score": {
-      "choice1": 1.4643405469340122e-39,
-      "choice2": 3.282808254879009e-34
+      "choice1": 6.407440753924302e-26,
+      "choice2": 1.9071324513936526e-25
     }
   },
   {
@@ -3789,8 +3789,8 @@
     "search_query": "Google: \" * fired * because * hated * \"",
     "ws_sent": "Madonna fired her trainer because she could not stand her boyfriend .",
     "scr_score": {
-      "choice1": 1.7865660707728506e-40,
-      "choice2": 7.918645220627587e-33
+      "choice1": 1.1083722388590095e-25,
+      "choice2": 7.632367745277041e-25
     }
   },
   {
@@ -3803,8 +3803,8 @@
     "search_query": "\" * suspected * has stolen * \"\n",
     "ws_sent": "Carol believed that Rebecca suspected that she had stolen the watch .",
     "scr_score": {
-      "choice1": 3.8946129197090977e-36,
-      "choice2": 1.866057027984637e-35
+      "choice1": 4.009963179508923e-27,
+      "choice2": 4.008105344730356e-27
     }
   },
   {
@@ -3817,8 +3817,8 @@
     "search_query": "\" * regretted * stolen * \"\n",
     "ws_sent": "Carol believed that Rebecca regretted that she had stolen the watch .",
     "scr_score": {
-      "choice1": 2.9934598564695922e-37,
-      "choice2": 7.390547975992512e-37
+      "choice1": 1.4207426656784676e-28,
+      "choice2": 1.4985046544625266e-28
     }
   },
   {
@@ -3831,8 +3831,8 @@
     "search_query": "\" * shakespeare * inspired by * ovid * \"\n",
     "ws_sent": "This book introduced Shakespeare to Ovid ; it was a major influence on his writing .",
     "scr_score": {
-      "choice1": 1.1421928325820456e-34,
-      "choice2": 9.504733060920624e-32
+      "choice1": 8.160019098907584e-29,
+      "choice2": 1.049402705636212e-28
     }
   },
   {
@@ -3845,8 +3845,8 @@
     "search_query": "\" * goethe * inspired by * shakespeare * \"\n",
     "ws_sent": "This book introduced Shakespeare to Goethe ; it was a major influence on his writing .",
     "scr_score": {
-      "choice1": 1.5078065968480984e-34,
-      "choice2": 1.076724084154073e-31
+      "choice1": 8.261580258452359e-29,
+      "choice2": 7.584848263372569e-29
     }
   },
   {
@@ -3859,8 +3859,8 @@
     "search_query": "\" * shakespeare * inspired by * ovid * \"\n",
     "ws_sent": "This book introduced Shakespeare to Ovid ; it was a fine selection of his writing .",
     "scr_score": {
-      "choice1": 1.0596951261372691e-36,
-      "choice2": 1.2810365291845547e-33
+      "choice1": 1.3692181447797275e-31,
+      "choice2": 9.204569783241582e-32
     }
   },
   {
@@ -3873,8 +3873,8 @@
     "search_query": "\" * goethe * inspired by * shakespeare * \"\n",
     "ws_sent": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing .",
     "scr_score": {
-      "choice1": 1.4970003354306978e-36,
-      "choice2": 1.6528326615925158e-33
+      "choice1": 1.277501077761259e-31,
+      "choice2": 7.484007024889861e-32
     }
   },
   {
@@ -3887,8 +3887,8 @@
     "search_query": "\" * looked * so * spotted * \"\n",
     "ws_sent": "Alice looked for her friend Jade in the crowd . Since she always has good luck , Alice spotted her quickly .",
     "scr_score": {
-      "choice1": 1.053844099868251e-56,
-      "choice2": 3.095132683178598e-54
+      "choice1": 5.722077005619452e-49,
+      "choice2": 1.7837274668731947e-48
     }
   },
   {
@@ -3901,8 +3901,8 @@
     "search_query": "\" * always wears * so * spotted * \"\n",
     "ws_sent": "Alice looked for her friend Jade in the crowd . Since she always wears a red turban , Alice spotted her quickly .",
     "scr_score": {
-      "choice1": 7.0546734418867255e-59,
-      "choice2": 1.810631428551661e-56
+      "choice1": 2.1051357380304516e-51,
+      "choice2": 7.80316668157417e-51
     }
   },
   {
@@ -3915,8 +3915,8 @@
     "search_query": "tag game\n",
     "ws_sent": "During a game of tag , Ethan chased Luke because he was it .",
     "scr_score": {
-      "choice1": 4.445010135734936e-32,
-      "choice2": 1.2884357030970087e-36
+      "choice1": 5.141326889240239e-29,
+      "choice2": 2.61297301868892e-29
     }
   },
   {
@@ -3929,8 +3929,8 @@
     "search_query": "tag game\n",
     "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
     "scr_score": {
-      "choice1": 6.811383499977657e-34,
-      "choice2": 5.818758297152266e-38
+      "choice1": 6.593103399030324e-31,
+      "choice2": 3.574951967697292e-31
     }
   },
   {
@@ -3943,8 +3943,8 @@
     "search_query": "\" * not figure out * because * stupid * \"\n",
     "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so stupid .",
     "scr_score": {
-      "choice1": 2.6730546583205853e-44,
-      "choice2": 2.517925358821167e-44
+      "choice1": 3.0354703374510676e-41,
+      "choice2": 2.8698991268914147e-41
     }
   },
   {
@@ -3957,8 +3957,8 @@
     "search_query": "\" * chatbots * advanced * \"",
     "ws_sent": "At the Loebner competition the judges could not figure out which respondents were the chatbots because they were so advanced .",
     "scr_score": {
-      "choice1": 1.5891786638837625e-45,
-      "choice2": 5.06720597771335e-45
+      "choice1": 1.5007192788557264e-42,
+      "choice2": 5.856088022511668e-42
     }
   },
   {
@@ -3971,8 +3971,8 @@
     "search_query": "\" * changed * password * easy to forget * \"\n",
     "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to forget .",
     "scr_score": {
-      "choice1": 3.099419888687939e-46,
-      "choice2": 4.1350189333783167e-60
+      "choice1": 2.1680080026573077e-42,
+      "choice2": 8.409031176116876e-44
     }
   },
   {
@@ -3985,8 +3985,8 @@
     "search_query": "\" * changed * password * easy to remember * \"",
     "ws_sent": "The user changed his password from GrWQWu8JyC to willow-towered Canopy Huntertropic wrestles as it was easy to remember .",
     "scr_score": {
-      "choice1": 5.285189978009062e-46,
-      "choice2": 7.617726484572174e-60
+      "choice1": 2.366559363487277e-42,
+      "choice2": 8.464346130500316e-44
     }
   }
 ]

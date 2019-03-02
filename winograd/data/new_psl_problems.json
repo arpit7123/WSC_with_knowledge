@@ -21,8 +21,8 @@
       "they$$The demonstrators$$0"
     ],
     "scr_score": [
-      "The city councilmen$$they$$1.4196144206882542e-38",
-      "The demonstrators$$they$$3.510759942941763e-35"
+      "The city councilmen$$they$$3.829933689837034e-34",
+      "The demonstrators$$they$$1.702156157240529e-33"
     ],
     "context": [],
     "case": [],
@@ -68,8 +68,8 @@
       "they$$The demonstrators$$1"
     ],
     "scr_score": [
-      "The city councilmen$$they$$4.641482730606502e-40",
-      "The demonstrators$$they$$5.9488331319324445e-36"
+      "The city councilmen$$they$$1.4042950289785339e-35",
+      "The demonstrators$$they$$1.337113581546516e-34"
     ],
     "context": [],
     "case": [],
@@ -101,8 +101,8 @@
       "it$$the suitcase$$0"
     ],
     "scr_score": [
-      "the trophy$$it$$1.799525707668262e-32",
-      "the suitcase$$it$$7.170487140267147e-31"
+      "the trophy$$it$$1.2153429212500013e-27",
+      "the suitcase$$it$$5.254420477935192e-27"
     ],
     "context": [
       "the trophy$$installed CPU and fan$$K2",
@@ -151,8 +151,8 @@
       "it$$the brown suitcase$$1"
     ],
     "scr_score": [
-      "the trophy$$it$$3.4666272746557547e-32",
-      "the brown suitcase$$it$$2.3359053083274707e-33"
+      "the trophy$$it$$3.3544299614637435e-27",
+      "the brown suitcase$$it$$1.0973058330244357e-26"
     ],
     "context": [
       "it$$PSU$$K1",
@@ -191,8 +191,8 @@
       "she$$Susan$$0"
     ],
     "scr_score": [
-      "Joan$$she$$5.777711179656892e-32",
-      "Susan$$she$$1.143403516380672e-30"
+      "Joan$$she$$5.070089278815632e-25",
+      "Susan$$she$$4.249684420842557e-25"
     ],
     "context": [],
     "case": [],
@@ -224,8 +224,8 @@
       "she$$Susan$$1"
     ],
     "scr_score": [
-      "Joan$$she$$8.571631458760649e-32",
-      "Susan$$she$$7.897900511630578e-31"
+      "Joan$$she$$1.2726777830999459e-22",
+      "Susan$$she$$1.0606476539655516e-22"
     ],
     "context": [],
     "case": [],
@@ -259,8 +259,8 @@
       "he$$George$$0"
     ],
     "scr_score": [
-      "Paul$$he$$3.1678126076662333e-29",
-      "George$$he$$1.3116910089092451e-29"
+      "Paul$$he$$2.8674663888296625e-22",
+      "George$$he$$2.1034364712961272e-22"
     ],
     "context": [],
     "case": [],
@@ -292,8 +292,8 @@
       "he$$George$$1"
     ],
     "scr_score": [
-      "Paul$$he$$2.771267158480741e-28",
-      "George$$he$$1.0353396453910742e-28"
+      "Paul$$he$$3.0116471989357212e-21",
+      "George$$he$$3.936089202845899e-21"
     ],
     "context": [],
     "case": [
@@ -331,8 +331,8 @@
       "he$$the witness$$0"
     ],
     "scr_score": [
-      "the lawyer$$he$$3.644988447612708e-27",
-      "the witness$$he$$1.4888291693508965e-27"
+      "the lawyer$$he$$1.6533008510135482e-25",
+      "the witness$$he$$2.7334243754582917e-25"
     ],
     "context": [],
     "case": [],
@@ -366,8 +366,8 @@
       "he$$the witness$$1"
     ],
     "scr_score": [
-      "the lawyer$$he$$1.203124856630761e-25",
-      "the witness$$he$$3.023708488901286e-26"
+      "the lawyer$$he$$7.613784548212794e-24",
+      "the witness$$he$$9.666910290122667e-24"
     ],
     "context": [],
     "case": [
@@ -403,8 +403,8 @@
       "it$$the school bus$$0"
     ],
     "scr_score": [
-      "the delivery truck$$it$$1.4651344961781882e-32",
-      "the school bus$$it$$2.760746603597897e-30"
+      "the delivery truck$$it$$9.135638732837144e-28",
+      "the school bus$$it$$1.3436863622691077e-27"
     ],
     "context": [],
     "case": [],
@@ -438,8 +438,8 @@
       "it$$the school bus$$1"
     ],
     "scr_score": [
-      "the delivery truck$$it$$1.676235757837191e-33",
-      "the school bus$$it$$3.83639399778313e-31"
+      "the delivery truck$$it$$8.632559154028057e-29",
+      "the school bus$$it$$1.4485257633638292e-28"
     ],
     "context": [],
     "case": [],
@@ -471,8 +471,8 @@
       "he$$Bill$$0"
     ],
     "scr_score": [
-      "Frank$$he$$4.4030420922535224e-44",
-      "Bill$$he$$2.2167570361572852e-43"
+      "Frank$$he$$1.9335581755327797e-35",
+      "Bill$$he$$1.525335980618322e-35"
     ],
     "context": [],
     "case": [
@@ -514,8 +514,8 @@
       "he$$Bill$$1"
     ],
     "scr_score": [
-      "Frank$$he$$2.6183081941007456e-44",
-      "Bill$$he$$1.3665550549215903e-43"
+      "Frank$$he$$5.079227410631975e-36",
+      "Bill$$he$$4.1337996031616424e-36"
     ],
     "context": [],
     "case": [],
@@ -549,8 +549,8 @@
       "he$$The son$$0"
     ],
     "scr_score": [
-      "The man$$he$$4.984280878563358e-24",
-      "The son$$he$$1.0062476211990715e-24"
+      "The man$$he$$1.4038245289513812e-24",
+      "The son$$he$$1.3596734188085574e-24"
     ],
     "context": [],
     "case": [],
@@ -590,8 +590,8 @@
       "he$$his son$$1"
     ],
     "scr_score": [
-      "The man$$he$$1.1338490594357392e-24",
-      "his son$$he$$3.5654404658719076e-25"
+      "The man$$he$$4.261486618719893e-25",
+      "his son$$he$$2.6313234101545307e-25"
     ],
     "context": [],
     "case": [
@@ -625,8 +625,8 @@
       "it$$The table$$0"
     ],
     "scr_score": [
-      "The large ball$$it$$4.484009106099097e-34",
-      "The table$$it$$7.34457228533576e-30"
+      "The large ball$$it$$2.4406824843288697e-31",
+      "The table$$it$$8.873013870887964e-31"
     ],
     "context": [],
     "case": [],
@@ -660,8 +660,8 @@
       "it$$The table$$1"
     ],
     "scr_score": [
-      "The large ball$$it$$1.7463670015531696e-35",
-      "The table$$it$$2.2490214301603355e-31"
+      "The large ball$$it$$1.5076935656154798e-32",
+      "The table$$it$$5.868439223926752e-32"
     ],
     "context": [],
     "case": [],
@@ -697,8 +697,8 @@
       "he$$Billy$$0"
     ],
     "scr_score": [
-      "John$$he$$5.497746978715031e-37",
-      "Billy$$he$$4.003942481417861e-37"
+      "John$$he$$4.7383832295822655e-30",
+      "Billy$$he$$7.514226916934834e-30"
     ],
     "context": [
       "John$$he$$K1",
@@ -735,8 +735,8 @@
       "he$$Billy$$1"
     ],
     "scr_score": [
-      "John$$he$$2.533499259680908e-36",
-      "Billy$$he$$1.1849160860301848e-36"
+      "John$$he$$2.9999671556026627e-29",
+      "Billy$$he$$4.656273299489414e-29"
     ],
     "context": [],
     "case": [
@@ -775,8 +775,8 @@
       "he$$Ray$$0"
     ],
     "scr_score": [
-      "Tom$$he$$1.325677048229841e-38",
-      "Ray$$he$$5.1245221306940286e-40"
+      "Tom$$he$$2.570565840411282e-31",
+      "Ray$$he$$2.5347955332931144e-31"
     ],
     "context": [],
     "case": [],
@@ -812,8 +812,8 @@
       "he$$Ray$$1"
     ],
     "scr_score": [
-      "Tom$$he$$5.3373184968735416e-39",
-      "Ray$$he$$2.3272194916649254e-40"
+      "Tom$$he$$9.919994880964664e-32",
+      "Ray$$he$$1.023632497831196e-31"
     ],
     "context": [],
     "case": [],
@@ -849,8 +849,8 @@
       "she$$Sally$$0"
     ],
     "scr_score": [
-      "Sue$$she$$3.895719187579019e-47",
-      "Sally$$she$$2.1861613545904924e-47"
+      "Sue$$she$$1.1837031080140017e-38",
+      "Sally$$she$$8.633885617853785e-39"
     ],
     "context": [],
     "case": [
@@ -884,8 +884,8 @@
       "she$$Sally$$1"
     ],
     "scr_score": [
-      "Sue$$she$$2.8221278818252823e-47",
-      "Sally$$she$$1.5521339899065784e-47"
+      "Sue$$she$$3.1936555004772e-39",
+      "Sally$$she$$2.6966425030261637e-39"
     ],
     "context": [],
     "case": [
@@ -927,8 +927,8 @@
       "it$$The shelf$$0"
     ],
     "scr_score": [
-      "The sculpture$$it$$1.726723981193653e-29",
-      "The shelf$$it$$1.6006976955539342e-29"
+      "The sculpture$$it$$9.523418152814709e-29",
+      "The shelf$$it$$2.0351411340423135e-28"
     ],
     "context": [],
     "case": [],
@@ -966,8 +966,8 @@
       "it$$The shelf$$1"
     ],
     "scr_score": [
-      "The sculpture$$it$$7.366421587263354e-29",
-      "The shelf$$it$$6.340905169046495e-29"
+      "The sculpture$$it$$2.283676622547062e-28",
+      "The shelf$$it$$5.342217308099695e-28"
     ],
     "context": [],
     "case": [
@@ -1007,8 +1007,8 @@
       "it$$Tina's$$0"
     ],
     "scr_score": [
-      "Sam's drawing$$it$$4.409667491582237e-63",
-      "Tina's$$it$$2.2684012644383679e-60"
+      "Sam's drawing$$it$$3.4505853858476413e-48",
+      "Tina's$$it$$4.580194719420792e-48"
     ],
     "context": [],
     "case": [],
@@ -1040,8 +1040,8 @@
       "it$$Tina's$$1"
     ],
     "scr_score": [
-      "Sam's drawing$$it$$2.8351225756744303e-63",
-      "Tina's$$it$$3.0833729385730713e-60"
+      "Sam's drawing$$it$$6.352183321916253e-48",
+      "Tina's$$it$$8.149721270370293e-48"
     ],
     "context": [],
     "case": [],
@@ -1073,8 +1073,8 @@
       "she$$Lucy$$0"
     ],
     "scr_score": [
-      "Anna$$she$$1.4456180439789348e-45",
-      "Lucy$$she$$1.1121497082679606e-45"
+      "Anna$$she$$4.406690314113946e-37",
+      "Lucy$$she$$2.7978690199597283e-37"
     ],
     "context": [],
     "case": [],
@@ -1108,8 +1108,8 @@
       "she$$Lucy$$1"
     ],
     "scr_score": [
-      "Anna$$she$$4.072645916101953e-47",
-      "Lucy$$she$$2.611781461918183e-47"
+      "Anna$$she$$1.6291476288043665e-38",
+      "Lucy$$she$$1.0168517419706818e-38"
     ],
     "context": [],
     "case": [],
@@ -1141,8 +1141,8 @@
       "they$$The police$$0"
     ],
     "scr_score": [
-      "The firemen$$they$$2.9529812028966877e-30",
-      "The police$$they$$2.986471970114215e-30"
+      "The firemen$$they$$2.1471214684187367e-29",
+      "The police$$they$$6.603048893320404e-30"
     ],
     "context": [],
     "case": [],
@@ -1180,8 +1180,8 @@
       "they$$The police$$1"
     ],
     "scr_score": [
-      "The firemen$$they$$1.8329061632853837e-29",
-      "The police$$they$$1.8634131478452402e-29"
+      "The firemen$$they$$9.394866594938882e-29",
+      "The police$$they$$2.9184524677465675e-29"
     ],
     "context": [],
     "case": [],
@@ -1215,8 +1215,8 @@
       "he$$Tom$$0"
     ],
     "scr_score": [
-      "Frank$$he$$9.715350066786288e-42",
-      "Tom$$he$$4.382290431820339e-40"
+      "Frank$$he$$7.178516266232853e-30",
+      "Tom$$he$$8.699258612145985e-30"
     ],
     "context": [
       "he$$I$$K1",
@@ -1258,8 +1258,8 @@
       "he$$Tom$$1"
     ],
     "scr_score": [
-      "Frank$$he$$1.0125118216202368e-41",
-      "Tom$$he$$6.956185858150792e-40"
+      "Frank$$he$$9.472118637305136e-30",
+      "Tom$$he$$6.746365351604686e-30"
     ],
     "context": [],
     "case": [],
@@ -1291,8 +1291,8 @@
       "he$$Kevin$$0"
     ],
     "scr_score": [
-      "Jim$$he$$1.2221843216608608e-27",
-      "Kevin$$he$$3.0887989824194177e-27"
+      "Jim$$he$$1.0917445928442948e-19",
+      "Kevin$$he$$1.276096130196175e-19"
     ],
     "context": [],
     "case": [],
@@ -1326,8 +1326,8 @@
       "he$$Kevin$$1"
     ],
     "scr_score": [
-      "Jim$$he$$1.3701288431494664e-28",
-      "Kevin$$he$$8.643603116048382e-28"
+      "Jim$$he$$7.398803784372588e-21",
+      "Kevin$$he$$1.432110636242502e-20"
     ],
     "context": [],
     "case": [
@@ -1363,8 +1363,8 @@
       "it$$The bag of flour$$0"
     ],
     "scr_score": [
-      "The sack of potatoes$$it$$2.346184625349593e-36",
-      "The bag of flour$$it$$1.9800595826705115e-35"
+      "The sack of potatoes$$it$$2.6208747082682463e-35",
+      "The bag of flour$$it$$2.319726762658435e-35"
     ],
     "context": [],
     "case": [],
@@ -1396,8 +1396,8 @@
       "it$$The bag of flour$$1"
     ],
     "scr_score": [
-      "The sack of potatoes$$it$$8.051433185457492e-37",
-      "The bag of flour$$it$$6.575097481474381e-36"
+      "The sack of potatoes$$it$$1.10726899819737e-35",
+      "The bag of flour$$it$$9.518763774039888e-36"
     ],
     "context": [],
     "case": [
@@ -1431,8 +1431,8 @@
       "he$$Martin$$0"
     ],
     "scr_score": [
-      "Pete$$he$$1.7701803118185586e-32",
-      "Martin$$he$$6.550360369801121e-32"
+      "Pete$$he$$1.7538539274211539e-25",
+      "Martin$$he$$2.128083747961724e-25"
     ],
     "context": [],
     "case": [],
@@ -1464,8 +1464,8 @@
       "he$$Martin$$1"
     ],
     "scr_score": [
-      "Pete$$he$$1.3536070837003776e-30",
-      "Martin$$he$$5.5783542855092035e-30"
+      "Pete$$he$$2.0002635035333286e-23",
+      "Martin$$he$$2.425557394531655e-23"
     ],
     "context": [],
     "case": [
@@ -1511,8 +1511,8 @@
       "them$$The younger ones$$0"
     ],
     "scr_score": [
-      "The older students$$them$$6.053931586484637e-29",
-      "The younger ones$$them$$1.1703909073186299e-28"
+      "The older students$$them$$3.243955858643995e-29",
+      "The younger ones$$them$$2.956218396115054e-29"
     ],
     "context": [],
     "case": [],
@@ -1544,8 +1544,8 @@
       "them$$The younger ones$$1"
     ],
     "scr_score": [
-      "The older students$$them$$5.287835111702384e-29",
-      "The younger ones$$them$$1.0608343032669964e-28"
+      "The older students$$them$$1.0582391948925504e-29",
+      "The younger ones$$them$$1.0579872428540648e-29"
     ],
     "context": [],
     "case": [],
@@ -1579,8 +1579,8 @@
       "it$$the cup$$0"
     ],
     "scr_score": [
-      "the bottle$$it$$3.492586658422587e-21",
-      "the cup$$it$$1.0611269811966458e-20"
+      "the bottle$$it$$1.777314228419052e-19",
+      "the cup$$it$$1.6724616322732953e-19"
     ],
     "context": [],
     "case": [
@@ -1625,8 +1625,8 @@
       "it$$the cup$$1"
     ],
     "scr_score": [
-      "the bottle$$it$$8.41102560652675e-22",
-      "the cup$$it$$5.3020758235786025e-21"
+      "the bottle$$it$$6.051788734106917e-20",
+      "the cup$$it$$8.5670168988514e-20"
     ],
     "context": [],
     "case": [
@@ -1668,8 +1668,8 @@
       "she$$Ann$$0"
     ],
     "scr_score": [
-      "Susan$$she$$3.460150131580442e-35",
-      "Ann$$she$$2.0510154707580695e-35"
+      "Susan$$she$$9.237486710470025e-28",
+      "Ann$$she$$7.285801443810364e-28"
     ],
     "context": [],
     "case": [],
@@ -1703,8 +1703,8 @@
       "she$$Ann$$1"
     ],
     "scr_score": [
-      "Susan$$she$$1.0778699750915894e-36",
-      "Ann$$she$$2.7793009696222917e-37"
+      "Susan$$she$$1.8395637978554922e-29",
+      "Ann$$she$$2.0088680069349618e-29"
     ],
     "context": [],
     "case": [
@@ -1746,8 +1746,8 @@
       "him$$Mark$$1"
     ],
     "scr_score": [
-      "Sid$$him$$8.815076304723386e-33",
-      "Mark$$him$$2.1960651197900604e-32"
+      "Sid$$him$$2.1085026784203935e-25",
+      "Mark$$him$$2.7273125351789558e-25"
     ],
     "context": [],
     "case": [],
@@ -1791,8 +1791,8 @@
       "him$$Mark$$0"
     ],
     "scr_score": [
-      "Sid$$him$$7.92033470163053e-32",
-      "Mark$$him$$7.568720715000783e-31"
+      "Sid$$him$$4.864655295200735e-25",
+      "Mark$$him$$4.975095210945624e-25"
     ],
     "context": [],
     "case": [],
@@ -1828,8 +1828,8 @@
       "she$$Ann$$0"
     ],
     "scr_score": [
-      "Susan$$she$$5.72760468687864e-38",
-      "Ann$$she$$3.5001490890426985e-38"
+      "Susan$$she$$5.9267327531190525e-30",
+      "Ann$$she$$6.384613692706368e-30"
     ],
     "context": [],
     "case": [],
@@ -1865,8 +1865,8 @@
       "she$$Ann$$1"
     ],
     "scr_score": [
-      "Susan$$she$$6.868797243434612e-39",
-      "Ann$$she$$5.6650441346129623e-39"
+      "Susan$$she$$2.4282927822192006e-31",
+      "Ann$$she$$2.827610172289054e-31"
     ],
     "context": [],
     "case": [],
@@ -1900,8 +1900,8 @@
       "he$$Joe's uncle$$0"
     ],
     "scr_score": [
-      "Joe$$he$$5.7700097041506926e-39",
-      "Joe's uncle$$he$$2.229984754828678e-42"
+      "Joe$$he$$2.0816110231748243e-34",
+      "Joe's uncle$$he$$1.8198184039656822e-34"
     ],
     "context": [],
     "case": [
@@ -1935,8 +1935,8 @@
       "he$$Joe's uncle$$1"
     ],
     "scr_score": [
-      "Joe$$he$$4.660161975999103e-39",
-      "Joe's uncle$$he$$2.668145669496478e-42"
+      "Joe$$he$$2.2651505640926346e-34",
+      "Joe's uncle$$he$$2.386481060095413e-34"
     ],
     "context": [
       "he$$he$$K1",
@@ -1972,8 +1972,8 @@
       "It$$The oak tree$$0"
     ],
     "scr_score": [
-      "The painting$$It$$2.281166457951017e-39",
-      "The oak tree$$It$$1.6426882779097263e-40"
+      "The painting$$It$$2.418702758146744e-35",
+      "The oak tree$$It$$1.9473000111235364e-35"
     ],
     "context": [],
     "case": [],
@@ -2015,8 +2015,8 @@
       "It$$The oak tree$$1"
     ],
     "scr_score": [
-      "The painting$$It$$2.8352062477972984e-40",
-      "The oak tree$$It$$7.422813296008859e-41"
+      "The painting$$It$$1.2758299524488393e-36",
+      "The oak tree$$It$$6.84603261202582e-36"
     ],
     "context": [],
     "case": [],
@@ -2060,8 +2060,8 @@
       "it$$The wall$$0"
     ],
     "scr_score": [
-      "The gap$$it$$3.3521681070095146e-27",
-      "The wall$$it$$1.7118881756724654e-26"
+      "The gap$$it$$1.76229782661761e-27",
+      "The wall$$it$$3.0788524677613913e-27"
     ],
     "context": [],
     "case": [],
@@ -2099,8 +2099,8 @@
       "it$$The wall$$1"
     ],
     "scr_score": [
-      "The gap$$it$$7.251541948135929e-29",
-      "The wall$$it$$1.2744518686752262e-26"
+      "The gap$$it$$4.8314578040657095e-27",
+      "The wall$$it$$6.227192458455239e-27"
     ],
     "context": [],
     "case": [],
@@ -2138,8 +2138,8 @@
       "It$$The hair$$0"
     ],
     "scr_score": [
-      "The drain$$It$$3.2618653566754536e-28",
-      "The hair$$It$$1.790069777815322e-27"
+      "The drain$$It$$2.5123939695987222e-23",
+      "The hair$$It$$2.273338739865784e-24"
     ],
     "context": [],
     "case": [
@@ -2191,8 +2191,8 @@
       "It$$The hair$$1"
     ],
     "scr_score": [
-      "The drain$$It$$1.603238487106118e-27",
-      "The hair$$It$$1.6545081857648657e-26"
+      "The drain$$It$$4.409737125481806e-23",
+      "The hair$$It$$1.2056918803167776e-23"
     ],
     "context": [],
     "case": [
@@ -2241,8 +2241,8 @@
       "it$$The train$$0"
     ],
     "scr_score": [
-      "The meeting$$it$$7.446195245083644e-54",
-      "The train$$it$$1.678186131843466e-51"
+      "The meeting$$it$$6.048262825526347e-49",
+      "The train$$it$$5.77071826256218e-50"
     ],
     "context": [
       "it$$the train$$K1",
@@ -2281,8 +2281,8 @@
       "it$$The train$$1"
     ],
     "scr_score": [
-      "The meeting$$it$$2.2322971984080776e-54",
-      "The train$$it$$2.4581505471023096e-50"
+      "The meeting$$it$$2.3882779675792266e-49",
+      "The train$$it$$6.051941061766056e-49"
     ],
     "context": [],
     "case": [
@@ -2316,8 +2316,8 @@
       "it$$The stage$$0"
     ],
     "scr_score": [
-      "The pillar$$it$$3.842242283089926e-30",
-      "The stage$$it$$3.689367401802422e-28"
+      "The pillar$$it$$2.1126301327921477e-29",
+      "The stage$$it$$2.4515104019891065e-29"
     ],
     "context": [],
     "case": [],
@@ -2349,8 +2349,8 @@
       "it$$The stage$$1"
     ],
     "scr_score": [
-      "The pillar$$it$$3.670185623770897e-27",
-      "The stage$$it$$3.8768664044873993e-25"
+      "The pillar$$it$$4.813482644904022e-26",
+      "The stage$$it$$7.606914359094665e-26"
     ],
     "context": [],
     "case": [],
@@ -2396,8 +2396,8 @@
       "it$$The subway$$0"
     ],
     "scr_score": [
-      "The announcement$$it$$7.931205967498342e-35",
-      "The subway$$it$$2.7730061325519637e-35"
+      "The announcement$$it$$1.2336238740697546e-35",
+      "The subway$$it$$8.310102118156874e-36"
     ],
     "context": [],
     "case": [
@@ -2431,8 +2431,8 @@
       "it$$The subway$$1"
     ],
     "scr_score": [
-      "The announcement$$it$$4.1186012931959997e-38",
-      "The subway$$it$$5.843143350414602e-38"
+      "The announcement$$it$$1.1663880401235452e-38",
+      "The subway$$it$$1.06000325477346e-38"
     ],
     "context": [],
     "case": [],
@@ -2464,8 +2464,8 @@
       "it$$The rain$$0"
     ],
     "scr_score": [
-      "The concert$$it$$4.578842584737617e-30",
-      "The rain$$it$$7.009763928856721e-30"
+      "The concert$$it$$1.3321467576311466e-30",
+      "The rain$$it$$6.4721888191399485e-31"
     ],
     "context": [
       "it$$I$$K1",
@@ -2502,8 +2502,8 @@
       "it$$The rain$$1"
     ],
     "scr_score": [
-      "The concert$$it$$7.341865934736582e-30",
-      "The rain$$it$$9.765533790719645e-30"
+      "The concert$$it$$5.8826409360777404e-30",
+      "The rain$$it$$2.709835986297101e-30"
     ],
     "context": [
       "it$$I$$K5",
@@ -2550,8 +2550,8 @@
       "it$$The knife$$0"
     ],
     "scr_score": [
-      "The rag$$it$$3.403517130766188e-29",
-      "The knife$$it$$7.788380302760505e-28"
+      "The rag$$it$$2.518312034948378e-29",
+      "The knife$$it$$1.3688850499371335e-29"
     ],
     "context": [],
     "case": [],
@@ -2595,8 +2595,8 @@
       "it$$The knife$$1"
     ],
     "scr_score": [
-      "The rag$$it$$1.041292297137351e-29",
-      "The knife$$it$$1.623970868321062e-27"
+      "The rag$$it$$1.3857351096596975e-29",
+      "The knife$$it$$4.029006785187267e-29"
     ],
     "context": [],
     "case": [],
@@ -2638,8 +2638,8 @@
       "she$$Mary$$0"
     ],
     "scr_score": [
-      "Ann$$she$$3.274426065590635e-36",
-      "Mary$$she$$2.563363286811587e-35"
+      "Ann$$she$$1.2538567849798113e-29",
+      "Mary$$she$$1.1664516807576054e-29"
     ],
     "context": [],
     "case": [],
@@ -2681,8 +2681,8 @@
       "she$$Mary$$1"
     ],
     "scr_score": [
-      "Ann$$she$$1.6737711861339805e-35",
-      "Mary$$she$$1.6102816819735858e-34"
+      "Ann$$she$$9.253869771560378e-29",
+      "Mary$$she$$8.527456774498879e-29"
     ],
     "context": [],
     "case": [],
@@ -2724,8 +2724,8 @@
       "it$$The backpack$$0"
     ],
     "scr_score": [
-      "The water bottle$$it$$3.562515105004881e-26",
-      "The backpack$$it$$3.431607240842928e-26"
+      "The water bottle$$it$$4.295294403237484e-25",
+      "The backpack$$it$$2.9617929293642793e-25"
     ],
     "context": [],
     "case": [],
@@ -2771,8 +2771,8 @@
       "it$$The backpack$$1"
     ],
     "scr_score": [
-      "The water bottle$$it$$3.977456688200587e-27",
-      "The backpack$$it$$1.1278419980430715e-26"
+      "The water bottle$$it$$9.567063258211655e-26",
+      "The backpack$$it$$1.9674034094502099e-25"
     ],
     "context": [],
     "case": [],
@@ -2818,8 +2818,8 @@
       "it$$The shelf$$0"
     ],
     "scr_score": [
-      "The pot$$it$$1.4524879230064637e-24",
-      "The shelf$$it$$4.259377655218736e-25"
+      "The pot$$it$$2.0078323897710267e-24",
+      "The shelf$$it$$2.5459501118217377e-24"
     ],
     "context": [],
     "case": [
@@ -2865,8 +2865,8 @@
       "it$$The shelf$$1"
     ],
     "scr_score": [
-      "The pot$$it$$5.556852697394373e-24",
-      "The shelf$$it$$2.055579940283884e-24"
+      "The pot$$it$$8.589224394753335e-24",
+      "The shelf$$it$$1.0735070896440864e-23"
     ],
     "context": [
       "The pot$$a top$$K1",
@@ -2904,8 +2904,8 @@
       "it$$The building$$0"
     ],
     "scr_score": [
-      "The map$$it$$1.233114978729104e-28",
-      "The building$$it$$1.592218008876023e-28"
+      "The map$$it$$1.3500760597000196e-28",
+      "The building$$it$$8.692929421065623e-29"
     ],
     "context": [],
     "case": [
@@ -2950,8 +2950,8 @@
       "it$$The building$$1"
     ],
     "scr_score": [
-      "The map$$it$$1.1784759463042847e-30",
-      "The building$$it$$1.066612666770804e-29"
+      "The map$$it$$1.9650602601890127e-30",
+      "The building$$it$$1.4202915005742073e-29"
     ],
     "context": [],
     "case": [
@@ -2985,8 +2985,8 @@
       "He$$Charlie$$0"
     ],
     "scr_score": [
-      "Bob$$He$$2.162153429968488e-35",
-      "Charlie$$He$$2.8845037951735266e-35"
+      "Bob$$He$$2.2984455542977324e-24",
+      "Charlie$$He$$1.016015370116268e-24"
     ],
     "context": [],
     "case": [],
@@ -3032,8 +3032,8 @@
       "He$$Charlie$$1"
     ],
     "scr_score": [
-      "Bob$$He$$1.852214506693115e-35",
-      "Charlie$$He$$2.418655341303039e-35"
+      "Bob$$He$$1.1978534335374455e-24",
+      "Charlie$$He$$8.285519729254404e-25"
     ],
     "context": [],
     "case": [],
@@ -3083,8 +3083,8 @@
       "He$$Charlie$$0"
     ],
     "scr_score": [
-      "Bob$$He$$3.358630054509217e-54",
-      "Charlie$$He$$4.9763534676407494e-54"
+      "Bob$$He$$1.5978179102661962e-43",
+      "Charlie$$He$$2.7650985394735453e-43"
     ],
     "context": [],
     "case": [],
@@ -3132,8 +3132,8 @@
       "He$$Charlie$$1"
     ],
     "scr_score": [
-      "Bob$$He$$1.1848135186801006e-54",
-      "Charlie$$He$$1.9344933326832443e-54"
+      "Bob$$He$$3.666205726465268e-44",
+      "Charlie$$He$$5.599340611449363e-44"
     ],
     "context": [],
     "case": [
@@ -3185,8 +3185,8 @@
       "he$$Adam$$0"
     ],
     "scr_score": [
-      "Bob$$he$$2.9895589006609404e-57",
-      "Adam$$he$$3.618395122270852e-57"
+      "Bob$$he$$1.9119862379801144e-49",
+      "Adam$$he$$2.490773093864733e-49"
     ],
     "context": [
       "Adam$$their use$$K3",
@@ -3258,8 +3258,8 @@
       "he$$Adam$$1"
     ],
     "scr_score": [
-      "Bob$$he$$2.580201061005453e-58",
-      "Adam$$he$$2.7784792980132757e-58"
+      "Bob$$he$$1.6388555774809856e-50",
+      "Adam$$he$$2.5447783350395245e-50"
     ],
     "context": [
       "Bob$$their use$$K5",
@@ -3332,8 +3332,8 @@
       "he$$Bob$$0"
     ],
     "scr_score": [
-      "Adam$$he$$2.9437562613706745e-63",
-      "Bob$$he$$1.7049901590819453e-62"
+      "Adam$$he$$5.260778324474617e-54",
+      "Bob$$he$$4.404171488287718e-54"
     ],
     "context": [],
     "case": [],
@@ -3365,8 +3365,8 @@
       "he$$Bob$$1"
     ],
     "scr_score": [
-      "Adam$$he$$2.058658260061501e-63",
-      "Bob$$he$$8.195491136636533e-63"
+      "Adam$$he$$1.8695096747976147e-54",
+      "Bob$$he$$1.9429201159691932e-54"
     ],
     "context": [
       "he$$I$$K1",
@@ -3402,8 +3402,8 @@
       "he$$Sam$$0"
     ],
     "scr_score": [
-      "The con artist$$he$$5.055861045135654e-38",
-      "Sam$$he$$1.8147844418078194e-40"
+      "The con artist$$he$$3.616168697509355e-32",
+      "Sam$$he$$1.0490024323896728e-32"
     ],
     "context": [
       "Sam$$Muslims$$K1",
@@ -3441,8 +3441,8 @@
       "he$$Sam$$1"
     ],
     "scr_score": [
-      "The con artist$$he$$6.248022051752392e-37",
-      "Sam$$he$$2.8719080125113228e-39"
+      "The con artist$$he$$5.5244274721080935e-31",
+      "Sam$$he$$2.225124721309313e-31"
     ],
     "context": [],
     "case": [
@@ -3476,8 +3476,8 @@
       "it$$The spot under the tree$$0"
     ],
     "scr_score": [
-      "The dog$$it$$1.633540500812567e-51",
-      "The spot under the tree$$it$$2.707186291298028e-65"
+      "The dog$$it$$2.2711328449620183e-54",
+      "The spot under the tree$$it$$8.588777207652402e-54"
     ],
     "context": [],
     "case": [
@@ -3518,8 +3518,8 @@
       "it$$The spot under the tree$$1"
     ],
     "scr_score": [
-      "The dog$$it$$1.5498519367723915e-52",
-      "The spot under the tree$$it$$3.9498790860006706e-66"
+      "The dog$$it$$9.043077602298637e-56",
+      "The spot under the tree$$it$$7.668107493060205e-55"
     ],
     "context": [],
     "case": [],
@@ -3559,8 +3559,8 @@
       "it$$The mouse$$0"
     ],
     "scr_score": [
-      "The cat$$it$$1.0091759035888791e-33",
-      "The mouse$$it$$3.7451369908611996e-33"
+      "The cat$$it$$1.5157304767614821e-34",
+      "The mouse$$it$$1.182966860352601e-34"
     ],
     "context": [],
     "case": [],
@@ -3598,8 +3598,8 @@
       "it$$The mouse$$1"
     ],
     "scr_score": [
-      "The cat$$it$$3.541093250222222e-34",
-      "The mouse$$it$$1.6925161173859034e-33"
+      "The cat$$it$$4.769894861165021e-35",
+      "The mouse$$it$$4.642426799194688e-35"
     ],
     "context": [],
     "case": [
@@ -3635,8 +3635,8 @@
       "She$$daughter$$0"
     ],
     "scr_score": [
-      "Anne$$She$$4.5717011804962226e-33",
-      "daughter$$She$$4.00300617902611e-31"
+      "Anne$$She$$2.6487355096652935e-27",
+      "daughter$$She$$1.0043675096443028e-27"
     ],
     "context": [
       "She$$Activists$$K7",
@@ -3686,8 +3686,8 @@
       "She$$daughter$$1"
     ],
     "scr_score": [
-      "Anne$$She$$1.4846817530241003e-33",
-      "daughter$$She$$3.179702718797564e-31"
+      "Anne$$She$$4.10057198349152e-28",
+      "daughter$$She$$2.5787191102483616e-28"
     ],
     "context": [
       "She$$Activists$$K5",
@@ -3736,8 +3736,8 @@
       "she$$daughter$$0"
     ],
     "scr_score": [
-      "Alice$$she$$2.530992300970253e-50",
-      "daughter$$she$$1.1838435442010315e-48"
+      "Alice$$she$$2.787433291156691e-44",
+      "daughter$$she$$2.422266641050764e-44"
     ],
     "context": [],
     "case": [],
@@ -3773,8 +3773,8 @@
       "she$$daughter$$1"
     ],
     "scr_score": [
-      "Alice$$she$$2.0064451552961782e-49",
-      "daughter$$she$$8.715014739954317e-48"
+      "Alice$$she$$8.892863811727267e-44",
+      "daughter$$she$$7.985458000737662e-44"
     ],
     "context": [],
     "case": [],
@@ -3816,8 +3816,8 @@
       "he$$the guy$$0"
     ],
     "scr_score": [
-      "Jim$$he$$3.913857497625898e-62",
-      "the guy$$he$$2.9698379343432996e-55"
+      "Jim$$he$$1.7852220006377773e-48",
+      "the guy$$he$$1.4239299040842727e-48"
     ],
     "context": [],
     "case": [
@@ -3875,8 +3875,8 @@
       "he$$the guy$$1"
     ],
     "scr_score": [
-      "Jim$$he$$1.1594127148382029e-60",
-      "the guy$$he$$1.3270033808247274e-52"
+      "Jim$$he$$4.100120833404019e-47",
+      "the guy$$he$$2.9753720558184294e-46"
     ],
     "context": [],
     "case": [
@@ -3934,8 +3934,8 @@
       "It$$The worm$$0"
     ],
     "scr_score": [
-      "The fish$$It$$3.515029287674852e-23",
-      "The worm$$It$$2.8666967928642184e-24"
+      "The fish$$It$$8.229937646580147e-21",
+      "The worm$$It$$7.36346688187873e-21"
     ],
     "context": [],
     "case": [],
@@ -3973,8 +3973,8 @@
       "It$$The worm$$1"
     ],
     "scr_score": [
-      "The fish$$It$$1.783754345685467e-24",
-      "The worm$$It$$7.194154061400098e-26"
+      "The fish$$It$$4.1859928204930914e-21",
+      "The worm$$It$$1.1927181364734293e-21"
     ],
     "context": [],
     "case": [],
@@ -4012,8 +4012,8 @@
       "it$$The chewing gum$$0"
     ],
     "scr_score": [
-      "The key$$it$$1.3592921536674674e-41",
-      "The chewing gum$$it$$4.5649240872066074e-45"
+      "The key$$it$$7.765555585092833e-45",
+      "The chewing gum$$it$$4.4153006627028005e-45"
     ],
     "context": [],
     "case": [],
@@ -4055,8 +4055,8 @@
       "it$$The chewing gum$$1"
     ],
     "scr_score": [
-      "The key$$it$$9.90576849820335e-41",
-      "The chewing gum$$it$$5.534091973009263e-44"
+      "The key$$it$$4.073073153838296e-44",
+      "The chewing gum$$it$$4.3614374786729257e-44"
     ],
     "context": [],
     "case": [],
@@ -4088,8 +4088,8 @@
       "It$$The cat$$0"
     ],
     "scr_score": [
-      "The dog$$It$$2.9121071603282794e-35",
-      "The cat$$It$$1.061079660287188e-35"
+      "The dog$$It$$4.1454521363421845e-32",
+      "The cat$$It$$3.9731900058437607e-32"
     ],
     "context": [],
     "case": [],
@@ -4135,8 +4135,8 @@
       "It$$The cat$$1"
     ],
     "scr_score": [
-      "The dog$$It$$3.148342297701053e-35",
-      "The cat$$It$$1.4208743031900675e-35"
+      "The dog$$It$$4.2290215754794114e-32",
+      "The cat$$It$$4.4433632703190836e-32"
     ],
     "context": [],
     "case": [],
@@ -4180,8 +4180,8 @@
       "it$$The roof$$0"
     ],
     "scr_score": [
-      "The tree$$it$$6.848591589364763e-39",
-      "The roof$$it$$6.333907369487609e-39"
+      "The tree$$it$$2.0729425191640233e-38",
+      "The roof$$it$$4.071030986550359e-38"
     ],
     "context": [],
     "case": [],
@@ -4213,8 +4213,8 @@
       "it$$The roof$$1"
     ],
     "scr_score": [
-      "The tree$$it$$2.3011346136522627e-39",
-      "The roof$$it$$1.5161286700159967e-38"
+      "The tree$$it$$5.51127747042772e-38",
+      "The roof$$it$$2.3081440519469522e-37"
     ],
     "context": [],
     "case": [],
@@ -4246,8 +4246,8 @@
       "He$$The teller$$0"
     ],
     "scr_score": [
-      "The customer$$He$$9.608301126115357e-40",
-      "The teller$$He$$1.0346467700081652e-39"
+      "The customer$$He$$7.365896316934082e-34",
+      "The teller$$He$$1.001802436212563e-34"
     ],
     "context": [],
     "case": [
@@ -4289,8 +4289,8 @@
       "He$$one of the tellers$$1"
     ],
     "scr_score": [
-      "The customer$$He$$2.573596981182496e-39",
-      "one of the tellers$$He$$5.837423124256245e-41"
+      "The customer$$He$$5.7453403964614356e-33",
+      "one of the tellers$$He$$1.1298191249275934e-33"
     ],
     "context": [],
     "case": [
@@ -4330,8 +4330,8 @@
       "He$$The man$$0"
     ],
     "scr_score": [
-      "John$$He$$3.934385427265041e-44",
-      "The man$$He$$1.185396245878866e-41"
+      "John$$He$$3.0707660792429497e-34",
+      "The man$$He$$6.477614428069019e-34"
     ],
     "context": [],
     "case": [
@@ -4379,8 +4379,8 @@
       "He$$The man$$1"
     ],
     "scr_score": [
-      "John$$He$$1.2545270056398718e-44",
-      "The man$$He$$9.32126072123422e-42"
+      "John$$He$$7.488568700216697e-35",
+      "The man$$He$$3.8046676508751637e-34"
     ],
     "context": [],
     "case": [
@@ -4430,8 +4430,8 @@
       "He$$The juggler$$0"
     ],
     "scr_score": [
-      "John$$He$$1.0335781150090552e-43",
-      "The juggler$$He$$1.5976872669886333e-44"
+      "John$$He$$5.343957443215401e-34",
+      "The juggler$$He$$1.088464624018131e-33"
     ],
     "context": [],
     "case": [],
@@ -4473,8 +4473,8 @@
       "He$$The juggler$$1"
     ],
     "scr_score": [
-      "John$$He$$1.0283254389410002e-44",
-      "The juggler$$He$$6.286140050859406e-45"
+      "John$$He$$3.9539876459512364e-35",
+      "The juggler$$He$$5.265444449253017e-34"
     ],
     "context": [],
     "case": [],
@@ -4514,8 +4514,8 @@
       "He$$Carl$$0"
     ],
     "scr_score": [
-      "Bob$$He$$4.480004631039253e-47",
-      "Carl$$He$$5.740690399370894e-48"
+      "Bob$$He$$1.6495390037954103e-38",
+      "Carl$$He$$1.2364683328216283e-38"
     ],
     "context": [],
     "case": [],
@@ -4551,8 +4551,8 @@
       "He$$Carl$$1"
     ],
     "scr_score": [
-      "Bob$$He$$9.498586926404364e-48",
-      "Carl$$He$$2.125301334824255e-48"
+      "Bob$$He$$2.837723618483651e-38",
+      "Carl$$He$$1.881737882140911e-38"
     ],
     "context": [],
     "case": [],
@@ -4590,8 +4590,8 @@
       "they$$Amy's parents$$0"
     ],
     "scr_score": [
-      "Sam and Amy$$they$$1.2318480944213655e-49",
-      "Amy's parents$$they$$1.151260998028145e-47"
+      "Sam and Amy$$they$$8.512850686476007e-38",
+      "Amy's parents$$they$$2.4496628008098113e-38"
     ],
     "context": [
       "they$$products$$K3",
@@ -4690,8 +4690,8 @@
       "they$$Amy's parents$$1"
     ],
     "scr_score": [
-      "Sam and Amy$$they$$3.891837832202867e-49",
-      "Amy's parents$$they$$2.0146089306630155e-46"
+      "Sam and Amy$$they$$3.2109166149655573e-37",
+      "Amy's parents$$they$$5.317452053212986e-37"
     ],
     "context": [
       "they$$products$$K3",
@@ -4790,8 +4790,8 @@
       "He$$Pete$$0"
     ],
     "scr_score": [
-      "Mark$$He$$1.801274098794368e-53",
-      "Pete$$He$$3.952388123315448e-53"
+      "Mark$$He$$7.665163488525486e-43",
+      "Pete$$He$$9.225704593133928e-43"
     ],
     "context": [],
     "case": [],
@@ -4825,8 +4825,8 @@
       "He$$Pete$$1"
     ],
     "scr_score": [
-      "Mark$$He$$2.2135909824315594e-55",
-      "Pete$$He$$6.661566127056219e-54"
+      "Mark$$He$$3.1644569035731664e-43",
+      "Pete$$He$$4.175846873995921e-43"
     ],
     "context": [],
     "case": [],
@@ -4862,8 +4862,8 @@
       "it$$The new house$$0"
     ],
     "scr_score": [
-      "The old house$$it$$2.118056897911951e-39",
-      "The new house$$it$$2.951737987571701e-39"
+      "The old house$$it$$1.006402314196336e-38",
+      "The new house$$it$$1.384793602726195e-38"
     ],
     "context": [],
     "case": [
@@ -4897,8 +4897,8 @@
       "it$$The new house$$1"
     ],
     "scr_score": [
-      "The old house$$it$$3.651537013030486e-39",
-      "The new house$$it$$6.772287040444081e-38"
+      "The old house$$it$$3.287300241909401e-38",
+      "The new house$$it$$4.754801152381259e-38"
     ],
     "context": [],
     "case": [],
@@ -4927,8 +4927,8 @@
       "They$$Paul's books$$0"
     ],
     "scr_score": [
-      "People$$They$$2.444600009438803e-49",
-      "Paul's books$$They$$2.9528243219870716e-55"
+      "People$$They$$1.7475369953077414e-41",
+      "Paul's books$$They$$3.6159097607893526e-41"
     ],
     "context": [],
     "case": [
@@ -4978,8 +4978,8 @@
       "They$$Paul's books$$1"
     ],
     "scr_score": [
-      "People$$They$$2.2121944081551464e-47",
-      "Paul's books$$They$$1.9676196733219518e-51"
+      "People$$They$$5.284178511443435e-39",
+      "Paul's books$$They$$4.886810181045948e-37"
     ],
     "context": [],
     "case": [
@@ -5029,8 +5029,8 @@
       "it$$The piece$$0"
     ],
     "scr_score": [
-      "The flute$$it$$2.5722920614177323e-35",
-      "The piece$$it$$1.3053972857922102e-36"
+      "The flute$$it$$1.5861846243359257e-36",
+      "The piece$$it$$3.6526024828164847e-37"
     ],
     "context": [],
     "case": [
@@ -5079,8 +5079,8 @@
       "it$$The piece$$1"
     ],
     "scr_score": [
-      "The flute$$it$$1.6966661125953647e-35",
-      "The piece$$it$$6.206881247582414e-37"
+      "The flute$$it$$2.3641124053900674e-36",
+      "The piece$$it$$5.557437062967905e-37"
     ],
     "context": [],
     "case": [
@@ -5126,8 +5126,8 @@
       "it$$The piano$$0"
     ],
     "scr_score": [
-      "The chair$$it$$3.5246167648038043e-34",
-      "The piano$$it$$1.943158087055076e-33"
+      "The chair$$it$$2.7265528802590327e-34",
+      "The piano$$it$$8.596797109830637e-35"
     ],
     "context": [],
     "case": [],
@@ -5161,8 +5161,8 @@
       "it$$The piano$$1"
     ],
     "scr_score": [
-      "The chair$$it$$2.836615206020586e-34",
-      "The piano$$it$$9.119043653566424e-33"
+      "The chair$$it$$2.5199860624144557e-34",
+      "The piano$$it$$1.0007510995053785e-33"
     ],
     "context": [],
     "case": [],
@@ -5200,8 +5200,8 @@
       "it$$The backpack$$0"
     ],
     "scr_score": [
-      "The newspaper$$it$$9.452356803003767e-33",
-      "The backpack$$it$$1.262606526492585e-33"
+      "The newspaper$$it$$1.7293732980739086e-28",
+      "The backpack$$it$$3.3483128689500795e-28"
     ],
     "context": [],
     "case": [],
@@ -5239,8 +5239,8 @@
       "it$$The backpack$$1"
     ],
     "scr_score": [
-      "The newspaper$$it$$2.723937007382085e-35",
-      "The backpack$$it$$1.0537723983489781e-35"
+      "The newspaper$$it$$9.560251508190826e-31",
+      "The backpack$$it$$1.6346876106158342e-30"
     ],
     "context": [],
     "case": [],
@@ -5280,8 +5280,8 @@
       "it$$The article$$0"
     ],
     "scr_score": [
-      "The book$$it$$8.886479928170722e-46",
-      "The article$$it$$1.8091829129382104e-48"
+      "The book$$it$$4.256496645234713e-44",
+      "The article$$it$$2.75707335224966e-44"
     ],
     "context": [],
     "case": [],
@@ -5327,8 +5327,8 @@
       "it$$The article$$1"
     ],
     "scr_score": [
-      "The book$$it$$2.35790748579876e-47",
-      "The article$$it$$1.5069715341736638e-49"
+      "The book$$it$$5.127559548897802e-45",
+      "The article$$it$$5.511828466057581e-45"
     ],
     "context": [],
     "case": [],
@@ -5374,8 +5374,8 @@
       "it$$The flag$$0"
     ],
     "scr_score": [
-      "The sand castle$$it$$5.4956484657305565e-58",
-      "The flag$$it$$1.150853567986858e-56"
+      "The sand castle$$it$$1.1594462016862355e-57",
+      "The flag$$it$$1.2149975689079197e-57"
     ],
     "context": [],
     "case": [],
@@ -5419,8 +5419,8 @@
       "it$$The flag$$1"
     ],
     "scr_score": [
-      "The sand castle$$it$$1.4819472309277208e-56",
-      "The flag$$it$$1.4818776508568446e-54"
+      "The sand castle$$it$$1.2761484707792334e-55",
+      "The flag$$it$$1.4685440141062011e-55"
     ],
     "context": [],
     "case": [],
@@ -5466,8 +5466,8 @@
       "She$$Susan$$0"
     ],
     "scr_score": [
-      "Jane$$She$$8.890384653488929e-36",
-      "Susan$$She$$2.1732332801046502e-35"
+      "Jane$$She$$6.09302661913169e-25",
+      "Susan$$She$$5.461194703253521e-25"
     ],
     "context": [],
     "case": [
@@ -5518,8 +5518,8 @@
       "She$$Susan$$1"
     ],
     "scr_score": [
-      "Jane$$She$$6.228143746370645e-35",
-      "Susan$$She$$1.2053817172285697e-34"
+      "Jane$$She$$9.371534198145038e-25",
+      "Susan$$She$$8.051852887348025e-25"
     ],
     "context": [],
     "case": [
@@ -5570,8 +5570,8 @@
       "her$$Susan$$1"
     ],
     "scr_score": [
-      "Jane$$her$$5.703734656675167e-37",
-      "Susan$$her$$1.5278657069126545e-36"
+      "Jane$$her$$3.1459841671739287e-27",
+      "Susan$$her$$2.6430744423533205e-27"
     ],
     "context": [],
     "case": [],
@@ -5613,8 +5613,8 @@
       "her$$Susan$$0"
     ],
     "scr_score": [
-      "Jane$$her$$3.626875559481693e-36",
-      "Susan$$her$$9.737035912465753e-36"
+      "Jane$$her$$1.594216296576324e-26",
+      "Susan$$her$$1.3716610421360772e-26"
     ],
     "context": [],
     "case": [],
@@ -5656,8 +5656,8 @@
       "he$$Adam$$0"
     ],
     "scr_score": [
-      "Sam$$he$$7.555541931252203e-43",
-      "Adam$$he$$7.843406307541344e-42"
+      "Sam$$he$$2.045532113414189e-34",
+      "Adam$$he$$1.5057554748878288e-34"
     ],
     "context": [],
     "case": [
@@ -5707,8 +5707,8 @@
       "he$$Adam$$1"
     ],
     "scr_score": [
-      "Sam$$he$$2.611665208241021e-42",
-      "Adam$$he$$3.702536667083919e-41"
+      "Sam$$he$$9.388019319063977e-34",
+      "Adam$$he$$1.2451948065747482e-33"
     ],
     "context": [],
     "case": [],
@@ -5754,8 +5754,8 @@
       "it$$The lake$$0"
     ],
     "scr_score": [
-      "The path$$it$$9.183928410110546e-24",
-      "The lake$$it$$1.4194011779100048e-23"
+      "The path$$it$$3.1018499244312067e-24",
+      "The lake$$it$$3.1449501457627033e-24"
     ],
     "context": [],
     "case": [
@@ -5792,8 +5792,8 @@
       "it$$The lake$$1"
     ],
     "scr_score": [
-      "The path$$it$$2.1967177036013017e-23",
-      "The lake$$it$$1.3619910704663191e-22"
+      "The path$$it$$1.9547491787221463e-23",
+      "The lake$$it$$2.4711769155165693e-23"
     ],
     "context": [],
     "case": [],
@@ -5833,8 +5833,8 @@
       "it$$The cloud$$0"
     ],
     "scr_score": [
-      "The sun$$it$$2.6530689122361084e-36",
-      "The cloud$$it$$6.629783808882732e-40"
+      "The sun$$it$$2.3126926279130292e-38",
+      "The cloud$$it$$8.372822732899033e-40"
     ],
     "context": [],
     "case": [
@@ -5878,8 +5878,8 @@
       "it$$The cloud$$1"
     ],
     "scr_score": [
-      "The sun$$it$$8.372722699259795e-38",
-      "The cloud$$it$$1.09427263864112e-38"
+      "The sun$$it$$1.6081418588387232e-39",
+      "The cloud$$it$$8.019138739283949e-39"
     ],
     "context": [],
     "case": [],
@@ -5911,8 +5911,8 @@
       "it$$The ocean beach$$0"
     ],
     "scr_score": [
-      "The lake$$it$$3.4891802428703815e-41",
-      "The ocean beach$$it$$1.428803731984849e-45"
+      "The lake$$it$$2.2884342830026033e-41",
+      "The ocean beach$$it$$1.6653234261414301e-41"
     ],
     "context": [],
     "case": [
@@ -5946,8 +5946,8 @@
       "it$$The ocean beach$$1"
     ],
     "scr_score": [
-      "The lake$$it$$3.200276512370664e-40",
-      "The ocean beach$$it$$1.0299645608351826e-44"
+      "The lake$$it$$2.5410792573265545e-40",
+      "The ocean beach$$it$$1.507498811100371e-40"
     ],
     "context": [],
     "case": [],
@@ -5987,8 +5987,8 @@
       "they$$The sheep$$0"
     ],
     "scr_score": [
-      "The shepherds$$they$$5.958210819550141e-40",
-      "The sheep$$they$$2.124794468720602e-39"
+      "The shepherds$$they$$3.91809501327047e-40",
+      "The sheep$$they$$3.904296659454029e-40"
     ],
     "context": [],
     "case": [],
@@ -6020,8 +6020,8 @@
       "they$$The sheep$$1"
     ],
     "scr_score": [
-      "The shepherds$$they$$2.3135573562871458e-36",
-      "The sheep$$they$$1.3239187635031516e-35"
+      "The shepherds$$they$$9.313823004065228e-37",
+      "The sheep$$they$$1.0245908762692948e-36"
     ],
     "context": [],
     "case": [],
@@ -6053,8 +6053,8 @@
       "she$$daughter$$0"
     ],
     "scr_score": [
-      "Mary$$she$$2.2910106427997372e-30",
-      "daughter$$she$$3.106234078121801e-28"
+      "Mary$$she$$2.2363558801187682e-26",
+      "daughter$$she$$2.692517281329614e-26"
     ],
     "context": [],
     "case": [],
@@ -6092,8 +6092,8 @@
       "she$$daughter$$1"
     ],
     "scr_score": [
-      "Mary$$she$$7.388783440728436e-29",
-      "daughter$$she$$1.5670222303650915e-26"
+      "Mary$$she$$1.2084677558794595e-24",
+      "daughter$$she$$1.3874643794794806e-24"
     ],
     "context": [],
     "case": [],
@@ -6135,8 +6135,8 @@
       "they$$coats$$0"
     ],
     "scr_score": [
-      "Fred and Alice$$they$$3.0569254446445546e-49",
-      "coats$$they$$9.866383567653465e-41"
+      "Fred and Alice$$they$$1.2242746537059352e-36",
+      "coats$$they$$4.265159565321518e-37"
     ],
     "context": [
       "Fred and Alice$$About us Science for Sport$$K7",
@@ -6193,8 +6193,8 @@
       "they$$coats$$1"
     ],
     "scr_score": [
-      "Fred and Alice$$they$$2.5848442306768536e-51",
-      "coats$$they$$1.6735822579013507e-41"
+      "Fred and Alice$$they$$8.361086717604383e-39",
+      "coats$$they$$5.504491246572953e-37"
     ],
     "context": [],
     "case": [],
@@ -6228,8 +6228,8 @@
       "he$$Cooper$$0"
     ],
     "scr_score": [
-      "Thomson$$he$$1.0489845776840703e-51",
-      "Cooper$$he$$2.930155633267958e-50"
+      "Thomson$$he$$6.40092429260399e-42",
+      "Cooper$$he$$5.780090423273911e-42"
     ],
     "context": [],
     "case": [],
@@ -6267,8 +6267,8 @@
       "he$$Cooper$$1"
     ],
     "scr_score": [
-      "Thomson$$he$$5.6302972950917826e-49",
-      "Cooper$$he$$9.781484528886407e-48"
+      "Thomson$$he$$2.1587187219367033e-39",
+      "Cooper$$he$$4.521606048456231e-39"
     ],
     "context": [],
     "case": [],
@@ -6306,8 +6306,8 @@
       "he$$Arnold$$0"
     ],
     "scr_score": [
-      "Jackson$$he$$1.6393598753937558e-36",
-      "Arnold$$he$$1.269584414883885e-37"
+      "Jackson$$he$$6.391015484777861e-29",
+      "Arnold$$he$$7.152180123418503e-29"
     ],
     "context": [],
     "case": [],
@@ -6347,8 +6347,8 @@
       "he$$Arnold$$1"
     ],
     "scr_score": [
-      "Jackson$$he$$6.194854304461174e-37",
-      "Arnold$$he$$4.3067550392065266e-38"
+      "Jackson$$he$$2.5763466573283294e-29",
+      "Arnold$$he$$2.9285687116782064e-29"
     ],
     "context": [],
     "case": [],
@@ -6390,8 +6390,8 @@
       "it$$The axe$$0"
     ],
     "scr_score": [
-      "The tree$$it$$5.063069004103686e-28",
-      "The axe$$it$$6.892348248925882e-29"
+      "The tree$$it$$6.888172182308098e-29",
+      "The axe$$it$$1.1726154154561644e-28"
     ],
     "context": [],
     "case": [
@@ -6435,8 +6435,8 @@
       "it$$The axe$$1"
     ],
     "scr_score": [
-      "The tree$$it$$6.837219240902367e-27",
-      "The axe$$it$$7.124875819954797e-28"
+      "The tree$$it$$6.590886037205438e-28",
+      "The axe$$it$$4.436455572636265e-28"
     ],
     "context": [],
     "case": [],
@@ -6468,8 +6468,8 @@
       "them$$The chickens$$0"
     ],
     "scr_score": [
-      "The foxes$$them$$1.522266393342828e-35",
-      "The chickens$$them$$1.311091541036363e-34"
+      "The foxes$$them$$2.8479061478080694e-37",
+      "The chickens$$them$$2.7566573755945415e-37"
     ],
     "context": [
       "The chickens$$Terrorists$$K1",
@@ -6518,8 +6518,8 @@
       "them$$The chickens$$1"
     ],
     "scr_score": [
-      "The foxes$$them$$8.700076103386656e-38",
-      "The chickens$$them$$3.797854743818924e-36"
+      "The foxes$$them$$9.149061726244072e-39",
+      "The chickens$$them$$9.452880720960386e-39"
     ],
     "context": [
       "them$$a right to protect yourself$$K1",
@@ -6561,8 +6561,8 @@
       "They$$The chickens$$0"
     ],
     "scr_score": [
-      "The foxes$$They$$1.654759638426207e-38",
-      "The chickens$$They$$2.4911128997260984e-38"
+      "The foxes$$They$$5.069580504178293e-35",
+      "The chickens$$They$$1.7218605621084057e-35"
     ],
     "context": [],
     "case": [],
@@ -6594,8 +6594,8 @@
       "They$$The chickens$$1"
     ],
     "scr_score": [
-      "The foxes$$They$$3.9780372908175147e-38",
-      "The chickens$$They$$1.6503617303263591e-37"
+      "The foxes$$They$$1.1604991329569633e-34",
+      "The chickens$$They$$1.1705708140933898e-34"
     ],
     "context": [
       "They$$me$$K1",
@@ -6644,8 +6644,8 @@
       "them$$His hands$$0"
     ],
     "scr_score": [
-      "His eyes$$them$$3.221755118325178e-45",
-      "His hands$$them$$4.251491155511323e-47"
+      "His eyes$$them$$1.7546665308164108e-45",
+      "His hands$$them$$1.5618988860705238e-45"
     ],
     "context": [],
     "case": [
@@ -6687,8 +6687,8 @@
       "them$$His hands$$1"
     ],
     "scr_score": [
-      "His eyes$$them$$8.547271995755677e-47",
-      "His hands$$them$$3.2432748769408836e-47"
+      "His eyes$$them$$5.461176041348629e-46",
+      "His hands$$them$$5.5358365166736196e-46"
     ],
     "context": [],
     "case": [],
@@ -6728,8 +6728,8 @@
       "it$$Tina$$0"
     ],
     "scr_score": [
-      "Terpsichore$$it$$3.8823747757732517e-63",
-      "Tina$$it$$1.7230449010214664e-60"
+      "Terpsichore$$it$$9.610011468778917e-46",
+      "Tina$$it$$2.3792708839846963e-46"
     ],
     "context": [
       "it$$advanced terms$$K10",
@@ -6791,8 +6791,8 @@
       "it$$Tina$$1"
     ],
     "scr_score": [
-      "Terpsichore$$it$$5.490315483486558e-63",
-      "Tina$$it$$8.553641985299342e-60"
+      "Terpsichore$$it$$2.294006584834836e-45",
+      "Tina$$it$$5.9792583500997466e-46"
     ],
     "context": [],
     "case": [
@@ -6834,8 +6834,8 @@
       "he$$George$$0"
     ],
     "scr_score": [
-      "Fred$$he$$3.748421161743119e-43",
-      "George$$he$$3.177560949936051e-42"
+      "Fred$$he$$2.999368645119632e-33",
+      "George$$he$$2.6768986274503013e-33"
     ],
     "context": [],
     "case": [],
@@ -6879,8 +6879,8 @@
       "he$$George$$1"
     ],
     "scr_score": [
-      "Fred$$he$$1.7241524965057496e-43",
-      "George$$he$$9.057186238422733e-43"
+      "Fred$$he$$6.603224415200742e-34",
+      "George$$he$$7.786108618719035e-34"
     ],
     "context": [],
     "case": [],
@@ -6926,8 +6926,8 @@
       "it$$The TV$$0"
     ],
     "scr_score": [
-      "The dishwasher$$it$$1.109577152708146e-60",
-      "The TV$$it$$8.226746865204029e-62"
+      "The dishwasher$$it$$3.139793855389528e-58",
+      "The TV$$it$$4.92404856586275e-58"
     ],
     "context": [],
     "case": [
@@ -6973,8 +6973,8 @@
       "it$$The TV$$1"
     ],
     "scr_score": [
-      "The dishwasher$$it$$8.107158604032705e-61",
-      "The TV$$it$$1.1084949403601375e-61"
+      "The dishwasher$$it$$5.015722688700491e-58",
+      "The TV$$it$$4.493950987439611e-58"
     ],
     "context": [],
     "case": [],
@@ -7010,8 +7010,8 @@
       "He$$great-grandfather$$0"
     ],
     "scr_score": [
-      "Fred$$He$$1.560951866647717e-39",
-      "great-grandfather$$He$$8.02164196871088e-41"
+      "Fred$$He$$1.0230691172494982e-30",
+      "great-grandfather$$He$$5.23219674339091e-31"
     ],
     "context": [
       "great-grandfather$$an error$$K10",
@@ -7056,8 +7056,8 @@
       "He$$great-grandfather$$1"
     ],
     "scr_score": [
-      "Fred$$He$$3.0752218302441114e-40",
-      "great-grandfather$$He$$8.434638532422883e-41"
+      "Fred$$He$$7.125871778582929e-31",
+      "great-grandfather$$He$$2.6926224656611426e-30"
     ],
     "context": [
       "great-grandfather$$an error$$K10",
@@ -7102,8 +7102,8 @@
       "he$$My father$$0"
     ],
     "scr_score": [
-      "Fred$$he$$3.554743927534471e-54",
-      "My father$$he$$2.905171069864781e-49"
+      "Fred$$he$$4.920456257912671e-45",
+      "My father$$he$$5.186929290017724e-45"
     ],
     "context": [
       "he$$More industry-specific products , like Adobes Creative Cloud suite , or music-production software like Ableton Live , or Cubase$$K9",
@@ -7156,8 +7156,8 @@
       "he$$My father$$1"
     ],
     "scr_score": [
-      "Fred$$he$$2.6379896633663623e-55",
-      "My father$$he$$1.2956515232696888e-50"
+      "Fred$$he$$3.575642419339515e-46",
+      "My father$$he$$2.4742946700735168e-46"
     ],
     "context": [
       "Fred$$Just about everything else you might need$$K10",
@@ -7210,8 +7210,8 @@
       "they$$Yakutsk$$0"
     ],
     "scr_score": [
-      "Kamchatka$$they$$2.024010133989808e-62",
-      "Yakutsk$$they$$2.024010133989808e-62"
+      "Kamchatka$$they$$1.2285796369893959e-60",
+      "Yakutsk$$they$$1.6557188989124648e-60"
     ],
     "context": [
       "Yakutsk$$a change$$K9",
@@ -7255,8 +7255,8 @@
       "they$$Yakutsk$$1"
     ],
     "scr_score": [
-      "Kamchatka$$they$$4.7339880262008905e-63",
-      "Yakutsk$$they$$4.7339880262008905e-63"
+      "Kamchatka$$they$$1.3282307583487436e-61",
+      "Yakutsk$$they$$1.6743254333077074e-61"
     ],
     "context": [
       "Yakutsk$$The dictionaries that you can search together as English on this Cambridge Dictionary website$$K10",
@@ -7307,8 +7307,8 @@
       "It$$The duck$$0"
     ],
     "scr_score": [
-      "The minnow$$It$$1.0348283494364584e-52",
-      "The duck$$It$$1.9990912625341775e-51"
+      "The minnow$$It$$3.4534891376004103e-47",
+      "The duck$$It$$6.577221044918823e-47"
     ],
     "context": [],
     "case": [
@@ -7342,8 +7342,8 @@
       "It$$The duck$$1"
     ],
     "scr_score": [
-      "The shark$$It$$2.3661619699031773e-49",
-      "The duck$$It$$7.76726159066331e-51"
+      "The shark$$It$$4.599989944093968e-45",
+      "The duck$$It$$2.6443518860777162e-45"
     ],
     "context": [],
     "case": [
@@ -7377,8 +7377,8 @@
       "They$$humans$$0"
     ],
     "scr_score": [
-      "Archaeologists$$They$$7.038758109093782e-49",
-      "humans$$They$$2.2279802828124505e-47"
+      "Archaeologists$$They$$3.345296949641557e-39",
+      "humans$$They$$4.241045752001394e-39"
     ],
     "context": [],
     "case": [],
@@ -7422,8 +7422,8 @@
       "They$$humans$$1"
     ],
     "scr_score": [
-      "Archaeologists$$They$$1.1435693226097012e-49",
-      "humans$$They$$3.0753145441379737e-46"
+      "Archaeologists$$They$$3.0475455468196464e-40",
+      "humans$$They$$3.2587586493775576e-38"
     ],
     "context": [],
     "case": [],
@@ -7465,8 +7465,8 @@
       "They$$The fish$$0"
     ],
     "scr_score": [
-      "The scientists$$They$$2.69980594662594e-46",
-      "The fish$$They$$8.024262768657905e-46"
+      "The scientists$$They$$4.973376345154875e-40",
+      "The fish$$They$$5.259355791064168e-41"
     ],
     "context": [],
     "case": [],
@@ -7508,8 +7508,8 @@
       "They$$three species of fish$$1"
     ],
     "scr_score": [
-      "The scientists$$They$$1.6776967426582477e-47",
-      "three species of fish$$They$$4.9644866754369115e-48"
+      "The scientists$$They$$1.0413668930603508e-41",
+      "three species of fish$$They$$1.894613291312907e-40"
     ],
     "context": [],
     "case": [],
@@ -7551,8 +7551,8 @@
       "They$$The stars$$0"
     ],
     "scr_score": [
-      "The journalists$$They$$2.4668532804550382e-48",
-      "The stars$$They$$4.286701200249141e-48"
+      "The journalists$$They$$4.5722668572960945e-41",
+      "The stars$$They$$2.426488700063533e-42"
     ],
     "context": [],
     "case": [],
@@ -7596,8 +7596,8 @@
       "They$$The stars$$1"
     ],
     "scr_score": [
-      "The journalists$$They$$8.961533379626336e-48",
-      "The stars$$They$$1.9134106227056562e-47"
+      "The journalists$$They$$8.439411064263536e-40",
+      "The stars$$They$$1.746865283436423e-41"
     ],
     "context": [],
     "case": [
@@ -7643,8 +7643,8 @@
       "They$$all of the gang members$$0"
     ],
     "scr_score": [
-      "The police$$They$$2.5800286518523904e-36",
-      "all of the gang members$$They$$7.948085184216118e-39"
+      "The police$$They$$1.7377332568415451e-31",
+      "all of the gang members$$They$$1.2010639569429344e-31"
     ],
     "context": [],
     "case": [],
@@ -7684,8 +7684,8 @@
       "They$$all of the gang members$$1"
     ],
     "scr_score": [
-      "The police$$They$$3.4206926051964834e-38",
-      "all of the gang members$$They$$6.211685187351442e-40"
+      "The police$$They$$1.911231439126712e-33",
+      "all of the gang members$$They$$1.556247730015909e-32"
     ],
     "context": [],
     "case": [],
@@ -7725,8 +7725,8 @@
       "It$$The refrigerator$$0"
     ],
     "scr_score": [
-      "The cake$$It$$1.1018742076087508e-28",
-      "The refrigerator$$It$$4.350855019241895e-31"
+      "The cake$$It$$7.537325655192521e-26",
+      "The refrigerator$$It$$3.1423661190526557e-26"
     ],
     "context": [],
     "case": [
@@ -7775,8 +7775,8 @@
       "It$$The refrigerator$$1"
     ],
     "scr_score": [
-      "The cake$$It$$5.199759319727096e-31",
-      "The refrigerator$$It$$3.429259538983274e-32"
+      "The cake$$It$$1.100120467350147e-27",
+      "The refrigerator$$It$$7.815776671027356e-27"
     ],
     "context": [],
     "case": [
@@ -7828,8 +7828,8 @@
       "they$$The crutches$$0"
     ],
     "scr_score": [
-      "The ankles$$they$$6.820039619927315e-47",
-      "The crutches$$they$$1.7951403085886248e-45"
+      "The ankles$$they$$5.057563290391169e-45",
+      "The crutches$$they$$3.360378166304269e-45"
     ],
     "context": [],
     "case": [
@@ -7871,8 +7871,8 @@
       "they$$The crutches$$1"
     ],
     "scr_score": [
-      "The ankles$$they$$2.626479393538352e-50",
-      "The crutches$$they$$9.067837616416315e-48"
+      "The ankles$$they$$1.6183940900512912e-48",
+      "The crutches$$they$$7.971058634289305e-48"
     ],
     "context": [],
     "case": [
@@ -7914,8 +7914,8 @@
       "They$$The opponents$$0"
     ],
     "scr_score": [
-      "The sponsors$$They$$3.020904891027408e-54",
-      "The opponents$$They$$1.2516037495897665e-53"
+      "The sponsors$$They$$1.9187341170417e-46",
+      "The opponents$$They$$7.086739851619868e-46"
     ],
     "context": [],
     "case": [
@@ -7959,8 +7959,8 @@
       "They$$The opponents$$1"
     ],
     "scr_score": [
-      "The sponsors$$They$$9.984095987621211e-55",
-      "The opponents$$They$$6.515706544324807e-54"
+      "The sponsors$$They$$4.765762155827323e-48",
+      "The opponents$$They$$1.3486589761944175e-47"
     ],
     "context": [],
     "case": [
@@ -8007,8 +8007,8 @@
       "them$$The chocolate chip cookies$$0"
     ],
     "scr_score": [
-      "The oatmeal cookies$$them$$8.96358580274937e-48",
-      "The chocolate chip cookies$$them$$4.360821737178557e-48"
+      "The oatmeal cookies$$them$$3.4360053935544123e-47",
+      "The chocolate chip cookies$$them$$8.811833136664485e-47"
     ],
     "context": [],
     "case": [],
@@ -8050,8 +8050,8 @@
       "them$$The chocolate chip cookies$$1"
     ],
     "scr_score": [
-      "The oatmeal cookies$$them$$5.548318573827314e-51",
-      "The chocolate chip cookies$$them$$5.413550276381413e-51"
+      "The oatmeal cookies$$them$$5.44481467866689e-50",
+      "The chocolate chip cookies$$them$$9.317279434014912e-50"
     ],
     "context": [],
     "case": [],
@@ -8091,8 +8091,8 @@
       "them$$chairs$$0"
     ],
     "scr_score": [
-      "copies of the newsletter$$them$$3.3227709690280236e-47",
-      "chairs$$them$$1.3335443959218777e-41"
+      "copies of the newsletter$$them$$1.8186400395157693e-38",
+      "chairs$$them$$1.6820251565088243e-38"
     ],
     "context": [],
     "case": [
@@ -8126,8 +8126,8 @@
       "them$$chairs$$1"
     ],
     "scr_score": [
-      "copies of the newsletter$$them$$1.6355564817394071e-46",
-      "chairs$$them$$8.700700431722635e-42"
+      "copies of the newsletter$$them$$1.3528746914679485e-37",
+      "chairs$$them$$1.2917896501185617e-37"
     ],
     "context": [],
     "case": [
@@ -8161,8 +8161,8 @@
       "it$$The carrot$$0"
     ],
     "scr_score": [
-      "The pin$$it$$1.9514975651487584e-37",
-      "The carrot$$it$$2.3082075143301395e-38"
+      "The pin$$it$$2.147001949922742e-37",
+      "The carrot$$it$$7.786827188104393e-38"
     ],
     "context": [],
     "case": [],
@@ -8200,8 +8200,8 @@
       "it$$The carrot$$1"
     ],
     "scr_score": [
-      "The pin$$it$$3.2746632392714598e-37",
-      "The carrot$$it$$2.932813375069493e-38"
+      "The pin$$it$$5.5958792232714645e-37",
+      "The carrot$$it$$2.1006252431472446e-37"
     ],
     "context": [],
     "case": [
@@ -8243,8 +8243,8 @@
       "it$$The coffee$$0"
     ],
     "scr_score": [
-      "The pen$$it$$4.3479495365288775e-52",
-      "The coffee$$it$$2.37985281488352e-51"
+      "The pen$$it$$4.383974628445356e-52",
+      "The coffee$$it$$3.671372269204156e-52"
     ],
     "context": [],
     "case": [
@@ -8278,8 +8278,8 @@
       "it$$The coffee$$1"
     ],
     "scr_score": [
-      "The pen$$it$$3.386094344762922e-51",
-      "The coffee$$it$$2.6928707463530865e-52"
+      "The pen$$it$$4.916859549757182e-51",
+      "The coffee$$it$$5.81682743453948e-53"
     ],
     "context": [],
     "case": [],
@@ -8311,8 +8311,8 @@
       "him$$Fred$$1"
     ],
     "scr_score": [
-      "Steve$$him$$3.666068970933123e-40",
-      "Fred$$him$$4.0048914620666075e-41"
+      "Steve$$him$$1.645522057391434e-30",
+      "Fred$$him$$4.697524240430693e-31"
     ],
     "context": [],
     "case": [],
@@ -8356,8 +8356,8 @@
       "him$$Fred$$0"
     ],
     "scr_score": [
-      "Steve$$him$$2.1789029607642545e-41",
-      "Fred$$him$$2.4277429312672764e-42"
+      "Steve$$him$$1.074368514858601e-31",
+      "Fred$$him$$5.196390699416572e-32"
     ],
     "context": [],
     "case": [],
@@ -8397,8 +8397,8 @@
       "it$$The doorway$$0"
     ],
     "scr_score": [
-      "The table$$it$$1.6271653597164061e-24",
-      "The doorway$$it$$4.667363812808985e-25"
+      "The table$$it$$2.106895200645321e-25",
+      "The doorway$$it$$5.100781967110869e-25"
     ],
     "context": [],
     "case": [
@@ -8445,8 +8445,8 @@
       "it$$The doorway$$1"
     ],
     "scr_score": [
-      "The table$$it$$4.8000038469126706e-24",
-      "The doorway$$it$$1.344569843214037e-24"
+      "The table$$it$$6.979966007784506e-25",
+      "The doorway$$it$$1.8092513481875085e-24"
     ],
     "context": [],
     "case": [],
@@ -8486,8 +8486,8 @@
       "it$$The jacket$$0"
     ],
     "scr_score": [
-      "The sweater$$it$$7.35967781609973e-44",
-      "The jacket$$it$$5.985636558724409e-44"
+      "The sweater$$it$$5.828465511408297e-44",
+      "The jacket$$it$$5.822571849265539e-44"
     ],
     "context": [],
     "case": [],
@@ -8529,8 +8529,8 @@
       "it$$The jacket$$1"
     ],
     "scr_score": [
-      "The sweater$$it$$7.954654745576666e-40",
-      "The jacket$$it$$6.118897581095075e-40"
+      "The sweater$$it$$1.1296174968985339e-39",
+      "The jacket$$it$$1.1757989027351824e-39"
     ],
     "context": [],
     "case": [
@@ -8576,8 +8576,8 @@
       "him$$Bill$$0"
     ],
     "scr_score": [
-      "John$$him$$3.9302648159176957e-22",
-      "Bill$$him$$3.886763895426156e-22"
+      "John$$him$$4.271052338652014e-16",
+      "Bill$$him$$5.025014319369292e-16"
     ],
     "context": [],
     "case": [],
@@ -8613,8 +8613,8 @@
       "him$$Bill$$1"
     ],
     "scr_score": [
-      "John$$him$$1.0376403603083078e-28",
-      "Bill$$him$$1.2723266295903528e-28"
+      "John$$him$$1.42843287208633e-22",
+      "Bill$$him$$1.6270179240703974e-22"
     ],
     "context": [],
     "case": [],
@@ -8652,8 +8652,8 @@
       "he$$Bill$$0"
     ],
     "scr_score": [
-      "John$$he$$9.962227197755279e-34",
-      "Bill$$he$$1.1116062463350892e-34"
+      "John$$he$$1.338847299589125e-26",
+      "Bill$$he$$1.1805165501027386e-26"
     ],
     "context": [],
     "case": [],
@@ -8695,8 +8695,8 @@
       "he$$Bill$$1"
     ],
     "scr_score": [
-      "John$$he$$1.0239620980851366e-31",
-      "Bill$$he$$6.65137126173242e-33"
+      "John$$he$$8.529244652857039e-25",
+      "Bill$$he$$7.30673356476062e-25"
     ],
     "context": [],
     "case": [],
@@ -8738,8 +8738,8 @@
       "he$$Xenophanes$$0"
     ],
     "scr_score": [
-      "Goodman$$he$$3.0801492215940856e-46",
-      "Xenophanes$$he$$3.0801492215940856e-46"
+      "Goodman$$he$$4.048605640004385e-43",
+      "Xenophanes$$he$$1.4098342615784603e-43"
     ],
     "context": [],
     "case": [
@@ -8773,8 +8773,8 @@
       "he$$Xenophanes$$1"
     ],
     "scr_score": [
-      "Goodman$$he$$3.2740370222939095e-45",
-      "Xenophanes$$he$$3.2740370222939095e-45"
+      "Goodman$$he$$1.8098963481063204e-42",
+      "Xenophanes$$he$$1.4195012583340498e-42"
     ],
     "context": [
       "he$$the struggles and challenges he faced in the journey of his success$$K1",
@@ -8815,8 +8815,8 @@
       "her$$Emma's mother$$0"
     ],
     "scr_score": [
-      "Emma$$her$$1.9126266905161368e-44",
-      "Emma's mother$$her$$8.867224363224034e-46"
+      "Emma$$her$$8.546961695626803e-37",
+      "Emma's mother$$her$$2.1982950292695166e-36"
     ],
     "context": [],
     "case": [],
@@ -8848,8 +8848,8 @@
       "her$$Emma's mother$$1"
     ],
     "scr_score": [
-      "Emma$$her$$3.5255082047546797e-44",
-      "Emma's mother$$her$$5.151117233301991e-46"
+      "Emma$$her$$1.4417630417976421e-36",
+      "Emma's mother$$her$$3.930371921222657e-36"
     ],
     "context": [],
     "case": [
@@ -8883,8 +8883,8 @@
       "she$$Susan$$0"
     ],
     "scr_score": [
-      "Jane$$she$$8.34048333526327e-31",
-      "Susan$$she$$1.9827649711569304e-30"
+      "Jane$$she$$3.1099270128704636e-23",
+      "Susan$$she$$2.9015498120005953e-23"
     ],
     "context": [],
     "case": [],
@@ -8930,8 +8930,8 @@
       "she$$Susan$$1"
     ],
     "scr_score": [
-      "Jane$$she$$2.026028289308905e-27",
-      "Susan$$she$$5.4395735713145105e-27"
+      "Jane$$she$$4.9507737844279874e-20",
+      "Susan$$she$$5.53309406871054e-20"
     ],
     "context": [],
     "case": [],
@@ -8977,8 +8977,8 @@
       "he$$the detective$$0"
     ],
     "scr_score": [
-      "Joe$$he$$4.142652392707464e-37",
-      "the detective$$he$$6.248024169502745e-33"
+      "Joe$$he$$4.232144634822795e-29",
+      "the detective$$he$$1.9757989812145003e-28"
     ],
     "context": [],
     "case": [],
@@ -9014,8 +9014,8 @@
       "he$$the detective$$1"
     ],
     "scr_score": [
-      "Joe$$he$$1.086630034788295e-37",
-      "the detective$$he$$3.509136962250611e-33"
+      "Joe$$he$$1.5956752327554142e-29",
+      "the detective$$he$$1.4345839121617075e-28"
     ],
     "context": [],
     "case": [],
@@ -9055,8 +9055,8 @@
       "she$$Sally$$0"
     ],
     "scr_score": [
-      "Beth$$she$$9.576953587016461e-48",
-      "Sally$$she$$2.817429474733623e-48"
+      "Beth$$she$$9.527653361955194e-40",
+      "Sally$$she$$8.719897221710096e-40"
     ],
     "context": [
       "she$$He$$K1",
@@ -9098,8 +9098,8 @@
       "she$$Sally$$1"
     ],
     "scr_score": [
-      "Beth$$she$$4.7082877642355347e-45",
-      "Sally$$she$$2.0199930524783356e-45"
+      "Beth$$she$$9.05134373538686e-37",
+      "Sally$$she$$6.207261903467712e-37"
     ],
     "context": [],
     "case": [],
@@ -9139,8 +9139,8 @@
       "his$$The barman$$0"
     ],
     "scr_score": [
-      "Jim$$his$$1.6922874296877944e-35",
-      "The barman$$his$$7.948497262606759e-33"
+      "Jim$$his$$3.6933677045569754e-29",
+      "The barman$$his$$5.503206173964561e-29"
     ],
     "context": [],
     "case": [],
@@ -9178,8 +9178,8 @@
       "his$$The barman$$1"
     ],
     "scr_score": [
-      "Jim$$his$$1.3864731770047523e-38",
-      "The barman$$his$$2.619043387954814e-36"
+      "Jim$$his$$7.849727239058042e-32",
+      "The barman$$his$$7.573241014557165e-32"
     ],
     "context": [],
     "case": [],
@@ -9213,8 +9213,8 @@
       "his$$Bill$$0"
     ],
     "scr_score": [
-      "Dan$$his$$6.343307543238546e-48",
-      "Bill$$his$$2.6294934340881578e-48"
+      "Dan$$his$$1.2601546693567897e-45",
+      "Bill$$his$$1.6823205157454047e-45"
     ],
     "context": [],
     "case": [
@@ -9254,8 +9254,8 @@
       "his$$Bill$$1"
     ],
     "scr_score": [
-      "Dan$$his$$5.728814578086652e-49",
-      "Bill$$his$$4.0767530348431214e-49"
+      "Dan$$his$$2.0432967186761218e-46",
+      "Bill$$his$$2.5908052355655286e-46"
     ],
     "context": [],
     "case": [
@@ -9295,8 +9295,8 @@
       "his$$Ralph$$0"
     ],
     "scr_score": [
-      "Tom$$his$$4.163915700378722e-38",
-      "Ralph$$his$$3.790619888978507e-39"
+      "Tom$$his$$1.0965033286290272e-32",
+      "Ralph$$his$$9.520917353882425e-33"
     ],
     "context": [],
     "case": [],
@@ -9336,8 +9336,8 @@
       "his$$Ralph$$1"
     ],
     "scr_score": [
-      "Tom$$his$$6.550818938229682e-38",
-      "Ralph$$his$$4.4925542662300096e-39"
+      "Tom$$his$$1.8129256661741983e-32",
+      "Ralph$$his$$2.2622877241980898e-32"
     ],
     "context": [
       "Ralph$$check$$K6",
@@ -9389,8 +9389,8 @@
       "she$$Susan$$0"
     ],
     "scr_score": [
-      "Andrea$$she$$5.599517647548883e-45",
-      "Susan$$she$$9.495430854898837e-44"
+      "Andrea$$she$$7.361990350417192e-38",
+      "Susan$$she$$7.022034851477221e-38"
     ],
     "context": [],
     "case": [],
@@ -9428,8 +9428,8 @@
       "she$$Susan$$1"
     ],
     "scr_score": [
-      "Andrea$$she$$7.526775960424031e-45",
-      "Susan$$she$$8.68421171313237e-44"
+      "Andrea$$she$$3.116308471545279e-38",
+      "Susan$$she$$2.9548350299599497e-38"
     ],
     "context": [],
     "case": [],
@@ -9465,8 +9465,8 @@
       "he$$Ralph$$0"
     ],
     "scr_score": [
-      "Tom$$he$$1.8085079329309694e-36",
-      "Ralph$$he$$5.9662150421053215e-37"
+      "Tom$$he$$3.8062651489471835e-28",
+      "Ralph$$he$$3.792612059471783e-28"
     ],
     "context": [],
     "case": [],
@@ -9504,8 +9504,8 @@
       "he$$Ralph$$1"
     ],
     "scr_score": [
-      "Tom$$he$$2.3503091382831523e-34",
-      "Ralph$$he$$8.97468507087803e-35"
+      "Tom$$he$$2.3719054284793633e-26",
+      "Ralph$$he$$2.864399681501216e-26"
     ],
     "context": [
       "he$$We$$K1",
@@ -9550,8 +9550,8 @@
       "he$$John$$0"
     ],
     "scr_score": [
-      "Bill$$he$$9.54512455117896e-37",
-      "John$$he$$1.4471761754043102e-36"
+      "Bill$$he$$3.0305948063752018e-30",
+      "John$$he$$2.8944853607956922e-30"
     ],
     "context": [],
     "case": [],
@@ -9587,8 +9587,8 @@
       "he$$John$$1"
     ],
     "scr_score": [
-      "Bill$$he$$8.462766072914532e-38",
-      "John$$he$$1.0356851919766881e-35"
+      "Bill$$he$$1.9965026656965507e-29",
+      "John$$he$$2.615887796762011e-29"
     ],
     "context": [],
     "case": [
@@ -9635,8 +9635,8 @@
       "his$$John$$0"
     ],
     "scr_score": [
-      "Bill$$his$$3.0437341394389225e-33",
-      "John$$his$$2.753753015283652e-33"
+      "Bill$$his$$3.367583267224182e-28",
+      "John$$his$$5.863636450765572e-28"
     ],
     "context": [],
     "case": [
@@ -9678,8 +9678,8 @@
       "his$$John$$1"
     ],
     "scr_score": [
-      "Bill$$his$$1.3258559183043207e-34",
-      "John$$his$$2.1008704557963114e-34"
+      "Bill$$his$$1.7633934773984064e-29",
+      "John$$his$$2.3782414019820241e-29"
     ],
     "context": [],
     "case": [],
@@ -9713,8 +9713,8 @@
       "his$$The boy$$0"
     ],
     "scr_score": [
-      "The man$$his$$1.949837026729641e-21",
-      "The boy$$his$$3.299185131720502e-21"
+      "The man$$his$$7.098390967138833e-22",
+      "The boy$$his$$8.85437293436564e-22"
     ],
     "context": [
       "The boy$$the lid on life$$K3",
@@ -9762,8 +9762,8 @@
       "his$$The boy$$1"
     ],
     "scr_score": [
-      "The man$$his$$4.225163976378491e-24",
-      "The boy$$his$$7.003413793347591e-23"
+      "The man$$his$$1.6475967968170642e-24",
+      "The boy$$his$$7.72968581625739e-24"
     ],
     "context": [
       "his$$Raikkonen$$K5",
@@ -9808,8 +9808,8 @@
       "her$$The girl$$0"
     ],
     "scr_score": [
-      "The woman$$her$$2.971143433039075e-24",
-      "The girl$$her$$3.9264043730372115e-24"
+      "The woman$$her$$7.078762550540267e-23",
+      "The girl$$her$$5.967092289217942e-23"
     ],
     "context": [],
     "case": [],
@@ -9845,8 +9845,8 @@
       "her$$The girl$$1"
     ],
     "scr_score": [
-      "The woman$$her$$5.116144722886851e-23",
-      "The girl$$her$$4.7820215754806583e-23"
+      "The woman$$her$$2.9497941434238604e-22",
+      "The girl$$her$$1.3199058641749028e-22"
     ],
     "context": [],
     "case": [],
@@ -9890,8 +9890,8 @@
       "his$$Toby$$0"
     ],
     "scr_score": [
-      "Billy$$his$$8.81142644668721e-34",
-      "Toby$$his$$3.169747605250812e-29"
+      "Billy$$his$$2.823382817433673e-27",
+      "Toby$$his$$4.752117472337337e-27"
     ],
     "context": [],
     "case": [],
@@ -9931,8 +9931,8 @@
       "his$$Toby$$1"
     ],
     "scr_score": [
-      "Billy$$his$$3.4431367641930417e-34",
-      "Toby$$his$$6.86222456884185e-30"
+      "Billy$$his$$8.616572623655765e-28",
+      "Toby$$his$$2.502394715949562e-27"
     ],
     "context": [],
     "case": [],
@@ -9976,8 +9976,8 @@
       "her$$Donna$$0"
     ],
     "scr_score": [
-      "Lily$$her$$8.905687567230847e-30",
-      "Donna$$her$$2.2513618449168573e-29"
+      "Lily$$her$$6.364778998907536e-23",
+      "Donna$$her$$3.902458067515003e-23"
     ],
     "context": [],
     "case": [],
@@ -10021,8 +10021,8 @@
       "her$$Donna$$1"
     ],
     "scr_score": [
-      "Lily$$her$$1.3611131189465465e-30",
-      "Donna$$her$$3.6641658260094665e-31"
+      "Lily$$her$$1.4388051782461985e-24",
+      "Donna$$her$$7.095888862315997e-25"
     ],
     "context": [],
     "case": [],
@@ -10066,8 +10066,8 @@
       "him$$Timmy$$0"
     ],
     "scr_score": [
-      "Tommy$$him$$7.274328350884815e-48",
-      "Timmy$$him$$6.777165824525675e-49"
+      "Tommy$$him$$5.916653122995462e-40",
+      "Timmy$$him$$4.226540233260378e-40"
     ],
     "context": [],
     "case": [],
@@ -10105,8 +10105,8 @@
       "him$$Timmy$$1"
     ],
     "scr_score": [
-      "Tommy$$him$$1.5791437615486493e-47",
-      "Timmy$$him$$3.6318936242065356e-48"
+      "Tommy$$him$$3.999646397858176e-39",
+      "Timmy$$him$$3.213892489117015e-39"
     ],
     "context": [],
     "case": [],
@@ -10146,8 +10146,8 @@
       "his$$Tommy$$0"
     ],
     "scr_score": [
-      "Ollie$$his$$1.4295640743727267e-42",
-      "Tommy$$his$$1.1887647430307334e-41"
+      "Ollie$$his$$7.603225838986613e-36",
+      "Tommy$$his$$5.241265769127946e-36"
     ],
     "context": [
       "his$$I$$K7",
@@ -10196,8 +10196,8 @@
       "his$$Tommy$$1"
     ],
     "scr_score": [
-      "Ollie$$his$$3.439826380884776e-42",
-      "Tommy$$his$$1.354135277741531e-41"
+      "Ollie$$his$$1.6851836064724896e-35",
+      "Tommy$$his$$1.7722175033368106e-35"
     ],
     "context": [],
     "case": [],
@@ -10237,8 +10237,8 @@
       "his$$The boy$$0"
     ],
     "scr_score": [
-      "The father$$his$$4.493393080332661e-24",
-      "The boy$$his$$2.223149507616822e-24"
+      "The father$$his$$2.857083101114928e-24",
+      "The boy$$his$$1.0823860760338988e-24"
     ],
     "context": [],
     "case": [],
@@ -10284,8 +10284,8 @@
       "his$$The boy$$1"
     ],
     "scr_score": [
-      "The father$$his$$5.48606183048567e-26",
-      "The boy$$his$$9.909585349792269e-26"
+      "The father$$his$$3.3968721726395823e-26",
+      "The boy$$his$$4.855609702277787e-26"
     ],
     "context": [],
     "case": [],
@@ -10331,8 +10331,8 @@
       "her$$The girl$$0"
     ],
     "scr_score": [
-      "The woman$$her$$2.5121593759073467e-22",
-      "The girl$$her$$2.379386721411227e-22"
+      "The woman$$her$$1.7645200282372525e-22",
+      "The girl$$her$$1.8767023317064062e-22"
     ],
     "context": [],
     "case": [],
@@ -10374,8 +10374,8 @@
       "her$$The girl$$1"
     ],
     "scr_score": [
-      "The woman$$her$$1.4457312378896414e-21",
-      "The girl$$her$$1.0763179522245529e-21"
+      "The woman$$her$$1.5574678168420896e-21",
+      "The girl$$her$$2.1110825468303914e-21"
     ],
     "context": [
       "The girl$$you$$K8",
@@ -10419,8 +10419,8 @@
       "They$$Pam and Paul$$0"
     ],
     "scr_score": [
-      "Pam's parents$$They$$4.822996731679053e-50",
-      "Pam and Paul$$They$$1.1132606341731801e-52"
+      "Pam's parents$$They$$8.439280897608553e-41",
+      "Pam and Paul$$They$$1.7044692867299842e-41"
     ],
     "context": [],
     "case": [
@@ -10454,8 +10454,8 @@
       "They$$Pam and Paul$$1"
     ],
     "scr_score": [
-      "Pam's parents$$They$$5.706511321993652e-51",
-      "Pam and Paul$$They$$2.1485960586001397e-53"
+      "Pam's parents$$They$$6.001658384508198e-42",
+      "Pam and Paul$$They$$2.8807574018142235e-42"
     ],
     "context": [],
     "case": [
@@ -10489,8 +10489,8 @@
       "she$$Kate$$0"
     ],
     "scr_score": [
-      "Dr. Adams$$she$$1.81655937083207e-45",
-      "Kate$$she$$3.9849278597504116e-42"
+      "Dr. Adams$$she$$1.291017117994225e-32",
+      "Kate$$she$$1.1418535255292424e-33"
     ],
     "context": [],
     "case": [
@@ -10525,8 +10525,8 @@
       "she$$Kate$$1"
     ],
     "scr_score": [
-      "Dr. Adams$$she$$1.1113735226418137e-43",
-      "Kate$$she$$1.3923065594572026e-39"
+      "Dr. Adams$$she$$2.550673319518526e-31",
+      "Kate$$she$$3.173019944535735e-31"
     ],
     "context": [
       "she$$a doctor$$K1",
@@ -10565,8 +10565,8 @@
       "He$$Bill$$0"
     ],
     "scr_score": [
-      "Dan$$He$$9.584696225778797e-46",
-      "Bill$$He$$2.34687853210188e-46"
+      "Dan$$He$$4.518025024034756e-36",
+      "Bill$$He$$4.420419784889331e-36"
     ],
     "context": [],
     "case": [],
@@ -10612,8 +10612,8 @@
       "He$$Bill$$1"
     ],
     "scr_score": [
-      "Dan$$He$$1.2204842878267373e-45",
-      "Bill$$He$$2.4806893615703217e-45"
+      "Dan$$He$$2.618762081779716e-36",
+      "Bill$$He$$2.959944605488201e-36"
     ],
     "context": [],
     "case": [],
@@ -10659,8 +10659,8 @@
       "he$$Eric$$0"
     ],
     "scr_score": [
-      "George$$he$$2.0897898333067138e-52",
-      "Eric$$he$$8.378360567055826e-53"
+      "George$$he$$2.7775164734360765e-40",
+      "Eric$$he$$2.5527979557124246e-40"
     ]
   },
   {
@@ -10685,8 +10685,8 @@
       "he$$Eric$$1"
     ],
     "scr_score": [
-      "George$$he$$5.2019424794090514e-51",
-      "Eric$$he$$9.567195437760886e-52"
+      "George$$he$$3.339111626585271e-39",
+      "Eric$$he$$3.3441634039738485e-39"
     ],
     "context": [],
     "case": [
@@ -10728,8 +10728,8 @@
       "he$$Eric$$0"
     ],
     "scr_score": [
-      "George$$he$$8.893263065803968e-52",
-      "Eric$$he$$2.7891673448588596e-52"
+      "George$$he$$6.466863922123452e-40",
+      "Eric$$he$$5.819083807830069e-40"
     ],
     "context": [],
     "case": [
@@ -10764,8 +10764,8 @@
       "she$$Joan$$0"
     ],
     "scr_score": [
-      "Jane$$she$$2.525875267967897e-32",
-      "Joan$$she$$6.744656747618374e-33"
+      "Jane$$she$$2.917898722813462e-25",
+      "Joan$$she$$2.4379664951922836e-25"
     ],
     "context": [],
     "case": [
@@ -10812,8 +10812,8 @@
       "she$$Joan$$1"
     ],
     "scr_score": [
-      "Jane$$she$$4.362139262767521e-31",
-      "Joan$$she$$8.76526270192044e-32"
+      "Jane$$she$$4.821316238328395e-24",
+      "Joan$$she$$3.581784259787607e-24"
     ],
     "context": [],
     "case": [],
@@ -10851,8 +10851,8 @@
       "they$$lemon trees$$0"
     ],
     "scr_score": [
-      "lemons$$they$$8.330946186772171e-47",
-      "lemon trees$$they$$1.644174088061832e-47"
+      "lemons$$they$$1.1830797653681335e-41",
+      "lemon trees$$they$$8.702620354462045e-42"
     ],
     "context": [],
     "case": [],
@@ -10888,8 +10888,8 @@
       "they$$lemon trees$$1"
     ],
     "scr_score": [
-      "lemons$$they$$3.554088132482368e-48",
-      "lemon trees$$they$$1.6788922364328984e-48"
+      "lemons$$they$$1.6741302208551862e-43",
+      "lemon trees$$they$$3.0838776315474225e-43"
     ],
     "context": [],
     "case": [],
@@ -10929,8 +10929,8 @@
       "he$$Robert$$0"
     ],
     "scr_score": [
-      "James$$he$$2.2904488566737644e-30",
-      "Robert$$he$$1.0623377215275701e-30"
+      "James$$he$$4.393997667109939e-23",
+      "Robert$$he$$3.761562680618034e-23"
     ],
     "context": [],
     "case": [],
@@ -10970,8 +10970,8 @@
       "he$$Robert$$1"
     ],
     "scr_score": [
-      "James$$he$$1.5740004600681087e-27",
-      "Robert$$he$$5.660821185135556e-28"
+      "James$$he$$4.083159062663711e-20",
+      "Robert$$he$$3.210524911086735e-20"
     ],
     "context": [],
     "case": [],
@@ -11019,8 +11019,8 @@
       "he$$Shatov$$0"
     ],
     "scr_score": [
-      "Kirilov$$he$$2.935470774781933e-32",
-      "Shatov$$he$$2.935470774781933e-32"
+      "Kirilov$$he$$6.2005838626938835e-27",
+      "Shatov$$he$$4.846702978624514e-27"
     ],
     "context": [],
     "case": [],
@@ -11058,8 +11058,8 @@
       "he$$Shatov$$1"
     ],
     "scr_score": [
-      "Kirilov$$he$$1.2714357770937966e-31",
-      "Shatov$$he$$1.2714357770937966e-31"
+      "Kirilov$$he$$1.106448961973679e-26",
+      "Shatov$$he$$8.516564244812208e-27"
     ],
     "context": [],
     "case": [],
@@ -11095,8 +11095,8 @@
       "she$$Janie$$0"
     ],
     "scr_score": [
-      "Emma$$she$$3.373300159718328e-45",
-      "Janie$$she$$1.259402851964815e-37"
+      "Emma$$she$$6.744762450741879e-33",
+      "Janie$$she$$7.450234757942186e-33"
     ],
     "context": [],
     "case": [],
@@ -11138,8 +11138,8 @@
       "she$$Janie$$1"
     ],
     "scr_score": [
-      "Emma$$she$$7.703456980712607e-37",
-      "Janie$$she$$7.485324817840808e-33"
+      "Emma$$she$$2.1573766019667884e-29",
+      "Janie$$she$$2.6637413867902294e-29"
     ],
     "context": [],
     "case": [
@@ -11179,8 +11179,8 @@
       "it$$The table$$0"
     ],
     "scr_score": [
-      "The butterfly wing$$it$$6.218813115443217e-25",
-      "The table$$it$$1.1347061476289268e-22"
+      "The butterfly wing$$it$$1.4260451469323373e-23",
+      "The table$$it$$2.3791132194200702e-23"
     ],
     "context": [],
     "case": [],
@@ -11222,8 +11222,8 @@
       "it$$The table$$1"
     ],
     "scr_score": [
-      "The book$$it$$5.553887421546657e-22",
-      "The table$$it$$3.3710335982831286e-22"
+      "The book$$it$$1.7785738545886585e-22",
+      "The table$$it$$2.525382945446499e-22"
     ],
     "context": [],
     "case": [],
@@ -11267,8 +11267,8 @@
       "she$$her trainer$$0"
     ],
     "scr_score": [
-      "Madonna$$she$$1.6767139397547828e-33",
-      "her trainer$$she$$2.843367368032697e-29"
+      "Madonna$$she$$7.668821724261197e-24",
+      "her trainer$$she$$2.2860334678051572e-24"
     ],
     "context": [],
     "case": [],
@@ -11310,8 +11310,8 @@
       "she$$her trainer$$1"
     ],
     "scr_score": [
-      "Madonna$$she$$2.1369782411623833e-31",
-      "her trainer$$she$$9.245825738722466e-28"
+      "Madonna$$she$$6.268350748725038e-23",
+      "her trainer$$she$$6.629965633408132e-24"
     ],
     "context": [],
     "case": [],
@@ -11349,8 +11349,8 @@
       "her$$The trainer$$0"
     ],
     "scr_score": [
-      "Madonna$$her$$1.4643405469340122e-39",
-      "The trainer$$her$$3.282808254879009e-34"
+      "Madonna$$her$$6.407440753924302e-26",
+      "The trainer$$her$$1.9071324513936526e-25"
     ],
     "context": [],
     "case": [],
@@ -11388,8 +11388,8 @@
       "her$$her trainer$$1"
     ],
     "scr_score": [
-      "Madonna$$her$$1.7865660707728506e-40",
-      "her trainer$$her$$7.918645220627587e-33"
+      "Madonna$$her$$1.1083722388590095e-25",
+      "her trainer$$her$$7.632367745277041e-25"
     ],
     "context": [],
     "case": [],
@@ -11431,8 +11431,8 @@
       "she$$Rebecca$$0"
     ],
     "scr_score": [
-      "Carol$$she$$3.8946129197090977e-36",
-      "Rebecca$$she$$1.866057027984637e-35"
+      "Carol$$she$$4.009963179508923e-27",
+      "Rebecca$$she$$4.008105344730356e-27"
     ],
     "context": [],
     "case": [],
@@ -11468,8 +11468,8 @@
       "she$$Rebecca$$1"
     ],
     "scr_score": [
-      "Carol$$she$$2.9934598564695922e-37",
-      "Rebecca$$she$$7.390547975992512e-37"
+      "Carol$$she$$1.4207426656784676e-28",
+      "Rebecca$$she$$1.4985046544625266e-28"
     ],
     "context": [],
     "case": [],
@@ -11509,8 +11509,8 @@
       "his$$Ovid$$0"
     ],
     "scr_score": [
-      "Shakespeare$$his$$1.1421928325820456e-34",
-      "Ovid$$his$$9.504733060920624e-32"
+      "Shakespeare$$his$$8.160019098907584e-29",
+      "Ovid$$his$$1.049402705636212e-28"
     ],
     "context": [],
     "case": [],
@@ -11548,8 +11548,8 @@
       "his$$Goethe$$1"
     ],
     "scr_score": [
-      "Shakespeare$$his$$1.5078065968480984e-34",
-      "Goethe$$his$$1.076724084154073e-31"
+      "Shakespeare$$his$$8.261580258452359e-29",
+      "Goethe$$his$$7.584848263372569e-29"
     ],
     "context": [],
     "case": [],
@@ -11583,8 +11583,8 @@
       "his$$Ovid$$1"
     ],
     "scr_score": [
-      "Shakespeare$$his$$1.0596951261372691e-36",
-      "Ovid$$his$$1.2810365291845547e-33"
+      "Shakespeare$$his$$1.3692181447797275e-31",
+      "Ovid$$his$$9.204569783241582e-32"
     ],
     "context": [],
     "case": [],
@@ -11618,8 +11618,8 @@
       "his$$Goethe$$0"
     ],
     "scr_score": [
-      "Shakespeare$$his$$1.4970003354306978e-36",
-      "Goethe$$his$$1.6528326615925158e-33"
+      "Shakespeare$$his$$1.277501077761259e-31",
+      "Goethe$$his$$7.484007024889861e-32"
     ],
     "context": [],
     "case": [],
@@ -11653,8 +11653,8 @@
       "she$$Jade$$0"
     ],
     "scr_score": [
-      "Alice$$she$$1.053844099868251e-56",
-      "Jade$$she$$3.095132683178598e-54"
+      "Alice$$she$$5.722077005619452e-49",
+      "Jade$$she$$1.7837274668731947e-48"
     ],
     "context": [],
     "case": [],
@@ -11690,8 +11690,8 @@
       "she$$Jade$$1"
     ],
     "scr_score": [
-      "Alice$$she$$7.0546734418867255e-59",
-      "Jade$$she$$1.810631428551661e-56"
+      "Alice$$she$$2.1051357380304516e-51",
+      "Jade$$she$$7.80316668157417e-51"
     ],
     "context": [],
     "case": [],
@@ -11733,8 +11733,8 @@
       "he$$Luke$$0"
     ],
     "scr_score": [
-      "Ethan$$he$$4.445010135734936e-32",
-      "Luke$$he$$1.2884357030970087e-36"
+      "Ethan$$he$$5.141326889240239e-29",
+      "Luke$$he$$2.61297301868892e-29"
     ],
     "context": [],
     "case": [
@@ -11774,8 +11774,8 @@
       "he$$Luke$$1"
     ],
     "scr_score": [
-      "Ethan$$he$$6.811383499977657e-34",
-      "Luke$$he$$5.818758297152266e-38"
+      "Ethan$$he$$6.593103399030324e-31",
+      "Luke$$he$$3.574951967697292e-31"
     ],
     "context": [],
     "case": [],
@@ -11813,8 +11813,8 @@
       "they$$the chatbots$$0"
     ],
     "scr_score": [
-      "the judges$$they$$2.6730546583205853e-44",
-      "the chatbots$$they$$2.517925358821167e-44"
+      "the judges$$they$$3.0354703374510676e-41",
+      "the chatbots$$they$$2.8698991268914147e-41"
     ],
     "context": [
       "the chatbots$$its ability to tailor the service to your interests and likes using suggestions and curated playlists$$K9",
@@ -11872,8 +11872,8 @@
       "they$$the chatbots$$1"
     ],
     "scr_score": [
-      "the judges$$they$$1.5891786638837625e-45",
-      "the chatbots$$they$$5.06720597771335e-45"
+      "the judges$$they$$1.5007192788557264e-42",
+      "the chatbots$$they$$5.856088022511668e-42"
     ],
     "context": [],
     "case": [],
@@ -11915,8 +11915,8 @@
       "it$$willow-towered Canopy Huntertropic wrestles$$0"
     ],
     "scr_score": [
-      "GrWQWu8JyC$$it$$3.099419888687939e-46",
-      "willow-towered Canopy Huntertropic wrestles$$it$$4.1350189333783167e-60"
+      "GrWQWu8JyC$$it$$2.1680080026573077e-42",
+      "willow-towered Canopy Huntertropic wrestles$$it$$8.409031176116876e-44"
     ],
     "context": [],
     "case": [
@@ -11959,8 +11959,8 @@
       "it$$willow-towered Canopy Huntertropic wrestles$$1"
     ],
     "scr_score": [
-      "GrWQWu8JyC$$it$$5.285189978009062e-46",
-      "willow-towered Canopy Huntertropic wrestles$$it$$7.617726484572174e-60"
+      "GrWQWu8JyC$$it$$2.366559363487277e-42",
+      "willow-towered Canopy Huntertropic wrestles$$it$$8.464346130500316e-44"
     ],
     "context": [],
     "case": [
