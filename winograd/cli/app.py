@@ -2,7 +2,8 @@
 
 import json
 import shlex, subprocess
-import sys;
+import sys
+import math
 
 parent_dir = '/Users/ash/Documents/Study/Research/psl-examples/winograd/'
 PIPE= '/Users/ash/Documents/Study/Research/psl-examples/winograd/log/run.txt'
@@ -41,35 +42,37 @@ def run_psl():
     #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
+def softmax(s1, s2):
+    """Compute softmax values for each sets of scores in x."""
+    sc1 = math.pow(math.e, s1);
+    sc2 = math.pow(math.e, s2);
+    return sc1/(sc1+sc2), sc2/(sc1+sc2) 
+
 def get_ans(prob, bert):
     coref_file = open('inferred-predicates/COREF.txt', 'r')
     inferred_predicate = coref_file.read()
     inferred = inferred_predicate.split('\n')
     print("inferred", inferred)
-    max = sys.float_info.min
-    inferred_ans = ''
+    
     bert_isChoice1 = False;
     if bert['choice1_score'] > bert['choice2_score']:
         bert_isChoice1 = True
 
+    score1 = 0.0
+    score2 = 0.0
     for each in inferred:
         coref_score = each.split('\t')
         if len(coref_score) < 2:
             continue
 
-        if max < float(coref_score[2]):
-            coref_score[0] = coref_score[0][1:-1]
-            coref_score[1] = coref_score[1][1:-1]
-            coref_score[0] = coref_score[0].replace("\\", "")
-            coref_score[1] = coref_score[1].replace("\\", "")
-            # print("pronoun:", prob['pronoun'])
-            # print("coref_score 0", coref_score[0])
-            # print("coref_score 1", coref_score[1])
-            max = float(coref_score[2])
-            if prob['pronoun'].lower() == coref_score[0].lower():
-                inferred_ans = coref_score[1]
-            else:
-                inferred_ans = coref_score[0]
+        coref_score[0] = coref_score[0][1:-1]
+        coref_score[1] = coref_score[1][1:-1]
+        coref_score[0] = coref_score[0].replace("\\", "")
+        coref_score[1] = coref_score[1].replace("\\", "")
+        if coref_score[0] == bert['choice1']:
+            score1 = coref_score[2]
+        elif coref_score[0] == bert['choice2']:
+            score2 = coref_score[2]
 
     # if not (inferred_ans.lower() == bert['choice1'].lower() and not bert_isChoice1 and bert['ans'].lower() == bert['choice1'].lower()):
     #     inferred_ans = bert['choice2']
@@ -77,7 +80,7 @@ def get_ans(prob, bert):
     # if not (bert['ans'].lower() ==  bert['choice2'].lower() and bert_isChoice1 and inferred_ans.lower() == bert['choice2'].lower()):
     #     inferred_ans = bert['choice1']
 
-    return inferred_ans, max
+    return score1, score2
 
 def get_normalized_prob(ch1_score, ch2_score):
     if ch1_score < 0.01 and ch2_score < 0.01:
@@ -164,21 +167,17 @@ def main():
             ctoken1 = commonsense[0].split('$$')
             ctoken2 = commonsense[1].split('$$')
             if 'bert_choice1' not in each: #if PSL file is not having bert score then pick from the bert file
-                score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"])
-                score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"])
+                score1, score2 = softmax(bert["choice1_score"], bert["choice2_score"])
                 choice1 = bert["choice1"]
                 choice2 = bert["choice2"]
             else:
-                score1 = each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"])
-                score2 = each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"])
+                score1, score2 = softmax(each["bert_choice1"], each["bert_choice2"])
                 choice1 = ctoken1[0]
                 choice2 = ctoken2[0]
 
-            val1 = float(ctoken1[2]) #scr score1
-            val2 = float(ctoken2[2]) #scr score2
-            val1, val2 = get_normalized_prob(val1, val2)
-            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(score1)+'\n'
-            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(score2)+'\n'
+            val1, val2 = softmax(float(ctoken1[2]), float(ctoken2[2]))  #scr score1
+            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(val1)+'\n'
+            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(val2)+'\n'
 
         if len(context) > 1:
             know_entailment = {}
@@ -210,7 +209,12 @@ def main():
 
         create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_txt, entailment_txt, commonsense_txt, similarity_txt)
         run_psl();
-        inferred_ans, max = get_ans(each, bert);
+        psl_score1, psl_score2 = get_ans(each, bert);
+        if psl_score1 > psl_score2:
+            inferred_ans = bert['choice1']
+        else:
+            inferred_ans = bert['choice2']
+
         print('INFERRED_ANS: ', inferred_ans)
         if inferred_ans.lower() == each['ans'].lower():
             correct = correct + 1
@@ -220,6 +224,9 @@ def main():
             each["predicted"] = "INCORRECT"
         each['bert_choice1'] = bert["choice1_score"]
         each['bert_choice2'] = bert["choice2_score"]
+        each['psl_score1'] = psl_score1
+        each['psl_score2'] = psl_score2
+
         print("WS_SENT: "+each["ws_sent"])
         total = total + 1
 

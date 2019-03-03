@@ -1,4 +1,4 @@
 'it'	'GrWQWu8JyC'	1.2626737763005158E-13
-'willow-towered Canopy Huntertropic wrestles'	'it'	0.5219016075134277
-'GrWQWu8JyC'	'it'	0.4771497845649719
-'it'	'willow-towered Canopy Huntertropic wrestles'	1.9818849794801807E-14
+'willow-towered Canopy Huntertropic wrestles'	'it'	0.4994915723800659
+'GrWQWu8JyC'	'it'	0.49955832958221436
+'it'	'willow-towered Canopy Huntertropic wrestles'	4.684116931678341E-14
