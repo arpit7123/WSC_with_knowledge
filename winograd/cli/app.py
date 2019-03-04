@@ -100,8 +100,8 @@ def get_normalized_prob(ch1_score, ch2_score):
 
 def main():
 
-    #probs_with_context_file = "../data/wsc_problem_psl.json"
-    probs_with_context_file = "../data/new_psl_problems.json"
+    probs_with_context_file = "../data/wsc_problem_psl.json"
+    #probs_with_context_file = "../data/new_psl_problems.json"
     bert_scores_file = open("../data/bert_par_scores.json", "r")
     bert_scores = json.loads(bert_scores_file.read())
     #probs_with_context_file = "../data/test.json"
@@ -176,9 +176,9 @@ def main():
                 choice1 = ctoken1[0]
                 choice2 = ctoken2[0]
 
-            val1, val2 = softmax(float(ctoken1[2]), float(ctoken2[2]))  #scr score1
-            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(score1)+'\n'
-            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(score2)+'\n'
+            val1, val2 = get_normalized_prob(float(ctoken1[2]), float(ctoken2[2]))  #scr score1
+            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(val1)+'\n'
+            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(val2)+'\n'
 
         if len(context) > 1:
             know_entailment = {}

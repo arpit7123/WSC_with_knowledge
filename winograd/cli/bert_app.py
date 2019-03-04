@@ -150,8 +150,7 @@ def check_Bert_correct(bert):
     isBert_correct = False
     choice1 = bert['choice1_score']
     choice2 = bert['choice2_score']
-    c11, c12 = softmax(choice1[0], choice1[1])
-    c21, c22 = softmax(choice2[0], choice2[1])
+    choice1, choice2 = softmax(choice1, choice2)
     if bert['ans'].lower() == bert['choice1'].lower() and choice1 > choice2:
         isBert_correct = True
     if bert['ans'].lower() == bert['choice2'].lower() and choice2 > choice1:

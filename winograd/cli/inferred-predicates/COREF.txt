@@ -1,4 +1,4 @@
-'GrWQWu8JyC'	'it'	0.41035324335098267
-'it'	'willow-towered Canopy Huntertropic wrestles'	2.3064766784854085E-13
-'it'	'GrWQWu8JyC'	1.9818849794801807E-14
-'willow-towered Canopy Huntertropic wrestles'	'it'	0.5886491537094116
+'The demonstrators'	'they'	0.8015778064727783
+'they'	'The demonstrators'	1.8134067381395114E-13
+'they'	'The city councilmen'	1.7267959252168646E-13
+'The city councilmen'	'they'	0.08435064554214478

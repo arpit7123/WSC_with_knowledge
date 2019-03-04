@@ -1,104 +1,40 @@
 [
 	 {
-    "ws_sent": "Sam and Amy are passionately in love , but Amy's parents are unhappy about it , because they are fifteen .",
-    "ans": "Sam and Amy",
+    "ws_sent": "The city councilmen refused the demonstrators a permit because they advocated violence .",
+    "ans": "The demonstrators",
     "pronoun": "they",
     "domain": [
-      "Sam and Amy",
-      "Amy's parents",
+      "The city councilmen",
+      "The demonstrators",
       "they"
     ],
     "coref_target": [
-      "Sam and Amy$$they",
-      "Amy's parents$$they",
-      "they$$Sam and Amy",
-      "they$$Amy's parents"
+      "The city councilmen$$they",
+      "The demonstrators$$they",
+      "they$$The city councilmen",
+      "they$$The demonstrators"
     ],
     "coref_target_truth": [
-      "Sam and Amy$$they$$1",
-      "Amy's parents$$they$$0",
-      "they$$Sam and Amy$$1",
-      "they$$Amy's parents$$0"
+      "The city councilmen$$they$$0",
+      "The demonstrators$$they$$1",
+      "they$$The city councilmen$$0",
+      "they$$The demonstrators$$1"
     ],
     "scr_score": [
-      "Sam and Amy$$they$$8.512850686476007e-38",
-      "Amy's parents$$they$$2.4496628008098113e-38"
+      "The city councilmen$$they$$1.4042950289785339e-35",
+      "The demonstrators$$they$$1.337113581546516e-34"
     ],
-    "context": [
-      "they$$products$$K4",
-      "they$$products$$K1",
-      "Sam and Amy$$it$$K9",
-      "they$$retailers$$K8",
-      "they$$these products$$K1",
-      "Sam and Amy$$retailers$$K8",
-      "Sam and Amy$$products$$K8",
-      "Sam and Amy$$products$$K3",
-      "they$$products$$K8",
-      "Sam and Amy$$these products$$K1",
-      "they$$products$$K3",
-      "they$$retailers$$K3",
-      "they$$retailers$$K4",
-      "Sam and Amy$$these products$$K3",
-      "Sam and Amy$$these products$$K8",
-      "they$$These products$$K4",
-      "Sam and Amy$$retailers$$K3",
-      "Sam and Amy$$products$$K1",
-      "Sam and Amy$$retailers$$K1",
-      "Sam and Amy$$products$$K4",
-      "they$$it$$K9",
-      "they$$these products$$K3",
-      "Sam and Amy$$retailers$$K4",
-      "they$$retailers$$K1",
-      "Sam and Amy$$These products$$K4",
-      "they$$these products$$K8"
+    "context": [],
+    "case": [],
+    "entailment": [
+      "The city councilmen$$they$$K9$$0.40105193853378296",
+      "The demonstrators$$they$$K9$$0.40384021401405334"
     ],
-    "case": [
-      "TFF$$K1",
-      "TFT$$K1",
-      "TFF$$K3",
-      "TFT$$K3",
-      "TFF$$K4",
-      "TFT$$K4",
-      "TFF$$K8",
-      "TFT$$K8",
-      "TFF$$K9",
-      "TFT$$K9"
-    ],
-    "entailment": [],
-    "similarity": [
-      "these products$$retailers$$K1$$0.7810637354850769",
-      "these products$$products$$K1$$0.5905469059944153",
-      "retailers$$these products$$K1$$0.8862541317939758",
-      "retailers$$products$$K1$$0.7834358215332031",
-      "products$$these products$$K1$$0.9318950772285461",
-      "products$$retailers$$K1$$0.9321684241294861",
-      "Sam and Amy$$they$$K1$$0.11201465129852295",
-      "Sam and Amy$$they$$K2$$0.11201462149620056",
-      "these products$$retailers$$K3$$0.7810637354850769",
-      "these products$$products$$K3$$0.5905469059944153",
-      "retailers$$these products$$K3$$0.8862541317939758",
-      "retailers$$products$$K3$$0.7834358215332031",
-      "products$$these products$$K3$$0.9318950772285461",
-      "products$$retailers$$K3$$0.9321684241294861",
-      "Sam and Amy$$they$$K3$$0.11201462894678116",
-      "retailers$$These products$$K4$$0.8041331768035889",
-      "retailers$$products$$K4$$0.7834358215332031",
-      "These products$$retailers$$K4$$0.9112012386322021",
-      "These products$$products$$K4$$0.832665741443634",
-      "products$$retailers$$K4$$0.9321684241294861",
-      "products$$These products$$K4$$0.949614942073822",
-      "Sam and Amy$$they$$K4$$0.11201460659503937",
-      "Sam and Amy$$they$$K5$$0.11201460659503937",
-      "these products$$retailers$$K8$$0.7810637354850769",
-      "these products$$products$$K8$$0.5905469059944153",
-      "retailers$$these products$$K8$$0.8862541317939758",
-      "retailers$$products$$K8$$0.7834358215332031",
-      "products$$these products$$K8$$0.9318950772285461",
-      "products$$retailers$$K8$$0.9321684241294861",
-      "Sam and Amy$$they$$K8$$0.11201462149620056",
-      "Sam and Amy$$they$$K9$$0.11201462149620056"
-    ], 
-    "bert_choice1": 4.037254333496094,
-    "bert_choice2": 4.456389904022217
+    "similarity": [],
+    "predicted": "CORRECT",
+    "bert_choice1": 4.307188034057617,
+    "bert_choice2": 4.434593677520752,
+    "psl_score1": "0.4922771453857422",
+    "psl_score2": "0.5067632794380188"
   }
 ]
