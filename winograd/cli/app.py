@@ -38,8 +38,8 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    #process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
-    process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
 def softmax(s1, s2):
@@ -83,25 +83,26 @@ def get_ans(prob, bert):
     return score1, score2
 
 def get_normalized_prob(ch1_score, ch2_score):
-    if ch1_score < 0.01 and ch2_score < 0.01:
-        ch1_score = ch1_score * 100
-        ch2_score = ch2_score * 100
-    if ch1_score < 0.1 and ch2_score < 0.1:
-        ch1_score = ch1_score * 10
-        ch2_score = ch2_score * 10
-    if ch1_score < 0.3 and ch2_score < 0.3:
-        ch1_score = ch1_score * 3
-        ch2_score = ch2_score * 3
-    if ch1_score < 0.5 and ch2_score < 0.5:
-        ch1_score = ch1_score * 2
-        ch2_score = ch2_score * 2
+    while ch1_score < 0.5 and ch2_score < 0.5:
+        if ch1_score < 0.01 and ch2_score < 0.01:
+            ch1_score = ch1_score * 100
+            ch2_score = ch2_score * 100
+        elif ch1_score < 0.1 and ch2_score < 0.1:
+            ch1_score = ch1_score * 10
+            ch2_score = ch2_score * 10
+        elif ch1_score < 0.3 and ch2_score < 0.3:
+            ch1_score = ch1_score * 3
+            ch2_score = ch2_score * 3
+        elif ch1_score < 0.5 and ch2_score < 0.5:
+            ch1_score = ch1_score * 2
+            ch2_score = ch2_score * 2
     return ch1_score, ch2_score;
 
 def main():
 
     #probs_with_context_file = "../data/wsc_problem_psl.json"
     probs_with_context_file = "../data/new_psl_problems.json"
-    bert_scores_file = open("../data/bert_wsc_problems.json", "r")
+    bert_scores_file = open("../data/bert_par_scores.json", "r")
     bert_scores = json.loads(bert_scores_file.read())
     #probs_with_context_file = "../data/test.json"
     f = open(probs_with_context_file,"r")
@@ -176,8 +177,8 @@ def main():
                 choice2 = ctoken2[0]
 
             val1, val2 = softmax(float(ctoken1[2]), float(ctoken2[2]))  #scr score1
-            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(val1)+'\n'
-            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(val2)+'\n'
+            commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(score1)+'\n'
+            commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(score2)+'\n'
 
         if len(context) > 1:
             know_entailment = {}

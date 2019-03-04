@@ -148,9 +148,10 @@ def calculate_bert_scores(psl_scores):
 
 def check_Bert_correct(bert):
     isBert_correct = False
-    print(bert['choice1_score'], bert['choice2_score'])
     choice1 = bert['choice1_score']
     choice2 = bert['choice2_score']
+    c11, c12 = softmax(choice1[0], choice1[1])
+    c21, c22 = softmax(choice2[0], choice2[1])
     if bert['ans'].lower() == bert['choice1'].lower() and choice1 > choice2:
         isBert_correct = True
     if bert['ans'].lower() == bert['choice2'].lower() and choice2 > choice1:
@@ -208,8 +209,25 @@ def compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores):
         #             print('PSL no context')
         #         print('PSL CORRECT: Knowledge doesnt exist: '+psl['ws_sent'])
 
+def get_normalized_prob(ch1_score, ch2_score):
+    while ch1_score < 0.5 and ch2_score < 0.5:
+        if ch1_score < 0.01 and ch2_score < 0.01:
+            ch1_score = ch1_score * 100
+            ch2_score = ch2_score * 100
+        elif ch1_score < 0.1 and ch2_score < 0.1:
+            ch1_score = ch1_score * 10
+            ch2_score = ch2_score * 10
+        elif ch1_score < 0.3 and ch2_score < 0.3:
+            ch1_score = ch1_score * 3
+            ch2_score = ch2_score * 3
+        elif ch1_score < 0.5 and ch2_score < 0.5:
+            ch1_score = ch1_score * 2
+            ch2_score = ch2_score * 2
+    return ch1_score, ch2_score;
+
+
 def main():
-    bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
+    bert_scores_file = open("../data/bert_par_scores.json", "r") 
     bert_scores = json.loads(bert_scores_file.read())
 
     wsc_output_file = open("../data/wsc_prev_output.json", "r") 
@@ -220,14 +238,32 @@ def main():
 
     #compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores)
 
-    calculate_bert_scores(psl_scores);
+    #calculate_bert_scores(psl_scores);
+
     correct = 0
     incorrect = 0
-    for psl in psl_scores:
-        if psl['predicted'] == 'CORRECT':
+    for i in range(0, len(psl_scores)):
+        bert = bert_scores[i]
+        psl = psl_scores[i]
+        score1 = float(psl['scr_score'][0].split('$$')[2])
+        score2 = float(psl['scr_score'][1].split('$$')[2])
+        score1, score2 = get_normalized_prob(score1, score2)
+        #print('{:.50f}'.format(score1), '{:.50f}'.format(score2))
+        print(score1, score2)
+        if bert['ans'] == bert['choice1'] and score1 > score2:
+            correct = correct + 1
+        elif bert['ans'] == bert['choice2'] and score2 > score1:
             correct = correct + 1
         else:
             incorrect = incorrect + 1
+
+    # correct = 0
+    # incorrect = 0
+    # for psl in psl_scores:
+    #     if psl['predicted'] == 'CORRECT':
+    #         correct = correct + 1
+    #     else:
+    #         incorrect = incorrect + 1
 
     print("correct : "+str(correct))
     print("incorrect : "+str(incorrect))

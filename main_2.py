@@ -796,11 +796,11 @@ if __name__=="__main__":
         qasrl_wsc_output_dict[sentence] = json_obj
 
     
-    qasrl_know_sent_file = "inputs/auto/combined_qasrl_final.json"
+    qasrl_know_sent_file = "inputs/auto/combined_qasrl_final_with_allennlp.json"
     f = open(qasrl_know_sent_file,"r")
     qasrl_know_output_dict = json.loads(f.read())
    
-    wsc_know_sent_file = "inputs/auto/sorted_filtered_ksents_10.json"
+    wsc_know_sent_file = "inputs/auto/sorted_filtered_ksents_10_with_allennlp.json"
     f = open(wsc_know_sent_file,"r")
     temp_list = json.loads(f.read());
     wsc_know_sent_dict = {}
