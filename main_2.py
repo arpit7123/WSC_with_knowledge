@@ -776,8 +776,8 @@ if __name__=="__main__":
     populate_ques_type_list()
     
     #load all the wsc problems
-    #all_probs_file = "inputs/test_problems_file.json"
-    all_probs_file = "final_problems.json"
+    all_probs_file = "inputs/test_problems_file.json"
+    #all_probs_file = "final_problems.json"
     
     f = open(all_probs_file,"r")
     all_probs = f.read()
@@ -796,11 +796,11 @@ if __name__=="__main__":
         qasrl_wsc_output_dict[sentence] = json_obj
 
     
-    qasrl_know_sent_file = "inputs/auto/combined_qasrl_final_with_allennlp.json"
+    qasrl_know_sent_file = "inputs/auto/combined_qasrl_final.json"
     f = open(qasrl_know_sent_file,"r")
     qasrl_know_output_dict = json.loads(f.read())
    
-    wsc_know_sent_file = "inputs/auto/sorted_filtered_ksents_10_with_allennlp.json"
+    wsc_know_sent_file = "inputs/auto/sorted_filtered_ksents_10.json"
     f = open(wsc_know_sent_file,"r")
     temp_list = json.loads(f.read());
     wsc_know_sent_dict = {}

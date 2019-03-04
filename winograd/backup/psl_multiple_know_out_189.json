@@ -1534,55 +1534,49 @@
     ]
   },
   {
-    "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
-    "ans": "Tom",
-    "pronoun": "he",
-    "domain": [
-      "Frank",
-      "Tom",
-      "he"
-    ],
-    "coref_target": [
-      "Frank$$he",
-      "Tom$$he",
-      "he$$Frank",
-      "he$$Tom"
-    ],
-    "coref_target_truth": [
-      "Frank$$he$$0",
-      "Tom$$he$$1",
-      "he$$Frank$$0",
-      "he$$Tom$$1"
-    ],
-    "scr_score": [
-      "Frank$$he$$9.472118637305136e-30",
-      "Tom$$he$$6.746365351604686e-30"
-    ],
-    "context": [
-      "Frank$$He$$K2",
-      "Tom$$He$$K2",
-      "he$$He$$K2"
-    ],
-    "case": [
-      "TTF$$K2",
-      "TTT$$K2",
-      "TTF$$K2"
-    ],
-    "entailment": [
-      "Frank$$he$$K1$$0.14859074354171753",
-      "Tom$$he$$K1$$0.132286936044693"
-    ],
-    "similarity": [
-      "Frank$$he$$K2$$0.11624456942081451"
-    ],
-    "bert_choice1": 4.537201881408691,
-    "bert_choice2": 4.418819904327393,
-    "scr_scaled_score": [
-        0.9472118637305137,
-        0.6746365351604687
-    ]
-  },
-  {
+	  "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
+	  "ans": "Tom",
+	  "pronoun": "he",
+	  "domain": [
+	    "Frank",
+	    "Tom",
+	    "he"
+	  ],
+	  "coref_target": [
+	    "Frank$$he",
+	    "Tom$$he",
+	    "he$$Frank",
+	    "he$$Tom"
+	  ],
+	  "coref_target_truth": [
+	    "Frank$$he$$0",
+	    "Tom$$he$$1",
+	    "he$$Frank$$0",
+	    "he$$Tom$$1"
+	  ],
+	  "scr_score": [
+	    "Frank$$he$$9.472118637305136e-30",
+	    "Tom$$he$$6.746365351604686e-30"
+	  ],
+	  "context": [
+	    "Frank$$He$$K2",
+	    "Tom$$He$$K2",
+	    "he$$He$$K2"
+	  ],
+	  "case": [
+	    "TTF$$K2",
+	    "TTT$$K2",
+	    "TTF$$K2"
+	  ],
+	  "entailment": [
+	    "Frank$$he$$K1$$0.14859074354171753",
+	    "Tom$$he$$K1$$0.132286936044693"
+	  ],
+	  "similarity": [
+	    "Frank$$he$$K2$$0.11624456942081451"
+	  ]
+	},
+   {
     "case": [],
     "entailment": [
       "Jim$$he$$K2$$0.5554696321487427",
@@ -1911,13 +1905,29 @@
     ]
   },
   {
-    "ws_sent": "The older students were bullying the younger ones , so we rescued them  .",
-    "ans": "The younger ones",
-    "pronoun": "them",
+    "case": [
+      "FFT$$K1"
+    ],
+    "entailment": [
+      "The older students$$them$$K1$$0.034204740077257156",
+      "The younger ones$$them$$K1$$0.06648790836334229",
+      "The older students$$them$$K2$$0.03419514000415802",
+      "The younger ones$$them$$K2$$0.0664878636598587",
+      "The older students$$them$$K10$$0.03419514000415802",
+      "The younger ones$$them$$K10$$0.0664878785610199"
+    ],
     "domain": [
       "The older students",
       "The younger ones",
       "them"
+    ],
+    "bert_choice1": 4.401491641998291,
+    "pronoun": "them",
+    "similarity": [],
+    "psl_score1": "0.5039712190628052",
+    "scr_score": [
+      "The older students$$them$$1.0582391948925504e-29",
+      "The younger ones$$them$$1.0579872428540648e-29"
     ],
     "coref_target": [
       "The older students$$them",
@@ -1925,36 +1935,17 @@
       "them$$The older students",
       "them$$The younger ones"
     ],
+    "ws_sent": "The older students were bullying the younger ones , so we rescued them  .",
     "coref_target_truth": [
       "The older students$$them$$0",
       "The younger ones$$them$$1",
       "them$$The older students$$0",
       "them$$The younger ones$$1"
     ],
-    "scr_score": [
-      "The older students$$them$$1.0582391948925504e-29",
-      "The younger ones$$them$$1.0579872428540648e-29"
-    ],
-    "context": [
-      "them$$This Girl$$K2",
-      "The younger ones$$This Girl$$K2"
-    ],
-    "case": [
-      "FFT$$K1",
-      "FTF$$K2"
-    ],
-    "entailment": [
-      "The older students$$them$$K1$$0.03416922315955162",
-      "The younger ones$$them$$K1$$0.06648720055818558"
-    ],
-    "similarity": [
-      "The older students$$them$$K2$$0.06648072600364685",
-      "The older students$$them$$K3$$0.06648789346218109",
-      "The older students$$them$$K11$$0.06648789346218109"
-    ],
-    "psl_score1": "0.5039712190628052",
+    "predicted": "INCORRECT",
+    "context": [],
+    "ans": "The younger ones",
     "psl_score2": "0.4950937032699585",
-    "bert_choice1": 4.401491641998291,
     "bert_choice2": 4.324794292449951,
     "scr_scaled_score": [
       0.6349435169355301,
@@ -2551,13 +2542,29 @@
     ]
   },
   {
-    "ws_sent": "There is a gap in the wall . You can see the garden through it  .",
-    "ans": "The gap",
-    "pronoun": "it",
+    "case": [],
+    "entailment": [
+      "The gap$$it$$K3$$0.8874977827072144",
+      "The wall$$it$$K3$$0.7423520088195801",
+      "The gap$$it$$K4$$0.8874464631080627",
+      "The wall$$it$$K4$$0.7423517107963562",
+      "The gap$$it$$K7$$0.8874464631080627",
+      "The wall$$it$$K7$$0.7423517107963562",
+      "The gap$$it$$K9$$0.8874464631080627",
+      "The wall$$it$$K9$$0.7423517107963562"
+    ],
     "domain": [
       "The gap",
       "The wall",
       "it"
+    ],
+    "bert_choice1": 4.429242134094238,
+    "pronoun": "it",
+    "similarity": [],
+    "psl_score1": "0.4952658414840698",
+    "scr_score": [
+      "The gap$$it$$1.76229782661761e-27",
+      "The wall$$it$$3.0788524677613913e-27"
     ],
     "coref_target": [
       "The gap$$it",
@@ -2565,38 +2572,18 @@
       "it$$The gap",
       "it$$The wall"
     ],
+    "ws_sent": "There is a gap in the wall . You can see the garden through it  .",
     "coref_target_truth": [
       "The gap$$it$$1",
       "The wall$$it$$0",
       "it$$The gap$$1",
       "it$$The wall$$0"
     ],
-    "scr_score": [
-      "The gap$$it$$1.76229782661761e-27",
-      "The wall$$it$$3.0788524677613913e-27"
-    ],
+    "predicted": "INCORRECT",
     "context": [],
-    "case": [
-      "FFT$$K3",
-      "FFT$$K3"
-    ],
-    "entailment": [
-      "The gap$$it$$K3$$0.8868175745010376",
-      "The wall$$it$$K3$$0.7423516511917114",
-      "The gap$$it$$K4$$0.8874464631080627",
-      "The wall$$it$$K4$$0.7423517107963562",
-      "The gap$$it$$K5$$0.8874464631080627",
-      "The wall$$it$$K5$$0.7423517107963562",
-      "The gap$$it$$K8$$0.8874464631080627",
-      "The wall$$it$$K8$$0.7423517107963562",
-      "The gap$$it$$K10$$0.8874464631080627",
-      "The wall$$it$$K10$$0.7423517107963562"
-    ],
-    "similarity": [],
-    "bert_choice1": 4.429242134094238,
-    "bert_choice2": 4.508073329925537,
-    "psl_score1": "0.4952658414840698",
+    "ans": "The gap",
     "psl_score2": "0.5039003491401672",
+    "bert_choice2": 4.508073329925537,
     "scr_scaled_score": [
       0.3524595653235219,
       0.6157704935522782
@@ -3731,7 +3718,18 @@
     "similarity": [
       "the NGO$$I$$K1$$0.036468323320150375",
       "it$$I$$K1$$0.9015880823135376",
-      "my tuition$$I$$K1$$0.19182715564966202"
+      "my tuition$$I$$K1$$0.019182715564966202",
+      "Bob$$He$$K1$$0.7172967791557312",
+      "Bob$$He$$K2$$0.5160312056541443",
+      "Bob$$He$$K3$$0.5160308480262756",
+      "Bob$$He$$K4$$0.5160308480262756",
+      "Bob$$He$$K5$$0.5160307288169861",
+      "Bob$$He$$K6$$0.5160307288169861",
+      "Bob$$He$$K7$$0.5160307884216309",
+      "Bob$$He$$K8$$0.5160307884216309",
+      "Bob$$He$$K9$$0.5160307884216309",
+      "Bob$$He$$K10$$0.5160308480262756",
+      "Bob$$He$$K11$$0.5160307884216309"
     ],
     "psl_score1": "0.8189454078674316",
     "scr_score": [
@@ -3754,7 +3752,6 @@
     "predicted": "INCORRECT",
     "context": [
       "Charlie$$my tuition$$K1",
-      "He$$my tuition$$K1",
       "He$$I$$K1",
       "Bob$$it$$K1",
       "Bob$$the NGO$$K1"
@@ -5378,13 +5375,33 @@
     ]
   },
   {
-    "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressed .",
-    "ans": "John",
-    "pronoun": "He",
+    "case": [],
+    "entailment": [
+      "John$$He$$K1$$0.07938296347856522",
+      "The juggler$$He$$K1$$0.05712774395942688",
+      "John$$He$$K2$$0.07940888404846191",
+      "The juggler$$He$$K2$$0.05712779983878136",
+      "John$$He$$K6$$0.07940889894962311",
+      "The juggler$$He$$K6$$0.05712779238820076",
+      "John$$He$$K7$$0.07940886169672012",
+      "The juggler$$He$$K7$$0.05712781473994255",
+      "John$$He$$K8$$0.07940886914730072",
+      "The juggler$$He$$K8$$0.057127825915813446",
+      "John$$He$$K10$$0.0794089064002037",
+      "The juggler$$He$$K10$$0.05712781473994255"
+    ],
     "domain": [
       "John",
       "The juggler",
       "He"
+    ],
+    "bert_choice1": 2.8642311096191406,
+    "pronoun": "He",
+    "similarity": [],
+    "psl_score1": "0.3998252749443054",
+    "scr_score": [
+      "John$$He$$5.343957443215401e-34",
+      "The juggler$$He$$1.088464624018131e-33"
     ],
     "coref_target": [
       "John$$He",
@@ -5392,36 +5409,17 @@
       "He$$John",
       "He$$The juggler"
     ],
+    "ws_sent": "John was jogging through the park when he saw a man juggling watermelons . He was very impressed .",
     "coref_target_truth": [
       "John$$He$$1",
       "The juggler$$He$$0",
       "He$$John$$1",
       "He$$The juggler$$0"
     ],
-    "scr_score": [
-      "John$$He$$5.343957443215401e-34",
-      "The juggler$$He$$1.088464624018131e-33"
-    ],
-    "context": [
-      "He$$We$$K1",
-      "John$$We$$K1"
-    ],
-    "case": [
-      "TFT$$K1"
-    ],
-    "entailment": [],
-    "similarity": [
-      "John$$He$$K1$$0.10916715115308762",
-      "John$$He$$K2$$0.07937444001436234",
-      "John$$He$$K3$$0.0794089064002037",
-      "John$$He$$K7$$0.07940887659788132",
-      "John$$He$$K8$$0.07940887659788132",
-      "John$$He$$K9$$0.07940889894962311",
-      "John$$He$$K11$$0.07940886914730072"
-    ],
-    "psl_score1": "0.3998252749443054",
+    "predicted": "INCORRECT",
+    "context": [],
+    "ans": "John",
     "psl_score2": "0.5992538928985596",
-    "bert_choice1": 2.8642311096191406,
     "bert_choice2": 4.292047023773193,
     "scr_scaled_score": [
       0.32063744659292404,
@@ -6291,13 +6289,29 @@
     ]
   },
   {
-    "ws_sent": "Since it was raining , I carried the newspaper in my backpack to keep it dry .",
-    "ans": "The newspaper",
-    "pronoun": "it",
+    "case": [],
+    "entailment": [
+      "The newspaper$$it$$K1$$0.01712932251393795",
+      "The backpack$$it$$K1$$0.05002521723508835",
+      "The newspaper$$it$$K2$$0.017134182155132294",
+      "The backpack$$it$$K2$$0.05002523958683014",
+      "The newspaper$$it$$K4$$0.01713418960571289",
+      "The backpack$$it$$K4$$0.050025228410959244",
+      "The newspaper$$it$$K8$$0.017134185880422592",
+      "The backpack$$it$$K8$$0.050025228410959244"
+    ],
     "domain": [
       "The newspaper",
       "The backpack",
       "it"
+    ],
+    "bert_choice1": 4.978935718536377,
+    "pronoun": "it",
+    "similarity": [],
+    "psl_score1": "0.49885445833206177",
+    "scr_score": [
+      "The newspaper$$it$$1.7293732980739086e-28",
+      "The backpack$$it$$3.3483128689500795e-28"
     ],
     "coref_target": [
       "The newspaper$$it",
@@ -6305,32 +6319,16 @@
       "it$$The newspaper",
       "it$$The backpack"
     ],
+    "ws_sent": "Since it was raining , I carried the newspaper in my backpack to keep it dry .",
     "coref_target_truth": [
       "The newspaper$$it$$1",
       "The backpack$$it$$0",
       "it$$The newspaper$$1",
       "it$$The backpack$$0"
     ],
-    "scr_score": [
-      "The newspaper$$it$$1.7293732980739086e-28",
-      "The backpack$$it$$3.3483128689500795e-28"
-    ],
-    "context": [
-      "The newspaper$$electronics$$K1",
-      "it$$electronics$$K1"
-    ],
-    "case": [
-      "TFF$$K1",
-      "TFF$$K1",
-      "TFF$$K1",
-      "TFT$$K1"
-    ],
-    "entailment": [],
-    "similarity": [
-      "electronics$$it$$K1$$0.9939283132553101"
-    ],
-    "bert_choice1": 4.978935718536377,
-    "psl_score1": "0.49885445833206177",
+    "predicted": "INCORRECT",
+    "context": [],
+    "ans": "The newspaper",
     "psl_score2": "0.5002800822257996",
     "bert_choice2": 4.99426794052124,
     "scr_scaled_score": [
@@ -7613,13 +7611,31 @@
     ]
   },
   {
-    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
-    "ans": "Jackson",
-    "pronoun": "he",
+    "case": [],
+    "entailment": [
+      "Jackson$$he$$K2$$0.6601147055625916",
+      "Arnold$$he$$K2$$0.6727564930915833",
+      "Jackson$$he$$K3$$0.6607889533042908",
+      "Arnold$$he$$K3$$0.6727566123008728",
+      "Jackson$$he$$K5$$0.660788893699646",
+      "Arnold$$he$$K5$$0.6727566123008728",
+      "Jackson$$he$$K7$$0.6607890725135803",
+      "Arnold$$he$$K7$$0.6727567315101624",
+      "Jackson$$he$$K9$$0.6607887148857117",
+      "Arnold$$he$$K9$$0.6727566719055176"
+    ],
     "domain": [
       "Jackson",
       "Arnold",
       "he"
+    ],
+    "bert_choice1": 1.4984973669052124,
+    "pronoun": "he",
+    "similarity": [],
+    "psl_score1": "0.26925593614578247",
+    "scr_score": [
+      "Jackson$$he$$6.391015484777861e-29",
+      "Arnold$$he$$7.152180123418503e-29"
     ],
     "coref_target": [
       "Jackson$$he",
@@ -7627,40 +7643,22 @@
       "he$$Jackson",
       "he$$Arnold"
     ],
+    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
     "coref_target_truth": [
       "Jackson$$he$$1",
       "Arnold$$he$$0",
       "he$$Jackson$$1",
       "he$$Arnold$$0"
     ],
-    "scr_score": [
-      "Jackson$$he$$6.391015484777861e-29",
-      "Arnold$$he$$7.152180123418503e-29"
-    ],
-    "context": [
-      "Jackson$$Galen of Pergamon$$K1",
-      "he$$Galen of Pergamon$$K1"
-    ],
-    "case": [
-      "TFT$$K1"
-    ],
-    "entailment": [],
-    "similarity": [
-      "Galen of Pergamon$$he$$K1$$0.13264818489551544",
-      "Jackson$$he$$K1$$0.6601904630661011",
-      "Jackson$$he$$K2$$0.6727566123008728",
-      "Jackson$$he$$K3$$0.6727566719055176",
-      "Jackson$$he$$K5$$0.6727566719055176",
-      "Jackson$$he$$K7$$0.6727564930915833",
-      "Jackson$$he$$K9$$0.6727566719055176"
-    ],
-     "bert_choice1": 1.4984973669052124,
-     "psl_score2": "0.7298471927642822",
-     "bert_choice2": 4.064205646514893,
-     "scr_scaled_score": [
-        0.639101548477786,
-        0.7152180123418503
-     ]
+    "predicted": "INCORRECT",
+    "context": [],
+    "ans": "Jackson",
+    "psl_score2": "0.7298471927642822",
+    "bert_choice2": 4.064205646514893,
+    "scr_scaled_score": [
+      0.639101548477786,
+      0.7152180123418503
+    ]
   },
   {
     "case": [],

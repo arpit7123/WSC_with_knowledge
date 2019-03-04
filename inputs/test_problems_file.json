@@ -1,16 +1,16 @@
 [
   {
-    "ans": "My father",
-    "choice1": "Fred",
-    "choice2": "My father",
-    "know_sent": "The term infant is typically applied to young children under one year of age",
-    "know_url": "https://en.wikipedia.org/wiki/Infant",
+    "ans": "Jackson",
+    "choice1": "Jackson",
+    "choice2": "Arnold",
+    "know_sent": "Galen of Pergamon (AD 129-199) is perhaps a figure more sympathetic to modern thought and philosophy , still much influenced by Platonic ideas , though he lived 400 years later .",
+    "know_url": "NA",
     "pronoun": "he",
-    "search_query": "infant age limit\n",
-    "ws_sent": "Fred is the only man alive who still remembers my father as an infant . When Fred first saw my father , he was twelve months old .",
+    "search_query": "NA",
+    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
     "scr_score": {
-      "choice1": 2.6379896633663623e-55,
-      "choice2": 1.2956515232696888e-50
+      "choice1": 6.391015484777861e-29,
+      "choice2": 7.152180123418503e-29
     }
   }
 ]

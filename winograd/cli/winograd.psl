@@ -1,4 +1,3 @@
-
 30: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C, K) & Context(P2, C, K) & (P1 != P2)  -> Coref(P1, P2) ^2
 
 10: Domain(P1, 'can') & Domain(P2, 'p') & Context(P1, C1, K) & Context(P2, C2, K) & Similar(C1, C2, K) & (P1 != P2) -> Coref(P1, P2) ^2

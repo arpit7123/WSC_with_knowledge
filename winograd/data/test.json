@@ -1,40 +1,52 @@
 [
-	 {
-    "ws_sent": "The city councilmen refused the demonstrators a permit because they advocated violence .",
-    "ans": "The demonstrators",
-    "pronoun": "they",
+  {
+    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
+    "ans": "Jackson",
+    "pronoun": "he",
     "domain": [
-      "The city councilmen",
-      "The demonstrators",
-      "they"
+      "Jackson",
+      "Arnold",
+      "he"
     ],
     "coref_target": [
-      "The city councilmen$$they",
-      "The demonstrators$$they",
-      "they$$The city councilmen",
-      "they$$The demonstrators"
+      "Jackson$$he",
+      "Arnold$$he",
+      "he$$Jackson",
+      "he$$Arnold"
     ],
     "coref_target_truth": [
-      "The city councilmen$$they$$0",
-      "The demonstrators$$they$$1",
-      "they$$The city councilmen$$0",
-      "they$$The demonstrators$$1"
+      "Jackson$$he$$1",
+      "Arnold$$he$$0",
+      "he$$Jackson$$1",
+      "he$$Arnold$$0"
     ],
     "scr_score": [
-      "The city councilmen$$they$$1.4042950289785339e-35",
-      "The demonstrators$$they$$1.337113581546516e-34"
+      "Jackson$$he$$6.391015484777861e-29",
+      "Arnold$$he$$7.152180123418503e-29"
     ],
-    "context": [],
-    "case": [],
-    "entailment": [
-      "The city councilmen$$they$$K9$$0.40105193853378296",
-      "The demonstrators$$they$$K9$$0.40384021401405334"
+    "context": [
+      "Jackson$$Galen of Pergamon$$K1",
+      "he$$Galen of Pergamon$$K1"
     ],
-    "similarity": [],
-    "predicted": "CORRECT",
-    "bert_choice1": 4.307188034057617,
-    "bert_choice2": 4.434593677520752,
-    "psl_score1": "0.4922771453857422",
-    "psl_score2": "0.5067632794380188"
+    "case": [
+      "TFT$$K1"
+    ],
+    "entailment": [],
+    "similarity": [
+      "Galen of Pergamon$$he$$K1$$0.13264818489551544",
+      "Jackson$$he$$K1$$0.6601904630661011",
+      "Jackson$$he$$K2$$0.6727566123008728",
+      "Jackson$$he$$K3$$0.6727566719055176",
+      "Jackson$$he$$K5$$0.6727566719055176",
+      "Jackson$$he$$K7$$0.6727564930915833",
+      "Jackson$$he$$K9$$0.6727566719055176"
+    ],
+     "bert_choice1": 1.4984973669052124,
+     "psl_score2": "0.7298471927642822",
+     "bert_choice2": 4.064205646514893,
+     "scr_scaled_score": [
+        0.639101548477786,
+        0.7152180123418503
+     ]
   }
 ]

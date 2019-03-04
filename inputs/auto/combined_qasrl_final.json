@@ -56,6 +56,98 @@
             }
         ]
     },
+    "He sold me a bad rug . I am really angry about it .":{
+      "words": [
+        "He",
+        "sold",
+        "me",
+        "a",
+        "bad",
+        "rug",
+        ".",
+        "I",
+        "am",
+        "really",
+        "angry",
+        "about",
+        "it",
+        "."
+      ],
+      "verbs": [
+        {
+          "verb": "sold",
+          "qa_pairs": [
+            {
+              "question": "Who sold something?",
+              "spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "text": "He"
+                }
+              ]
+            },
+            {
+              "question": "Who did someone sell something?",
+              "spans": [
+                {
+                  "start": 2,
+                  "end": 2,
+                  "text": "me"
+                }
+              ]
+            },
+            {
+              "question": "What did someone sell someone?",
+              "spans": [
+                {
+                  "start": 3,
+                  "end": 5,
+                  "text": "a bad rug"
+                }
+              ]
+            }
+          ],
+          "index": 1
+        },
+        {
+          "verb": "am",
+          "qa_pairs": [
+            {
+              "question": "Who am something?",
+              "spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "text": "He"
+                },
+                {
+                  "start": 7,
+                  "end": 7,
+                  "text": "I"
+                }
+              ]
+            },
+            {
+              "question": "What does someone am?",
+              "spans": [
+                {
+                  "start": 9,
+                  "end": 10,
+                  "text": "really angry"
+                },
+                {
+                  "start": 9,
+                  "end": 12,
+                  "text": "really angry about it"
+                }
+              ]
+            }
+          ],
+          "index": 8
+        }
+      ]
+    },
     "The elastic in the waistband was not anchored and rolled when you put the garment on and took it off.": {
         "words": [
             "The",
@@ -205,6 +297,53 @@
                 ],
                 "index": 17
             }
+        ]
+    },
+    "This Girl Was Bullied for Her Prom Dress , so Twitter Came to Her Rescue": {
+        "words": [
+          "This",
+          "Girl",
+          "Was",
+          "Bullied",
+          "for",
+          "Her",
+          "Prom",
+          "Dress",
+          ",",
+          "so",
+          "Twitter",
+          "Came",
+          "to",
+          "Her",
+          "Rescue"
+        ],
+        "verbs": [
+          {
+            "verb": "Bullied",
+            "qa_pairs": [
+              {
+                "question": "Who was bullied?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "This Girl"
+                  }
+                ]
+              },
+              {
+                "question": "What was someone bullied for?",
+                "spans": [
+                  {
+                    "start": 5,
+                    "end": 7,
+                    "text": "Her Prom Dress"
+                  }
+                ]
+              }
+            ],
+            "index": 3
+          }
         ]
     },
     "She says I comforted her, because she was so upset": {
@@ -566,6 +705,111 @@
             }
         ]
     },
+    "Eventually he found a place from which he could see through a gap in the hedge": {
+    "words": [
+          "Eventually",
+          "he",
+          "found",
+          "a",
+          "place",
+          "from",
+          "which",
+          "he",
+          "could",
+          "see",
+          "through",
+          "a",
+          "gap",
+          "in",
+          "the",
+          "hedge",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "found",
+            "qa_pairs": [
+              {
+                "question": "When did someone found something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Eventually"
+                  }
+                ]
+              },
+              {
+                "question": "Who found something?",
+                "spans": [
+                  {
+                    "start": 1,
+                    "end": 1,
+                    "text": "he"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone found?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 4,
+                    "text": "a place"
+                  },
+                  {
+                    "start": 3,
+                    "end": 15,
+                    "text": "a place from which he could see through a gap in the hedge"
+                  }
+                ]
+              }
+            ],
+            "index": 2
+          },
+          {
+            "verb": "see",
+            "qa_pairs": [
+              {
+                "question": "Who can see?",
+                "spans": [
+                  {
+                    "start": 1,
+                    "end": 1,
+                    "text": "he"
+                  },
+                  {
+                    "start": 7,
+                    "end": 7,
+                    "text": "he"
+                  }
+                ]
+              },
+              {
+                "question": "Where can someone see?",
+                "spans": [
+                  {
+                    "start": 10,
+                    "end": 15,
+                    "text": "through a gap in the hedge"
+                  }
+                ]
+              },
+              {
+                "question": "What can someone see through?",
+                "spans": [
+                  {
+                    "start": 11,
+                    "end": 15,
+                    "text": "a gap in the hedge"
+                  }
+                ]
+              }
+            ],
+            "index": 9
+          }
+        ]
+    },
     "wife know that this is done, and some of DM's uncomfortable messages went to them, we explained them, but we could not convince them.": {
         "words": [
             "wife",
@@ -762,6 +1006,332 @@
                 ],
                 "index": 4
             }
+        ]
+    },
+    "If you lost money in an IPO investment because you were misled, deceived or improperly advised by a broker or investment adviser, our firm can help you understand your rights and options, and we can represent you in filing and pursuing a claim to recoup your money.": {
+        "words": [
+          "If",
+          "you",
+          "lost",
+          "money",
+          "in",
+          "an",
+          "IPO",
+          "investment",
+          "because",
+          "you",
+          "were",
+          "misled",
+          ",",
+          "deceived",
+          "or",
+          "improperly",
+          "advised",
+          "by",
+          "a",
+          "broker",
+          "or",
+          "investment",
+          "adviser",
+          ",",
+          "our",
+          "firm",
+          "can",
+          "help",
+          "you",
+          "understand",
+          "your",
+          "rights",
+          "and",
+          "options",
+          ",",
+          "and",
+          "we",
+          "can",
+          "represent",
+          "you",
+          "in",
+          "filing",
+          "and",
+          "pursuing",
+          "a",
+          "claim",
+          "to",
+          "recoup",
+          "your",
+          "money",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "lost",
+            "qa_pairs": [
+              {
+                "question": "Who lost something?",
+                "spans": [
+                  {
+                    "start": 1,
+                    "end": 1,
+                    "text": "you"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone lose?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 3,
+                    "text": "money"
+                  }
+                ]
+              },
+              {
+                "question": "Where did someone lose something?",
+                "spans": [
+                  {
+                    "start": 4,
+                    "end": 7,
+                    "text": "in an IPO investment"
+                  }
+                ]
+              },
+              {
+                "question": "Why did someone lose something?",
+                "spans": [
+                  {
+                    "start": 8,
+                    "end": 22,
+                    "text": "because you were misled , deceived or improperly advised by a broker or investment adviser"
+                  }
+                ]
+              }
+            ],
+            "index": 2
+          },
+          {
+            "verb": "misled",
+            "qa_pairs": [
+              {
+                "question": "Who was misled?",
+                "spans": [
+                  {
+                    "start": 9,
+                    "end": 9,
+                    "text": "you"
+                  }
+                ]
+              }
+            ],
+            "index": 11
+          },
+          {
+            "verb": "deceived",
+            "qa_pairs": [
+              {
+                "question": "Who was deceived?",
+                "spans": [
+                  {
+                    "start": 9,
+                    "end": 9,
+                    "text": "you"
+                  },
+                  {
+                    "start": 18,
+                    "end": 22,
+                    "text": "a broker or investment adviser"
+                  }
+                ]
+              }
+            ],
+            "index": 13
+          },
+          {
+            "verb": "advised",
+            "qa_pairs": [
+              {
+                "question": "Who was advised?",
+                "spans": [
+                  {
+                    "start": 9,
+                    "end": 9,
+                    "text": "you"
+                  }
+                ]
+              },
+              {
+                "question": "How was someone advised?",
+                "spans": [
+                  {
+                    "start": 15,
+                    "end": 15,
+                    "text": "improperly"
+                  }
+                ]
+              },
+              {
+                "question": "Who was someone advised by?",
+                "spans": [
+                  {
+                    "start": 18,
+                    "end": 22,
+                    "text": "a broker or investment adviser"
+                  }
+                ]
+              }
+            ],
+            "index": 16
+          },
+          {
+            "verb": "help",
+            "qa_pairs": [
+              {
+                "question": "Who can help someone?",
+                "spans": [
+                  {
+                    "start": 24,
+                    "end": 25,
+                    "text": "our firm"
+                  }
+                ]
+              },
+              {
+                "question": "Who can someone help?",
+                "spans": [
+                  {
+                    "start": 28,
+                    "end": 28,
+                    "text": "you"
+                  }
+                ]
+              },
+              {
+                "question": "What can someone help someone  do?",
+                "spans": [
+                  {
+                    "start": 29,
+                    "end": 33,
+                    "text": "understand your rights and options"
+                  }
+                ]
+              }
+            ],
+            "index": 27
+          },
+          {
+            "verb": "understand",
+            "qa_pairs": [
+              {
+                "question": "Who understands something?",
+                "spans": [
+                  {
+                    "start": 28,
+                    "end": 28,
+                    "text": "you"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone understand?",
+                "spans": [
+                  {
+                    "start": 30,
+                    "end": 33,
+                    "text": "your rights and options"
+                  }
+                ]
+              }
+            ],
+            "index": 29
+          },
+          {
+            "verb": "represent",
+            "qa_pairs": [
+              {
+                "question": "Who can represent?",
+                "spans": [
+                  {
+                    "start": 36,
+                    "end": 36,
+                    "text": "we"
+                  }
+                ]
+              },
+              {
+                "question": "Who can someone represent?",
+                "spans": [
+                  {
+                    "start": 39,
+                    "end": 39,
+                    "text": "you"
+                  }
+                ]
+              },
+              {
+                "question": "Where can someone represent someone?",
+                "spans": [
+                  {
+                    "start": 40,
+                    "end": 45,
+                    "text": "in filing and pursuing a claim"
+                  }
+                ]
+              },
+              {
+                "question": "How can someone represent someone?",
+                "spans": [
+                  {
+                    "start": 40,
+                    "end": 49,
+                    "text": "in filing and pursuing a claim to recoup your money"
+                  }
+                ]
+              }
+            ],
+            "index": 38
+          },
+          {
+            "verb": "pursuing",
+            "qa_pairs": [
+              {
+                "question": "What is being pursued?",
+                "spans": [
+                  {
+                    "start": 44,
+                    "end": 45,
+                    "text": "a claim"
+                  }
+                ]
+              },
+              {
+                "question": "Why is someone pursuing something?",
+                "spans": [
+                  {
+                    "start": 46,
+                    "end": 49,
+                    "text": "to recoup your money"
+                  }
+                ]
+              }
+            ],
+            "index": 43
+          },
+          {
+            "verb": "recoup",
+            "qa_pairs": [
+              {
+                "question": "What is being recouped?",
+                "spans": [
+                  {
+                    "start": 48,
+                    "end": 49,
+                    "text": "your money"
+                  }
+                ]
+              }
+            ],
+            "index": 47
+          }
         ]
     },
     "I am really grateful for having a good job now, and I am grateful to the NGO because it has helped me and paid for my tuition until I graduated with satisfactory grades.": {
@@ -1031,6 +1601,430 @@
             }
         ]
     },
+    "Galen of Pergamon (AD 129-199) is perhaps a figure more sympathetic to modern thought and philosophy , still much influenced by Platonic ideas , though he lived 400 years later .": {
+        "words": [
+          "Galen",
+          "of",
+          "Pergamon",
+          "(",
+          "AD",
+          "129-199",
+          ")",
+          "is",
+          "perhaps",
+          "a",
+          "figure",
+          "more",
+          "sympathetic",
+          "to",
+          "modern",
+          "thought",
+          "and",
+          "philosophy",
+          ",",
+          "still",
+          "much",
+          "influenced",
+          "by",
+          "Platonic",
+          "ideas",
+          ",",
+          "though",
+          "he",
+          "lived",
+          "400",
+          "years",
+          "later",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "is",
+            "qa_pairs": [
+              {
+                "question": "Who is something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Galen of Pergamon"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone is?",
+                "spans": [
+                  {
+                    "start": 8,
+                    "end": 17,
+                    "text": "perhaps a figure more sympathetic to modern thought and philosophy"
+                  },
+                  {
+                    "start": 9,
+                    "end": 17,
+                    "text": "a figure more sympathetic to modern thought and philosophy"
+                  }
+                ]
+              }
+            ],
+            "index": 7
+          },
+          {
+            "verb": "influenced",
+            "qa_pairs": [
+              {
+                "question": "Who is influenced by something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Galen of Pergamon"
+                  }
+                ]
+              },
+              {
+                "question": "What is something influenced by?",
+                "spans": [
+                  {
+                    "start": 23,
+                    "end": 24,
+                    "text": "Platonic ideas"
+                  }
+                ]
+              }
+            ],
+            "index": 21
+          },
+          {
+            "verb": "lived",
+            "qa_pairs": [
+              {
+                "question": "Who lived?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 2,
+                    "text": "Galen of Pergamon"
+                  },
+                  {
+                    "start": 27,
+                    "end": 27,
+                    "text": "he"
+                  }
+                ]
+              },
+              {
+                "question": "When did someone live?",
+                "spans": [
+                  {
+                    "start": 29,
+                    "end": 31,
+                    "text": "400 years later"
+                  }
+                ]
+              }
+            ],
+            "index": 28
+          }
+        ]
+      },
+    "I put electronics in a large baggie to keep them dry when wet towels go back into the bag.": {
+        "words": [
+          "I",
+          "put",
+          "electronics",
+          "in",
+          "a",
+          "large",
+          "baggie",
+          "to",
+          "keep",
+          "them",
+          "dry",
+          "when",
+          "wet",
+          "towels",
+          "go",
+          "back",
+          "into",
+          "the",
+          "bag",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "put",
+            "qa_pairs": [
+              {
+                "question": "Who put something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "I"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone put?",
+                "spans": [
+                  {
+                    "start": 2,
+                    "end": 2,
+                    "text": "electronics"
+                  }
+                ]
+              },
+              {
+                "question": "Where did someone put something?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 6,
+                    "text": "in a large baggie"
+                  }
+                ]
+              },
+              {
+                "question": "Why did someone put something?",
+                "spans": [
+                  {
+                    "start": 7,
+                    "end": 10,
+                    "text": "to keep them dry"
+                  },
+                  {
+                    "start": 7,
+                    "end": 18,
+                    "text": "to keep them dry when wet towels go back into the bag"
+                  }
+                ]
+              }
+            ],
+            "index": 1
+          },
+          {
+            "verb": "keep",
+            "qa_pairs": [
+              {
+                "question": "What keeps something?",
+                "spans": [
+                  {
+                    "start": 2,
+                    "end": 2,
+                    "text": "electronics"
+                  }
+                ]
+              },
+              {
+                "question": "What does something keep?",
+                "spans": [
+                  {
+                    "start": 9,
+                    "end": 9,
+                    "text": "them"
+                  }
+                ]
+              },
+              {
+                "question": "How is someone being kept?",
+                "spans": [
+                  {
+                    "start": 10,
+                    "end": 10,
+                    "text": "dry"
+                  }
+                ]
+              },
+              {
+                "question": "When is something kept?",
+                "spans": [
+                  {
+                    "start": 11,
+                    "end": 18,
+                    "text": "when wet towels go back into the bag"
+                  }
+                ]
+              }
+            ],
+            "index": 8
+          },
+          {
+            "verb": "go",
+            "qa_pairs": [
+              {
+                "question": "What goes somewhere?",
+                "spans": [
+                  {
+                    "start": 12,
+                    "end": 13,
+                    "text": "wet towels"
+                  }
+                ]
+              },
+              {
+                "question": "Where does something go?",
+                "spans": [
+                  {
+                    "start": 15,
+                    "end": 18,
+                    "text": "back into the bag"
+                  }
+                ]
+              }
+            ],
+            "index": 14
+          }
+        ]
+      },
+    "Sold David's home so he can move out to the country!": {
+        "words": [
+          "Sold",
+          "David",
+          "'s",
+          "home",
+          "so",
+          "he",
+          "can",
+          "move",
+          "out",
+          "to",
+          "the",
+          "country",
+          "!"
+        ],
+        "verbs": [
+          {
+            "verb": "Sold",
+            "qa_pairs": [
+              {
+                "question": "What is sold?",
+                "spans": [
+                  {
+                    "start": 1,
+                    "end": 1,
+                    "text": "David"
+                  }
+                ]
+              },
+              {
+                "question": "Why is something sold?",
+                "spans": [
+                  {
+                    "start": 4,
+                    "end": 11,
+                    "text": "so he can move out to the country"
+                  }
+                ]
+              }
+            ],
+            "index": 0
+          },
+          {
+            "verb": "move",
+            "qa_pairs": [
+              {
+                "question": "Who can move somewhere?",
+                "spans": [
+                  {
+                    "start": 1,
+                    "end": 1,
+                    "text": "David"
+                  },
+                  {
+                    "start": 5,
+                    "end": 5,
+                    "text": "he"
+                  }
+                ]
+              },
+              {
+                "question": "Where can someone move?",
+                "spans": [
+                  {
+                    "start": 8,
+                    "end": 11,
+                    "text": "out to the country"
+                  },
+                  {
+                    "start": 9,
+                    "end": 11,
+                    "text": "to the country"
+                  }
+                ]
+              }
+            ],
+            "index": 7
+          }
+        ]
+      },
+    "We are impressed to see juggler of Las Vegas": {
+        "words": [
+          "We",
+          "are",
+          "impressed",
+          "to",
+          "see",
+          "juggler",
+          "of",
+          "Las",
+          "Vegas"
+        ],
+        "verbs": [
+          {
+            "verb": "are",
+            "qa_pairs": [
+              {
+                "question": "Who are something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "We"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone are?",
+                "spans": [
+                  {
+                    "start": 2,
+                    "end": 2,
+                    "text": "impressed"
+                  }
+                ]
+              }
+            ],
+            "index": 1
+          },
+          {
+            "verb": "see",
+            "qa_pairs": [
+              {
+                "question": "Who sees someone?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "We"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone see?",
+                "spans": [
+                  {
+                    "start": 5,
+                    "end": 8,
+                    "text": "juggler of Las Vegas"
+                  }
+                ]
+              }
+            ],
+            "index": 4
+          }
+        ]
+      },
     "I ate it because I was hungry": {
         "words": [
             "I",
