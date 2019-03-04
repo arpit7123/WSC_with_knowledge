@@ -1,4 +1,4 @@
-'The demonstrators'	'they'	0.8015778064727783
-'they'	'The demonstrators'	1.8134067381395114E-13
-'they'	'The city councilmen'	1.7267959252168646E-13
-'The city councilmen'	'they'	0.08435064554214478
+'GrWQWu8JyC'	'it'	0.7093548774719238
+'willow-towered Canopy Huntertropic wrestles'	'it'	0.02546829730272293
+'it'	'GrWQWu8JyC'	6.788445944694993E-14
+'it'	'willow-towered Canopy Huntertropic wrestles'	4.909309449848548E-14

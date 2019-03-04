@@ -38,8 +38,8 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
-    #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
+    #process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
 def softmax(s1, s2):
@@ -100,8 +100,8 @@ def get_normalized_prob(ch1_score, ch2_score):
 
 def main():
 
-    probs_with_context_file = "../data/wsc_problem_psl.json"
-    #probs_with_context_file = "../data/new_psl_problems.json"
+    #probs_with_context_file = "../data/wsc_problem_psl.json"
+    probs_with_context_file = "../data/new_psl_problems.json"
     bert_scores_file = open("../data/bert_par_scores.json", "r")
     bert_scores = json.loads(bert_scores_file.read())
     #probs_with_context_file = "../data/test.json"

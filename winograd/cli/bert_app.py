@@ -181,14 +181,18 @@ def compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores):
         if psl['ws_sent'] in bert_output_map: 
             bert_out = bert_output_map[psl['ws_sent']]
             isBert_correct = check_Bert_correct(bert_out)
-        
+            isSCR_correct = check_SCR_correct(psl, bert_out)    
             if psl['predicted'] == 'INCORRECT' and isBert_correct:
                 if 'context' in psl and len(psl['context']) == 0:
                      print('PSL no context')
                 print('PSL INCORRECT, BERT CORRECT: '+psl['ws_sent'])
             if psl['predicted'] == 'CORRECT' and not isBert_correct:
                 print('PSL CORRECT, BERT INCORRECT: '+psl['ws_sent'])
-
+            
+            if psl['predicted'] == 'INCORRECT' and isSCR_correct:
+                if 'context' in psl and len(psl['context']) == 0:
+                     print('PSL no context')
+                print('PSL INCORRECT, SCR CORRECT: '+psl['ws_sent'])
 
         if psl['ws_sent'] in wsc_output_map: 
             wsc_out = wsc_output_map[psl['ws_sent']]
@@ -235,10 +239,10 @@ def main():
     psl_scores_file = open("../data/new_psl_problems_scores.json", "r") 
     psl_scores = json.loads(psl_scores_file.read())
 
-    #compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores)
+    compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores)
 
     #calculate_bert_scores(psl_scores);
-
+    
     correct = 0
     incorrect = 0
     for i in range(0, len(psl_scores)):
@@ -249,20 +253,26 @@ def main():
         score1, score2 = get_normalized_prob(score1, score2)
         #print('{:.50f}'.format(score1), '{:.50f}'.format(score2))
         print(score1, score2)
+        psl['scr_scaled_score'] = []
+        psl['scr_scaled_score'].append(score1)
+        psl['scr_scaled_score'].append(score2)
         if bert['ans'] == bert['choice1'] and score1 > score2:
             correct = correct + 1
         elif bert['ans'] == bert['choice2'] and score2 > score1:
             correct = correct + 1
         else:
             incorrect = incorrect + 1
-
+    
+    with open('../data/new_psl_problems_scores.json', 'w') as outfile:
+        json.dump(psl_scores, outfile)
+    
     # correct = 0
     # incorrect = 0
-    # for psl in psl_scores:
-    #     if psl['predicted'] == 'CORRECT':
-    #         correct = correct + 1
-    #     else:
-    #         incorrect = incorrect + 1
+    for psl in psl_scores:
+        if psl['predicted'] == 'CORRECT':
+            correct = correct + 1
+        else:
+            incorrect = incorrect + 1
 
     print("correct : "+str(correct))
     print("incorrect : "+str(incorrect))
