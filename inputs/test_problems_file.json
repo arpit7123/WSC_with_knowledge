@@ -1,16 +1,16 @@
 [
   {
-    "ans": "Jackson",
-    "choice1": "Jackson",
-    "choice2": "Arnold",
-    "know_sent": "Galen of Pergamon (AD 129-199) is perhaps a figure more sympathetic to modern thought and philosophy , still much influenced by Platonic ideas , though he lived 400 years later .",
-    "know_url": "NA",
+    "ans": "Luke",
+    "choice1": "Ethan",
+    "choice2": "Luke",
+    "know_sent": "The player selected to be it then chases the others, attempting to get close enough to tag one of them while the others try to escape.",
+    "know_url": "https://en.wikipedia.org/wiki/Tag_(game)",
     "pronoun": "he",
-    "search_query": "NA",
-    "ws_sent": "Jackson was greatly influenced by Arnold , though he lived two centuries later .",
+    "search_query": "tag game\n",
+    "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
     "scr_score": {
-      "choice1": 6.391015484777861e-29,
-      "choice2": 7.152180123418503e-29
+      "choice1": 6.593103399030324e-31,
+      "choice2": 3.574951967697292e-31
     }
   }
 ]

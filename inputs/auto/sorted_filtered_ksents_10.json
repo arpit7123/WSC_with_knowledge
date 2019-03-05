@@ -7789,7 +7789,7 @@
         "ws_sent": "John ordered Bill to leave , so an hour later he left .",
         "k_sents": [
             {
-                "k_sent": "Music: Practice & Theory",
+                "k_sent": "They ordered him to pay up so he did",
                 "score": 1.0413650670670904e-05
             },
             {
@@ -7964,8 +7964,8 @@
         "ws_sent": "Joe paid the detective after he received the final report on the case .",
         "k_sents": [
             {
-                "k_sent": "Toys, Dolls, Games & Puzzles",
-                "score": 0.005120440386235714
+                "k_sent": "You can pay your taxes , in whole or in part , when you file your return , or you can wait until after you receive your Notice of Assessment .",
+                "score": 0.05120440386235714
             },
             {
                 "k_sent": "Textiles, Clothing & Accessories |",
@@ -8108,8 +8108,8 @@
         "ws_sent": "Jim signaled the barman and gestured toward his empty glass .",
         "k_sents": [
             {
-                "k_sent": "more stack exchange communities",
-                "score": 8.796440670266747e-05
+                "k_sent": "The barman replaced Fanshawe's empty glass with a fresh, full one.",
+                "score": 0.8796440670266747
             },
             {
                 "k_sent": "I recently installed ArchLinux on my mbp. I made everything work by installing some packages.",
@@ -9975,7 +9975,7 @@
         "ws_sent": "Emma did not pass the ball to Janie although she saw that she was open .",
         "k_sents": [
             {
-                "k_sent": "English Language Help Desk",
+                "k_sent": "he does not pass the ball even though a teammate is open",
                 "score": 0.0010705776512622833
             },
             {
@@ -10192,8 +10192,8 @@
         "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
         "k_sents": [
             {
-                "k_sent": "Subscribe to our newsletter to receive the latest website updates and bonus content direct to your inbox.",
-                "score": 2.6618869242156507e-07
+                "k_sent": "I thought you fired me because I slept with your ex-wife.",
+                "score": 0.2661886924215650
             },
             {
                 "k_sent": "TV Show Episode Scripts",
@@ -10237,8 +10237,8 @@
         "ws_sent": "Madonna fired her trainer because she slept with her boyfriend .",
         "k_sents": [
             {
-                "k_sent": "Subscribe to our newsletter to receive the latest website updates and bonus content direct to your inbox.",
-                "score": 2.6618894821694994e-07
+                "k_sent": "I thought you fired me because I slept with your ex-wife.",
+                "score": 0.2661889482169499
             },
             {
                 "k_sent": "TV Show Episode Scripts",
@@ -10417,8 +10417,8 @@
         "ws_sent": "This book introduced Shakespeare to Ovid ; it was a major influence on his writing .",
         "k_sents": [
             {
-                "k_sent": "Central and Eastern Europe",
-                "score": 6.548752571688965e-05
+                "k_sent": "Shakespeare was inspired by the works of Ovid, in particular the poems in Metamorphoses",
+                "score": 0.6548752571688965
             },
             {
                 "k_sent": "Start 2019 with CIMA",
@@ -10462,7 +10462,7 @@
         "ws_sent": "This book introduced Shakespeare to Goethe ; it was a major influence on his writing .",
         "k_sents": [
             {
-                "k_sent": "Central and Eastern Europe",
+                "k_sent": "Goethe accomplished his masterpieces inspired by the works of Shakespeare.",
                 "score": 3.160865162499249e-05
             },
             {
@@ -10732,7 +10732,7 @@
         "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
         "k_sents": [
             {
-                "k_sent": "Water funnel at sea",
+                "k_sent": "The player selected to be it then chases the others, attempting to get close enough to tag one of them while the others try to escape.",
                 "score": 2.3884740585344844e-06
             },
             {

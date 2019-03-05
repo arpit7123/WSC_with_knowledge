@@ -34,7 +34,7 @@ def diff_array(diff, array_list):
         array_list[3] = array_list[3] + 1
     elif diff > 0.2:
         array_list[2] = array_list[2] + 1
-    elif diff > 0.1:
+    elif diff > 0.00000001:
         array_list[1] = array_list[1] + 1
     else:
         array_list[0] = array_list[0] + 1
@@ -46,7 +46,7 @@ def softmax(s1, s2):
     return sc1/(sc1+sc2), sc2/(sc1+sc2) 
 
 def calculate_bert_scores(psl_scores):
-    bert_scores_file = open("../data/bert_wsc_problems.json", "r") 
+    bert_scores_file = open("../data/bert_par_scores.json", "r") 
     bert_scores = json.loads(bert_scores_file.read())
     correct = 0
     incorrect = 0
@@ -159,8 +159,8 @@ def check_Bert_correct(bert):
 
 def check_SCR_correct(psl, bert):
     isSCR_correct = False
-    scr_choice1 = psl['scr_scaled_score'][0]
-    scr_choice2 = psl['scr_scaled_score'][1]
+    scr_choice1 = float(psl['scr_score'][0].split('$$')[2])
+    scr_choice2 = float(psl['scr_score'][1].split('$$')[2])
     if psl['ans'].lower() == bert['choice1'].lower() and scr_choice1 > scr_choice2:
         isSCR_correct = True
     if psl['ans'].lower() == bert['choice2'].lower() and scr_choice2 > scr_choice1:
@@ -200,10 +200,8 @@ def compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores):
             #          print('PSL no context')
             #     print('PSL INCORRECT, SCR CORRECT: '+psl['ws_sent'])
 
-            # if psl['predicted'] == 'CORRECT' and not isSCR_correct:
-            #     if 'context' in psl and len(psl['context']) == 0:
-            #          print('PSL no context')
-            #     print('PSL CORRECT, SCR INCORRECT: '+psl['ws_sent'])
+            if psl['predicted'] == 'CORRECT' and not isSCR_correct:
+                print('PSL CORRECT, SCR INCORRECT: '+psl['ws_sent'])
 
         # if psl['ws_sent'] in wsc_output_map: 
         #     wsc_out = wsc_output_map[psl['ws_sent']]
@@ -247,26 +245,13 @@ def main():
     wsc_output_file = open("../data/wsc_prev_output.json", "r") 
     wsc_output_scores = json.loads(wsc_output_file.read())
 
+    #psl_scores_file = open("../backup/psl_multiple_know_out_197_BERT.json", "r") 
     psl_scores_file = open("../data/new_psl_problems_scores.json", "r") 
     psl_scores = json.loads(psl_scores_file.read())
 
     compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores)
 
     #calculate_bert_scores(psl_scores);
-    
-    correct = 0
-    incorrect = 0
-    for i in range(0, len(psl_scores)):
-        bert = bert_scores[i]
-        psl = psl_scores[i]
-        score1 = psl['scr_scaled_score'][0]
-        score2 = psl['scr_scaled_score'][1]
-        if bert['ans'] == bert['choice1'] and score1 > score2:
-            correct = correct + 1
-        elif bert['ans'] == bert['choice2'] and score2 > score1:
-            correct = correct + 1
-        else:
-            incorrect = incorrect + 1
     
     correct = 0
     incorrect = 0

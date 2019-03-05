@@ -21,3 +21,13 @@ PSL + BERT, TTF cases which has both references are removed based on entailment 
 
 
 PSL + BERT after normalizing entailment - 63.9%
+
+
+Final Analysis:
+
+
+Method BERT:
+
+PSL Correct, BERT Incorrect : 23
+
+

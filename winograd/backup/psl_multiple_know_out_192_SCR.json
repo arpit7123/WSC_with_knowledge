@@ -27,7 +27,7 @@
     "bert_choice1": 4.504308223724365,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.11492404341697693",
     "scr_score": [
       "The city councilmen$$they$$3.829933689837034e-34",
       "The demonstrators$$they$$1.702156157240529e-33"
@@ -45,10 +45,10 @@
       "they$$The city councilmen$$1",
       "they$$The demonstrators$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The city councilmen",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5101596117019653",
     "bert_choice2": 4.492002964019775,
     "scr_scaled_score": [
       0.11489801069511102,
@@ -69,7 +69,7 @@
     "bert_choice1": 4.307188034057617,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.08425658196210861",
     "scr_score": [
       "The city councilmen$$they$$1.4042950289785339e-35",
       "The demonstrators$$they$$1.337113581546516e-34"
@@ -90,7 +90,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The demonstrators",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.8015778064727783",
     "bert_choice2": 4.434593677520752,
     "scr_scaled_score": [
       0.08425770173871204,
@@ -121,7 +121,7 @@
       "the trophy$$it$$K2$$0.017703348770737648",
       "the trophy$$it$$K3$$0.0177033469080925"
     ],
-    "psl_score1": "0.9890109896659851",
+    "psl_score1": "0.9889097213745117",
     "scr_score": [
       "the trophy$$it$$1.2153429212500013e-27",
       "the suitcase$$it$$5.254420477935192e-27"
@@ -139,7 +139,7 @@
       "it$$the trophy$$1",
       "it$$the suitcase$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "it$$installed CPU and fan$$K2",
       "the trophy$$she$$K3",
@@ -149,7 +149,7 @@
       "the trophy$$This file$$K1"
     ],
     "ans": "the trophy",
-    "psl_score2": "9.935206112062953E-43",
+    "psl_score2": "0.5242714881896973",
     "bert_choice2": 3.6001269817352295,
     "scr_scaled_score": [
       0.12153429212500015,
@@ -173,7 +173,7 @@
       "the trophy$$it$$K1$$0.482908695936203",
       "the brown suitcase$$it$$K1$$0.58310235932325"
     ],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.20114865899085999",
     "scr_score": [
       "the trophy$$it$$3.3544299614637435e-27",
       "the brown suitcase$$it$$1.0973058330244357e-26"
@@ -194,7 +194,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "the brown suitcase",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.657788872718811",
     "bert_choice2": 3.937723398208618,
     "scr_scaled_score": [
       0.2012657976878246,
@@ -215,7 +215,7 @@
     "bert_choice1": 4.368645191192627,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.5065515041351318",
     "scr_score": [
       "Joan$$she$$5.070089278815632e-25",
       "Susan$$she$$4.249684420842557e-25"
@@ -236,7 +236,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Joan",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.4245304465293884",
     "bert_choice2": 3.991436004638672,
     "scr_scaled_score": [
       0.5070089278815632,
@@ -259,7 +259,7 @@
     "bert_choice1": 2.1214377880096436,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.7629481554031372",
     "scr_score": [
       "Joan$$she$$1.2726777830999459e-22",
       "Susan$$she$$1.0606476539655516e-22"
@@ -280,7 +280,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Susan",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.6358158588409424",
     "bert_choice2": 3.9562814235687256,
     "scr_scaled_score": [
       0.7636066698599675,
@@ -301,7 +301,7 @@
     "bert_choice1": 5.056726932525635,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.8594138622283936",
     "scr_score": [
       "Paul$$he$$2.8674663888296625e-22",
       "George$$he$$2.1034364712961272e-22"
@@ -322,7 +322,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Paul",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.630434513092041",
     "bert_choice2": 4.401879787445068,
     "scr_scaled_score": [
       0.8602399166488988,
@@ -349,7 +349,7 @@
     "bert_choice1": 4.550156116485596,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.6018035411834717",
     "scr_score": [
       "Paul$$he$$3.0116471989357212e-21",
       "George$$he$$3.936089202845899e-21"
@@ -370,7 +370,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "George",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.786436915397644",
     "bert_choice2": 4.192549705505371,
     "scr_scaled_score": [
       0.6023294397871444,
@@ -393,7 +393,7 @@
     "bert_choice1": 5.229097843170166,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.4955698251724243",
     "scr_score": [
       "the lawyer$$he$$1.6533008510135482e-25",
       "the witness$$he$$2.7334243754582917e-25"
@@ -414,7 +414,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "the lawyer",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.8192342519760132",
     "bert_choice2": 5.214666366577148,
     "scr_scaled_score": [
       0.4959902553040644,
@@ -440,7 +440,7 @@
       "the lawyer$$he$$K8$$0.1806889772415161",
       "the lawyer$$he$$K10$$0.1806720346212387"
     ],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.7606189250946045",
     "scr_score": [
       "the lawyer$$he$$7.613784548212794e-24",
       "the witness$$he$$9.666910290122667e-24"
@@ -458,10 +458,10 @@
       "he$$the lawyer$$0",
       "he$$the witness$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "the witness",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.9658148288726807",
     "bert_choice2": 5.132189750671387,
     "scr_scaled_score": [
       0.7613784548212796,
@@ -484,7 +484,7 @@
     "bert_choice1": 4.100998401641846,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.5475902557373047",
     "scr_score": [
       "the delivery truck$$it$$9.135638732837144e-28",
       "the school bus$$it$$1.3436863622691077e-27"
@@ -505,7 +505,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "the delivery truck",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.8054471015930176",
     "bert_choice2": 3.8725485801696777,
     "scr_scaled_score": [
       0.5481383239702285,
@@ -526,7 +526,7 @@
     "bert_choice1": 4.3103227615356445,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.5174260139465332",
     "scr_score": [
       "the delivery truck$$it$$8.632559154028057e-29",
       "the school bus$$it$$1.4485257633638292e-28"
@@ -547,7 +547,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "the school bus",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.8683034181594849",
     "bert_choice2": 4.091191291809082,
     "scr_scaled_score": [
       0.5179535492416836,
@@ -578,7 +578,7 @@
     "bert_choice1": 5.365478992462158,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.5794124603271484",
     "scr_score": [
       "Frank$$he$$1.9335581755327797e-35",
       "Bill$$he$$1.525335980618322e-35"
@@ -596,10 +596,10 @@
       "he$$Frank$$1",
       "he$$Bill$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Frank",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.4572296738624573",
     "bert_choice2": 3.2696447372436523,
     "scr_scaled_score": [
       0.5800674526598341,
@@ -622,7 +622,7 @@
     "bert_choice1": 2.7853164672851562,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.6869840919753187E-6",
+    "psl_score1": "0.507447361946106",
     "scr_score": [
       "Frank$$he$$5.079227410631975e-36",
       "Bill$$he$$4.1337996031616424e-36"
@@ -640,10 +640,10 @@
       "he$$Frank$$0",
       "he$$Bill$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.4129512310028076",
     "bert_choice2": 3.6518943309783936,
     "scr_scaled_score": [
       0.5079227410631975,
@@ -672,7 +672,7 @@
     "bert_choice1": 3.4814798831939697,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.8415288925170898",
     "scr_score": [
       "The man$$he$$1.4038245289513812e-24",
       "The son$$he$$1.3596734188085574e-24"
@@ -690,10 +690,10 @@
       "he$$The man$$1",
       "he$$The son$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The man",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.8152166604995728",
     "bert_choice2": 3.4782333374023438,
     "scr_scaled_score": [
       0.8422947173708286,
@@ -716,7 +716,7 @@
     "bert_choice1": 3.9102344512939453,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.851504385471344",
     "scr_score": [
       "The man$$he$$4.261486618719893e-25",
       "his son$$he$$2.6313234101545307e-25"
@@ -737,7 +737,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "his son",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.525801420211792",
     "bert_choice2": 4.378847122192383,
     "scr_scaled_score": [
       0.8522973237439785,
@@ -760,7 +760,7 @@
     "bert_choice1": 2.9353110790252686,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.243850439786911",
     "scr_score": [
       "The large ball$$it$$2.4406824843288697e-31",
       "The table$$it$$8.873013870887964e-31"
@@ -778,10 +778,10 @@
       "it$$The large ball$$1",
       "it$$The table$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The large ball",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.8864820003509521",
     "bert_choice2": 2.086062431335449,
     "scr_scaled_score": [
       0.24406824843288705,
@@ -806,7 +806,7 @@
     "bert_choice1": 3.3758530616760254,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.15068191289901733",
     "scr_score": [
       "The large ball$$it$$1.5076935656154798e-32",
       "The table$$it$$5.868439223926752e-32"
@@ -824,10 +824,10 @@
       "it$$The large ball$$0",
       "it$$The table$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The table",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.5863380432128906",
     "bert_choice2": 3.427467107772827,
     "scr_scaled_score": [
       0.150769356561548,
@@ -850,7 +850,7 @@
     "similarity": [
       "John$$he$$K1$$0.5886998772621155"
     ],
-    "psl_score1": "0.9669040441513062",
+    "psl_score1": "0.9669327735900879",
     "scr_score": [
       "John$$he$$4.7383832295822655e-30",
       "Billy$$he$$7.514226916934834e-30"
@@ -868,13 +868,13 @@
       "he$$John$$1",
       "he$$Billy$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "John$$he$$K1",
       "he$$he$$K1"
     ],
     "ans": "John",
-    "psl_score2": "4.55435873476101E-13",
+    "psl_score2": "0.7504711151123047",
     "bert_choice2": 3.7294182777404785,
     "scr_scaled_score": [
       0.4738383229582267,
@@ -902,7 +902,7 @@
     "bert_choice1": 3.5626819133758545,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.5995280742645264",
     "scr_score": [
       "John$$he$$2.9999671556026627e-29",
       "Billy$$he$$4.656273299489414e-29"
@@ -920,10 +920,10 @@
       "he$$John$$0",
       "he$$Billy$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Billy",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.9304904937744141",
     "bert_choice2": 3.977400064468384,
     "scr_scaled_score": [
       0.5999934311205326,
@@ -948,7 +948,7 @@
     "bert_choice1": 3.5246927738189697,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.7705230712890625",
     "scr_score": [
       "Tom$$he$$2.570565840411282e-31",
       "Ray$$he$$2.5347955332931144e-31"
@@ -969,7 +969,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Tom",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.7596946954727173",
     "bert_choice2": 1.818040132522583,
     "scr_scaled_score": [
       0.7711697521233846,
@@ -994,7 +994,7 @@
     "bert_choice1": 0.5688786506652832,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.5946135520935059",
     "scr_score": [
       "Tom$$he$$9.919994880964664e-32",
       "Ray$$he$$1.023632497831196e-31"
@@ -1012,10 +1012,10 @@
       "he$$Tom$$0",
       "he$$Ray$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Ray",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.6137579679489136",
     "bert_choice2": 3.67647385597229,
     "scr_scaled_score": [
       0.5951996928578797,
@@ -1038,7 +1038,7 @@
     "bert_choice1": 3.402876377105713,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.7095826864242554",
     "scr_score": [
       "Sue$$she$$1.1837031080140017e-38",
       "Sally$$she$$8.633885617853785e-39"
@@ -1059,7 +1059,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Sue",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5175637006759644",
     "bert_choice2": 3.2350456714630127,
     "scr_scaled_score": [
       0.710221864808401,
@@ -1090,7 +1090,7 @@
     "bert_choice1": 3.4523184299468994,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.6381492614746094",
     "scr_score": [
       "Sue$$she$$3.1936555004772e-39",
       "Sally$$she$$2.6966425030261637e-39"
@@ -1108,10 +1108,10 @@
       "she$$Sue$$0",
       "she$$Sally$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Sally",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.5389255881309509",
     "bert_choice2": 3.330714464187622,
     "scr_scaled_score": [
       0.6387311000954403,
@@ -1138,7 +1138,7 @@
       "The sculpture$$it$$K7$$0.0508669950067997",
       "The sculpture$$it$$K11$$0.05086696520447731"
     ],
-    "psl_score1": "0.9668571949005127",
+    "psl_score1": "0.9668693542480469",
     "scr_score": [
       "The sculpture$$it$$9.523418152814709e-29",
       "The shelf$$it$$2.0351411340423135e-28"
@@ -1156,13 +1156,13 @@
       "it$$The sculpture$$1",
       "it$$The shelf$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "The sculpture$$The elastic in the waistband$$K1",
       "it$$The elastic in the waistband$$K1"
     ],
     "ans": "The sculpture",
-    "psl_score2": "6.371845325675585E-13",
+    "psl_score2": "0.6097168922424316",
     "bert_choice2": 3.6392879486083984,
     "scr_scaled_score": [
       0.2857025445844413,
@@ -1191,7 +1191,7 @@
     "bert_choice1": 3.4150023460388184,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.22831031680107117",
     "scr_score": [
       "The sculpture$$it$$2.283676622547062e-28",
       "The shelf$$it$$5.342217308099695e-28"
@@ -1212,7 +1212,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The shelf",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.5337319374084473",
     "bert_choice2": 3.940788745880127,
     "scr_scaled_score": [
       0.2283676622547062,
@@ -1233,7 +1233,7 @@
     "bert_choice1": 5.382077693939209,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.6894891262054443",
     "scr_score": [
       "Sam's drawing$$it$$3.4505853858476413e-48",
       "Tina's$$it$$4.580194719420792e-48"
@@ -1251,10 +1251,10 @@
       "it$$Sam's drawing$$1",
       "it$$Tina's$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Sam's drawing",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.9151669144630432",
     "bert_choice2": 4.3950982093811035,
     "scr_scaled_score": [
       0.6901170771695282,
@@ -1275,7 +1275,7 @@
     "bert_choice1": 5.282764434814453,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.6345986127853394",
     "scr_score": [
       "Sam's drawing$$it$$6.352183321916253e-48",
       "Tina's$$it$$8.149721270370293e-48"
@@ -1296,7 +1296,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Tina's",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.8142470121383667",
     "bert_choice2": 4.433406352996826,
     "scr_scaled_score": [
       0.6352183321916255,
@@ -1319,7 +1319,7 @@
     "bert_choice1": 5.939105987548828,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.8804945945739746",
     "scr_score": [
       "Anna$$she$$4.406690314113946e-37",
       "Lucy$$she$$2.7978690199597283e-37"
@@ -1337,10 +1337,10 @@
       "she$$Anna$$1",
       "she$$Lucy$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Anna",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.5590332746505737",
     "bert_choice2": 4.019087314605713,
     "scr_scaled_score": [
       0.8813380628227889,
@@ -1361,7 +1361,7 @@
     "bert_choice1": 6.051731109619141,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.9766041040420532",
     "scr_score": [
       "Anna$$she$$1.6291476288043665e-38",
       "Lucy$$she$$1.0168517419706818e-38"
@@ -1382,7 +1382,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Lucy",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.6094800233840942",
     "bert_choice2": 4.195581912994385,
     "scr_scaled_score": [
       0.97748857728262,
@@ -1409,7 +1409,7 @@
     "bert_choice1": 4.035774230957031,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.6436173915863037",
     "scr_score": [
       "The firemen$$they$$2.1471214684187367e-29",
       "The police$$they$$6.603048893320404e-30"
@@ -1430,7 +1430,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The firemen",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.19792184233665466",
     "bert_choice2": 4.345764636993408,
     "scr_scaled_score": [
       0.644136440525621,
@@ -1453,7 +1453,7 @@
     "bert_choice1": 4.084039211273193,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.9386129379272461",
     "scr_score": [
       "The firemen$$they$$9.394866594938882e-29",
       "The police$$they$$2.9184524677465675e-29"
@@ -1471,10 +1471,10 @@
       "they$$The firemen$$0",
       "they$$The police$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The police",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.2915446162223816",
     "bert_choice2": 4.591358661651611,
     "scr_scaled_score": [
       0.9394866594938883,
@@ -1500,7 +1500,7 @@
       "I$$my daughter$$K1$$0.7560147643089294",
       "Frank$$he$$K1$$0.3306942284107208"
     ],
-    "psl_score1": "0.9829710125923157",
+    "psl_score1": "0.9836065769195557",
     "scr_score": [
       "Frank$$he$$7.178516266232853e-30",
       "Tom$$he$$8.699258612145985e-30"
@@ -1518,7 +1518,7 @@
       "he$$Frank$$1",
       "he$$Tom$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "Frank$$I$$K1",
       "he$$I$$K1",
@@ -1526,7 +1526,7 @@
       "Frank$$my daughter$$K1"
     ],
     "ans": "Frank",
-    "psl_score2": "8.284402053249096E-10",
+    "psl_score2": "0.8699251413345337",
     "bert_choice2": 4.601017475128174,
     "scr_scaled_score": [
       0.7178516266232854,
@@ -1582,8 +1582,8 @@
       0.6746365351604687
     ],
     "predicted": "CORRECT",
-    "psl_score1": "0.9667549133300781",
-    "psl_score2": "0.9668813347816467"
+    "psl_score1": "0.9671180248260498",
+    "psl_score2": "0.9677419066429138"
   },
   {
     "case": [],
@@ -1601,7 +1601,7 @@
     "bert_choice1": 5.020120143890381,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.6544113159179688",
     "scr_score": [
       "Jim$$he$$1.0917445928442948e-19",
       "Kevin$$he$$1.276096130196175e-19"
@@ -1619,10 +1619,10 @@
       "he$$Jim$$1",
       "he$$Kevin$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Jim",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.7649606466293335",
     "bert_choice2": 3.583439350128174,
     "scr_scaled_score": [
       0.6550467557065769,
@@ -1653,7 +1653,7 @@
       "Jim$$he$$K5$$0.5344452857971191",
       "Jim$$he$$K9$$0.5335149168968201"
     ],
-    "psl_score1": "0.9372987747192383",
+    "psl_score1": "0.9372496008872986",
     "scr_score": [
       "Jim$$he$$7.398803784372588e-21",
       "Kevin$$he$$1.432110636242502e-20"
@@ -1701,7 +1701,7 @@
     "bert_choice1": 4.555918216705322,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.7855482697486877",
     "scr_score": [
       "The sack of potatoes$$it$$2.6208747082682463e-35",
       "The bag of flour$$it$$2.319726762658435e-35"
@@ -1719,10 +1719,10 @@
       "it$$The sack of potatoes$$1",
       "it$$The bag of flour$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The sack of potatoes",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.6952905654907227",
     "bert_choice2": 4.677971839904785,
     "scr_scaled_score": [
       0.786262412480474,
@@ -1745,7 +1745,7 @@
     "bert_choice1": 4.596589088439941,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.6637845039367676",
     "scr_score": [
       "The sack of potatoes$$it$$1.10726899819737e-35",
       "The bag of flour$$it$$9.518763774039888e-36"
@@ -1763,10 +1763,10 @@
       "it$$The sack of potatoes$$0",
       "it$$The bag of flour$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The bag of flour",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.5705587863922119",
     "bert_choice2": 4.723725318908691,
     "scr_scaled_score": [
       0.6643613989184222,
@@ -1787,7 +1787,7 @@
     "bert_choice1": 4.206812381744385,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.5256098508834839",
     "scr_score": [
       "Pete$$he$$1.7538539274211539e-25",
       "Martin$$he$$2.128083747961724e-25"
@@ -1808,7 +1808,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Pete",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.637861967086792",
     "bert_choice2": 3.396771192550659,
     "scr_scaled_score": [
       0.5261561782263462,
@@ -1843,7 +1843,7 @@
     "bert_choice1": 3.4253249168395996,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.5994669795036316",
     "scr_score": [
       "Pete$$he$$2.0002635035333286e-23",
       "Martin$$he$$2.425557394531655e-23"
@@ -1861,10 +1861,10 @@
       "he$$Pete$$0",
       "he$$Martin$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Martin",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.7270083427429199",
     "bert_choice2": 3.504375457763672,
     "scr_scaled_score": [
       0.6000790510599987,
@@ -1885,7 +1885,7 @@
     "bert_choice1": 4.144518852233887,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6481242179870605",
     "scr_score": [
       "The older students$$them$$3.243955858643995e-29",
       "The younger ones$$them$$2.956218396115054e-29"
@@ -1903,10 +1903,10 @@
       "them$$The older students$$1",
       "them$$The younger ones$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The older students",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.5908969640731812",
     "bert_choice2": 3.98669171333313,
     "scr_scaled_score": [
       0.648791171728799,
@@ -1955,8 +1955,8 @@
       "The older students$$them$$K3$$0.06648789346218109",
       "The older students$$them$$K11$$0.06648789346218109"
     ],
-    "psl_score1": "0.3412732481956482",
-    "psl_score2": "0.9667494297027588",
+    "psl_score1": "0.6340746879577637",
+    "psl_score2": "0.9668620824813843",
     "bert_choice1": 4.401491641998291,
     "bert_choice2": 4.324794292449951,
     "scr_scaled_score": [
@@ -1991,7 +1991,7 @@
       "the bottle$$it$$K7$$0.27758094668388367",
       "the bottle$$it$$K8$$0.27747857570648193"
     ],
-    "psl_score1": "0.9830744862556458",
+    "psl_score1": "0.9834408760070801",
     "scr_score": [
       "the bottle$$it$$1.777314228419052e-19",
       "the cup$$it$$1.6724616322732953e-19"
@@ -2009,7 +2009,7 @@
       "it$$the bottle$$1",
       "it$$the cup$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "the bottle$$the lemonade$$K1",
       "it$$the lemonade$$K1",
@@ -2017,7 +2017,7 @@
       "the bottle$$12 paper cup$$K1"
     ],
     "ans": "the bottle",
-    "psl_score2": "1.2799374060623592E-10",
+    "psl_score2": "0.5006722211837769",
     "bert_choice2": 4.115431785583496,
     "scr_scaled_score": [
       0.5331942685257156,
@@ -2048,7 +2048,7 @@
     "bert_choice1": 4.008075714111328,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.6045838594436646",
     "scr_score": [
       "the bottle$$it$$6.051788734106917e-20",
       "the cup$$it$$8.5670168988514e-20"
@@ -2069,7 +2069,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "the cup",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.8559448719024658",
     "bert_choice2": 4.022435665130615,
     "scr_scaled_score": [
       0.6051788734106918,
@@ -2092,7 +2092,7 @@
     "bert_choice1": 4.214856147766113,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.9231091737747192",
     "scr_score": [
       "Susan$$she$$9.237486710470025e-28",
       "Ann$$she$$7.285801443810364e-28"
@@ -2110,10 +2110,10 @@
       "she$$Susan$$1",
       "she$$Ann$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Susan",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.7278835773468018",
     "bert_choice2": 3.7764787673950195,
     "scr_scaled_score": [
       0.9237486710470024,
@@ -2144,7 +2144,7 @@
     "bert_choice1": 3.406118869781494,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.5515357255935669",
     "scr_score": [
       "Susan$$she$$1.8395637978554922e-29",
       "Ann$$she$$2.0088680069349618e-29"
@@ -2165,7 +2165,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Ann",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.6020728349685669",
     "bert_choice2": 3.760528087615967,
     "scr_scaled_score": [
       0.5518691393566476,
@@ -2195,7 +2195,7 @@
       "Sid$$him$$K10$$0.608178973197937",
       "Sid$$him$$K11$$0.6081789135932922"
     ],
-    "psl_score1": "0.8139611482620239",
+    "psl_score1": "0.8145807385444641",
     "scr_score": [
       "Sid$$him$$2.1085026784203935e-25",
       "Mark$$him$$2.7273125351789558e-25"
@@ -2220,7 +2220,7 @@
       "him$$them$$K1"
     ],
     "ans": "Mark",
-    "psl_score2": "0.8140543699264526",
+    "psl_score2": "0.819646418094635",
     "bert_choice2": 4.433399200439453,
     "scr_scaled_score": [
       0.632550803526118,
@@ -2245,7 +2245,7 @@
     "bert_choice1": 5.4890007972717285,
     "pronoun": "him",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.97221440076828",
     "scr_score": [
       "Sid$$him$$4.864655295200735e-25",
       "Mark$$him$$4.975095210945624e-25"
@@ -2266,7 +2266,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Sid",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.9941482543945312",
     "bert_choice2": 4.373039722442627,
     "scr_scaled_score": [
       0.9729310590401472,
@@ -2291,7 +2291,7 @@
     "bert_choice1": 5.219604015350342,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.5919927358627319",
     "scr_score": [
       "Susan$$she$$5.9267327531190525e-30",
       "Ann$$she$$6.384613692706368e-30"
@@ -2309,10 +2309,10 @@
       "she$$Susan$$1",
       "she$$Ann$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Susan",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.6379725933074951",
     "bert_choice2": 4.494559288024902,
     "scr_scaled_score": [
       0.5926732753119051,
@@ -2335,7 +2335,7 @@
     "bert_choice1": 4.2290568351745605,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.7277553081512451",
     "scr_score": [
       "Susan$$she$$2.4282927822192006e-31",
       "Ann$$she$$2.827610172289054e-31"
@@ -2353,10 +2353,10 @@
       "she$$Susan$$0",
       "she$$Ann$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Ann",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.8477249145507812",
     "bert_choice2": 3.8478212356567383,
     "scr_scaled_score": [
       0.7284878346657601,
@@ -2379,7 +2379,7 @@
     "bert_choice1": 4.686951637268066,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6238511800765991",
     "scr_score": [
       "Joe$$he$$2.0816110231748243e-34",
       "Joe's uncle$$he$$1.8198184039656822e-34"
@@ -2397,10 +2397,10 @@
       "he$$Joe$$1",
       "he$$Joe's uncle$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Joe",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.5453999042510986",
     "bert_choice2": 3.3432161808013916,
     "scr_scaled_score": [
       0.6244833069524472,
@@ -2420,7 +2420,7 @@
     "bert_choice1": 4.565429210662842,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.6789189577102661",
     "scr_score": [
       "Joe$$he$$2.2651505640926346e-34",
       "Joe's uncle$$he$$2.386481060095413e-34"
@@ -2438,10 +2438,10 @@
       "he$$Joe$$0",
       "he$$Joe's uncle$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Joe's uncle",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.7152588367462158",
     "bert_choice2": 3.2416205406188965,
     "scr_scaled_score": [
       0.6795451692277902,
@@ -2472,7 +2472,7 @@
     "bert_choice1": 3.5629003047943115,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.72509765625",
     "scr_score": [
       "The painting$$It$$2.418702758146744e-35",
       "The oak tree$$It$$1.9473000111235364e-35"
@@ -2493,7 +2493,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The painting",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.5836129188537598",
     "bert_choice2": 4.085114479064941,
     "scr_scaled_score": [
       0.7256108274440234,
@@ -2526,7 +2526,7 @@
     "bert_choice1": 3.3098015785217285,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.12763077020645142",
     "scr_score": [
       "The painting$$It$$1.2758299524488393e-36",
       "The oak tree$$It$$6.84603261202582e-36"
@@ -2544,10 +2544,10 @@
       "It$$The painting$$0",
       "It$$The oak tree$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The oak tree",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.6839436292648315",
     "bert_choice2": 3.657439947128296,
     "scr_scaled_score": [
       0.12758299524488392,
@@ -2599,8 +2599,8 @@
     "similarity": [],
     "bert_choice1": 4.429242134094238,
     "bert_choice2": 4.508073329925537,
-    "psl_score1": "1.4708343769598287E-6",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score1": "0.3520083427429199",
+    "psl_score2": "0.6152557730674744",
     "scr_scaled_score": [
       0.3524595653235219,
       0.6157704935522782
@@ -2627,7 +2627,7 @@
     "bert_choice1": 4.110089302062988,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.4825776219367981",
     "scr_score": [
       "The gap$$it$$4.8314578040657095e-27",
       "The wall$$it$$6.227192458455239e-27"
@@ -2648,7 +2648,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The wall",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.6221972703933716",
     "bert_choice2": 4.119396209716797,
     "scr_scaled_score": [
       0.48314578040657097,
@@ -2691,7 +2691,7 @@
     "bert_choice1": 4.06914758682251,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.7529648542404175",
     "scr_score": [
       "The drain$$It$$2.5123939695987222e-23",
       "The hair$$It$$2.273338739865784e-24"
@@ -2709,10 +2709,10 @@
       "It$$The drain$$1",
       "It$$The hair$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The drain",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.06822048127651215",
     "bert_choice2": 4.098048686981201,
     "scr_scaled_score": [
       0.7537181908796166,
@@ -2750,7 +2750,7 @@
     "bert_choice1": 4.048097133636475,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.8810886144638062",
     "scr_score": [
       "The drain$$It$$4.409737125481806e-23",
       "The hair$$It$$1.2056918803167776e-23"
@@ -2771,7 +2771,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The hair",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.24093565344810486",
     "bert_choice2": 4.173095226287842,
     "scr_scaled_score": [
       0.8819474250963611,
@@ -2792,7 +2792,7 @@
     "bert_choice1": 4.5740485191345215,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.6042664647102356",
     "scr_score": [
       "The meeting$$it$$6.048262825526347e-49",
       "The train$$it$$5.77071826256218e-50"
@@ -2813,7 +2813,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The meeting",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.057739801704883575",
     "bert_choice2": 4.910645008087158,
     "scr_scaled_score": [
       0.6048262825526346,
@@ -2836,7 +2836,7 @@
     "bert_choice1": 4.903143405914307,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.23852169513702393",
     "scr_score": [
       "The meeting$$it$$2.3882779675792266e-49",
       "The train$$it$$6.051941061766056e-49"
@@ -2854,10 +2854,10 @@
       "it$$The meeting$$0",
       "it$$The train$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The train",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.6046290397644043",
     "bert_choice2": 5.148691177368164,
     "scr_scaled_score": [
       0.23882779675792262,
@@ -2878,7 +2878,7 @@
     "bert_choice1": 4.025726318359375,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.6332565546035767",
     "scr_score": [
       "The pillar$$it$$2.1126301327921477e-29",
       "The stage$$it$$2.4515104019891065e-29"
@@ -2899,7 +2899,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The pillar",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.7347148656845093",
     "bert_choice2": 4.15352725982666,
     "scr_scaled_score": [
       0.6337890398376443,
@@ -2934,7 +2934,7 @@
     "bert_choice1": 3.8091678619384766,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.48095035552978516",
     "scr_score": [
       "The pillar$$it$$4.813482644904022e-26",
       "The stage$$it$$7.606914359094665e-26"
@@ -2955,7 +2955,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The stage",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.7600165605545044",
     "bert_choice2": 3.8572800159454346,
     "scr_scaled_score": [
       0.48134826449040213,
@@ -2978,7 +2978,7 @@
     "bert_choice1": 4.185665607452393,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.739395260810852",
     "scr_score": [
       "The announcement$$it$$1.2336238740697546e-35",
       "The subway$$it$$8.310102118156874e-36"
@@ -2999,7 +2999,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The announcement",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.4981922507286072",
     "bert_choice2": 4.830538272857666,
     "scr_scaled_score": [
       0.740174324441853,
@@ -3020,7 +3020,7 @@
     "bert_choice1": 4.198509216308594,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.6990642547607422",
     "scr_score": [
       "The announcement$$it$$1.1663880401235452e-38",
       "The subway$$it$$1.06000325477346e-38"
@@ -3038,10 +3038,10 @@
       "it$$The announcement$$0",
       "it$$The subway$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The subway",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.6354447603225708",
     "bert_choice2": 4.7759575843811035,
     "scr_scaled_score": [
       0.6998328240741271,
@@ -3061,7 +3061,7 @@
     "bert_choice1": 3.306152105331421,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.798560380935669",
     "scr_score": [
       "The concert$$it$$1.3321467576311466e-30",
       "The rain$$it$$6.4721888191399485e-31"
@@ -3079,10 +3079,10 @@
       "it$$The concert$$1",
       "it$$The rain$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The concert",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.3878997564315796",
     "bert_choice2": 3.38472318649292,
     "scr_scaled_score": [
       0.7992880545786878,
@@ -3115,7 +3115,7 @@
       "The concert$$it$$K6$$0.02420433796942234",
       "The concert$$it$$K10$$0.024204328656196594"
     ],
-    "psl_score1": "0.4830149710178375",
+    "psl_score1": "0.586327850818634",
     "scr_score": [
       "The concert$$it$$5.8826409360777404e-30",
       "The rain$$it$$2.709835986297101e-30"
@@ -3139,7 +3139,7 @@
       "The rain$$I$$K5"
     ],
     "ans": "The rain",
-    "psl_score2": "0.9667759537696838",
+    "psl_score2": "0.9679006934165955",
     "bert_choice2": 3.686727523803711,
     "scr_scaled_score": [
       0.588264093607774,
@@ -3172,7 +3172,7 @@
     "bert_choice1": 3.631758689880371,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.7547388076782227",
     "scr_score": [
       "The rag$$it$$2.518312034948378e-29",
       "The knife$$it$$1.3688850499371335e-29"
@@ -3190,10 +3190,10 @@
       "it$$The rag$$1",
       "it$$The knife$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The rag",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.410275936126709",
     "bert_choice2": 3.5341014862060547,
     "scr_scaled_score": [
       0.7554936104845134,
@@ -3224,7 +3224,7 @@
     "bert_choice1": 3.052961587905884,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.2768877148628235",
     "scr_score": [
       "The rag$$it$$1.3857351096596975e-29",
       "The knife$$it$$4.029006785187267e-29"
@@ -3242,10 +3242,10 @@
       "it$$The rag$$0",
       "it$$The knife$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The knife",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.805071234703064",
     "bert_choice2": 3.415222644805908,
     "scr_scaled_score": [
       0.2771470219319395,
@@ -3276,7 +3276,7 @@
     "bert_choice1": 3.0419859886169434,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.7515980005264282",
     "scr_score": [
       "Ann$$she$$1.2538567849798113e-29",
       "Mary$$she$$1.1664516807576054e-29"
@@ -3297,7 +3297,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Ann",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.6992136240005493",
     "bert_choice2": 4.040688514709473,
     "scr_scaled_score": [
       0.7523140709878869,
@@ -3328,7 +3328,7 @@
     "bert_choice1": 3.482172727584839,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.9243950843811035",
     "scr_score": [
       "Ann$$she$$9.253869771560378e-29",
       "Mary$$she$$8.527456774498879e-29"
@@ -3349,7 +3349,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Mary",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.8519623279571533",
     "bert_choice2": 3.9443628787994385,
     "scr_scaled_score": [
       0.9253869771560375,
@@ -3384,7 +3384,7 @@
     "bert_choice1": 4.7355241775512695,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.8582549095153809",
     "scr_score": [
       "The water bottle$$it$$4.295294403237484e-25",
       "The backpack$$it$$2.9617929293642793e-25"
@@ -3402,10 +3402,10 @@
       "it$$The water bottle$$1",
       "it$$The backpack$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The water bottle",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.5917896628379822",
     "bert_choice2": 4.433441162109375,
     "scr_scaled_score": [
       0.8590588806474968,
@@ -3440,7 +3440,7 @@
     "bert_choice1": 4.688758277893066,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.286741703748703",
     "scr_score": [
       "The water bottle$$it$$9.567063258211655e-26",
       "The backpack$$it$$1.9674034094502099e-25"
@@ -3458,10 +3458,10 @@
       "it$$The water bottle$$0",
       "it$$The backpack$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The backpack",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.589607834815979",
     "bert_choice2": 4.78783712387085,
     "scr_scaled_score": [
       0.28701189774634966,
@@ -3496,7 +3496,7 @@
     "bert_choice1": 4.112177848815918,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.6018276214599609",
     "scr_score": [
       "The pot$$it$$2.0078323897710267e-24",
       "The shelf$$it$$2.5459501118217377e-24"
@@ -3517,7 +3517,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The pot",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.7629498243331909",
     "bert_choice2": 3.8452072143554688,
     "scr_scaled_score": [
       0.6023497169313081,
@@ -3538,7 +3538,7 @@
     "bert_choice1": 4.173068523406982,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.514922022819519",
     "scr_score": [
       "The pot$$it$$8.589224394753335e-24",
       "The shelf$$it$$1.0735070896440864e-23"
@@ -3556,10 +3556,10 @@
       "it$$The pot$$0",
       "it$$The shelf$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The shelf",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.643393874168396",
     "bert_choice2": 3.9262354373931885,
     "scr_scaled_score": [
       0.5153534636852001,
@@ -3593,7 +3593,7 @@
     "bert_choice1": 3.381376028060913,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.8093488216400146",
     "scr_score": [
       "The map$$it$$1.3500760597000196e-28",
       "The building$$it$$8.692929421065623e-29"
@@ -3611,10 +3611,10 @@
       "it$$The map$$1",
       "it$$The building$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The map",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.5210369825363159",
     "bert_choice2": 3.2657203674316406,
     "scr_scaled_score": [
       0.8100456358200119,
@@ -3637,7 +3637,7 @@
     "bert_choice1": 2.3925833702087402,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.11786535382270813",
     "scr_score": [
       "The map$$it$$1.9650602601890127e-30",
       "The building$$it$$1.4202915005742073e-29"
@@ -3658,7 +3658,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The building",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.8514015674591064",
     "bert_choice2": 2.7202258110046387,
     "scr_scaled_score": [
       0.11790361561134072,
@@ -3693,7 +3693,7 @@
     "bert_choice1": 5.470498085021973,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.6888992786407471",
     "scr_score": [
       "Bob$$He$$2.2984455542977324e-24",
       "Charlie$$He$$1.016015370116268e-24"
@@ -3711,10 +3711,10 @@
       "He$$Bob$$1",
       "He$$Charlie$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Bob",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.3046744465827942",
     "bert_choice2": 3.859415054321289,
     "scr_scaled_score": [
       0.6895336662893197,
@@ -3738,7 +3738,7 @@
       "it$$I$$K1$$0.9015880823135376",
       "my tuition$$I$$K1$$0.19182715564966202"
     ],
-    "psl_score1": "0.8190498352050781",
+    "psl_score1": "0.8187415599822998",
     "scr_score": [
       "Bob$$He$$1.1978534335374455e-24",
       "Charlie$$He$$8.285519729254404e-25"
@@ -3765,7 +3765,7 @@
       "Bob$$the NGO$$K1"
     ],
     "ans": "Charlie",
-    "psl_score2": "0.9668064713478088",
+    "psl_score2": "0.9670312404632568",
     "bert_choice2": 3.709819793701172,
     "scr_scaled_score": [
       0.7187120601224674,
@@ -3802,7 +3802,7 @@
     "bert_choice1": 4.594988822937012,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.4787824749946594",
     "scr_score": [
       "Bob$$He$$1.5978179102661962e-43",
       "Charlie$$He$$2.7650985394735453e-43"
@@ -3823,7 +3823,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Bob",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.8287703990936279",
     "bert_choice2": 2.6589179039001465,
     "scr_scaled_score": [
       0.4793453730798588,
@@ -3864,7 +3864,7 @@
     "bert_choice1": 2.923461437225342,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.3661736249923706",
     "scr_score": [
       "Bob$$He$$3.666205726465268e-44",
       "Charlie$$He$$5.599340611449363e-44"
@@ -3882,10 +3882,10 @@
       "He$$Bob$$0",
       "He$$Charlie$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Charlie",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.559502899646759",
     "bert_choice2": 2.7063381671905518,
     "scr_scaled_score": [
       0.36662057264652664,
@@ -3930,7 +3930,7 @@
       "Bob$$he$$K8$$0.02935372106730938",
       "Bob$$he$$K10$$0.02935374155640602"
     ],
-    "psl_score1": "0.9930083751678467",
+    "psl_score1": "0.9931735992431641",
     "scr_score": [
       "Bob$$he$$1.9119862379801144e-49",
       "Adam$$he$$2.490773093864733e-49"
@@ -3948,7 +3948,7 @@
       "he$$Bob$$1",
       "he$$Adam$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "Adam$$Stingrays$$K3",
       "he$$courts$$K3",
@@ -3967,7 +3967,7 @@
       "Bob$$courts$$K3"
     ],
     "ans": "Bob",
-    "psl_score2": "0.9950023293495178",
+    "psl_score2": "0.9915281534194946",
     "bert_choice2": 5.453633785247803,
     "scr_scaled_score": [
       0.5735958713940342,
@@ -4006,7 +4006,7 @@
       "their use$$they$$K5$$0.9374540448188782",
       "their use$$courts$$K5$$0.9257305264472961"
     ],
-    "psl_score1": "0.9914746284484863",
+    "psl_score1": "0.9909092783927917",
     "scr_score": [
       "Bob$$he$$1.6388555774809856e-50",
       "Adam$$he$$2.5447783350395245e-50"
@@ -4040,7 +4040,7 @@
       "he$$their use$$K5"
     ],
     "ans": "Adam",
-    "psl_score2": "0.992315411567688",
+    "psl_score2": "0.9926749467849731",
     "bert_choice2": 5.409873008728027,
     "scr_scaled_score": [
       0.4916566732442955,
@@ -4061,7 +4061,7 @@
     "bert_choice1": 5.248526573181152,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.5255486369132996",
     "scr_score": [
       "Adam$$he$$5.260778324474617e-54",
       "Bob$$he$$4.404171488287718e-54"
@@ -4079,10 +4079,10 @@
       "he$$Adam$$1",
       "he$$Bob$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Adam",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.44000452756881714",
     "bert_choice2": 4.0554070472717285,
     "scr_scaled_score": [
       0.5260778324474618,
@@ -4104,7 +4104,7 @@
     "similarity": [
       "Adam$$he$$K1$$0.6280712485313416"
     ],
-    "psl_score1": "4.891796061105846E-13",
+    "psl_score1": "0.5601763725280762",
     "scr_score": [
       "Adam$$he$$1.8695096747976147e-54",
       "Bob$$he$$1.9429201159691932e-54"
@@ -4122,13 +4122,13 @@
       "he$$Adam$$0",
       "he$$Bob$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "Bob$$I$$K1",
       "he$$I$$K1"
     ],
     "ans": "Bob",
-    "psl_score2": "0.9668498039245605",
+    "psl_score2": "0.966951847076416",
     "bert_choice2": 3.932798385620117,
     "scr_scaled_score": [
       0.5608529024392843,
@@ -4151,7 +4151,7 @@
       "Muslims$$Al Gore$$K1$$0.0244342852383852",
       "The con artist$$he$$K1$$9.923593461280689e-05"
     ],
-    "psl_score1": "0.9669950008392334",
+    "psl_score1": "0.9668592810630798",
     "scr_score": [
       "The con artist$$he$$3.616168697509355e-32",
       "Sam$$he$$1.0490024323896728e-32"
@@ -4176,7 +4176,7 @@
       "he$$Al Gore$$K1"
     ],
     "ans": "The con artist",
-    "psl_score2": "0.022272475063800812",
+    "psl_score2": "0.20963168144226074",
     "bert_choice2": 2.2022109031677246,
     "scr_scaled_score": [
       0.7232337395018712,
@@ -4199,7 +4199,7 @@
     "bert_choice1": 3.8413214683532715,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.551921010017395",
     "scr_score": [
       "The con artist$$he$$5.5244274721080935e-31",
       "Sam$$he$$2.225124721309313e-31"
@@ -4217,10 +4217,10 @@
       "he$$The con artist$$0",
       "he$$Sam$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Sam",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.22235164046287537",
     "bert_choice2": 3.1266703605651855,
     "scr_scaled_score": [
       0.5524427472108092,
@@ -4250,7 +4250,7 @@
     "bert_choice1": 4.995532512664795,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.2269260287284851",
     "scr_score": [
       "The dog$$it$$2.2711328449620183e-54",
       "The spot under the tree$$it$$8.588777207652402e-54"
@@ -4268,10 +4268,10 @@
       "it$$The dog$$1",
       "it$$The spot under the tree$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The dog",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.8581867814064026",
     "bert_choice2": 5.4402995109558105,
     "scr_scaled_score": [
       0.22711328449620183,
@@ -4300,7 +4300,7 @@
     "bert_choice1": 5.244131088256836,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.09041740000247955",
     "scr_score": [
       "The dog$$it$$9.043077602298637e-56",
       "The spot under the tree$$it$$7.668107493060205e-55"
@@ -4318,10 +4318,10 @@
       "it$$The dog$$0",
       "it$$The spot under the tree$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The spot under the tree",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.7660466432571411",
     "bert_choice2": 5.528899669647217,
     "scr_scaled_score": [
       0.09043077602298635,
@@ -4348,7 +4348,7 @@
     "bert_choice1": 3.96336030960083,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.9085959196090698",
     "scr_score": [
       "The cat$$it$$1.5157304767614821e-34",
       "The mouse$$it$$1.182966860352601e-34"
@@ -4369,7 +4369,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The cat",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.7090011835098267",
     "bert_choice2": 3.851670742034912,
     "scr_scaled_score": [
       0.909438286056889,
@@ -4394,7 +4394,7 @@
     "bert_choice1": 3.718498706817627,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.9530899524688721",
     "scr_score": [
       "The cat$$it$$4.769894861165021e-35",
       "The mouse$$it$$4.642426799194688e-35"
@@ -4415,7 +4415,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The mouse",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.9274790287017822",
     "bert_choice2": 3.676175832748413,
     "scr_scaled_score": [
       0.9539789722330047,
@@ -4451,7 +4451,7 @@
       "Anne$$She$$K7$$0.03149715065956116",
       "Anne$$She$$K10$$0.031472623348236084"
     ],
-    "psl_score1": "0.9680513739585876",
+    "psl_score1": "0.9646042585372925",
     "scr_score": [
       "Anne$$She$$2.6487355096652935e-27",
       "daughter$$She$$1.0043675096443028e-27"
@@ -4475,7 +4475,7 @@
       "She$$Activists$$K7"
     ],
     "ans": "Anne",
-    "psl_score2": "0.5711092352867126",
+    "psl_score2": "0.5711020827293396",
     "bert_choice2": 4.606354675292969,
     "scr_scaled_score": [
       0.794620652899588,
@@ -4510,7 +4510,7 @@
       "Anne$$She$$K9$$0.023174479603767395",
       "Anne$$She$$K10$$0.023174479603767395"
     ],
-    "psl_score1": "0.9671721458435059",
+    "psl_score1": "0.966474175453186",
     "scr_score": [
       "Anne$$She$$4.10057198349152e-28",
       "daughter$$She$$2.5787191102483616e-28"
@@ -4534,7 +4534,7 @@
       "She$$Activists$$K5"
     ],
     "ans": "daughter",
-    "psl_score2": "0.6952031850814819",
+    "psl_score2": "0.6952220797538757",
     "bert_choice2": 5.06252908706665,
     "scr_scaled_score": [
       0.8201143966983039,
@@ -4559,7 +4559,7 @@
     "bert_choice1": 4.827666759490967,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.835450291633606",
     "scr_score": [
       "Alice$$she$$2.787433291156691e-44",
       "daughter$$she$$2.422266641050764e-44"
@@ -4580,7 +4580,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Alice",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7260004281997681",
     "bert_choice2": 4.514627456665039,
     "scr_scaled_score": [
       0.8362299873470074,
@@ -4611,7 +4611,7 @@
     "bert_choice1": 5.230802536010742,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.8802644465031335E-6",
+    "psl_score1": "0.888501763343811",
     "scr_score": [
       "Alice$$she$$8.892863811727267e-44",
       "daughter$$she$$7.985458000737662e-44"
@@ -4629,10 +4629,10 @@
       "she$$Alice$$0",
       "she$$daughter$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "daughter",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.7977703809738159",
     "bert_choice2": 4.478471755981445,
     "scr_scaled_score": [
       0.8892863811727267,
@@ -4679,7 +4679,7 @@
     "bert_choice1": 2.8111133575439453,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.5350133180618286",
     "scr_score": [
       "Jim$$he$$1.7852220006377773e-48",
       "the guy$$he$$1.4239299040842727e-48"
@@ -4697,10 +4697,10 @@
       "he$$Jim$$1",
       "he$$the guy$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Jim",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.4267711639404297",
     "bert_choice2": 4.20881986618042,
     "scr_scaled_score": [
       0.5355666001913333,
@@ -4747,7 +4747,7 @@
     "bert_choice1": 3.311147928237915,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.12300367653369904",
     "scr_score": [
       "Jim$$he$$4.100120833404019e-47",
       "the guy$$he$$2.9753720558184294e-46"
@@ -4768,7 +4768,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "the guy",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.8917587995529175",
     "bert_choice2": 3.8008947372436523,
     "scr_scaled_score": [
       0.12300362500212056,
@@ -4794,7 +4794,7 @@
       "The fish$$It$$K8$$0.023032601922750473",
       "The fish$$It$$K10$$0.023032622411847115"
     ],
-    "psl_score1": "0.9668852090835571",
+    "psl_score1": "0.9672622084617615",
     "scr_score": [
       "The fish$$It$$8.229937646580147e-21",
       "The worm$$It$$7.36346688187873e-21"
@@ -4819,7 +4819,7 @@
       "The worm$$it$$K1"
     ],
     "ans": "The fish",
-    "psl_score2": "0.8189873695373535",
+    "psl_score2": "0.818672239780426",
     "bert_choice2": 3.421304702758789,
     "scr_scaled_score": [
       0.8229937646580147,
@@ -4846,7 +4846,7 @@
     "bert_choice1": 3.2621006965637207,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.8364126682281494",
     "scr_score": [
       "The fish$$It$$4.1859928204930914e-21",
       "The worm$$It$$1.1927181364734293e-21"
@@ -4867,7 +4867,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The worm",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.23846793174743652",
     "bert_choice2": 3.891599655151367,
     "scr_scaled_score": [
       0.8371985640986181,
@@ -4898,7 +4898,7 @@
     "bert_choice1": 2.8909549713134766,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.7758842706680298",
     "scr_score": [
       "The key$$it$$7.765555585092833e-45",
       "The chewing gum$$it$$4.4153006627028005e-45"
@@ -4916,10 +4916,10 @@
       "it$$The key$$1",
       "it$$The chewing gum$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The key",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.4411710500717163",
     "bert_choice2": 2.1793813705444336,
     "scr_scaled_score": [
       0.7765555585092833,
@@ -4940,7 +4940,7 @@
     "bert_choice1": 2.9816372394561768,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.8138260841369629",
     "scr_score": [
       "The key$$it$$4.073073153838296e-44",
       "The chewing gum$$it$$4.3614374786729257e-44"
@@ -4958,10 +4958,10 @@
       "it$$The key$$0",
       "it$$The chewing gum$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The chewing gum",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.8714734315872192",
     "bert_choice2": 2.908055067062378,
     "scr_scaled_score": [
       0.8146146307676592,
@@ -4996,7 +4996,7 @@
     "bert_choice1": 4.3086981773376465,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.828528881072998",
     "scr_score": [
       "The dog$$It$$4.1454521363421845e-32",
       "The cat$$It$$3.9731900058437607e-32"
@@ -5014,10 +5014,10 @@
       "It$$The dog$$1",
       "It$$The cat$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The dog",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.7938510179519653",
     "bert_choice2": 4.274167537689209,
     "scr_scaled_score": [
       0.8290904272684367,
@@ -5050,7 +5050,7 @@
     "bert_choice1": 4.472705364227295,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.8452091217041016",
     "scr_score": [
       "The dog$$It$$4.2290215754794114e-32",
       "The cat$$It$$4.4433632703190836e-32"
@@ -5068,10 +5068,10 @@
       "It$$The dog$$0",
       "It$$The cat$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The cat",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.8878084421157837",
     "bert_choice2": 4.485895156860352,
     "scr_scaled_score": [
       0.8458043150958826,
@@ -5092,7 +5092,7 @@
     "bert_choice1": 3.7101447582244873,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.41418594121932983",
     "scr_score": [
       "The tree$$it$$2.0729425191640233e-38",
       "The roof$$it$$4.071030986550359e-38"
@@ -5110,10 +5110,10 @@
       "it$$The tree$$1",
       "it$$The roof$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The tree",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.8135088682174683",
     "bert_choice2": 3.886223077774048,
     "scr_scaled_score": [
       0.4145885038328046,
@@ -5134,7 +5134,7 @@
     "bert_choice1": 3.542088270187378,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.16521026194095612",
     "scr_score": [
       "The tree$$it$$5.51127747042772e-38",
       "The roof$$it$$2.3081440519469522e-37"
@@ -5152,10 +5152,10 @@
       "it$$The tree$$0",
       "it$$The roof$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The roof",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.6918737888336182",
     "bert_choice2": 3.5522749423980713,
     "scr_scaled_score": [
       0.1653383241128316,
@@ -5186,7 +5186,7 @@
     "bert_choice1": 4.075074195861816,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.7358871698379517",
     "scr_score": [
       "The customer$$He$$7.365896316934082e-34",
       "The teller$$He$$1.001802436212563e-34"
@@ -5204,10 +5204,10 @@
       "He$$The customer$$1",
       "He$$The teller$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The customer",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.10016544163227081",
     "bert_choice2": 3.868619918823242,
     "scr_scaled_score": [
       0.7365896316934084,
@@ -5236,7 +5236,7 @@
     "bert_choice1": 4.177849769592285,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.5740309953689575",
     "scr_score": [
       "The customer$$He$$5.7453403964614356e-33",
       "one of the tellers$$He$$1.1298191249275934e-33"
@@ -5257,7 +5257,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "one of the tellers",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.11294356733560562",
     "bert_choice2": 4.229552268981934,
     "scr_scaled_score": [
       0.5745340396461434,
@@ -5294,7 +5294,7 @@
     "bert_choice1": 3.241227149963379,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.306835412979126",
     "scr_score": [
       "John$$He$$3.0707660792429497e-34",
       "The man$$He$$6.477614428069019e-34"
@@ -5315,7 +5315,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "John",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.647110104560852",
     "bert_choice2": 3.0850839614868164,
     "scr_scaled_score": [
       0.307076607924295,
@@ -5354,7 +5354,7 @@
     "bert_choice1": 2.823882579803467,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.1496545821428299",
     "scr_score": [
       "John$$He$$7.488568700216697e-35",
       "The man$$He$$3.8046676508751637e-34"
@@ -5375,7 +5375,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The man",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.7601890563964844",
     "bert_choice2": 4.132585048675537,
     "scr_scaled_score": [
       0.149771374004334,
@@ -5424,15 +5424,15 @@
       "John$$He$$K9$$0.07940889894962311",
       "John$$He$$K11$$0.07940886914730072"
     ],
-    "psl_score1": "0.9670133590698242",
-    "psl_score2": "2.023526067844103E-13",
+    "psl_score1": "0.9667091965675354",
+    "psl_score2": "0.6524397134780884",
     "bert_choice1": 2.8642311096191406,
     "bert_choice2": 4.292047023773193,
     "scr_scaled_score": [
       0.32063744659292404,
       0.6530787744108787
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "case": [],
@@ -5456,7 +5456,7 @@
     "bert_choice1": 2.683305263519287,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.0396115705370903",
     "scr_score": [
       "John$$He$$3.9539876459512364e-35",
       "The juggler$$He$$5.265444449253017e-34"
@@ -5477,7 +5477,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The juggler",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.5260655879974365",
     "bert_choice2": 4.203869819641113,
     "scr_scaled_score": [
       0.03953987645951237,
@@ -5502,7 +5502,7 @@
     "bert_choice1": 4.328376770019531,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.9890297651290894",
     "scr_score": [
       "Bob$$He$$1.6495390037954103e-38",
       "Carl$$He$$1.2364683328216283e-38"
@@ -5523,7 +5523,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Bob",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.7411375045776367",
     "bert_choice2": 3.3966751098632812,
     "scr_scaled_score": [
       0.9897234022772463,
@@ -5550,7 +5550,7 @@
     "bert_choice1": 3.384934186935425,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.8507004976272583",
     "scr_score": [
       "Bob$$He$$2.837723618483651e-38",
       "Carl$$He$$1.881737882140911e-38"
@@ -5568,10 +5568,10 @@
       "He$$Bob$$0",
       "He$$Carl$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Carl",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.5639604926109314",
     "bert_choice2": 3.5344152450561523,
     "scr_scaled_score": [
       0.8513170855450952,
@@ -5632,7 +5632,7 @@
       "Sam and Amy$$they$$K8$$0.11201462149620056",
       "Sam and Amy$$they$$K9$$0.11201462149620056"
     ],
-    "psl_score1": "0.9974761009216309",
+    "psl_score1": "0.9976728558540344",
     "scr_score": [
       "Sam and Amy$$they$$8.512850686476007e-38",
       "Amy's parents$$they$$2.4496628008098113e-38"
@@ -5680,8 +5680,8 @@
       "they$$these products$$K8"
     ],
     "ans": "Sam and Amy",
-    "psl_score2": "4.7131410238357777E-14",
-    "predicted": "INCORRECT",
+    "psl_score2": "0.24496325850486755",
+    "predicted": "CORRECT",
     "scr_scaled_score": [
       0.8512850686476005,
       0.2449662800809811
@@ -5741,7 +5741,7 @@
       "Sam and Amy$$they$$K7$$0.008045467548072338",
       "Sam and Amy$$they$$K10$$0.008045459166169167"
     ],
-    "psl_score1": "0.9976093769073486",
+    "psl_score1": "0.9974367022514343",
     "scr_score": [
       "Sam and Amy$$they$$3.2109166149655573e-37",
       "Amy's parents$$they$$5.317452053212986e-37"
@@ -5759,7 +5759,7 @@
       "they$$Sam and Amy$$0",
       "they$$Amy's parents$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [
       "they$$it$$K10",
       "they$$products$$K1",
@@ -5789,7 +5789,7 @@
       "Sam and Amy$$these products$$K7"
     ],
     "ans": "Amy's parents",
-    "psl_score2": "5.2368235480470746E-15",
+    "psl_score2": "0.5317366123199463",
     "bert_choice2": 4.18941593170166,
     "scr_scaled_score": [
       0.3210916614965557,
@@ -5812,7 +5812,7 @@
     "bert_choice1": 4.106351852416992,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.7657893896102905",
     "scr_score": [
       "Mark$$He$$7.665163488525486e-43",
       "Pete$$He$$9.225704593133928e-43"
@@ -5830,10 +5830,10 @@
       "He$$Mark$$1",
       "He$$Pete$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Mark",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.9218953847885132",
     "bert_choice2": 3.8255348205566406,
     "scr_scaled_score": [
       0.7665163488525485,
@@ -5858,7 +5858,7 @@
     "bert_choice1": 4.077467441558838,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.6322742700576782",
     "scr_score": [
       "Mark$$He$$3.1644569035731664e-43",
       "Pete$$He$$4.175846873995921e-43"
@@ -5876,10 +5876,10 @@
       "He$$Mark$$0",
       "He$$Pete$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Pete",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.8343639373779297",
     "bert_choice2": 3.8174445629119873,
     "scr_scaled_score": [
       0.6328913807146331,
@@ -5902,7 +5902,7 @@
     "bert_choice1": 3.5097103118896484,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.6033643484115601",
     "scr_score": [
       "The old house$$it$$1.006402314196336e-38",
       "The new house$$it$$1.384793602726195e-38"
@@ -5920,10 +5920,10 @@
       "it$$The old house$$1",
       "it$$The new house$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The old house",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.8299758434295654",
     "bert_choice2": 3.6242871284484863,
     "scr_scaled_score": [
       0.6038413885178016,
@@ -5941,7 +5941,7 @@
     "bert_choice1": 3.784088134765625,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.6568804979324341",
     "scr_score": [
       "The old house$$it$$3.287300241909401e-38",
       "The new house$$it$$4.754801152381259e-38"
@@ -5962,7 +5962,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The new house",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.9499436616897583",
     "bert_choice2": 3.946800947189331,
     "scr_scaled_score": [
       0.6574600483818802,
@@ -6001,7 +6001,7 @@
     "bert_choice1": 3.9321274757385254,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.3493596315383911",
     "scr_score": [
       "People$$They$$1.7475369953077414e-41",
       "Paul's books$$They$$3.6159097607893526e-41"
@@ -6022,7 +6022,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "People",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.7225377559661865",
     "bert_choice2": 3.8642449378967285,
     "scr_scaled_score": [
       0.3495073990615482,
@@ -6061,7 +6061,7 @@
     "bert_choice1": 3.440779209136963,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.010676026344299316",
     "scr_score": [
       "People$$They$$5.284178511443435e-39",
       "Paul's books$$They$$4.886810181045948e-37"
@@ -6079,10 +6079,10 @@
       "They$$People$$0",
       "They$$Paul's books$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Paul's books",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.9764609336853027",
     "bert_choice2": 3.710578680038452,
     "scr_scaled_score": [
       0.01056835702288687,
@@ -6120,7 +6120,7 @@
     "bert_choice1": 3.196155071258545,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.6869840919753187E-6",
+    "psl_score1": "0.9508306980133057",
     "scr_score": [
       "The flute$$it$$1.5861846243359257e-36",
       "The piece$$it$$3.6526024828164847e-37"
@@ -6138,10 +6138,10 @@
       "it$$The flute$$1",
       "it$$The piece$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The flute",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.21900880336761475",
     "bert_choice2": 3.5713634490966797,
     "scr_scaled_score": [
       0.9517107746015556,
@@ -6176,7 +6176,7 @@
     "bert_choice1": 2.9755101203918457,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.7085899710655212",
     "scr_score": [
       "The flute$$it$$2.3641124053900674e-36",
       "The piece$$it$$5.557437062967905e-37"
@@ -6197,7 +6197,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The piece",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.16673004627227783",
     "bert_choice2": 3.581305742263794,
     "scr_scaled_score": [
       0.7092337216170203,
@@ -6220,7 +6220,7 @@
     "bert_choice1": 4.8865814208984375,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.8172626495361328",
     "scr_score": [
       "The chair$$it$$2.7265528802590327e-34",
       "The piano$$it$$8.596797109830637e-35"
@@ -6238,10 +6238,10 @@
       "it$$The chair$$1",
       "it$$The piano$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The chair",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.25781571865081787",
     "bert_choice2": 4.595227241516113,
     "scr_scaled_score": [
       0.8179658640777099,
@@ -6268,7 +6268,7 @@
     "bert_choice1": 5.148076057434082,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.1511339694261551",
     "scr_score": [
       "The chair$$it$$2.5199860624144557e-34",
       "The piano$$it$$1.0007510995053785e-33"
@@ -6286,10 +6286,10 @@
       "it$$The chair$$0",
       "it$$The piano$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The piano",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.5998963713645935",
     "bert_choice2": 4.917677879333496,
     "scr_scaled_score": [
       0.1511991637448673,
@@ -6336,14 +6336,14 @@
       "electronics$$it$$K1$$0.9939283132553101"
     ],
     "bert_choice1": 4.978935718536377,
-    "psl_score1": "0.9670133590698242",
-    "psl_score2": "2.036253652672182E-13",
+    "psl_score1": "0.9669370651245117",
+    "psl_score2": "0.6687965393066406",
     "bert_choice2": 4.99426794052124,
     "scr_scaled_score": [
       0.3458746596147818,
       0.6696625737900158
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "case": [],
@@ -6367,7 +6367,7 @@
     "bert_choice1": 5.111865997314453,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.5728631019592285",
     "scr_score": [
       "The newspaper$$it$$9.560251508190826e-31",
       "The backpack$$it$$1.6346876106158342e-30"
@@ -6385,10 +6385,10 @@
       "it$$The newspaper$$0",
       "it$$The backpack$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The backpack",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.9799423217773438",
     "bert_choice2": 5.210466384887695,
     "scr_scaled_score": [
       0.5736150904914497,
@@ -6423,7 +6423,7 @@
     "bert_choice1": 3.495734930038452,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.8505018949508667",
     "scr_score": [
       "The book$$it$$4.256496645234713e-44",
       "The article$$it$$2.75707335224966e-44"
@@ -6441,10 +6441,10 @@
       "it$$The book$$1",
       "it$$The article$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The book",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.551081657409668",
     "bert_choice2": 3.7836334705352783,
     "scr_scaled_score": [
       0.8512993290469428,
@@ -6479,7 +6479,7 @@
     "bert_choice1": 3.6381611824035645,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.5122423768043518",
     "scr_score": [
       "The book$$it$$5.127559548897802e-45",
       "The article$$it$$5.511828466057581e-45"
@@ -6497,10 +6497,10 @@
       "it$$The book$$0",
       "it$$The article$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The article",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.550849974155426",
     "bert_choice2": 3.839249610900879,
     "scr_scaled_score": [
       0.5127559548897803,
@@ -6533,7 +6533,7 @@
     "bert_choice1": 3.914970874786377,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.6949023008346558",
     "scr_score": [
       "The sand castle$$it$$1.1594462016862355e-57",
       "The flag$$it$$1.2149975689079197e-57"
@@ -6551,10 +6551,10 @@
       "it$$The sand castle$$1",
       "it$$The flag$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The sand castle",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.7283315658569336",
     "bert_choice2": 3.5900285243988037,
     "scr_scaled_score": [
       0.6956677210117412,
@@ -6589,7 +6589,7 @@
     "bert_choice1": 3.8866963386535645,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.7651427984237671",
     "scr_score": [
       "The sand castle$$it$$1.2761484707792334e-55",
       "The flag$$it$$1.4685440141062011e-55"
@@ -6610,7 +6610,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The flag",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.8803050518035889",
     "bert_choice2": 3.4914729595184326,
     "scr_scaled_score": [
       0.76568908246754,
@@ -6650,7 +6650,7 @@
     "bert_choice1": 4.792751312255859,
     "pronoun": "She",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.6086829900741577",
     "scr_score": [
       "Jane$$She$$6.09302661913169e-25",
       "Susan$$She$$5.461194703253521e-25"
@@ -6668,10 +6668,10 @@
       "She$$Jane$$1",
       "She$$Susan$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Jane",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.545657753944397",
     "bert_choice2": 3.6611406803131104,
     "scr_scaled_score": [
       0.609302661913169,
@@ -6711,7 +6711,7 @@
     "bert_choice1": 2.9128832817077637,
     "pronoun": "She",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.9362853765487671",
     "scr_score": [
       "Jane$$She$$9.371534198145038e-25",
       "Susan$$She$$8.051852887348025e-25"
@@ -6732,7 +6732,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Susan",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.8046234846115112",
     "bert_choice2": 3.3382980823516846,
     "scr_scaled_score": [
       0.9371534198145036,
@@ -6763,7 +6763,7 @@
     "bert_choice1": 4.244363784790039,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.628646731376648",
     "scr_score": [
       "Jane$$her$$3.1459841671739287e-27",
       "Susan$$her$$2.6430744423533205e-27"
@@ -6781,10 +6781,10 @@
       "her$$Jane$$0",
       "her$$Susan$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Susan",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.5279937386512756",
     "bert_choice2": 3.7497334480285645,
     "scr_scaled_score": [
       0.6291968334347856,
@@ -6815,7 +6815,7 @@
     "bert_choice1": 4.953083038330078,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.9555306434631348",
     "scr_score": [
       "Jane$$her$$1.594216296576324e-26",
       "Susan$$her$$1.3716610421360772e-26"
@@ -6836,7 +6836,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Jane",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.8222224712371826",
     "bert_choice2": 3.9521868228912354,
     "scr_scaled_score": [
       0.9565297779457944,
@@ -6875,7 +6875,7 @@
     "bert_choice1": 5.43636417388916,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.61305832862854",
     "scr_score": [
       "Sam$$he$$2.045532113414189e-34",
       "Adam$$he$$1.5057554748878288e-34"
@@ -6893,10 +6893,10 @@
       "he$$Sam$$1",
       "he$$Adam$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Sam",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.4512578845024109",
     "bert_choice2": 5.159759521484375,
     "scr_scaled_score": [
       0.6136596340242567,
@@ -6931,7 +6931,7 @@
     "bert_choice1": 2.3832125663757324,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.5626989006996155",
     "scr_score": [
       "Sam$$he$$9.388019319063977e-34",
       "Adam$$he$$1.2451948065747482e-33"
@@ -6952,7 +6952,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Adam",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7464206218719482",
     "bert_choice2": 4.391662120819092,
     "scr_scaled_score": [
       0.5632811591438387,
@@ -6978,7 +6978,7 @@
     "bert_choice1": 4.818930625915527,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.6199992895126343",
     "scr_score": [
       "The path$$it$$3.1018499244312067e-24",
       "The lake$$it$$3.1449501457627033e-24"
@@ -6996,10 +6996,10 @@
       "it$$The path$$1",
       "it$$The lake$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The path",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.6283754706382751",
     "bert_choice2": 4.528250694274902,
     "scr_scaled_score": [
       0.6203699848862415,
@@ -7028,7 +7028,7 @@
     "bert_choice1": 3.6201424598693848,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.5859192609786987",
     "scr_score": [
       "The path$$it$$1.9547491787221463e-23",
       "The lake$$it$$2.4711769155165693e-23"
@@ -7049,7 +7049,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The lake",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.740546464920044",
     "bert_choice2": 3.7458086013793945,
     "scr_scaled_score": [
       0.5864247536166439,
@@ -7082,7 +7082,7 @@
     "bert_choice1": 4.655307769775391,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.6932369470596313",
     "scr_score": [
       "The sun$$it$$2.3126926279130292e-38",
       "The cloud$$it$$8.372822732899033e-40"
@@ -7103,7 +7103,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The sun",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.02524074912071228",
     "bert_choice2": 4.041727066040039,
     "scr_scaled_score": [
       0.6938077883739089,
@@ -7124,7 +7124,7 @@
     "bert_choice1": 5.210587501525879,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.16082727909088135",
     "scr_score": [
       "The sun$$it$$1.6081418588387232e-39",
       "The cloud$$it$$8.019138739283949e-39"
@@ -7142,10 +7142,10 @@
       "it$$The sun$$0",
       "it$$The cloud$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The cloud",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.8011938333511353",
     "bert_choice2": 4.616825103759766,
     "scr_scaled_score": [
       0.1608141858838723,
@@ -7168,7 +7168,7 @@
     "bert_choice1": 4.207765579223633,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.6858470439910889",
     "scr_score": [
       "The lake$$it$$2.2884342830026033e-41",
       "The ocean beach$$it$$1.6653234261414301e-41"
@@ -7186,10 +7186,10 @@
       "it$$The lake$$1",
       "it$$The ocean beach$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The lake",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.49932581186294556",
     "bert_choice2": 4.296614170074463,
     "scr_scaled_score": [
       0.686530284900781,
@@ -7218,7 +7218,7 @@
     "bert_choice1": 4.225668430328369,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.761600136756897",
     "scr_score": [
       "The lake$$it$$2.5410792573265545e-40",
       "The ocean beach$$it$$1.507498811100371e-40"
@@ -7239,7 +7239,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The ocean beach",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.45196130871772766",
     "bert_choice2": 4.254014492034912,
     "scr_scaled_score": [
       0.7623237771979662,
@@ -7260,7 +7260,7 @@
     "bert_choice1": 4.900217533111572,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "1.6869840919753187E-6",
+    "psl_score1": "0.7828778028488159",
     "scr_score": [
       "The shepherds$$they$$3.91809501327047e-40",
       "The sheep$$they$$3.904296659454029e-40"
@@ -7278,10 +7278,10 @@
       "they$$The shepherds$$1",
       "they$$The sheep$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The shepherds",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.7801498174667358",
     "bert_choice2": 4.82334041595459,
     "scr_scaled_score": [
       0.7836190026540939,
@@ -7302,7 +7302,7 @@
     "bert_choice1": 4.514384746551514,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.5583025217056274",
     "scr_score": [
       "The shepherds$$they$$9.313823004065228e-37",
       "The sheep$$they$$1.0245908762692948e-36"
@@ -7323,7 +7323,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The sheep",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.6141523122787476",
     "bert_choice2": 4.634592056274414,
     "scr_scaled_score": [
       0.5588293802439137,
@@ -7350,7 +7350,7 @@
     "bert_choice1": 4.736289024353027,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.6702364683151245",
     "scr_score": [
       "Mary$$she$$2.2363558801187682e-26",
       "daughter$$she$$2.692517281329614e-26"
@@ -7368,10 +7368,10 @@
       "she$$Mary$$1",
       "she$$daughter$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Mary",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.8069941997528076",
     "bert_choice2": 3.9474682807922363,
     "scr_scaled_score": [
       0.6709067640356305,
@@ -7400,7 +7400,7 @@
       "Mary$$she$$K8$$0.0010072076693177223",
       "Mary$$she$$K11$$0.001007208600640297"
     ],
-    "psl_score1": "1.2351687869120026E-13",
+    "psl_score1": "0.7243162393569946",
     "scr_score": [
       "Mary$$she$$1.2084677558794595e-24",
       "daughter$$she$$1.3874643794794806e-24"
@@ -7418,13 +7418,13 @@
       "she$$Mary$$0",
       "she$$daughter$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "she$$My dog$$K1",
       "daughter$$My dog$$K1"
     ],
     "ans": "daughter",
-    "psl_score2": "0.9670133590698242",
+    "psl_score2": "0.9669656157493591",
     "bert_choice2": 3.3639237880706787,
     "scr_scaled_score": [
       0.7250806535276757,
@@ -7451,7 +7451,7 @@
     "bert_choice1": 3.606687545776367,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.7338788509368896",
     "scr_score": [
       "Fred and Alice$$they$$1.2242746537059352e-36",
       "coats$$they$$4.265159565321518e-37"
@@ -7472,7 +7472,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Fred and Alice",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.25568217039108276",
     "bert_choice2": 3.275172472000122,
     "scr_scaled_score": [
       0.7345647922235611,
@@ -7495,7 +7495,7 @@
     "bert_choice1": 3.7637393474578857,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.008533213287591934",
     "scr_score": [
       "Fred and Alice$$they$$8.361086717604383e-39",
       "coats$$they$$5.504491246572953e-37"
@@ -7516,7 +7516,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "coats",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.5499147176742554",
     "bert_choice2": 3.3764233589172363,
     "scr_scaled_score": [
       0.008361086717604382,
@@ -7543,7 +7543,7 @@
     "bert_choice1": 3.6022071838378906,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.6394988298416138",
     "scr_score": [
       "Thomson$$he$$6.40092429260399e-42",
       "Cooper$$he$$5.780090423273911e-42"
@@ -7564,7 +7564,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Thomson",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.5774370431900024",
     "bert_choice2": 3.338423490524292,
     "scr_scaled_score": [
       0.6400924292603988,
@@ -7591,7 +7591,7 @@
     "bert_choice1": 3.50053071975708,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.6869840919753187E-6",
+    "psl_score1": "0.43135225772857666",
     "scr_score": [
       "Thomson$$he$$2.1587187219367033e-39",
       "Cooper$$he$$4.521606048456231e-39"
@@ -7612,7 +7612,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Cooper",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.903458833694458",
     "bert_choice2": 2.9167320728302,
     "scr_scaled_score": [
       0.4317437443873407,
@@ -7662,14 +7662,14 @@
       "Jackson$$he$$K9$$0.6727566719055176"
     ],
     "bert_choice1": 1.4984973669052124,
-    "psl_score2": "6.371006695295167E-13",
+    "psl_score2": "0.7144659757614136",
     "bert_choice2": 4.064205646514893,
     "scr_scaled_score": [
       0.639101548477786,
       0.7152180123418503
     ],
-    "predicted": "INCORRECT",
-    "psl_score1": "0.9668370485305786"
+    "predicted": "CORRECT",
+    "psl_score1": "0.9668092727661133"
   },
   {
     "case": [],
@@ -7695,7 +7695,7 @@
     "bert_choice1": 2.305023193359375,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.7722010016441345",
     "scr_score": [
       "Jackson$$he$$2.5763466573283294e-29",
       "Arnold$$he$$2.9285687116782064e-29"
@@ -7713,10 +7713,10 @@
       "he$$Jackson$$0",
       "he$$Arnold$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Arnold",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.8776547908782959",
     "bert_choice2": 4.311065673828125,
     "scr_scaled_score": [
       0.7729039971984988,
@@ -7752,7 +7752,7 @@
     "bert_choice1": 3.2844669818878174,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.8802644465031335E-6",
+    "psl_score1": "0.41288912296295166",
     "scr_score": [
       "The tree$$it$$6.888172182308098e-29",
       "The axe$$it$$1.1726154154561644e-28"
@@ -7770,10 +7770,10 @@
       "it$$The tree$$1",
       "it$$The axe$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The tree",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.7029354572296143",
     "bert_choice2": 3.316134214401245,
     "scr_scaled_score": [
       0.413290330938486,
@@ -7794,7 +7794,7 @@
     "bert_choice1": 2.836806058883667,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.6584492921829224",
     "scr_score": [
       "The tree$$it$$6.590886037205438e-28",
       "The axe$$it$$4.436455572636265e-28"
@@ -7815,7 +7815,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The axe",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.44340115785598755",
     "bert_choice2": 3.04396653175354,
     "scr_scaled_score": [
       0.6590886037205436,
@@ -7845,7 +7845,7 @@
       "Terrorists$$them$$K1$$0.0007037182804197073",
       "The foxes$$them$$K1$$0.8924644589424133"
     ],
-    "psl_score1": "0.779617190361023",
+    "psl_score1": "0.8520072102546692",
     "scr_score": [
       "The foxes$$them$$2.8479061478080694e-37",
       "The chickens$$them$$2.7566573755945415e-37"
@@ -7874,7 +7874,7 @@
       "The chickens$$you$$K1"
     ],
     "ans": "The foxes",
-    "psl_score2": "0.7785295248031616",
+    "psl_score2": "0.8264761567115784",
     "bert_choice2": 3.891645908355713,
     "scr_scaled_score": [
       0.8543718443424207,
@@ -7900,7 +7900,7 @@
       "you$$yourself$$K1$$0.8318676352500916",
       "The foxes$$them$$K1$$0.39596784114837646"
     ],
-    "psl_score1": "0.7558681964874268",
+    "psl_score1": "0.9132257699966431",
     "scr_score": [
       "The foxes$$them$$9.149061726244072e-39",
       "The chickens$$them$$9.452880720960386e-39"
@@ -7918,7 +7918,7 @@
       "them$$The foxes$$0",
       "them$$The chickens$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "them$$a right to protect yourself$$K1",
       "them$$yourself$$K1",
@@ -7926,7 +7926,7 @@
       "The foxes$$you$$K1"
     ],
     "ans": "The chickens",
-    "psl_score2": "0.7555024027824402",
+    "psl_score2": "0.9444683790206909",
     "bert_choice2": 3.7520968914031982,
     "scr_scaled_score": [
       0.9149061726244072,
@@ -7947,7 +7947,7 @@
     "bert_choice1": 3.995547294616699,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.5065107345581055",
     "scr_score": [
       "The foxes$$They$$5.069580504178293e-35",
       "The chickens$$They$$1.7218605621084057e-35"
@@ -7965,10 +7965,10 @@
       "They$$The foxes$$1",
       "They$$The chickens$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The foxes",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.17206940054893494",
     "bert_choice2": 3.9597108364105225,
     "scr_scaled_score": [
       0.5069580504178293,
@@ -7989,7 +7989,7 @@
     "bert_choice1": 3.9729514122009277,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.6955335140228271",
     "scr_score": [
       "The foxes$$They$$1.1604991329569633e-34",
       "The chickens$$They$$1.1705708140933898e-34"
@@ -8010,7 +8010,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The chickens",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.7016974687576294",
     "bert_choice2": 4.058160305023193,
     "scr_scaled_score": [
       0.6962994797741778,
@@ -8041,7 +8041,7 @@
     "bert_choice1": 2.8793671131134033,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.5260506868362427",
     "scr_score": [
       "His eyes$$them$$1.7546665308164108e-45",
       "His hands$$them$$1.5618988860705238e-45"
@@ -8062,7 +8062,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "His eyes",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.46809935569763184",
     "bert_choice2": 2.7177011966705322,
     "scr_scaled_score": [
       0.5263999592449233,
@@ -8091,7 +8091,7 @@
     "bert_choice1": 3.0294899940490723,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.5457520484924316",
     "scr_score": [
       "His eyes$$them$$5.461176041348629e-46",
       "His hands$$them$$5.5358365166736196e-46"
@@ -8109,10 +8109,10 @@
       "them$$His eyes$$0",
       "them$$His hands$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "His hands",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.5530316829681396",
     "bert_choice2": 3.167410135269165,
     "scr_scaled_score": [
       0.5461176041348628,
@@ -8152,7 +8152,7 @@
       "Terpsichore$$it$$K9$$0.22592845559120178",
       "Terpsichore$$it$$K10$$0.17344418168067932"
     ],
-    "psl_score1": "0.9933522343635559",
+    "psl_score1": "0.9933717250823975",
     "scr_score": [
       "Terpsichore$$it$$9.610011468778917e-46",
       "Tina$$it$$2.3792708839846963e-46"
@@ -8184,7 +8184,7 @@
       "Terpsichore$$a different computer$$K3"
     ],
     "ans": "Terpsichore",
-    "psl_score2": "0.6765811443328857",
+    "psl_score2": "0.6772717833518982",
     "bert_choice2": 4.744742393493652,
     "scr_scaled_score": [
       0.9610011468778917,
@@ -8215,7 +8215,7 @@
     "bert_choice1": 4.971500873565674,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.6875755190849304",
     "scr_score": [
       "Terpsichore$$it$$2.294006584834836e-45",
       "Tina$$it$$5.9792583500997466e-46"
@@ -8233,10 +8233,10 @@
       "it$$Terpsichore$$0",
       "it$$Tina$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Tina",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.17937147617340088",
     "bert_choice2": 4.769689559936523,
     "scr_scaled_score": [
       0.6882019754504509,
@@ -8269,7 +8269,7 @@
     "bert_choice1": 3.6853227615356445,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.8990125060081482",
     "scr_score": [
       "Fred$$he$$2.999368645119632e-33",
       "George$$he$$2.6768986274503013e-33"
@@ -8290,7 +8290,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Fred",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.8024927377700806",
     "bert_choice2": 3.0959391593933105,
     "scr_scaled_score": [
       0.89981059353589,
@@ -8325,7 +8325,7 @@
     "bert_choice1": 4.555567741394043,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6595104932785034",
     "scr_score": [
       "Fred$$he$$6.603224415200742e-34",
       "George$$he$$7.786108618719035e-34"
@@ -8343,10 +8343,10 @@
       "he$$Fred$$0",
       "he$$George$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "George",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.7779759168624878",
     "bert_choice2": 3.546252489089966,
     "scr_scaled_score": [
       0.6603224415200742,
@@ -8381,7 +8381,7 @@
     "bert_choice1": 5.592403411865234,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.6273605823516846",
     "scr_score": [
       "The dishwasher$$it$$3.139793855389528e-58",
       "The TV$$it$$4.92404856586275e-58"
@@ -8399,10 +8399,10 @@
       "it$$The dishwasher$$1",
       "it$$The TV$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The dishwasher",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.9839076995849609",
     "bert_choice2": 5.594320297241211,
     "scr_scaled_score": [
       0.627958771077906,
@@ -8427,7 +8427,7 @@
     "bert_choice1": 5.635595321655273,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.5010515451431274",
     "scr_score": [
       "The dishwasher$$it$$5.015722688700491e-58",
       "The TV$$it$$4.493950987439611e-58"
@@ -8448,7 +8448,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The TV",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.44898420572280884",
     "bert_choice2": 5.661404609680176,
     "scr_scaled_score": [
       0.501572268870049,
@@ -8477,7 +8477,7 @@
     "bert_choice1": 4.643345832824707,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.6133072972297668",
     "scr_score": [
       "Fred$$He$$1.0230691172494982e-30",
       "great-grandfather$$He$$5.23219674339091e-31"
@@ -8498,7 +8498,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Fred",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.313600093126297",
     "bert_choice2": 3.3372106552124023,
     "scr_scaled_score": [
       0.6138414703496989,
@@ -8529,7 +8529,7 @@
     "similarity": [
       "Fred$$He$$K10$$0.2763141095638275"
     ],
-    "psl_score1": "0.7208948731422424",
+    "psl_score1": "0.7209460735321045",
     "scr_score": [
       "Fred$$He$$7.125871778582929e-31",
       "great-grandfather$$He$$2.6926224656611426e-30"
@@ -8553,7 +8553,7 @@
       "He$$an error$$K10"
     ],
     "ans": "great-grandfather",
-    "psl_score2": "0.9658308029174805",
+    "psl_score2": "0.9652045369148254",
     "bert_choice2": 3.535447835922241,
     "scr_scaled_score": [
       0.21377615335748787,
@@ -8590,7 +8590,7 @@
       "Just about everything else you might need$$More industry-specific products , like Adobes Creative Cloud suite , or music-production software like Ableton Live , or Cubase$$K9$$0.005739117972552776",
       "Fred$$he$$K9$$0.07590119540691376"
     ],
-    "psl_score1": "0.9843093752861023",
+    "psl_score1": "0.982021152973175",
     "scr_score": [
       "Fred$$he$$4.920456257912671e-45",
       "My father$$he$$5.186929290017724e-45"
@@ -8616,7 +8616,7 @@
       "he$$More industry-specific products , like Adobes Creative Cloud suite , or music-production software like Ableton Live , or Cubase$$K9"
     ],
     "ans": "Fred",
-    "psl_score2": "0.7089481353759766",
+    "psl_score2": "0.7089523673057556",
     "bert_choice2": 5.6036858558654785,
     "scr_scaled_score": [
       0.4920456257912673,
@@ -8653,7 +8653,7 @@
       "Just about everything else you might need$$More industry-specific products , like Adobes Creative Cloud suite , or music-production software like Ableton Live , or Cubase$$K10$$0.005739117972552776",
       "Fred$$he$$K10$$0.07508496940135956"
     ],
-    "psl_score1": "0.9847928881645203",
+    "psl_score1": "0.9836065173149109",
     "scr_score": [
       "Fred$$he$$3.575642419339515e-46",
       "My father$$he$$2.4742946700735168e-46"
@@ -8679,7 +8679,7 @@
       "he$$Just about everything else you might need$$K10"
     ],
     "ans": "My father",
-    "psl_score2": "0.7101261019706726",
+    "psl_score2": "0.7101350426673889",
     "bert_choice2": 5.712122440338135,
     "scr_scaled_score": [
       0.7151284838679033,
@@ -8709,7 +8709,7 @@
     "similarity": [
       "Kamchatka$$they$$K9$$0.05374637246131897"
     ],
-    "psl_score1": "0.9601999521255493",
+    "psl_score1": "0.9603732824325562",
     "scr_score": [
       "Kamchatka$$they$$1.2285796369893959e-60",
       "Yakutsk$$they$$1.6557188989124648e-60"
@@ -8733,7 +8733,7 @@
       "Yakutsk$$a change$$K9"
     ],
     "ans": "Kamchatka",
-    "psl_score2": "0.9668745994567871",
+    "psl_score2": "0.991283118724823",
     "bert_choice2": 3.3172597885131836,
     "scr_scaled_score": [
       0.7371477821936374,
@@ -8768,7 +8768,7 @@
       "The dictionaries that you can search together as English$$The dictionaries that you can search together as English on this Cambridge Dictionary website$$K10$$0.8930162787437439",
       "Kamchatka$$they$$K10$$0.0002183130127377808"
     ],
-    "psl_score1": "0.9125611782073975",
+    "psl_score1": "0.9123356938362122",
     "scr_score": [
       "Kamchatka$$they$$1.3282307583487436e-61",
       "Yakutsk$$they$$1.6743254333077074e-61"
@@ -8794,7 +8794,7 @@
       "Yakutsk$$The dictionaries that you can search together as English on this Cambridge Dictionary website$$K10"
     ],
     "ans": "Yakutsk",
-    "psl_score2": "0.9852399826049805",
+    "psl_score2": "0.9835560321807861",
     "bert_choice2": 3.189706563949585,
     "scr_scaled_score": [
       0.39846922750462305,
@@ -8817,7 +8817,7 @@
     "bert_choice1": 3.5040626525878906,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.34499645233154297",
     "scr_score": [
       "The minnow$$It$$3.4534891376004103e-47",
       "The duck$$It$$6.577221044918823e-47"
@@ -8838,7 +8838,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The minnow",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.6572344303131104",
     "bert_choice2": 3.3847784996032715,
     "scr_scaled_score": [
       0.34534891376004095,
@@ -8861,7 +8861,7 @@
     "bert_choice1": 3.187046766281128,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.9192107915878296",
     "scr_score": [
       "The shark$$It$$4.599989944093968e-45",
       "The duck$$It$$2.6443518860777162e-45"
@@ -8882,7 +8882,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The duck",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5283241271972656",
     "bert_choice2": 3.583224058151245,
     "scr_scaled_score": [
       0.9199979888187931,
@@ -8915,7 +8915,7 @@
     "bert_choice1": 4.700137138366699,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.6684272289276123",
     "scr_score": [
       "Archaeologists$$They$$3.345296949641557e-39",
       "humans$$They$$4.241045752001394e-39"
@@ -8936,7 +8936,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Archaeologists",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.8474621772766113",
     "bert_choice2": 4.014638423919678,
     "scr_scaled_score": [
       0.6690593899283115,
@@ -8967,7 +8967,7 @@
     "bert_choice1": 4.731405735015869,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.0062251463532447815",
     "scr_score": [
       "Archaeologists$$They$$3.0475455468196464e-40",
       "humans$$They$$3.2587586493775576e-38"
@@ -8985,10 +8985,10 @@
       "They$$Archaeologists$$0",
       "They$$humans$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "humans",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.6511781215667725",
     "bert_choice2": 4.046387672424316,
     "scr_scaled_score": [
       0.006095091093639293,
@@ -9019,7 +9019,7 @@
     "bert_choice1": 3.2142930030822754,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.9938310384750366",
     "scr_score": [
       "The scientists$$They$$4.973376345154875e-40",
       "The fish$$They$$5.259355791064168e-41"
@@ -9037,10 +9037,10 @@
       "They$$The scientists$$1",
       "They$$The fish$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The scientists",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.10515831410884857",
     "bert_choice2": 2.654428005218506,
     "scr_scaled_score": [
       0.994675269030975,
@@ -9071,7 +9071,7 @@
     "bert_choice1": 2.6433606147766113,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.031327176839113235",
     "scr_score": [
       "The scientists$$They$$1.0413668930603508e-41",
       "three species of fish$$They$$1.894613291312907e-40"
@@ -9089,10 +9089,10 @@
       "They$$The scientists$$0",
       "They$$three species of fish$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "three species of fish",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.5678803324699402",
     "bert_choice2": 3.205298900604248,
     "scr_scaled_score": [
       0.031241006791810515,
@@ -9125,7 +9125,7 @@
     "bert_choice1": 4.0901641845703125,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.9136046171188354",
     "scr_score": [
       "The journalists$$They$$4.5722668572960945e-41",
       "The stars$$They$$2.426488700063533e-42"
@@ -9146,7 +9146,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The journalists",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.048583269119262695",
     "bert_choice2": 4.595301151275635,
     "scr_scaled_score": [
       0.9144533714592187,
@@ -9181,7 +9181,7 @@
     "bert_choice1": 4.085732460021973,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.8431739807128906",
     "scr_score": [
       "The journalists$$They$$8.439411064263536e-40",
       "The stars$$They$$1.746865283436423e-41"
@@ -9202,7 +9202,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The stars",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.017577921971678734",
     "bert_choice2": 4.847078323364258,
     "scr_scaled_score": [
       0.8439411064263537,
@@ -9231,7 +9231,7 @@
     "bert_choice1": 4.464994430541992,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.5208299160003662",
     "scr_score": [
       "The police$$They$$1.7377332568415451e-31",
       "all of the gang members$$They$$1.2010639569429344e-31"
@@ -9249,10 +9249,10 @@
       "They$$The police$$1",
       "They$$all of the gang members$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The police",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.3599732518196106",
     "bert_choice2": 4.234291076660156,
     "scr_scaled_score": [
       0.5213199770524635,
@@ -9281,7 +9281,7 @@
     "bert_choice1": 4.491156578063965,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.11463329195976257",
     "scr_score": [
       "The police$$They$$1.911231439126712e-33",
       "all of the gang members$$They$$1.556247730015909e-32"
@@ -9302,7 +9302,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "all of the gang members",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.93293297290802",
     "bert_choice2": 4.297854423522949,
     "scr_scaled_score": [
       0.11467388634760273,
@@ -9340,7 +9340,7 @@
     "bert_choice1": 4.558010101318359,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.7530525922775269",
     "scr_score": [
       "The cake$$It$$7.537325655192521e-26",
       "The refrigerator$$It$$3.1423661190526557e-26"
@@ -9358,10 +9358,10 @@
       "It$$The cake$$1",
       "It$$The refrigerator$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The cake",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.31385594606399536",
     "bert_choice2": 4.75104284286499,
     "scr_scaled_score": [
       0.7537325655192519,
@@ -9402,7 +9402,7 @@
     "bert_choice1": 4.3202314376831055,
     "pronoun": "It",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.10991223156452179",
     "scr_score": [
       "The cake$$It$$1.100120467350147e-27",
       "The refrigerator$$It$$7.815776671027356e-27"
@@ -9423,7 +9423,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The refrigerator",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.7808014154434204",
     "bert_choice2": 5.007269859313965,
     "scr_scaled_score": [
       0.1100120467350147,
@@ -9454,7 +9454,7 @@
     "bert_choice1": 2.9174156188964844,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.5053350329399109",
     "scr_score": [
       "The ankles$$they$$5.057563290391169e-45",
       "The crutches$$they$$3.360378166304269e-45"
@@ -9475,7 +9475,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The ankles",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.3356914520263672",
     "bert_choice2": 3.2042770385742188,
     "scr_scaled_score": [
       0.505756329039117,
@@ -9506,7 +9506,7 @@
     "bert_choice1": 2.986109733581543,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.16182684898376465",
     "scr_score": [
       "The ankles$$they$$1.6183940900512912e-48",
       "The crutches$$they$$7.971058634289305e-48"
@@ -9527,7 +9527,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The crutches",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.7963168621063232",
     "bert_choice2": 3.4102349281311035,
     "scr_scaled_score": [
       0.1618394090051291,
@@ -9560,7 +9560,7 @@
     "bert_choice1": 4.755765914916992,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.1918540894985199",
     "scr_score": [
       "The sponsors$$They$$1.9187341170417e-46",
       "The opponents$$They$$7.086739851619868e-46"
@@ -9578,10 +9578,10 @@
       "They$$The sponsors$$1",
       "They$$The opponents$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The sponsors",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.7080137729644775",
     "bert_choice2": 4.924670219421387,
     "scr_scaled_score": [
       0.19187341170417,
@@ -9617,7 +9617,7 @@
     "bert_choice1": 4.5740203857421875,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.2858283221721649",
     "scr_score": [
       "The sponsors$$They$$4.765762155827323e-48",
       "The opponents$$They$$1.3486589761944175e-47"
@@ -9638,7 +9638,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The opponents",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.8084547519683838",
     "bert_choice2": 4.7482805252075195,
     "scr_scaled_score": [
       0.2859457293496394,
@@ -9669,7 +9669,7 @@
     "bert_choice1": 5.394285678863525,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.34318405389785767",
     "scr_score": [
       "The oatmeal cookies$$them$$3.4360053935544123e-47",
       "The chocolate chip cookies$$them$$8.811833136664485e-47"
@@ -9687,10 +9687,10 @@
       "them$$The oatmeal cookies$$1",
       "them$$The chocolate chip cookies$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The oatmeal cookies",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.880441427230835",
     "bert_choice2": 4.999845027923584,
     "scr_scaled_score": [
       0.3436005393554412,
@@ -9719,7 +9719,7 @@
     "bert_choice1": 5.377042293548584,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.5438750982284546",
     "scr_score": [
       "The oatmeal cookies$$them$$5.44481467866689e-50",
       "The chocolate chip cookies$$them$$9.317279434014912e-50"
@@ -9737,10 +9737,10 @@
       "them$$The oatmeal cookies$$0",
       "them$$The chocolate chip cookies$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The chocolate chip cookies",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.930862307548523",
     "bert_choice2": 5.135394096374512,
     "scr_scaled_score": [
       0.544481467866689,
@@ -9763,7 +9763,7 @@
     "bert_choice1": 4.871700286865234,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.5450280904769897",
     "scr_score": [
       "copies of the newsletter$$them$$1.8186400395157693e-38",
       "chairs$$them$$1.6820251565088243e-38"
@@ -9784,7 +9784,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "copies of the newsletter",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.5041145086288452",
     "bert_choice2": 4.625513076782227,
     "scr_scaled_score": [
       0.545592011854731,
@@ -9807,7 +9807,7 @@
     "bert_choice1": 4.727830410003662,
     "pronoun": "them",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.8109898567199707",
     "scr_score": [
       "copies of the newsletter$$them$$1.3528746914679485e-37",
       "chairs$$them$$1.2917896501185617e-37"
@@ -9825,10 +9825,10 @@
       "them$$copies of the newsletter$$0",
       "them$$chairs$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "chairs",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7744468450546265",
     "bert_choice2": 4.295353889465332,
     "scr_scaled_score": [
       0.8117248148807688,
@@ -9855,7 +9855,7 @@
     "bert_choice1": 3.9858245849609375,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.6435816287994385",
     "scr_score": [
       "The pin$$it$$2.147001949922742e-37",
       "The carrot$$it$$7.786827188104393e-38"
@@ -9876,7 +9876,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The pin",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.23335295915603638",
     "bert_choice2": 4.005201816558838,
     "scr_scaled_score": [
       0.6441005849768225,
@@ -9907,7 +9907,7 @@
     "bert_choice1": 3.634601593017578,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.5590304136276245",
     "scr_score": [
       "The pin$$it$$5.5958792232714645e-37",
       "The carrot$$it$$2.1006252431472446e-37"
@@ -9925,10 +9925,10 @@
       "it$$The pin$$0",
       "it$$The carrot$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The carrot",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.2099636197090149",
     "bert_choice2": 3.9350380897521973,
     "scr_scaled_score": [
       0.5595879223271466,
@@ -9951,7 +9951,7 @@
     "bert_choice1": 3.884594440460205,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.8761941194534302",
     "scr_score": [
       "The pen$$it$$4.383974628445356e-52",
       "The coffee$$it$$3.671372269204156e-52"
@@ -9969,10 +9969,10 @@
       "it$$The pen$$1",
       "it$$The coffee$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The pen",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.7335370779037476",
     "bert_choice2": 0.9336405992507935,
     "scr_scaled_score": [
       0.8767949256890716,
@@ -9993,7 +9993,7 @@
     "bert_choice1": 3.709171772003174,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.9825664758682251",
     "scr_score": [
       "The pen$$it$$4.916859549757182e-51",
       "The coffee$$it$$5.81682743453948e-53"
@@ -10011,10 +10011,10 @@
       "it$$The pen$$0",
       "it$$The coffee$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The coffee",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.011727109551429749",
     "bert_choice2": 3.0203354358673096,
     "scr_scaled_score": [
       0.9833719099514365,
@@ -10043,7 +10043,7 @@
       "Steve$$him$$K9$$0.40302467346191406",
       "Steve$$him$$K11$$0.40302470326423645"
     ],
-    "psl_score1": "0.9668056964874268",
+    "psl_score1": "0.9856393337249756",
     "scr_score": [
       "Steve$$him$$1.645522057391434e-30",
       "Fred$$him$$4.697524240430693e-31"
@@ -10061,14 +10061,14 @@
       "him$$Steve$$0",
       "him$$Fred$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [
       "Fred$$I$$K1",
       "Steve$$I$$K1",
       "him$$I$$K1"
     ],
     "ans": "Fred",
-    "psl_score2": "0.9670320749282837",
+    "psl_score2": "0.9671708941459656",
     "bert_choice2": 3.7919936180114746,
     "scr_scaled_score": [
       0.9873132344348609,
@@ -10097,7 +10097,7 @@
     "bert_choice1": 4.547287940979004,
     "pronoun": "him",
     "similarity": [],
-    "psl_score1": "2.8802644465031335E-6",
+    "psl_score1": "0.6440305709838867",
     "scr_score": [
       "Steve$$him$$1.074368514858601e-31",
       "Fred$$him$$5.196390699416572e-32"
@@ -10118,7 +10118,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Steve",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.31163907051086426",
     "bert_choice2": 3.726309061050415,
     "scr_scaled_score": [
       0.6446211089151606,
@@ -10154,7 +10154,7 @@
     "bert_choice1": 3.443913698196411,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.21051457524299622",
     "scr_score": [
       "The table$$it$$2.106895200645321e-25",
       "The doorway$$it$$5.100781967110869e-25"
@@ -10172,10 +10172,10 @@
       "it$$The table$$1",
       "it$$The doorway$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The table",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.509652316570282",
     "bert_choice2": 3.292708396911621,
     "scr_scaled_score": [
       0.21068952006453212,
@@ -10204,7 +10204,7 @@
     "bert_choice1": 3.3558549880981445,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.20930081605911255",
     "scr_score": [
       "The table$$it$$6.979966007784506e-25",
       "The doorway$$it$$1.8092513481875085e-24"
@@ -10225,7 +10225,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The doorway",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.542211651802063",
     "bert_choice2": 3.238482713699341,
     "scr_scaled_score": [
       0.20939898023353515,
@@ -10256,7 +10256,7 @@
     "bert_choice1": 1.4973595142364502,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.5823268890380859",
     "scr_score": [
       "The sweater$$it$$5.828465511408297e-44",
       "The jacket$$it$$5.822571849265539e-44"
@@ -10274,10 +10274,10 @@
       "it$$The sweater$$1",
       "it$$The jacket$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "The sweater",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.5816597938537598",
     "bert_choice2": 1.2937707901000977,
     "scr_scaled_score": [
       0.5828465511408295,
@@ -10312,7 +10312,7 @@
     "bert_choice1": 2.0118319988250732,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.6771157383918762",
     "scr_score": [
       "The sweater$$it$$1.1296174968985339e-39",
       "The jacket$$it$$1.1757989027351824e-39"
@@ -10333,7 +10333,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The jacket",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7048172950744629",
     "bert_choice2": 2.039585828781128,
     "scr_scaled_score": [
       0.6777704981391204,
@@ -10358,7 +10358,7 @@
     "bert_choice1": 4.433139801025391,
     "pronoun": "him",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.42668062448501587",
     "scr_score": [
       "John$$him$$4.271052338652014e-16",
       "Bill$$him$$5.025014319369292e-16"
@@ -10379,7 +10379,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "John",
-    "psl_score2": "3.0476346637442475E-6",
+    "psl_score2": "0.5021224021911621",
     "bert_choice2": 4.2002105712890625,
     "scr_scaled_score": [
       0.42710523386520144,
@@ -10406,7 +10406,7 @@
     "bert_choice1": 4.369741439819336,
     "pronoun": "him",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.8562719821929932",
     "scr_score": [
       "John$$him$$1.42843287208633e-22",
       "Bill$$him$$1.6270179240703974e-22"
@@ -10427,7 +10427,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.9752031564712524",
     "bert_choice2": 4.694192409515381,
     "scr_scaled_score": [
       0.857059723251798,
@@ -10458,7 +10458,7 @@
     "bert_choice1": 4.452765941619873,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.8025511503219604",
     "scr_score": [
       "John$$he$$1.338847299589125e-26",
       "Bill$$he$$1.1805165501027386e-26"
@@ -10479,7 +10479,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "John",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.7078109979629517",
     "bert_choice2": 4.012308597564697,
     "scr_scaled_score": [
       0.803308379753475,
@@ -10510,7 +10510,7 @@
     "bert_choice1": 4.856923580169678,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.8521262407302856",
     "scr_score": [
       "John$$he$$8.529244652857039e-25",
       "Bill$$he$$7.30673356476062e-25"
@@ -10531,7 +10531,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.7301559448242188",
     "bert_choice2": 4.170318603515625,
     "scr_scaled_score": [
       0.852924465285704,
@@ -10554,7 +10554,7 @@
     "bert_choice1": 4.078141212463379,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.8089218139648438",
     "scr_score": [
       "Goodman$$he$$4.048605640004385e-43",
       "Xenophanes$$he$$1.4098342615784603e-43"
@@ -10575,7 +10575,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Goodman",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.28175032138824463",
     "bert_choice2": 3.7030842304229736,
     "scr_scaled_score": [
       0.8097211280008771,
@@ -10600,7 +10600,7 @@
       "a biography of Rajdeep Singh$$he$$K1$$0.03257060423493385",
       "Goodman$$he$$K1$$0.6146699786186218"
     ],
-    "psl_score1": "0.02963843382894993",
+    "psl_score1": "0.5421897768974304",
     "scr_score": [
       "Goodman$$he$$1.8098963481063204e-42",
       "Xenophanes$$he$$1.4195012583340498e-42"
@@ -10618,7 +10618,7 @@
       "he$$Goodman$$0",
       "he$$Xenophanes$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [
       "Xenophanes$$a biography of Rajdeep Singh$$K1",
       "he$$he$$K1",
@@ -10626,7 +10626,7 @@
       "Goodman$$a biography of Rajdeep Singh$$K1"
     ],
     "ans": "Xenophanes",
-    "psl_score2": "0.029653221368789673",
+    "psl_score2": "0.42540350556373596",
     "bert_choice2": 3.6166231632232666,
     "scr_scaled_score": [
       0.5429689044318962,
@@ -10647,7 +10647,7 @@
     "bert_choice1": 4.499020576477051,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.2562234401702881",
     "scr_score": [
       "Emma$$her$$8.546961695626803e-37",
       "Emma's mother$$her$$2.1982950292695166e-36"
@@ -10668,7 +10668,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Emma",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.6588029861450195",
     "bert_choice2": 5.308666229248047,
     "scr_scaled_score": [
       0.25640885086880405,
@@ -10691,7 +10691,7 @@
     "bert_choice1": 4.436220169067383,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.2880823314189911",
     "scr_score": [
       "Emma$$her$$1.4417630417976421e-36",
       "Emma's mother$$her$$3.930371921222657e-36"
@@ -10712,7 +10712,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Emma's mother",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7853461503982544",
     "bert_choice2": 4.85111665725708,
     "scr_scaled_score": [
       0.2883526083595285,
@@ -10747,7 +10747,7 @@
     "bert_choice1": 4.804648399353027,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.6212873458862305",
     "scr_score": [
       "Jane$$she$$3.1099270128704636e-23",
       "Susan$$she$$2.9015498120005953e-23"
@@ -10768,7 +10768,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Jane",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.5798108577728271",
     "bert_choice2": 3.7980902194976807,
     "scr_scaled_score": [
       0.6219854025740927,
@@ -10798,7 +10798,7 @@
       "Jane$$she$$K10$$0.4424114227294922",
       "Jane$$she$$K11$$0.4424116015434265"
     ],
-    "psl_score1": "0.9669950008392334",
+    "psl_score1": "0.9668189883232117",
     "scr_score": [
       "Jane$$she$$4.9507737844279874e-20",
       "Susan$$she$$5.53309406871054e-20"
@@ -10824,7 +10824,7 @@
       "she$$it$$K1"
     ],
     "ans": "Susan",
-    "psl_score2": "0.9668929576873779",
+    "psl_score2": "0.9667347073554993",
     "bert_choice2": 3.7649922370910645,
     "scr_scaled_score": [
       0.49507737844279875,
@@ -10872,15 +10872,15 @@
       "Joe$$he$$K9$$0.09470178186893463",
       "Joe$$he$$K10$$0.09470181167125702"
     ],
-    "psl_score1": "0.9670133590698242",
-    "psl_score2": "2.3064766784854085E-13",
+    "psl_score1": "0.9669482111930847",
+    "psl_score2": "0.5919561386108398",
     "bert_choice1": 2.6906909942626953,
     "bert_choice2": 3.5775749683380127,
     "scr_scaled_score": [
       0.12696433904468385,
       0.5927396943643499
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "case": [],
@@ -10904,7 +10904,7 @@
     "bert_choice1": 1.2536695003509521,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.09572497010231018",
     "scr_score": [
       "Joe$$he$$1.5956752327554142e-29",
       "the detective$$he$$1.4345839121617075e-28"
@@ -10922,10 +10922,10 @@
       "he$$Joe$$0",
       "he$$the detective$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "the detective",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.859960675239563",
     "bert_choice2": 3.529728651046753,
     "scr_scaled_score": [
       0.09574051396532482,
@@ -10947,7 +10947,7 @@
     "bert_choice1": 3.693638563156128,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.9517804384231567",
     "scr_score": [
       "Beth$$she$$9.527653361955194e-40",
       "Sally$$she$$8.719897221710096e-40"
@@ -10965,10 +10965,10 @@
       "she$$Beth$$1",
       "she$$Sally$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Beth",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.8711862564086914",
     "bert_choice2": 4.215410232543945,
     "scr_scaled_score": [
       0.9527653361955196,
@@ -10997,7 +10997,7 @@
     "bert_choice1": 3.6942522525787354,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.9043431282043457",
     "scr_score": [
       "Beth$$she$$9.05134373538686e-37",
       "Sally$$she$$6.207261903467712e-37"
@@ -11015,10 +11015,10 @@
       "she$$Beth$$0",
       "she$$Sally$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Sally",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.6199934482574463",
     "bert_choice2": 4.056985855102539,
     "scr_scaled_score": [
       0.9051343735386861,
@@ -11045,7 +11045,7 @@
     "bert_choice1": 4.082493782043457,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.36892789602279663",
     "scr_score": [
       "Jim$$his$$3.6933677045569754e-29",
       "The barman$$his$$5.503206173964561e-29"
@@ -11063,10 +11063,10 @@
       "his$$Jim$$1",
       "his$$The barman$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Jim",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.549852728843689",
     "bert_choice2": 4.471583366394043,
     "scr_scaled_score": [
       0.3693367704556976,
@@ -11089,7 +11089,7 @@
     "bert_choice1": 3.8444204330444336,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "2.8802644465031335E-6",
+    "psl_score1": "0.7842453718185425",
     "scr_score": [
       "Jim$$his$$7.849727239058042e-32",
       "The barman$$his$$7.573241014557165e-32"
@@ -11110,7 +11110,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The barman",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.7566040754318237",
     "bert_choice2": 4.596050262451172,
     "scr_scaled_score": [
       0.7849727239058042,
@@ -11139,7 +11139,7 @@
     "bert_choice1": 5.164886474609375,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.3776645064353943",
     "scr_score": [
       "Dan$$his$$1.2601546693567897e-45",
       "Bill$$his$$1.6823205157454047e-45"
@@ -11157,10 +11157,10 @@
       "his$$Dan$$1",
       "his$$Bill$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Dan",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5043157339096069",
     "bert_choice2": 2.9749152660369873,
     "scr_scaled_score": [
       0.3780464008070369,
@@ -11189,7 +11189,7 @@
     "bert_choice1": 3.8692731857299805,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.6125267744064331",
     "scr_score": [
       "Dan$$his$$2.0432967186761218e-46",
       "Bill$$his$$2.5908052355655286e-46"
@@ -11210,7 +11210,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7763924598693848",
     "bert_choice2": 3.769570827484131,
     "scr_scaled_score": [
       0.6129890156028364,
@@ -11239,7 +11239,7 @@
     "bert_choice1": 4.117119789123535,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.6574444770812988",
     "scr_score": [
       "Tom$$his$$1.0965033286290272e-32",
       "Ralph$$his$$9.520917353882425e-33"
@@ -11257,10 +11257,10 @@
       "his$$Tom$$1",
       "his$$Ralph$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Tom",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.5707100629806519",
     "bert_choice2": 3.7109475135803223,
     "scr_scaled_score": [
       0.6579019971774162,
@@ -11296,7 +11296,7 @@
       "Tom$$his$$K7$$0.30193638801574707",
       "Tom$$his$$K8$$0.3019288182258606"
     ],
-    "psl_score1": "0.9675835371017456",
+    "psl_score1": "0.9684170484542847",
     "scr_score": [
       "Tom$$his$$1.8129256661741983e-32",
       "Ralph$$his$$2.2622877241980898e-32"
@@ -11314,7 +11314,7 @@
       "his$$Tom$$0",
       "his$$Ralph$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [
       "his$$check$$K6",
       "his$$you$$K6",
@@ -11322,7 +11322,7 @@
       "Ralph$$check$$K6"
     ],
     "ans": "Ralph",
-    "psl_score2": "0.9678694605827332",
+    "psl_score2": "0.9680490493774414",
     "bert_choice2": 3.9889442920684814,
     "scr_scaled_score": [
       0.5438776998522594,
@@ -11349,7 +11349,7 @@
     "bert_choice1": 3.869581460952759,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.7355015873908997",
     "scr_score": [
       "Andrea$$she$$7.361990350417192e-38",
       "Susan$$she$$7.022034851477221e-38"
@@ -11370,7 +11370,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Andrea",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.7017463445663452",
     "bert_choice2": 3.176424980163574,
     "scr_scaled_score": [
       0.7361990350417191,
@@ -11395,7 +11395,7 @@
     "bert_choice1": 3.7518277168273926,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6226518154144287",
     "scr_score": [
       "Andrea$$she$$3.116308471545279e-38",
       "Susan$$she$$2.9548350299599497e-38"
@@ -11416,7 +11416,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Susan",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.5906013250350952",
     "bert_choice2": 3.289565086364746,
     "scr_scaled_score": [
       0.623261694309056,
@@ -11443,7 +11443,7 @@
     "bert_choice1": 3.353269577026367,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.7604933977127075",
     "scr_score": [
       "Tom$$he$$3.8062651489471835e-28",
       "Ralph$$he$$3.792612059471783e-28"
@@ -11461,10 +11461,10 @@
       "he$$Tom$$1",
       "he$$Ralph$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Tom",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.7578680515289307",
     "bert_choice2": 4.6302900314331055,
     "scr_scaled_score": [
       0.7612530297894365,
@@ -11486,7 +11486,7 @@
     "bert_choice1": 4.204521179199219,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.4708343769598287E-6",
+    "psl_score1": "0.710973858833313",
     "scr_score": [
       "Tom$$he$$2.3719054284793633e-26",
       "Ralph$$he$$2.864399681501216e-26"
@@ -11507,7 +11507,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Ralph",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.858614444732666",
     "bert_choice2": 4.521831035614014,
     "scr_scaled_score": [
       0.7115716285438092,
@@ -11532,7 +11532,7 @@
     "bert_choice1": 2.5434393882751465,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.6057040691375732",
     "scr_score": [
       "Bill$$he$$3.0305948063752018e-30",
       "John$$he$$2.8944853607956922e-30"
@@ -11553,7 +11553,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5783244371414185",
     "bert_choice2": 1.8226474523544312,
     "scr_scaled_score": [
       0.6061189612750403,
@@ -11589,7 +11589,7 @@
     "bert_choice1": 2.9387643337249756,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.5984323024749756",
     "scr_score": [
       "Bill$$he$$1.9965026656965507e-29",
       "John$$he$$2.615887796762011e-29"
@@ -11610,7 +11610,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "John",
-    "psl_score2": "2.9222035209386377E-6",
+    "psl_score2": "0.7839093208312988",
     "bert_choice2": 4.8433756828308105,
     "scr_scaled_score": [
       0.5989507997089651,
@@ -11641,7 +11641,7 @@
     "bert_choice1": 3.5640885829925537,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.3364071846008301",
     "scr_score": [
       "Bill$$his$$3.367583267224182e-28",
       "John$$his$$5.863636450765572e-28"
@@ -11662,7 +11662,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.5858582258224487",
     "bert_choice2": 2.7556958198547363,
     "scr_scaled_score": [
       0.3367583267224181,
@@ -11685,7 +11685,7 @@
     "bert_choice1": 3.682706832885742,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.5283811092376709",
     "scr_score": [
       "Bill$$his$$1.7633934773984064e-29",
       "John$$his$$2.3782414019820241e-29"
@@ -11706,7 +11706,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "John",
-    "psl_score2": "2.6412290026200935E-6",
+    "psl_score2": "0.7128810882568359",
     "bert_choice2": 2.4268739223480225,
     "scr_scaled_score": [
       0.529018043219522,
@@ -11736,7 +11736,7 @@
       "The man$$his$$K9$$0.06605333089828491",
       "The man$$his$$K10$$0.0660533681511879"
     ],
-    "psl_score1": "0.9661757349967957",
+    "psl_score1": "0.9663482904434204",
     "scr_score": [
       "The man$$his$$7.098390967138833e-22",
       "The boy$$his$$8.85437293436564e-22"
@@ -11764,7 +11764,7 @@
       "The man$$New documentary$$K3"
     ],
     "ans": "The man",
-    "psl_score2": "0.9833468794822693",
+    "psl_score2": "0.9833869934082031",
     "bert_choice2": 4.563766956329346,
     "scr_scaled_score": [
       0.7098390967138835,
@@ -11789,7 +11789,7 @@
     "bert_choice1": 5.095512390136719,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.16467228531837463",
     "scr_score": [
       "The man$$his$$1.6475967968170642e-24",
       "The boy$$his$$7.72968581625739e-24"
@@ -11810,7 +11810,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The boy",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.772235631942749",
     "bert_choice2": 4.916401386260986,
     "scr_scaled_score": [
       0.16475967968170646,
@@ -11835,7 +11835,7 @@
     "bert_choice1": 3.822918176651001,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.70731520652771",
     "scr_score": [
       "The woman$$her$$7.078762550540267e-23",
       "The girl$$her$$5.967092289217942e-23"
@@ -11856,7 +11856,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The woman",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.595963716506958",
     "bert_choice2": 3.7924273014068604,
     "scr_scaled_score": [
       0.7078762550540265,
@@ -11889,7 +11889,7 @@
     "bert_choice1": 3.6545746326446533,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.8840769529342651",
     "scr_score": [
       "The woman$$her$$2.9497941434238604e-22",
       "The girl$$her$$1.3199058641749028e-22"
@@ -11910,7 +11910,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The girl",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.39578574895858765",
     "bert_choice2": 3.7709364891052246,
     "scr_scaled_score": [
       0.8849382430271582,
@@ -11939,7 +11939,7 @@
     "bert_choice1": 4.664748191833496,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.5641556978225708",
     "scr_score": [
       "Billy$$his$$2.823382817433673e-27",
       "Toby$$his$$4.752117472337337e-27"
@@ -11957,10 +11957,10 @@
       "his$$Billy$$1",
       "his$$Toby$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Billy",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.9496291875839233",
     "bert_choice2": 5.080574035644531,
     "scr_scaled_score": [
       0.5646765634867346,
@@ -11993,7 +11993,7 @@
     "bert_choice1": 4.883207321166992,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.25831371545791626",
     "scr_score": [
       "Billy$$his$$8.616572623655765e-28",
       "Toby$$his$$2.502394715949562e-27"
@@ -12014,7 +12014,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Toby",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.7499675750732422",
     "bert_choice2": 5.211751937866211,
     "scr_scaled_score": [
       0.25849717870967304,
@@ -12047,7 +12047,7 @@
     "bert_choice1": 2.6394739151000977,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6359239816665649",
     "scr_score": [
       "Lily$$her$$6.364778998907536e-23",
       "Donna$$her$$3.902458067515003e-23"
@@ -12068,7 +12068,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Lily",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.38984400033950806",
     "bert_choice2": 2.4602177143096924,
     "scr_scaled_score": [
       0.6364778998907537,
@@ -12101,7 +12101,7 @@
     "bert_choice1": 2.459468364715576,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.862471342086792",
     "scr_score": [
       "Lily$$her$$1.4388051782461985e-24",
       "Donna$$her$$7.095888862315997e-25"
@@ -12122,7 +12122,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Donna",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.4253144860267639",
     "bert_choice2": 2.799163341522217,
     "scr_scaled_score": [
       0.8632831069477191,
@@ -12149,7 +12149,7 @@
     "bert_choice1": 2.916304349899292,
     "pronoun": "him",
     "similarity": [],
-    "psl_score1": "2.6412290026200935E-6",
+    "psl_score1": "0.591111421585083",
     "scr_score": [
       "Tommy$$him$$5.916653122995462e-40",
       "Timmy$$him$$4.226540233260378e-40"
@@ -12170,7 +12170,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Tommy",
-    "psl_score2": "1.6869840919753187E-6",
+    "psl_score2": "0.42227277159690857",
     "bert_choice2": 2.858630418777466,
     "scr_scaled_score": [
       0.5916653122995461,
@@ -12199,7 +12199,7 @@
     "bert_choice1": 3.0325281620025635,
     "pronoun": "him",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.7992720603942871",
     "scr_score": [
       "Tommy$$him$$3.999646397858176e-39",
       "Timmy$$him$$3.213892489117015e-39"
@@ -12217,10 +12217,10 @@
       "him$$Tommy$$0",
       "him$$Timmy$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Timmy",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.6420315504074097",
     "bert_choice2": 3.00006103515625,
     "scr_scaled_score": [
       0.7999292795716354,
@@ -12253,7 +12253,7 @@
       "Ollie$$his$$K6$$0.28600233793258667",
       "Ollie$$his$$K7$$0.28600919246673584"
     ],
-    "psl_score1": "0.9830411672592163",
+    "psl_score1": "0.9839900732040405",
     "scr_score": [
       "Ollie$$his$$7.603225838986613e-36",
       "Tommy$$his$$5.241265769127946e-36"
@@ -12279,7 +12279,7 @@
       "Ollie$$I$$K7"
     ],
     "ans": "Ollie",
-    "psl_score2": "0.8483940958976746",
+    "psl_score2": "0.848588228225708",
     "bert_choice2": 3.2126805782318115,
     "scr_scaled_score": [
       0.7603225838986614,
@@ -12308,7 +12308,7 @@
     "bert_choice1": 3.1568288803100586,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.5050721168518066",
     "scr_score": [
       "Ollie$$his$$1.6851836064724896e-35",
       "Tommy$$his$$1.7722175033368106e-35"
@@ -12326,10 +12326,10 @@
       "his$$Ollie$$0",
       "his$$Tommy$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Tommy",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.5311315059661865",
     "bert_choice2": 3.238466501235962,
     "scr_scaled_score": [
       0.5055550819417468,
@@ -12364,7 +12364,7 @@
     "bert_choice1": 3.45888352394104,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.856367826461792",
     "scr_score": [
       "The father$$his$$2.857083101114928e-24",
       "The boy$$his$$1.0823860760338988e-24"
@@ -12385,7 +12385,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The father",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.3244423270225525",
     "bert_choice2": 3.3327343463897705,
     "scr_scaled_score": [
       0.8571249303344781,
@@ -12420,7 +12420,7 @@
     "bert_choice1": 3.4315249919891357,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7289238485318492E-6",
+    "psl_score1": "0.6787850856781006",
     "scr_score": [
       "The father$$his$$3.3968721726395823e-26",
       "The boy$$his$$4.855609702277787e-26"
@@ -12441,7 +12441,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The boy",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.9703048467636108",
     "bert_choice2": 3.615510940551758,
     "scr_scaled_score": [
       0.6793744345279163,
@@ -12472,7 +12472,7 @@
     "bert_choice1": 3.553179979324341,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.5286815166473389",
     "scr_score": [
       "The woman$$her$$1.7645200282372525e-22",
       "The girl$$her$$1.8767023317064062e-22"
@@ -12493,7 +12493,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "The woman",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.5626006126403809",
     "bert_choice2": 3.5498101711273193,
     "scr_scaled_score": [
       0.5293560084711757,
@@ -12523,7 +12523,7 @@
     "similarity": [
       "The woman$$her$$K8$$0.6194262504577637"
     ],
-    "psl_score1": "0.6502997279167175",
+    "psl_score1": "0.6502541303634644",
     "scr_score": [
       "The woman$$her$$1.5574678168420896e-21",
       "The girl$$her$$2.1110825468303914e-21"
@@ -12547,7 +12547,7 @@
       "her$$you$$K8"
     ],
     "ans": "The girl",
-    "psl_score2": "0.9667708277702332",
+    "psl_score2": "0.96672123670578",
     "bert_choice2": 3.314661979675293,
     "scr_scaled_score": [
       0.4672403450526268,
@@ -12570,7 +12570,7 @@
     "bert_choice1": 5.1340813636779785,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.8431004285812378",
     "scr_score": [
       "Pam's parents$$They$$8.439280897608553e-41",
       "Pam and Paul$$They$$1.7044692867299842e-41"
@@ -12588,10 +12588,10 @@
       "They$$Pam's parents$$1",
       "They$$Pam and Paul$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Pam's parents",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.17042726278305054",
     "bert_choice2": 3.989842414855957,
     "scr_scaled_score": [
       0.8439280897608554,
@@ -12614,7 +12614,7 @@
     "bert_choice1": 4.786989212036133,
     "pronoun": "They",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.59954833984375",
     "scr_score": [
       "Pam's parents$$They$$6.001658384508198e-42",
       "Pam and Paul$$They$$2.8807574018142235e-42"
@@ -12632,10 +12632,10 @@
       "They$$Pam's parents$$0",
       "They$$Pam and Paul$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Pam and Paul",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.28792810440063477",
     "bert_choice2": 3.706596851348877,
     "scr_scaled_score": [
       0.6001658384508199,
@@ -12659,7 +12659,7 @@
     "bert_choice1": 3.5354623794555664,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.7738915681838989",
     "scr_score": [
       "Dr. Adams$$she$$1.291017117994225e-32",
       "Kate$$she$$1.1418535255292424e-33"
@@ -12680,7 +12680,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Dr. Adams",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.06853433698415756",
     "bert_choice2": 2.726907730102539,
     "scr_scaled_score": [
       0.7746102707965349,
@@ -12705,7 +12705,7 @@
       "a doctor$$I$$K1$$0.008483066223561764",
       "Dr. Adams$$she$$K1$$0.11298245191574097"
     ],
-    "psl_score1": "1.2351687869120026E-13",
+    "psl_score1": "0.5096845626831055",
     "scr_score": [
       "Dr. Adams$$she$$2.550673319518526e-31",
       "Kate$$she$$3.173019944535735e-31"
@@ -12723,13 +12723,13 @@
       "she$$Dr. Adams$$0",
       "she$$Kate$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [
       "Kate$$a doctor$$K1",
       "she$$a doctor$$K1"
     ],
     "ans": "Kate",
-    "psl_score2": "0.9670133590698242",
+    "psl_score2": "0.9666978716850281",
     "bert_choice2": 2.6126348972320557,
     "scr_scaled_score": [
       0.5101346639037052,
@@ -12764,7 +12764,7 @@
     "bert_choice1": 3.7534234523773193,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "1.6869840919753187E-6",
+    "psl_score1": "0.9026342630386353",
     "scr_score": [
       "Dan$$He$$4.518025024034756e-36",
       "Bill$$He$$4.420419784889331e-36"
@@ -12782,10 +12782,10 @@
       "He$$Dan$$1",
       "He$$Bill$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Dan",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.8832679390907288",
     "bert_choice2": 3.386516809463501,
     "scr_scaled_score": [
       0.903605004806951,
@@ -12820,7 +12820,7 @@
     "bert_choice1": 0.9537602066993713,
     "pronoun": "He",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.7847933769226074",
     "scr_score": [
       "Dan$$He$$2.618762081779716e-36",
       "Bill$$He$$2.959944605488201e-36"
@@ -12838,10 +12838,10 @@
       "He$$Dan$$0",
       "He$$Bill$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Bill",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.8871632814407349",
     "bert_choice2": 1.2400949001312256,
     "scr_scaled_score": [
       0.7856286245339149,
@@ -12855,7 +12855,7 @@
       "he"
     ],
     "pronoun": "he",
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.8324919939041138",
     "scr_score": [
       "George$$he$$2.7775164734360765e-40",
       "Eric$$he$$2.5527979557124246e-40"
@@ -12873,10 +12873,10 @@
       "he$$George$$1",
       "he$$Eric$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "bert_choice1": 4.4299492835998535,
     "ans": "George",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.7650249004364014",
     "bert_choice2": 3.5745787620544434,
     "scr_scaled_score": [
       0.8332549420308228,
@@ -12907,7 +12907,7 @@
     "bert_choice1": 4.506028175354004,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.6673566102981567",
     "scr_score": [
       "George$$he$$3.339111626585271e-39",
       "Eric$$he$$3.3441634039738485e-39"
@@ -12925,10 +12925,10 @@
       "he$$George$$0",
       "he$$Eric$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Eric",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.6681860685348511",
     "bert_choice2": 3.4253664016723633,
     "scr_scaled_score": [
       0.6678223253170544,
@@ -12952,7 +12952,7 @@
     "bert_choice1": 4.4558024406433105,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.6461180448532104",
     "scr_score": [
       "George$$he$$6.466863922123452e-40",
       "Eric$$he$$5.819083807830069e-40"
@@ -12973,7 +12973,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "George",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.5812857151031494",
     "bert_choice2": 3.7245686054229736,
     "scr_scaled_score": [
       0.6466863922123451,
@@ -13009,7 +13009,7 @@
     "bert_choice1": 2.966142416000366,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.8745784759521484",
     "scr_score": [
       "Jane$$she$$2.917898722813462e-25",
       "Joan$$she$$2.4379664951922836e-25"
@@ -13027,10 +13027,10 @@
       "she$$Jane$$1",
       "she$$Joan$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Jane",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.7307065725326538",
     "bert_choice2": 3.917799472808838,
     "scr_scaled_score": [
       0.8753696168440387,
@@ -13057,7 +13057,7 @@
     "bert_choice1": 2.1232492923736572,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.3225172779129934E-6",
+    "psl_score1": "0.9632768630981445",
     "scr_score": [
       "Jane$$she$$4.821316238328395e-24",
       "Joan$$she$$3.581784259787607e-24"
@@ -13075,10 +13075,10 @@
       "she$$Jane$$0",
       "she$$Joan$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Joan",
-    "psl_score2": "2.136798457286204E-6",
+    "psl_score2": "0.7157071828842163",
     "bert_choice2": 3.8009066581726074,
     "scr_scaled_score": [
       0.964263247665679,
@@ -13103,7 +13103,7 @@
     "bert_choice1": 4.417194366455078,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.7091454267501831",
     "scr_score": [
       "lemons$$they$$1.1830797653681335e-41",
       "lemon trees$$they$$8.702620354462045e-42"
@@ -13124,7 +13124,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "lemons",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.5216661691665649",
     "bert_choice2": 4.202949523925781,
     "scr_scaled_score": [
       0.7098478592208799,
@@ -13153,7 +13153,7 @@
     "bert_choice1": 4.337194442749023,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.8802644465031335E-6",
+    "psl_score1": "0.33467113971710205",
     "scr_score": [
       "lemons$$they$$1.6741302208551862e-43",
       "lemon trees$$they$$3.0838776315474225e-43"
@@ -13171,10 +13171,10 @@
       "they$$lemons$$0",
       "they$$lemon trees$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "lemon trees",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.6161909103393555",
     "bert_choice2": 4.120236396789551,
     "scr_scaled_score": [
       0.33482604417103723,
@@ -13203,7 +13203,7 @@
     "bert_choice1": 5.278521537780762,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.8779948949813843",
     "scr_score": [
       "James$$he$$4.393997667109939e-23",
       "Robert$$he$$3.761562680618034e-23"
@@ -13224,7 +13224,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "James",
-    "psl_score2": "1.7289238485318492E-6",
+    "psl_score2": "0.7515965700149536",
     "bert_choice2": 4.658747673034668,
     "scr_scaled_score": [
       0.8787995334219877,
@@ -13256,7 +13256,7 @@
       "James$$he$$K10$$0.5883116722106934",
       "James$$he$$K11$$0.5883116722106934"
     ],
-    "psl_score1": "0.9668217897415161",
+    "psl_score1": "0.9668476581573486",
     "scr_score": [
       "James$$he$$4.083159062663711e-20",
       "Robert$$he$$3.210524911086735e-20"
@@ -13274,13 +13274,13 @@
       "he$$James$$0",
       "he$$Robert$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [
       "James$$He$$K1",
       "he$$He$$K1"
     ],
     "ans": "Robert",
-    "psl_score2": "4.4675146828460077E-13",
+    "psl_score2": "0.6414965391159058",
     "bert_choice2": 4.6287994384765625,
     "scr_scaled_score": [
       0.8166318125327421,
@@ -13307,7 +13307,7 @@
     "bert_choice1": 3.936955451965332,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6194319725036621",
     "scr_score": [
       "Kirilov$$he$$6.2005838626938835e-27",
       "Shatov$$he$$4.846702978624514e-27"
@@ -13328,7 +13328,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Kirilov",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.4843921661376953",
     "bert_choice2": 3.9938242435455322,
     "scr_scaled_score": [
       0.6200583862693884,
@@ -13353,7 +13353,7 @@
     "bert_choice1": 3.8922336101531982,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.6631900072097778",
     "scr_score": [
       "Kirilov$$he$$1.106448961973679e-26",
       "Shatov$$he$$8.516564244812208e-27"
@@ -13374,7 +13374,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Shatov",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.5106940269470215",
     "bert_choice2": 4.023179531097412,
     "scr_scaled_score": [
       0.6638693771842074,
@@ -13426,15 +13426,15 @@
       "Emma$$she$$K9$$0.024712854996323586",
       "Emma$$she$$K10$$0.02471286430954933"
     ],
-    "psl_score1": "0.966833233833313",
-    "psl_score2": "3.075148913723319E-13",
+    "psl_score1": "0.9669594168663025",
+    "psl_score2": "0.744124174118042",
     "bert_choice1": 4.5094428062438965,
     "bert_choice2": 4.63995361328125,
     "scr_scaled_score": [
       0.6744762450741878,
       0.7450234757942187
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "case": [
@@ -13458,7 +13458,7 @@
     "bert_choice1": 4.128255367279053,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.5157974050671328E-6",
+    "psl_score1": "0.6466134190559387",
     "scr_score": [
       "Emma$$she$$2.1573766019667884e-29",
       "Janie$$she$$2.6637413867902294e-29"
@@ -13476,10 +13476,10 @@
       "she$$Emma$$0",
       "she$$Janie$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Janie",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.7983684539794922",
     "bert_choice2": 4.711147308349609,
     "scr_scaled_score": [
       0.6472129805900365,
@@ -13510,7 +13510,7 @@
     "bert_choice1": 4.024613380432129,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.9222035209386377E-6",
+    "psl_score1": "0.42728567123413086",
     "scr_score": [
       "The butterfly wing$$it$$1.4260451469323373e-23",
       "The table$$it$$2.3791132194200702e-23"
@@ -13528,10 +13528,10 @@
       "it$$The butterfly wing$$1",
       "it$$The table$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "The butterfly wing",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.7131422758102417",
     "bert_choice2": 3.4634692668914795,
     "scr_scaled_score": [
       0.4278135440797011,
@@ -13564,7 +13564,7 @@
     "bert_choice1": 3.33758544921875,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.5329304933547974",
     "scr_score": [
       "The book$$it$$1.7785738545886585e-22",
       "The table$$it$$2.525382945446499e-22"
@@ -13585,7 +13585,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "The table",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.7569775581359863",
     "bert_choice2": 3.2410032749176025,
     "scr_scaled_score": [
       0.5335721563765978,
@@ -13616,7 +13616,7 @@
     "bert_choice1": 5.119734764099121,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.7661181688308716",
     "scr_score": [
       "Madonna$$she$$7.668821724261197e-24",
       "her trainer$$she$$2.2860334678051572e-24"
@@ -13634,10 +13634,10 @@
       "she$$Madonna$$1",
       "she$$her trainer$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Madonna",
-    "psl_score2": "3.0056955893087434E-6",
+    "psl_score2": "0.22844558954238892",
     "bert_choice2": 3.9575042724609375,
     "scr_scaled_score": [
       0.7668821724261197,
@@ -13694,14 +13694,14 @@
       "Madonna$$her$$K6$$0.5153454542160034"
     ],
     "bert_choice1": 4.381396770477295,
-    "psl_score2": "2.802596928649634E-45",
-    "psl_score1": "0.986638069152832",
+    "psl_score2": "0.06629964709281921",
+    "psl_score1": "0.9864818453788757",
     "bert_choice2": 3.0297436714172363,
     "scr_scaled_score": [
       0.6268350748725038,
       0.06629965633408133
     ],
-    "predicted": "INCORRECT"
+    "predicted": "CORRECT"
   },
   {
     "case": [],
@@ -13723,7 +13723,7 @@
     "bert_choice1": 3.388716697692871,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.1920793056488037",
     "scr_score": [
       "Madonna$$her$$6.407440753924302e-26",
       "The trainer$$her$$1.9071324513936526e-25"
@@ -13744,7 +13744,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Madonna",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.5716140270233154",
     "bert_choice2": 3.41259503364563,
     "scr_scaled_score": [
       0.19222322261772906,
@@ -13775,7 +13775,7 @@
     "bert_choice1": 3.5669546127319336,
     "pronoun": "her",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.11080056428909302",
     "scr_score": [
       "Madonna$$her$$1.1083722388590095e-25",
       "her trainer$$her$$7.632367745277041e-25"
@@ -13793,10 +13793,10 @@
       "her$$Madonna$$0",
       "her$$her trainer$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "her trainer",
-    "psl_score2": "1.3225172779129934E-6",
+    "psl_score2": "0.7625936269760132",
     "bert_choice2": 4.206457614898682,
     "scr_scaled_score": [
       0.11083722388590096,
@@ -13821,7 +13821,7 @@
     "bert_choice1": 4.381771087646484,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.17873844121641E-6",
+    "psl_score1": "0.8012312650680542",
     "scr_score": [
       "Carol$$she$$4.009963179508923e-27",
       "Rebecca$$she$$4.008105344730356e-27"
@@ -13839,10 +13839,10 @@
       "she$$Carol$$1",
       "she$$Rebecca$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Carol",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.8008284568786621",
     "bert_choice2": 3.0628819465637207,
     "scr_scaled_score": [
       0.8019926359017847,
@@ -13871,7 +13871,7 @@
     "bert_choice1": 3.731581211090088,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.8516627550125122",
     "scr_score": [
       "Carol$$she$$1.4207426656784676e-28",
       "Rebecca$$she$$1.4985046544625266e-28"
@@ -13889,10 +13889,10 @@
       "she$$Carol$$0",
       "she$$Rebecca$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Rebecca",
-    "psl_score2": "2.214299911429407E-6",
+    "psl_score2": "0.8982298374176025",
     "bert_choice2": 3.0362913608551025,
     "scr_scaled_score": [
       0.8524455994070803,
@@ -13919,7 +13919,7 @@
     "bert_choice1": 3.752987861633301,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.48931884765625",
     "scr_score": [
       "Shakespeare$$his$$8.160019098907584e-29",
       "Ovid$$his$$1.049402705636212e-28"
@@ -13937,10 +13937,10 @@
       "his$$Shakespeare$$1",
       "his$$Ovid$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Shakespeare",
-    "psl_score2": "1.4708343769598287E-6",
+    "psl_score2": "0.6289904117584229",
     "bert_choice2": 3.835995674133301,
     "scr_scaled_score": [
       0.48960114593445503,
@@ -13963,7 +13963,7 @@
     "bert_choice1": 4.002275466918945,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.825454592704773",
     "scr_score": [
       "Shakespeare$$his$$8.261580258452359e-29",
       "Goethe$$his$$7.584848263372569e-29"
@@ -13984,7 +13984,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "Goethe",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.7578876614570618",
     "bert_choice2": 3.906897783279419,
     "scr_scaled_score": [
       0.8261580258452361,
@@ -14007,7 +14007,7 @@
     "bert_choice1": 3.8543107509613037,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "2.136798457286204E-6",
+    "psl_score1": "0.8209387063980103",
     "scr_score": [
       "Shakespeare$$his$$1.3692181447797275e-31",
       "Ovid$$his$$9.204569783241582e-32"
@@ -14025,10 +14025,10 @@
       "his$$Shakespeare$$0",
       "his$$Ovid$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Ovid",
-    "psl_score2": "2.339731054235017E-6",
+    "psl_score2": "0.5517233610153198",
     "bert_choice2": 4.110558986663818,
     "scr_scaled_score": [
       0.8215308868678365,
@@ -14051,7 +14051,7 @@
     "bert_choice1": 4.060189723968506,
     "pronoun": "his",
     "similarity": [],
-    "psl_score1": "1.7723322116580675E-6",
+    "psl_score1": "0.7657735347747803",
     "scr_score": [
       "Shakespeare$$his$$1.277501077761259e-31",
       "Goethe$$his$$7.484007024889861e-32"
@@ -14072,7 +14072,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "Shakespeare",
-    "psl_score2": "1.0210195569015923E-6",
+    "psl_score2": "0.4485744833946228",
     "bert_choice2": 4.051721572875977,
     "scr_scaled_score": [
       0.7665006466567554,
@@ -14097,7 +14097,7 @@
     "bert_choice1": 5.949665069580078,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "3.0056955893087434E-6",
+    "psl_score1": "0.17154636979103088",
     "scr_score": [
       "Alice$$she$$5.722077005619452e-49",
       "Jade$$she$$1.7837274668731947e-48"
@@ -14115,10 +14115,10 @@
       "she$$Alice$$1",
       "she$$Jade$$0"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Alice",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.5345964431762695",
     "bert_choice2": 3.7964680194854736,
     "scr_scaled_score": [
       0.17166231016858355,
@@ -14149,7 +14149,7 @@
     "bert_choice1": 5.482969284057617,
     "pronoun": "she",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.21032771468162537",
     "scr_score": [
       "Alice$$she$$2.1051357380304516e-51",
       "Jade$$she$$7.80316668157417e-51"
@@ -14167,10 +14167,10 @@
       "she$$Alice$$0",
       "she$$Jade$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Jade",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.7796075344085693",
     "bert_choice2": 3.9712307453155518,
     "scr_scaled_score": [
       0.2105135738030452,
@@ -14199,7 +14199,7 @@
     "bert_choice1": 3.167482376098633,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.51365065574646",
     "scr_score": [
       "Ethan$$he$$5.141326889240239e-29",
       "Luke$$he$$2.61297301868892e-29"
@@ -14217,10 +14217,10 @@
       "he$$Ethan$$1",
       "he$$Luke$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "Ethan",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.261202871799469",
     "bert_choice2": 2.2696306705474854,
     "scr_scaled_score": [
       0.5141326889240241,
@@ -14247,7 +14247,7 @@
     "bert_choice1": 3.413480758666992,
     "pronoun": "he",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.6587774753570557",
     "scr_score": [
       "Ethan$$he$$6.593103399030324e-31",
       "Luke$$he$$3.574951967697292e-31"
@@ -14265,10 +14265,10 @@
       "he$$Ethan$$0",
       "he$$Luke$$1"
     ],
-    "predicted": "CORRECT",
+    "predicted": "INCORRECT",
     "context": [],
     "ans": "Luke",
-    "psl_score2": "2.5157974050671328E-6",
+    "psl_score2": "0.35713112354278564",
     "bert_choice2": 3.2006516456604004,
     "scr_scaled_score": [
       0.6593103399030324,
@@ -14299,7 +14299,7 @@
     "bert_choice1": 4.491005897521973,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "1.0210195569015923E-6",
+    "psl_score1": "0.6065130233764648",
     "scr_score": [
       "the judges$$they$$3.0354703374510676e-41",
       "the chatbots$$they$$2.8698991268914147e-41"
@@ -14317,10 +14317,10 @@
       "they$$the judges$$1",
       "they$$the chatbots$$0"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "the judges",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5733863711357117",
     "bert_choice2": 4.4732208251953125,
     "scr_scaled_score": [
       0.6070940674902133,
@@ -14351,7 +14351,7 @@
     "bert_choice1": 4.672054290771484,
     "pronoun": "they",
     "similarity": [],
-    "psl_score1": "2.214299911429407E-6",
+    "psl_score1": "0.15000075101852417",
     "scr_score": [
       "the judges$$they$$1.5007192788557264e-42",
       "the chatbots$$they$$5.856088022511668e-42"
@@ -14369,10 +14369,10 @@
       "they$$the judges$$0",
       "they$$the chatbots$$1"
     ],
-    "predicted": "INCORRECT",
+    "predicted": "CORRECT",
     "context": [],
     "ans": "the chatbots",
-    "psl_score2": "2.17873844121641E-6",
+    "psl_score2": "0.5850032567977905",
     "bert_choice2": 4.602584362030029,
     "scr_scaled_score": [
       0.1500719278855726,
@@ -14404,7 +14404,7 @@
     "bert_choice1": 4.04510498046875,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "3.0476346637442475E-6",
+    "psl_score1": "0.649875283241272",
     "scr_score": [
       "GrWQWu8JyC$$it$$2.1680080026573077e-42",
       "willow-towered Canopy Huntertropic wrestles$$it$$8.409031176116876e-44"
@@ -14425,7 +14425,7 @@
     "predicted": "CORRECT",
     "context": [],
     "ans": "GrWQWu8JyC",
-    "psl_score2": "2.8802644465031335E-6",
+    "psl_score2": "0.02531135082244873",
     "bert_choice2": 4.422180652618408,
     "scr_scaled_score": [
       0.6504024007971922,
@@ -14455,7 +14455,7 @@
     "bert_choice1": 3.8556630611419678,
     "pronoun": "it",
     "similarity": [],
-    "psl_score1": "2.339731054235017E-6",
+    "psl_score1": "0.7093021869659424",
     "scr_score": [
       "GrWQWu8JyC$$it$$2.366559363487277e-42",
       "willow-towered Canopy Huntertropic wrestles$$it$$8.464346130500316e-44"
@@ -14476,7 +14476,7 @@
     "predicted": "INCORRECT",
     "context": [],
     "ans": "willow-towered Canopy Huntertropic wrestles",
-    "psl_score2": "1.7723322116580675E-6",
+    "psl_score2": "0.025489021092653275",
     "bert_choice2": 4.216564178466797,
     "scr_scaled_score": [
       0.7099678090461832,
