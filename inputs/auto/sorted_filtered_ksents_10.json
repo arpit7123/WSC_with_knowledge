@@ -1409,7 +1409,7 @@
         "k_sents": [
             {
                 "k_sent": "A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.",
-                "score": 0.015
+                "score": 0.15
             }
         ]
     },
@@ -1928,8 +1928,8 @@
         "ws_sent": "Susan knew that Ann's son had been in a car accident , because she told her about it .",
         "k_sents": [
             {
-                "k_sent": "To sync the audio. Clap like 3 times, then it\\'s super easy to align the spikes and sync it.",
-                "score": 0.007643465418368578
+                "k_sent": "It's true I knew about her research because she told me.",
+                "score": 0.07643465418368578
             },
             {
                 "k_sent": "Visit our adblocking instructions",
@@ -2180,8 +2180,8 @@
                 "score": 1.0
             },
             {
-                "k_sent": "Browse the Medical Dictionary",
-                "score": 0.013936722651124
+                "k_sent": "Sections of the porous pavement which were clogged were cleaned by various methods .",
+                "score": 0.3936722651124
             },
             {
                 "k_sent": "Browse the Spanish-English Dictionary",
@@ -3221,8 +3221,8 @@
         "ws_sent": "The cat was lying by the mouse hole waiting for the mouse , but it was too cautious .",
         "k_sents": [
             {
-                "k_sent": "be available to sign autographs and take pictures with fans.",
-                "score": 4.7777934497617025e-08
+                "k_sent": "Overeem appears to be waiting for Blaydes to come in , but Blaydes is cautious himself .",
+                "score": 0.47777934
             },
             {
                 "k_sent": "School of Historical, Philosophical and Religious Studies",
@@ -6579,8 +6579,8 @@
         "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
         "k_sents": [
             {
-                "k_sent": "Choose a video to embed",
-                "score": 1.2452644114091527e-05
+                "k_sent": "Paleolithic humans lived more than ten thousand years ago. They hunted meat and gathered fruits and vegetables.",
+                "score": 0.24526441
             },
             {
                 "k_sent": "In Math and Arithmetic",

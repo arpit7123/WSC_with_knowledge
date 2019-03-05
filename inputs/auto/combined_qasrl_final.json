@@ -2708,6 +2708,572 @@
             }
         ]
     },
+    "Paleolithic humans lived more than ten thousand years ago. They hunted meat and gathered fruits and vegetables.": {
+        "words": [
+          "Paleolithic",
+          "humans",
+          "lived",
+          "more",
+          "than",
+          "ten",
+          "thousand",
+          "years",
+          "ago",
+          ".",
+          "They",
+          "hunted",
+          "meat",
+          "and",
+          "gathered",
+          "fruits",
+          "and",
+          "vegetables",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "lived",
+            "qa_pairs": [
+              {
+                "question": "Who lived?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "Paleolithic humans"
+                  }
+                ]
+              },
+              {
+                "question": "When did someone live?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 8,
+                    "text": "more than ten thousand years ago"
+                  }
+                ]
+              }
+            ],
+            "index": 2
+          },
+          {
+            "verb": "hunted",
+            "qa_pairs": [
+              {
+                "question": "Who hunted something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "Paleolithic humans"
+                  },
+                  {
+                    "start": 10,
+                    "end": 10,
+                    "text": "They"
+                  }
+                ]
+              },
+              {
+                "question": "When did someone hunt something?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 8,
+                    "text": "more than ten thousand years ago"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone hunt?",
+                "spans": [
+                  {
+                    "start": 12,
+                    "end": 12,
+                    "text": "meat"
+                  }
+                ]
+              }
+            ],
+            "index": 11
+          },
+          {
+            "verb": "gathered",
+            "qa_pairs": [
+              {
+                "question": "Who gathered something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 1,
+                    "text": "Paleolithic humans"
+                  },
+                  {
+                    "start": 10,
+                    "end": 10,
+                    "text": "They"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone gather?",
+                "spans": [
+                  {
+                    "start": 15,
+                    "end": 17,
+                    "text": "fruits and vegetables"
+                  }
+                ]
+              }
+            ],
+            "index": 14
+          }
+        ]
+    },
+    "Overeem appears to be waiting for Blaydes to come in , but Blaydes is cautious himself .": {
+        "words": [
+          "Overeem",
+          "appears",
+          "to",
+          "be",
+          "waiting",
+          "for",
+          "Blaydes",
+          "to",
+          "come",
+          "in",
+          ",",
+          "but",
+          "Blaydes",
+          "is",
+          "cautious",
+          "himself",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "appears",
+            "qa_pairs": [
+              {
+                "question": "Who appears to do something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Overeem"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone appear?",
+                "spans": [
+                  {
+                    "start": 2,
+                    "end": 9,
+                    "text": "to be waiting for Blaydes to come in"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone appear to do?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 9,
+                    "text": "be waiting for Blaydes to come in"
+                  }
+                ]
+              }
+            ],
+            "index": 1
+          },
+          {
+            "verb": "waiting",
+            "qa_pairs": [
+              {
+                "question": "Who is waiting for something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Overeem"
+                  }
+                ]
+              },
+              {
+                "question": "What is someone waiting for?",
+                "spans": [
+                  {
+                    "start": 6,
+                    "end": 9,
+                    "text": "Blaydes to come in"
+                  }
+                ]
+              }
+            ],
+            "index": 4
+          },
+          {
+            "verb": "come",
+            "qa_pairs": [
+              {
+                "question": "Who comes?",
+                "spans": [
+                  {
+                    "start": 6,
+                    "end": 6,
+                    "text": "Blaydes"
+                  }
+                ]
+              },
+              {
+                "question": "Where is someone coming?",
+                "spans": [
+                  {
+                    "start": 9,
+                    "end": 9,
+                    "text": "in"
+                  }
+                ]
+              }
+            ],
+            "index": 8
+          },
+          {
+            "verb": "is",
+            "qa_pairs": [
+              {
+                "question": "Who is something?",
+                "spans": [
+                  {
+                    "start": 12,
+                    "end": 12,
+                    "text": "Blaydes"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone is?",
+                "spans": [
+                  {
+                    "start": 14,
+                    "end": 14,
+                    "text": "cautious"
+                  },
+                  {
+                    "start": 14,
+                    "end": 15,
+                    "text": "cautious himself"
+                  }
+                ]
+              }
+            ],
+            "index": 13
+          }
+        ]
+      },
+    "It's true I knew about her research because she told me.": {
+    "words": [
+      "It",
+      "'s",
+      "true",
+      "I",
+      "knew",
+      "about",
+      "her",
+      "research",
+      "because",
+      "she",
+      "told",
+      "me",
+      "."
+    ],
+    "verbs": [
+      {
+        "verb": "'s",
+        "qa_pairs": [
+          {
+            "question": "What 's something?",
+            "spans": [
+              {
+                "start": 0,
+                "end": 0,
+                "text": "It"
+              }
+            ]
+          },
+          {
+            "question": "What does something 's?",
+            "spans": [
+              {
+                "start": 2,
+                "end": 2,
+                "text": "true"
+              }
+            ]
+          }
+        ],
+        "index": 1
+      },
+      {
+        "verb": "knew",
+        "qa_pairs": [
+          {
+            "question": "Who knew about something?",
+            "spans": [
+              {
+                "start": 3,
+                "end": 3,
+                "text": "I"
+              }
+            ]
+          },
+          {
+            "question": "What did someone know?",
+            "spans": [
+              {
+                "start": 5,
+                "end": 7,
+                "text": "about her research"
+              }
+            ]
+          },
+          {
+            "question": "What did someone know about?",
+            "spans": [
+              {
+                "start": 6,
+                "end": 7,
+                "text": "her research"
+              }
+            ]
+          },
+          {
+            "question": "Why did someone know to do something?",
+            "spans": [
+              {
+                "start": 8,
+                "end": 11,
+                "text": "because she told me"
+              }
+            ]
+          }
+        ],
+        "index": 4
+      },
+      {
+        "verb": "told",
+        "qa_pairs": [
+          {
+            "question": "Who told something?",
+            "spans": [
+              {
+                "start": 9,
+                "end": 9,
+                "text": "she"
+              }
+            ]
+          },
+          {
+            "question": "Who did someone tell something?",
+            "spans": [
+              {
+                "start": 11,
+                "end": 11,
+                "text": "me"
+              }
+            ]
+          }
+        ],
+        "index": 10
+      }
+    ]
+  },
+    "Sections of the porous pavement which were clogged were cleaned by various methods .": {
+    "words": [
+      "Sections",
+      "of",
+      "the",
+      "porous",
+      "pavement",
+      "which",
+      "were",
+      "clogged",
+      "were",
+      "cleaned",
+      "by",
+      "various",
+      "methods",
+      "."
+    ],
+    "verbs": [
+      {
+        "verb": "clogged",
+        "qa_pairs": [
+          {
+            "question": "What was clogged?",
+            "spans": [
+              {
+                "start": 0,
+                "end": 4,
+                "text": "Sections of the porous pavement"
+              }
+            ]
+          }
+        ],
+        "index": 7
+      },
+      {
+        "verb": "cleaned",
+        "qa_pairs": [
+          {
+            "question": "What was cleaned?",
+            "spans": [
+              {
+                "start": 0,
+                "end": 4,
+                "text": "Sections of the porous pavement"
+              },
+              {
+                "start": 0,
+                "end": 7,
+                "text": "Sections of the porous pavement which were clogged"
+              }
+            ]
+          },
+          {
+            "question": "How was something cleaned?",
+            "spans": [
+              {
+                "start": 10,
+                "end": 12,
+                "text": "by various methods"
+              }
+            ]
+          },
+          {
+            "question": "What was something cleaned by?",
+            "spans": [
+              {
+                "start": 11,
+                "end": 12,
+                "text": "various methods"
+              }
+            ]
+          }
+        ],
+        "index": 9
+      }
+    ]
+  },
+    "Coal seams are extracted from a mountain by removing the land , or overburden , above the seams .": {
+    "words": [
+      "Coal",
+      "seams",
+      "are",
+      "extracted",
+      "from",
+      "a",
+      "mountain",
+      "by",
+      "removing",
+      "the",
+      "land",
+      ",",
+      "or",
+      "overburden",
+      ",",
+      "above",
+      "the",
+      "seams",
+      "."
+    ],
+    "verbs": [
+      {
+        "verb": "extracted",
+        "qa_pairs": [
+          {
+            "question": "What is extracted?",
+            "spans": [
+              {
+                "start": 0,
+                "end": 1,
+                "text": "Coal seams"
+              }
+            ]
+          },
+          {
+            "question": "Where is something extracted?",
+            "spans": [
+              {
+                "start": 4,
+                "end": 6,
+                "text": "from a mountain"
+              }
+            ]
+          },
+          {
+            "question": "What is something extracted from?",
+            "spans": [
+              {
+                "start": 5,
+                "end": 6,
+                "text": "a mountain"
+              }
+            ]
+          },
+          {
+            "question": "How is something extracted from something?",
+            "spans": [
+              {
+                "start": 7,
+                "end": 17,
+                "text": "by removing the land , or overburden , above the seams"
+              }
+            ]
+          }
+        ],
+        "index": 3
+      },
+      {
+        "verb": "removing",
+        "qa_pairs": [
+          {
+            "question": "What removes something?",
+            "spans": [
+              {
+                "start": 0,
+                "end": 1,
+                "text": "Coal seams"
+              }
+            ]
+          },
+          {
+            "question": "What is being removed?",
+            "spans": [
+              {
+                "start": 9,
+                "end": 10,
+                "text": "the land"
+              }
+            ]
+          },
+          {
+            "question": "Where is something being removed?",
+            "spans": [
+              {
+                "start": 15,
+                "end": 17,
+                "text": "above the seams"
+              }
+            ]
+          }
+        ],
+        "index": 8
+      }
+    ]
+  },
     "The player selected to be it then chases the others, attempting to get close enough to tag one of them while the others try to escape.": {
         "words": [
           "The",

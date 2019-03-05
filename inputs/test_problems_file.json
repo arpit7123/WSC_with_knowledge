@@ -1,16 +1,16 @@
 [
-  {
-    "ans": "Luke",
-    "choice1": "Ethan",
-    "choice2": "Luke",
-    "know_sent": "The player selected to be it then chases the others, attempting to get close enough to tag one of them while the others try to escape.",
-    "know_url": "https://en.wikipedia.org/wiki/Tag_(game)",
-    "pronoun": "he",
-    "search_query": "tag game\n",
-    "ws_sent": "During a game of tag , Ethan ran from Luke because he was it .",
+   {
+    "ans": "humans",
+    "choice1": "Archaeologists",
+    "choice2": "humans",
+    "know_sent": "Paleolithic humans lived more than ten thousand years ago. They hunted meat and gathered fruits and vegetables.",
+    "know_url": "https://learningenglish.voanews.com/a/is-eating-like-our-ancestors-good-for-us/1543395.html",
+    "pronoun": "They",
+    "search_query": "\" * humans * years ago * hunted * \"\n",
+    "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
     "scr_score": {
-      "choice1": 6.593103399030324e-31,
-      "choice2": 3.574951967697292e-31
+      "choice1": 3.0475455468196464e-40,
+      "choice2": 3.2587586493775576e-38
     }
   }
 ]
