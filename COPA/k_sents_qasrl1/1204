@@ -1,0 +1,1 @@
+{"sentence": "Lambda lifting is a meta-process that restructures a computer program so that  functions are .... Lambda lifting and closure are both methods for implementing  block structured programs. ... This is because let expressions allow mutual  recursion, which is, in a sense, more lifted than is supported in lambda calculus.  Lambda ..."}

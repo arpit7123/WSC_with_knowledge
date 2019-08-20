@@ -1,0 +1,1 @@
+{"sentence": "Because mu.Acquire() acts atomically to change the state of mu.held we are  guaranteed that, if these rules are followed, only one thread may hold mu at any ..."}

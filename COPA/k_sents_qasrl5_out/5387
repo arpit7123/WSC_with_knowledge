@@ -1,0 +1,1 @@
+{"words": ["Because", "Music", "-", "Paris", "/", "London", "based", "indie", "music", "group", "."], "verbs": [{"verb": "based", "qa_pairs": [{"question": "What is based?", "spans": [{"start": 1, "end": 5, "text": "Music - Paris / London"}, {"start": 7, "end": 9, "text": "indie music group"}]}], "index": 6}]}

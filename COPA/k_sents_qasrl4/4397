@@ -1,0 +1,1 @@
+{"sentence": "Jul 28, 2016 ... This is because they're just two simple atomic operations. The problem with  spinlocks is if the thread yields while the lock is held, then that can ..."}

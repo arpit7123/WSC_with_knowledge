@@ -1,0 +1,1 @@
+{"sentence": "... only one thread to hold the control of the Python interpreter at any one time. ... If  this happens, it can cause either leaked memory that is never released or, ..."}

@@ -1,16 +1,16 @@
 [
-   {
-    "ans": "humans",
-    "choice1": "Archaeologists",
-    "choice2": "humans",
-    "know_sent": "Paleolithic humans lived more than ten thousand years ago. They hunted meat and gathered fruits and vegetables.",
-    "know_url": "https://learningenglish.voanews.com/a/is-eating-like-our-ancestors-good-for-us/1543395.html",
+  {
+    "ans": "all of the gang members",
+    "choice1": "The police",
+    "choice2": "all of the gang members",
+    "know_sent": "Police have arrested a man they say was running a drug-dealing operation and found to be in possession of a stolen firearm.",
+    "know_url": "NA",
     "pronoun": "They",
-    "search_query": "\" * humans * years ago * hunted * \"\n",
-    "ws_sent": "Archaeologists have concluded that humans lived in Laputa 20,000 years ago . They hunted for deer on the river banks .",
+    "search_query": "NA",
+    "ws_sent": "The police arrested all of the gang members . They were trying to run the drug trade in the neighborhood .",
     "scr_score": {
-      "choice1": 3.0475455468196464e-40,
-      "choice2": 3.2587586493775576e-38
+      "choice1": 1.911231439126712e-33,
+      "choice2": 1.556247730015909e-32
     }
   }
 ]

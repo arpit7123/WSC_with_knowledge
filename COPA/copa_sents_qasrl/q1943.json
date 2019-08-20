@@ -1,0 +1,1 @@
+{"words": ["The", "ship", "wrecked", ".", "The", "crew", "drowned", "."], "verbs": [{"verb": "wrecked", "qa_pairs": [{"question": "What was wrecked?", "spans": [{"start": 0, "end": 1, "text": "The ship"}]}], "index": 2}, {"verb": "drowned", "qa_pairs": [{"question": "Who drowned?", "spans": [{"start": 4, "end": 5, "text": "The crew"}]}], "index": 6}]}

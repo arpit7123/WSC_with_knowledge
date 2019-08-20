@@ -1,0 +1,1 @@
+{"words": ["The", "bathroom", "flooded", ".", "The", "toilet", "overflowed", "."], "verbs": [{"verb": "flooded", "qa_pairs": [{"question": "What was flooded?", "spans": [{"start": 0, "end": 1, "text": "The bathroom"}]}], "index": 2}, {"verb": "overflowed", "qa_pairs": [{"question": "What overflowed?", "spans": [{"start": 4, "end": 5, "text": "The toilet"}]}], "index": 6}]}

@@ -8,7 +8,7 @@
 
 30: Entailment(P1, P2, K) -> Coref(P1, P2)
 
-//30: Commonsense(P1, P2) -> Coref(P1, P2)
+30: Commonsense(P1, P2) -> Coref(P1, P2)
 
 // Negative Prior
 1: !Coref(P1, P2)^2

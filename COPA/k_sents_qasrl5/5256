@@ -1,0 +1,1 @@
+{"sentence": "Jun 30, 2008 ... This technote details why changing the case of a checked out element version can cause its state to become, Checked Out but Removed, when working in an IBM Rational ClearCase dynamic view.  ... Open ClearCase Explorer, and traverse into a view and a VOB:  ... Checkout a file element version ..."}

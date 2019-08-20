@@ -250,8 +250,8 @@ def main():
     wsc_output_file = open("../data/wsc_prev_output.json", "r") 
     wsc_output_scores = json.loads(wsc_output_file.read())
 
-    psl_scores_file = open("../backup/psl_multiple_know_out_197_BERT.json", "r") 
-    #psl_scores_file = open("../data/new_psl_problems_scores.json", "r") 
+    #psl_scores_file = open("../backup/psl_multiple_know_out_197_BERT.json", "r") 
+    psl_scores_file = open("../data/new_psl_problems_scores.json", "r") 
     psl_scores = json.loads(psl_scores_file.read())
 
     compare_psl_wsc_prev(wsc_output_scores, psl_scores, bert_scores)

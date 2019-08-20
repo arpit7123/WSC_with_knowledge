@@ -2973,6 +2973,226 @@
           }
         ]
       },
+      "Police have arrested a man they say was running a drug-dealing operation and found to be in possession of a stolen firearm.": {
+        "words": [
+          "Police",
+          "have",
+          "arrested",
+          "a",
+          "man",
+          "they",
+          "say",
+          "was",
+          "running",
+          "a",
+          "drug-dealing",
+          "operation",
+          "and",
+          "found",
+          "to",
+          "be",
+          "in",
+          "possession",
+          "of",
+          "a",
+          "stolen",
+          "firearm",
+          "."
+        ],
+        "verbs": [
+          {
+            "verb": "arrested",
+            "qa_pairs": [
+              {
+                "question": "Who has arrested someone?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Police"
+                  }
+                ]
+              },
+              {
+                "question": "Who did someone arrest?",
+                "spans": [
+                  {
+                    "start": 3,
+                    "end": 4,
+                    "text": "a man"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone arrest someone?",
+                "spans": [
+                  {
+                    "start": 5,
+                    "end": 21,
+                    "text": "they say was running a drug-dealing operation and found to be in possession of a stolen firearm"
+                  }
+                ]
+              }
+            ],
+            "index": 2
+          },
+          {
+            "verb": "say",
+            "qa_pairs": [
+              {
+                "question": "Who says something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Police"
+                  },
+                  {
+                    "start": 3,
+                    "end": 4,
+                    "text": "a man"
+                  },
+                  {
+                    "start": 5,
+                    "end": 5,
+                    "text": "they"
+                  }
+                ]
+              },
+              {
+                "question": "What does someone say?",
+                "spans": [
+                  {
+                    "start": 7,
+                    "end": 21,
+                    "text": "was running a drug-dealing operation and found to be in possession of a stolen firearm"
+                  }
+                ]
+              }
+            ],
+            "index": 6
+          },
+          {
+            "verb": "running",
+            "qa_pairs": [
+              {
+                "question": "Who was running something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Police"
+                  },
+                  {
+                    "start": 3,
+                    "end": 4,
+                    "text": "a man"
+                  },
+                  {
+                    "start": 5,
+                    "end": 5,
+                    "text": "they"
+                  }
+                ]
+              },
+              {
+                "question": "What was someone running?",
+                "spans": [
+                  {
+                    "start": 9,
+                    "end": 11,
+                    "text": "a drug-dealing operation"
+                  }
+                ]
+              }
+            ],
+            "index": 8
+          },
+          {
+            "verb": "found",
+            "qa_pairs": [
+              {
+                "question": "Who was founded to do something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Police"
+                  },
+                  {
+                    "start": 3,
+                    "end": 4,
+                    "text": "a man"
+                  }
+                ]
+              },
+              {
+                "question": "What was someone founded to do?",
+                "spans": [
+                  {
+                    "start": 14,
+                    "end": 21,
+                    "text": "to be in possession of a stolen firearm"
+                  },
+                  {
+                    "start": 15,
+                    "end": 21,
+                    "text": "be in possession of a stolen firearm"
+                  }
+                ]
+              }
+            ],
+            "index": 13
+          },
+          {
+            "verb": "be",
+            "qa_pairs": [
+              {
+                "question": "Who be something?",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 0,
+                    "text": "Police"
+                  }
+                ]
+              },
+              {
+                "question": "What did someone be?",
+                "spans": [
+                  {
+                    "start": 16,
+                    "end": 21,
+                    "text": "in possession of a stolen firearm"
+                  },
+                  {
+                    "start": 17,
+                    "end": 21,
+                    "text": "possession of a stolen firearm"
+                  }
+                ]
+              }
+            ],
+            "index": 15
+          },
+          {
+            "verb": "stolen",
+            "qa_pairs": [
+              {
+                "question": "What is stolen?",
+                "spans": [
+                  {
+                    "start": 21,
+                    "end": 21,
+                    "text": "firearm"
+                  }
+                ]
+              }
+            ],
+            "index": 20
+          }
+        ]
+      },
     "It's true I knew about her research because she told me.": {
     "words": [
       "It",

@@ -1,0 +1,1 @@
+{"words": ["The", "artist", "mixed", "yellow", "paint", "into", "blue", "paint", ".", "The", "paint", "turned", "green", "."], "verbs": [{"verb": "turned", "qa_pairs": [{"question": "What turned something?", "spans": [{"start": 9, "end": 10, "text": "The paint"}]}, {"question": "What did something turn?", "spans": [{"start": 12, "end": 12, "text": "green"}]}], "index": 11}]}

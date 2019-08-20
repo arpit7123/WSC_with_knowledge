@@ -1,0 +1,1 @@
+{"words": ["The", "tree", "damaged", "the", "house", ".", "The", "tree", "shaded", "the", "backyard", "."], "verbs": [{"verb": "damaged", "qa_pairs": [{"question": "What damaged something?", "spans": [{"start": 0, "end": 1, "text": "The tree"}]}, {"question": "What did something damage?", "spans": [{"start": 3, "end": 4, "text": "the house"}]}], "index": 2}]}

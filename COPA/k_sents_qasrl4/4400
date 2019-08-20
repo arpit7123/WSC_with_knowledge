@@ -1,0 +1,1 @@
+{"sentence": "If the target thread held a lock protecting a critical system resource when it was ...  use with suspend() , which has been deprecated because it is deadlock-prone."}

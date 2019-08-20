@@ -1,0 +1,1 @@
+{"words": ["The", "hamburger", "meat", "browned", ".", "The", "cook", "froze", "it", "."], "verbs": [{"verb": "froze", "qa_pairs": [{"question": "Who froze something?", "spans": [{"start": 5, "end": 6, "text": "The cook"}]}, {"question": "What did someone freeze?", "spans": [{"start": 8, "end": 8, "text": "it"}]}], "index": 7}]}

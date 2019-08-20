@@ -1,0 +1,1 @@
+{"sentence": "Dec 3, 2008 ... On thread #1, our code was doing Log (lock) / DB stuff (lock); On thread #2, our ...  If these things happened close together enough under heavy load, this resulted  in ... This is a serious problem, because code is the enemy. Visible logging code  is clutter -- like excessive comments, it actively obscures the ..."}

@@ -1,0 +1,1 @@
+{"words": ["The", "forest", "fire", "spread", ".", "The", "winds", "became", "stronger", "."], "verbs": [{"verb": "became", "qa_pairs": [{"question": "What became something?", "spans": [{"start": 5, "end": 6, "text": "The winds"}]}, {"question": "What did something become?", "spans": [{"start": 8, "end": 8, "text": "stronger"}]}], "index": 7}]}

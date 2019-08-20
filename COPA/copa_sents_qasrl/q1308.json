@@ -1,0 +1,1 @@
+{"words": ["The", "car", "broke", "down", ".", "The", "engine", "overheated", "."], "verbs": [{"verb": "broke", "qa_pairs": [{"question": "What broked?", "spans": [{"start": 0, "end": 1, "text": "The car"}]}], "index": 2}, {"verb": "overheated", "qa_pairs": [{"question": "What overheated?", "spans": [{"start": 5, "end": 6, "text": "The engine"}]}], "index": 7}]}

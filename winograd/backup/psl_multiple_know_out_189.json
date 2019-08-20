@@ -1534,49 +1534,48 @@
     ]
   },
   {
-	  "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
-	  "ans": "Tom",
-	  "pronoun": "he",
-	  "domain": [
-	    "Frank",
-	    "Tom",
-	    "he"
-	  ],
-	  "coref_target": [
-	    "Frank$$he",
-	    "Tom$$he",
-	    "he$$Frank",
-	    "he$$Tom"
-	  ],
-	  "coref_target_truth": [
-	    "Frank$$he$$0",
-	    "Tom$$he$$1",
-	    "he$$Frank$$0",
-	    "he$$Tom$$1"
-	  ],
-	  "scr_score": [
-	    "Frank$$he$$9.472118637305136e-30",
-	    "Tom$$he$$6.746365351604686e-30"
-	  ],
-	  "context": [
-	    "Frank$$He$$K2",
-	    "Tom$$He$$K2",
-	    "he$$He$$K2"
-	  ],
-	  "case": [
-	    "TTF$$K2",
-	    "TTT$$K2",
-	    "TTF$$K2"
-	  ],
-	  "entailment": [
-	    "Frank$$he$$K1$$0.14859074354171753",
-	    "Tom$$he$$K1$$0.132286936044693"
-	  ],
-	  "similarity": [
-	    "Frank$$he$$K2$$0.11624456942081451"
-	  ]
-	},
-   {
+    "case": [],
+    "entailment": [
+      "Frank$$he$$K1$$0.14952506124973297",
+      "Tom$$he$$K1$$0.13228736817836761"
+    ],
+    "domain": [
+      "Frank",
+      "Tom",
+      "he"
+    ],
+    "bert_choice1": 4.537201881408691,
+    "pronoun": "he",
+    "similarity": [],
+    "psl_score1": "0.5060858726501465",
+    "scr_score": [
+      "Frank$$he$$9.472118637305136e-30",
+      "Tom$$he$$6.746365351604686e-30"
+    ],
+    "coref_target": [
+      "Frank$$he",
+      "Tom$$he",
+      "he$$Frank",
+      "he$$Tom"
+    ],
+    "ws_sent": "Frank was upset with Tom because the toaster he had sold him did not work .",
+    "coref_target_truth": [
+      "Frank$$he$$0",
+      "Tom$$he$$1",
+      "he$$Frank$$0",
+      "he$$Tom$$1"
+    ],
+    "predicted": "INCORRECT",
+    "context": [],
+    "ans": "Tom",
+    "psl_score2": "0.49295467138290405",
+    "bert_choice2": 4.418819904327393,
+    "scr_scaled_score": [
+      0.9472118637305137,
+      0.6746365351604687
+    ]
+  },
+  {
     "case": [],
     "entailment": [
       "Jim$$he$$K2$$0.5554696321487427",

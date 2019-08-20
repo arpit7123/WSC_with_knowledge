@@ -1,0 +1,1 @@
+{"words": ["My", "stomach", "hurt", ".", "I", "ate", "birthday", "cake", "."], "verbs": [{"verb": "ate", "qa_pairs": [{"question": "Who ate something?", "spans": [{"start": 4, "end": 4, "text": "I"}]}, {"question": "What did someone eat?", "spans": [{"start": 6, "end": 7, "text": "birthday cake"}]}], "index": 5}]}

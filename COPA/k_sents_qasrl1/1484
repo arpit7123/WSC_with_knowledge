@@ -1,0 +1,1 @@
+{"sentence": "Feb 8, 2017 ... So with -x, if the time is off by up to 600s, ntpd will gradually adjust it, rather ... If  set to zero, the panic sanity check is disabled and a clock offset of any ... on  ntpdate with ntpd running in slew mode can cause large time drifts."}

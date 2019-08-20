@@ -1,0 +1,1 @@
+{"sentence": "A stale element reference exception is thrown in one of two cases, the first being  more common ... The most frequent cause of this is that page that the element  was part of has been refreshed, or the user has navigated away to another page."}
