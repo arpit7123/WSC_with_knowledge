@@ -22,9 +22,7 @@ class PretrainedModel:
         return Predictor.from_archive(archive, self.predictor_name)
 
 
-
-
-if __name__=="__main__":
+def rank_knowledge():
     model = PretrainedModel('../esim-elmo-2018.05.17.tar.gz','textual-entailment')
     predictor = model.predictor()
     
@@ -32,9 +30,6 @@ if __name__=="__main__":
     f = open(problems, "r")
     all_probs = f.read()
     knowledge = json.loads(all_probs)
-
-    correct = 0
-    incorrect = 0
     for i in range(290, len(knowledge)):
         each = knowledge[i][0]
         q = each['question']
@@ -64,3 +59,43 @@ if __name__=="__main__":
         
     with open('../data_sets/winogrande/knowledge_queries.json', 'w') as outfile:
         json.dump(knowledge, outfile)
+
+
+if __name__=="__main__":
+    problems = "../data_sets/winogrande/knowledge_queries.json"
+    f = open(problems, "r")
+    all_probs = f.read()
+    knowledge = json.loads(all_probs)
+    
+    knowledge_qasrl = "../data_sets/winogrande/QASRL/winogrande_knowledge_score_290.txt"
+    f1 = open(knowledge_qasrl, "r")
+    knowledge_qasrl_txt = f1.read()
+    knowledge_qasrl_out = knowledge_qasrl_txt.split('\n')
+    start = 0
+    for i in range(0, len(knowledge)):
+        if(i == 290):
+            break
+        each = knowledge[i][0]
+        length = 10
+        if(len(each['knowledge']) < 10):
+            length = len(each['knowledge'])
+            
+        knowledge_objects = []
+        for j in range(start, len(knowledge_qasrl_out)):
+            if(j >= (start + length)):
+                start = start + length
+                break
+            json_obj = json.loads(knowledge_qasrl_out[j])
+            new_obj = {}
+            new_obj['k'] = json_obj['sentence']
+            knowledge_objects.append(new_obj)
+        each['knowledge'] = knowledge_objects
+    
+    with open('../data_sets/winogrande/knowledge_queries.json', 'w') as outfile:
+        json.dump(knowledge, outfile)
+            
+            
+        
+        
+        
+  
