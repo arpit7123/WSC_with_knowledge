@@ -1,6 +1,7 @@
 from allennlp.predictors.predictor import Predictor
 from allennlp.predictors import Predictor
 from allennlp.models.archival import load_archive
+import json
 
 #model = PretrainedModel('./esim-elmo-2018.05.17.tar.gz','textual-entailment')
 #predictor = model.predictor()
@@ -24,10 +25,42 @@ class PretrainedModel:
 
 
 if __name__=="__main__":
-    model = PretrainedModel('./esim-elmo-2018.05.17.tar.gz','textual-entailment')
+    model = PretrainedModel('../esim-elmo-2018.05.17.tar.gz','textual-entailment')
     predictor = model.predictor()
+    
+    problems = "../data_sets/winogrande/knowledge_queries.json"
+    f = open(problems, "r")
+    all_probs = f.read()
+    knowledge = json.loads(all_probs)
 
-    p = "Anna did a lot better than her good friend Lucy on the test because Anna had studied so hard ."
-    h = "Anna succeeded because Anna studied hard ."
-    score = predictor.predict(hypothesis=h,premise=p)["label_probs"]
-    print("SCORE: ",score)
+    correct = 0
+    incorrect = 0
+    for i in range(290, len(knowledge)):
+        each = knowledge[i][0]
+        q = each['question']
+        obj = []
+        for k in each['knowledge']:
+            if len(k)== 0:
+                continue
+            score = predictor.predict(hypothesis=k,premise=q)["label_probs"]
+            o = {}
+            o['k'] =  k
+            o['score'] = score[0]
+            obj.append(o)
+        obj.sort(key=lambda x: x['score'], reverse=True)
+        each['knowledge'] = obj
+        length = 10
+        if(len(obj) > 10):
+            new_obj = obj[0:10]
+        else:
+            new_obj = obj
+        for e in new_obj:
+            out = {}
+            out['sentence'] = e['k']
+            with open('../data_sets/winogrande/QASRL/winogrande_knowledge_score.txt', 'a') as outfile:
+                json.dump(out, outfile)
+                outfile.write('\n')
+        print(str(i+1)+'/2863')
+        
+    with open('../data_sets/winogrande/knowledge_queries.json', 'w') as outfile:
+        json.dump(knowledge, outfile)

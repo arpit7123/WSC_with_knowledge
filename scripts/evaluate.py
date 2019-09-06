@@ -1,4 +1,5 @@
 import json
+import csv
 
 
 def COPA_evaluate():
@@ -23,8 +24,7 @@ def COPA_evaluate():
     print("Incorrect : ", incorrect)
     print("Total: ", len(copa_problems))
 
-
-def main():
+def Winogrande_data_creation():
     problems = "../data_sets/winogrande/dev.jsonl"
     f = open(problems,"r")
     all_probs = f.read()
@@ -56,6 +56,62 @@ def main():
     with open('../data_sets/winogrande/bert_dev_alternates.json', 'w') as outfile:
         json.dump(output, outfile)
 
+def main():
+    problems = "../data_sets/winogrande/dev.jsonl"
+    f = open(problems,"r")
+    all_probs = f.read()
+    wino_grande_problems = all_probs.split('\n')
+    output = []
+    itr = 1
+    for i in range(0, len(wino_grande_problems)):
+        each = json.loads(wino_grande_problems[i])
+        sentence = each['sentence']
+        obj = {}
+        obj['sentence'] = sentence
+        with open('../data_sets/winogrande/winogrande_qasrl_input.txt', 'a') as outfile:
+            json.dump(obj, outfile)
+            outfile.write('\n')
+        #if each["answer"] == "1":
+        #    sentence = sentence.replace('_', each['option1'])
+        #else:
+        #    sentence = sentence.replace('_', each['option2'])
+        #sentence = sentence.replace('"', '')
+        
+        #train
+        #obj1 = []
+        #obj1.append(str(itr))
+        #obj1.append(sentence)
+        #obj1.append(int(each['answer']) - 1)
+        #obj1.append(each['domain'])
+        #output.append(obj1)
+        
+        #dev
+        #obj1 = []
+        #obj1.append(str(itr))
+        #obj1.append(sentence.replace('_', each['option1']))
+        #if(each['answer'] == "1"):
+        #    obj1.append(1)
+        #else:
+        #    obj1.append(0)  
+        
+        #obj1.append(each['domain'])
+        #output.append(obj1)
+       
+        #obj2 = []
+        #obj2.append(str(itr))
+        #obj2.append(sentence.replace('_', each['option2']))
+        #if(each['answer'] == "2"):
+        #    obj2.append(1)
+        #else:
+        #    obj2.append(0)  
+        #obj2.append(each['domain'])
+        #output.append(obj2)
+        itr = itr + 1
+     
+    #with open('../data_sets/winogrande/winogrande_train.csv', 'w') as csvFile:
+    #    writer = csv.writer(csvFile)
+    #    writer.writerows(output)
+    #csvFile.close()
 
 if __name__=="__main__":
     main()
