@@ -1,4 +1,5 @@
 import json
+import random
 
 def winogrande_bert_score():
     problems = "../data_sets/winogrande/winogrande_problems.json"
@@ -70,5 +71,25 @@ def combine_qasrl():
     with open('../data_sets/winogrande/knowledge_queries_with_qasrl.json', 'w') as outfile:
         json.dump(knowledge_queries, outfile)
     
+def check_bert_score():
+    problems = "../data_sets/winogrande/bert_winogrande_problems_fine_tuned.json"
+    f = open(problems, "r")
+    all_probs = f.read()
+    winogrande_problems = json.loads(all_probs)
+    correct =  0
+    for i in range(0, len(winogrande_problems)):
+        each = winogrande_problems[i]
+        score1 = max(each['choice1_score'][0], each['choice1_score'][1])
+        score2 = max(each['choice2_score'][0], each['choice2_score'][1])
+        if(score1  > score2 and each['answer']  == '1'):
+            correct = correct + 1
+        elif(score1 <  score2 and each['answer']  == '2'):
+            correct = correct + 1
+    print(correct)
+
+
 if __name__=="__main__":
-    combine_qasrl()
+    check_bert_score()
+
+
+

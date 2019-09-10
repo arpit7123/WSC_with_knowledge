@@ -38,7 +38,7 @@ def create_psl_exec_files(coref_txt, coref_truth_txt, context_pair_txt, domain_t
     commonsense_file.close()
 
 def run_psl():
-    process = subprocess.Popen(['/Users/ash/Documents/Study/Research/psl-examples/winograd/cli/run.sh'])
+    process = subprocess.Popen(['/Users/ash/Documents/WSC/WSC_with_knowledge/winograd_psl/cli/run.sh'])
     #process = subprocess.Popen(['/home/apraka23/Winograd/WSC_with_knowledge/winograd/cli/run.sh'])
     process.wait()
 
@@ -54,17 +54,6 @@ def get_ans(prob, bert):
     inferred = inferred_predicate.split('\n')
     print("inferred", inferred)
     
-    bert_isChoice1 = False;
-    if 'bert_choice1' not in prob: #if PSL file is not having bert score then pick from the bert file
-        score1 = bert["choice1_score"] 
-        score2 = bert["choice2_score"] 
-    else:
-        score1 = prob["bert_choice1"]
-        score2 = prob["bert_choice2"]
-        
-    if score1 > score2:
-        bert_isChoice1 = True
-
     score1 = 0.0
     score2 = 0.0
     for each in inferred:
@@ -108,8 +97,8 @@ def get_normalized_prob(ch1_score, ch2_score):
 def main():
 
     #probs_with_context_file = "../data/wsc_problem_psl.json"
-    probs_with_context_file = "../data/new_psl_problems.json"
-    bert_scores_file = open("../data/bert_par_scores.json", "r")
+    probs_with_context_file = "../../data_sets/winogrande/PSL/new_psl_context.json"
+    bert_scores_file = open("../../data_sets/winogrande/bert_winogrande_problems.json", "r")
     bert_scores = json.loads(bert_scores_file.read())
     #probs_with_context_file = "../data/test.json"
     f = open(probs_with_context_file,"r")
@@ -140,7 +129,6 @@ def main():
             entailment = []
 
         domain = each['domain']
-        commonsense = each['scr_score']
         coref_txt=''
         coref_truth_txt=''
         context_pair_txt= ''
@@ -168,22 +156,14 @@ def main():
         domain_txt = domain_txt+domain[0]+'\t'+'can'+'\n'
         domain_txt = domain_txt+domain[1]+'\t'+'can'+'\n'
         domain_txt = domain_txt+domain[2]+'\t'+'p'+'\n'
-
+        # To avoid psl error take positive values  from language model output
+        score1 = max(bert['choice1_score'][0], bert['choice1_score'][1])
+        score2 = max(bert['choice2_score'][0], bert['choice2_score'][1])
         if isCommonsense:
-            choice1 = ''
-            choice2 = ''
-            ctoken1 = commonsense[0].split('$$')
-            ctoken2 = commonsense[1].split('$$')
-            if 'bert_choice1' not in each: #if PSL file is not having bert score then pick from the bert file
-                score1 = bert["choice1_score"] / (bert["choice1_score"] + bert["choice2_score"])
-                score2 = bert["choice2_score"] / (bert["choice1_score"] + bert["choice2_score"])
-                choice1 = bert["choice1"]
-                choice2 = bert["choice2"]
-            else:
-                score1 = each["bert_choice1"] / (each["bert_choice1"] + each["bert_choice2"])
-                score2 = each["bert_choice2"] / (each["bert_choice1"] + each["bert_choice2"])
-                choice1 = ctoken1[0]
-                choice2 = ctoken2[0]
+            score1 = score1 / (score1 + score2)
+            score2 = score2 / (score1 + score2)
+            choice1 = each["choice1"]
+            choice2 = each["choice2"]
 
             commonsense_txt = commonsense_txt+choice1+'\t'+each["pronoun"]+'\t'+str(score1)+'\n'
             commonsense_txt = commonsense_txt+choice2+'\t'+each["pronoun"]+'\t'+str(score2)+'\n'
@@ -225,14 +205,12 @@ def main():
             inferred_ans = each['domain'][1]
 
         print('INFERRED_ANS: ', inferred_ans)
-        if inferred_ans.lower() == each['ans'].lower():
+        if inferred_ans.lower() == each['answer'].lower():
             correct = correct + 1
             each["predicted"] = "CORRECT"
         else:
             incorrect = incorrect + 1
             each["predicted"] = "INCORRECT"
-        each['bert_choice1'] = bert["choice1_score"]
-        each['bert_choice2'] = bert["choice2_score"]
         each['psl_score1'] = psl_score1
         each['psl_score2'] = psl_score2
 

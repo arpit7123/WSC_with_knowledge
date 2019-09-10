@@ -25,7 +25,7 @@ class PretrainedModel:
 
 
 if use_predictor:
-    model = PretrainedModel('./esim-elmo-2018.05.17.tar.gz','textual-entailment')
+    model = PretrainedModel('../esim-elmo-2018.05.17.tar.gz', 'textual-entailment')
     predictor = model.predictor()
     #predictor = Predictor.from_path("./decomposable-attention-elmo-2018.02.19.tar.gz")
 wn_lemmatizer = WordNetLemmatizer()
@@ -45,7 +45,7 @@ you_pronouns = ["you","yourself","your"]
 list_of_sim_words = [("we","us")]
 list_of_dissim_words = [("there","i"),("them","you"),("i","it")]
 
-similar_file = open("similar_pair.json","r")
+similar_file = open("../similar_pair.json","r")
 similar_pair = json.load(similar_file)
 
 def are_same(phrase1,phrase2):
@@ -85,7 +85,7 @@ def are_not_same(phrase1,phrase2):
 
 def populate_ques_type_list():
     global ques_type_lists
-    file_path = "similar_questions_lists.txt"
+    file_path = "../similar_questions_lists.txt"
     with open(file_path,"r") as f:
         ques_type_lists = json.loads(f.read())
 
@@ -281,11 +281,11 @@ def get_similarity_score(choice_set, k_ans_set, psl, know_no):
 
 def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
 
-    ws_sent = problem["ws_sent"]
+    ws_sent = problem["sentence"]
     ws_pronoun = problem["pronoun"]
     ws_ans = problem["ans"]
-    ws_choice1 = problem["choice1"]
-    ws_choice2 = problem["choice2"]
+    ws_choice1 = problem["option1"]
+    ws_choice2 = problem["option2"]
     know_sent = problem["know_sent"]
 
     if verbose_output:
@@ -403,7 +403,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice1.add(("TTF",new_sent,know_sent))
-                    psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
 
                 sent_tokens = ws_sent.split(" ")
@@ -420,7 +420,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice2.add(("TTF",new_sent,know_sent))
-                    psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                 psl["case"].append("TTF"+'$$'+'K'+know_no)
             # If q1=F, q2=T, q3=F
@@ -439,7 +439,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice2.add(("FTF",new_sent,know_sent))
-                    psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                 psl["case"].append("FTF"+'$$'+'K'+know_no)
             # If q1=T, q2=F, q3=F
@@ -458,7 +458,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice1.add(("TFF",new_sent,know_sent))
-                    psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
                 psl["case"].append("TFF"+'$$'+'K'+know_no)
         else:
@@ -498,7 +498,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     know_sent_tokens = [ws_choice2 if token.lower()==choice2_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice2.add(("FTT",new_sent,know_sent))
-                    psl["context"].append(prob['choice2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option2']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice2_sim_ans+'$$'+'K'+know_no)
                      
                 get_similarity_score(choice2_set_of_sim_ans, k_ans_list, psl, know_no)
@@ -519,7 +519,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                     know_sent_tokens = [ws_choice1 if token.lower()==choice1_sim_ans.lower() else token for token in know_sent_tokens]
                     know_sent = " ".join(know_sent_tokens)
                     ent_comparisons_for_choice1.add(("TFT",new_sent,know_sent))
-                    psl["context"].append(prob['choice1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option1']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
                     psl["context"].append(prob['pronoun']+'$$'+choice1_sim_ans+'$$'+'K'+know_no)
                 
                 get_similarity_score(choice1_set_of_sim_ans, k_ans_list, psl, know_no)
@@ -532,7 +532,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                 anss_wrt_choice1 = []
                 for (know_choice,verb2) in choice1_set_of_sim_ans:
                     new_ans = ""
-                    psl["context"].append(prob['choice1']+'$$'+know_choice+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option1']+'$$'+know_choice+'$$'+'K'+know_no)
                     for ans_token in ans_tokens:
                         if ans_token==ws_pronoun:
                             new_ans += " " + know_choice
@@ -542,7 +542,7 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
 
                 anss_wrt_choice2 = []
                 for (know_choice,verb2) in choice2_set_of_sim_ans:
-                    psl["context"].append(prob['choice2']+'$$'+know_choice+'$$'+'K'+know_no)
+                    psl["context"].append(prob['option2']+'$$'+know_choice+'$$'+'K'+know_no)
                     if know_choice == "":
                         continue
                     new_ans = ""
@@ -582,9 +582,9 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                 ent_score = score["label_probs"][0]
                 cntr_score = score["label_probs"][1]
                 if len(psl["context"]) == 0:
-                    psl["entailment"].append(prob['choice1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
+                    psl["entailment"].append(prob['option1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
                 else:
-                    psl["similarity"].append(prob['choice1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
+                    psl["similarity"].append(prob['option1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
             else:
                 ent_score = 0.0
                 cntr_score = 0.0
@@ -621,9 +621,9 @@ def main(problem, ws_qa_pairs, know_qa_pairs, psl, know_no):
                 ent_score = score["label_probs"][0]
                 cntr_score = score["label_probs"][1]
                 if len(psl["context"]) == 0:
-                    psl["entailment"].append(prob['choice2']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
+                    psl["entailment"].append(prob['option2']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
                 else:
-                    psl["similarity"].append(prob['choice1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
+                    psl["similarity"].append(prob['option1']+'$$'+prob['pronoun']+'$$'+'K'+know_no+'$$'+str(ent_score))
             else:
                 ent_score = 0.0
                 cntr_score = 0.0
@@ -765,10 +765,10 @@ def process(psl):
         choice1 = psl["entailment"][0].split("$$")
         choice2 = psl["entailment"][1].split("$$")
         if float(choice1[-1]) < float(choice2[-1]):
-            if prob['choice1']+'$$' not in each:
+            if prob['option1']+'$$' not in each:
                 context.append(each)
         else:
-            if prob['choice2']+'$$' not in each:
+            if prob['option2']+'$$' not in each:
                 context.append(each)
     psl["context"] = context
 
@@ -776,39 +776,26 @@ if __name__=="__main__":
     populate_ques_type_list()
     
     #load all the wsc problems
-    all_probs_file = "inputs/test_problems_file.json"
-    #all_probs_file = "final_problems.json"
+    #all_probs_file = "inputs/test_problems_file.json"
+    all_probs_file = "../data_sets/winogrande/dev.jsonl"
     
     f = open(all_probs_file,"r")
     all_probs = f.read()
-    probs = json.loads(all_probs)
+    probs = all_probs.split('\n')
 
     #load QASRL output for all WSC problems
-    qasrl_wsc_output_dict = {}
-    qasrl_ws_sent_file = "inputs/ws_sents_and_qasrl_out.txt"
-    bert_wsc_json = "inputs/ws_sents_and_qasrl_out.txt"
+    qasrl_wsc_output = []
+    qasrl_ws_sent_file = "../data_sets/winogrande/winogrande_qa_srl_out.txt"
+    bert_wsc_json = "../data_set/winogrande/bert_winogrande_problems_fine_tuned.json"
     
-    f = open(qasrl_ws_sent_file,"r")
-    for line in f:
-        sent_and_qasrl = line.rstrip().strip().split("$$$$") 
-        json_obj = json.loads(sent_and_qasrl[1].strip())
-        sentence = sent_and_qasrl[0].strip()
-        qasrl_wsc_output_dict[sentence] = json_obj
-
+    f = open(qasrl_ws_sent_file, "r")
+    qasrl_wsc_sent_read = f.read()
+    qasrl_wsc_output = qasrl_wsc_sent_read.split('\n')
     
-    qasrl_know_sent_file = "inputs/auto/combined_qasrl_final.json"
-    f = open(qasrl_know_sent_file,"r")
-    qasrl_know_output_dict = json.loads(f.read())
+    qasrl_know_sent_file = "../data_sets/winogrande/knowledge_queries_with_qasrl.json"
+    f = open(qasrl_know_sent_file, "r")
+    qasrl_know_output = json.loads(f.read())
    
-    wsc_know_sent_file = "inputs/auto/sorted_filtered_ksents_10.json"
-    f = open(wsc_know_sent_file,"r")
-    temp_list = json.loads(f.read());
-    wsc_know_sent_dict = {}
-    
-    for each in temp_list:
-        wsc_know_sent_dict[each["ws_sent"]] = each
-    
-    
     know_not_parsed = 0
     wssent_not_parsed = 0
     correct = 0
@@ -818,86 +805,82 @@ if __name__=="__main__":
     psl_output = []
     
     for i in range(0,len(probs)):
-        prob = probs[i]
+        if(i == 500):
+            break
+        prob = json.loads(probs[i])
+        prob['pronoun'] = '_'
         psl = {}
-        ws_sent = prob["ws_sent"]
+        ws_sent = prob["sentence"]
         ws_sent = ws_sent.strip()
         psl["ws_sent"]= ws_sent;
-        psl["ans"]= prob['ans'];
-        psl["pronoun"] = prob["pronoun"]
-        psl["domain"] = [prob["choice1"], prob["choice2"], prob["pronoun"]]
-        psl["coref_target"] = [prob["choice1"]+'$$'+prob["pronoun"], prob["choice2"]+'$$'+prob["pronoun"],
-                                prob["pronoun"]+'$$'+prob["choice1"], prob["pronoun"]+'$$'+prob["choice2"]]
+        psl["choice1"] = prob['option1']
+        psl["choice2"] = prob['option2']
+        psl["pronoun"] = '_'
+        if(prob['answer'] == '1'):
+            psl["answer"]= prob['option1']
+            prob['ans'] = prob['option1']
+        else:
+            psl["answer"]= prob['option2']
+            prob['ans'] = prob['option2']
+        
+        psl["pronoun"] = '_'
+        psl["domain"] = [prob["option1"], prob["option2"], '_']
+        psl["coref_target"] = [prob["option1"]+'$$'+'_', prob["option2"]+'$$'+'_',
+                                '_'+'$$'+prob["option1"], '_'+'$$'+prob["option2"]]
     
         value1 = 0
         value2 = 0
-        if prob["ans"].lower() == prob["choice1"].lower():
+        if prob["answer"] ==  '1':
             value1 = 1
         else:
             value2 = 1
-        psl["coref_target_truth"] = [prob["choice1"]+'$$'+prob["pronoun"]+'$$'+str(value1), 
-                                    prob["choice2"]+'$$'+prob["pronoun"]+'$$'+str(value2),
-                                    prob["pronoun"]+'$$'+prob["choice1"]+'$$'+str(value1), 
-                                    prob["pronoun"]+'$$'+prob["choice2"]+'$$'+str(value2)] 
+        psl["coref_target_truth"] = [prob["option1"]+'$$'+'_'+'$$'+str(value1), 
+                                    prob["option2"]+'$$'+'_'+'$$'+str(value2),
+                                    '_'+'$$'+prob["option1"]+'$$'+str(value1), 
+                                    '_'+'$$'+prob["option2"]+'$$'+str(value2)] 
         #scr_choice1 = prob["scr_score"]["choice1"] / (prob["scr_score"]["choice1"] + prob["scr_score"]["choice2"])
         #scr_choice2 = prob["scr_score"]["choice2"] / (prob["scr_score"]["choice1"] + prob["scr_score"]["choice2"])
-        psl["scr_score"] = [prob["choice1"]+'$$'+prob['pronoun']+'$$'+str(prob["scr_score"]["choice1"]), 
-                            prob["choice2"]+'$$'+prob['pronoun']+'$$'+str(prob["scr_score"]["choice2"])] 
-        if ws_sent in qasrl_wsc_output_dict:
-            ws_sent_qasrl_pairs = qasrl_wsc_output_dict[ws_sent]
-            if ws_sent in wsc_know_sent_dict:
-                knowledge_sent = wsc_know_sent_dict[ws_sent]["k_sents"]
-                know_no = 1
-                psl["context"] = []
-                psl["case"] = []
-                psl["entailment"] = []
-                psl["similarity"] = []
-                for know in knowledge_sent:
-                    know_s = know['k_sent'].rstrip()
-                    know_s = know_s.strip()
-                    
-                    if know_s in qasrl_know_output_dict:
-    
-                        know_sent_qasrl_pairs = qasrl_know_output_dict[know_s]
-                        pronoun = prob["pronoun"]
-                        
-                        
-                        ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs,pronoun)
-                        know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs, None)
-                       
-                        if verbose_output:
-                            print("************************************************************")
-                        
-                        result = main(prob, ws_sent_qa_pairs, know_sent_qa_pairs, psl, str(know_no))
-                        psl["context"] = list(set(psl["context"]))
-                        choose_max_entailment(psl)
-                        choose_max_similarity(psl)
-                        #process(psl)
-                        if result=="correct":
-                            correct += 1
-                        elif result=="incorrect":
-                            incorrect += 1
-                        else:
-                            unknown += 1
-                        if verbose_output:
-                            print("************************************************************")
-    
-                    else: 
-                        #if know_s=="NA":
-                        #    print("NA: ",ws_sent)
-                        #else:
-                        #    print("NOT NA: ",ws_sent)
-                        if know_s!="NA":
-                            print("KNOW SENT NOT FOUND: ",know_s)
-                        know_not_parsed += 1
-                        know_unk_list.append(prob)
-                        
-                    know_no = know_no + 1
-        else:
-            print("WS SENT NOT FOUND: ",ws_sent)
-            wssent_not_parsed+=1
+        
+        ws_sent_qasrl_pairs = json.loads(qasrl_wsc_output[i])
+        
+        knowledge_sent = qasrl_know_output[i][0]
+        print(knowledge_sent)
+        know_no = 1
+        psl["context"] = []
+        psl["case"] = []
+        psl["entailment"] = []
+        psl["similarity"] = []
+        for know in knowledge_sent['knowledge']:
+            know_s = know['k'].rstrip()
+            know_s = know_s.strip()
+            know_sent_qasrl_pairs = know['qasrl']
+            pronoun = '_'
+            prob['know_sent']= know['k']
+            ws_sent_qa_pairs = process_qasrl_output(ws_sent_qasrl_pairs, pronoun)
+            know_sent_qa_pairs = process_qasrl_output(know_sent_qasrl_pairs, None)
+           
+            if verbose_output:
+                print("************************************************************")
+            
+            result = main(prob, ws_sent_qa_pairs, know_sent_qa_pairs, psl, str(know_no))
+            psl["context"] = list(set(psl["context"]))
+            choose_max_entailment(psl)
+            choose_max_similarity(psl)
+            #process(psl)
+            if result=="correct":
+                correct += 1
+            elif result=="incorrect":
+                incorrect += 1
+            else:
+                unknown += 1
+            if verbose_output:
+                print("************************************************************")
+                
+            know_no = know_no + 1
         psl_output.append(psl)
-    with open('new_psl_context.json', 'w') as outfile:
+        
+        
+    with open('../data_sets/winogrande/PSL/new_psl_context.json', 'w') as outfile:
         json.dump(psl_output, outfile)
     
     with open('similar_pair.json', 'w') as outfile:
