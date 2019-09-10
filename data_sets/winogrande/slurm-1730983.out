@@ -14580,7 +14580,4 @@ tensor([[ 4.6196, -3.6929]], grad_fn=<AddmmBackward>)
 tensor([[ 4.2001, -3.3741]], grad_fn=<AddmmBackward>)
 Correct Inside Loop:  779
 Incorrect Inside Loop:  751
-1530 of  2863
-['cynthia', 'just', 'diagnosed', 'rebecca', 'with', '?', 'diabetes', 'so', 'cynthia', 'took', 'time', 'to', 'ask', 'questions', 'about', 'insulin', 'and', 'diet', '##s', '.']
-[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-['cynthia', 'just', 'diagnosed', 'rebecca', 'with', '?', 'diabetes', 'so', 'rebecca', 'took', 'time', 'to', 'ask', 'questions', 'about', 'insulin', 'and', 'diet', '##s', '.']slurmstepd: error: *** JOB 1730983 ON cg17-7 CANCELLED AT 2019-08-27T16:10:52 ***
+1530
